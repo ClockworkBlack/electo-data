@@ -30,12 +30,16 @@ jobs:
         with:
           sparse-checkout: current.json
       - id: cur
-        run: echo "branch=$(python3 -c "import json;print(json.load(open('current.json'))['branch'])")" >> "$GITHUB_OUTPUT"
+        run: |
+          echo "branch=$(python3 -c "import json;print(json.load(open('current.json'))['branch'])")" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
         with:
           ref: ${{ steps.cur.outputs.branch }}
           path: site
-      - run: rm -rf site/.git && test -f site/index.html && echo "deploying ${{ steps.cur.outputs.branch }}: $(find site -type f | wc -l) files"
+      - run: |
+          rm -rf site/.git
+          test -f site/index.html
+          echo "deploying ${{ steps.cur.outputs.branch }} ($(find site -type f | wc -l) files)"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
