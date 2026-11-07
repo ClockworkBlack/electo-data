@@ -1,0 +1,43 @@
+name: pages
+
+# The public Electo site on GitHub Pages. The crawler (Crawl-runner, via Electo's tools/site_data.sh) pushes each new
+# build as a branch d-<time> holding the whole site and moves main's current.json to it; this deploys that branch.
+# Runs on every such push, and by hand (Actions -> pages -> Run workflow).
+on:
+  push:
+    branches: [main]
+    paths: [current.json]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: current.json
+      - id: cur
+        run: echo "branch=$(python3 -c "import json;print(json.load(open('current.json'))['branch'])")" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.cur.outputs.branch }}
+          path: site
+      - run: rm -rf site/.git && test -f site/index.html && echo "deploying ${{ steps.cur.outputs.branch }}: $(find site -type f | wc -l) files"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
