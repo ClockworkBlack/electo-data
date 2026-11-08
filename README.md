@@ -2,8 +2,9 @@
 
 **The Electo site:** https://clockworkblack.github.io/electo-data/
 
-**Android app:** [download Electo.apk](https://github.com/ClockworkBlack/electo-data/releases/tag/android) (on the phone:
-open the link, download Electo.apk, open it and allow installs from this source when Android asks; about 2 GB free needed).
+**Android app:** not published here yet. Once its signed build is (Electo's apk-public workflow, which needs the
+PUBLIC_DATA_TOKEN secret), it will be at [the "android" release](https://github.com/ClockworkBlack/electo-data/releases/tag/android):
+on the phone, open that link, download Electo.apk, open it and allow installs from this source when Android asks.
 
 **The open AI model the crawler uses:** [Qwen3-8B, 4-bit GGUF](https://github.com/ClockworkBlack/electo-data/releases/tag/qwen3-8b)
 (by the Qwen team, Apache License 2.0, unchanged from the official Qwen/Qwen3-8B-GGUF repository; about 5 GB in parts of
