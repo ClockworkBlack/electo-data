@@ -60,6 +60,9 @@ jobs:
         if: steps.cur.outputs.go == 'true'
         with:
           path: site
+      # GitHub's list of the run's artifacts can lag the upload by a moment ("No artifacts named github-pages", Nov 9)
+      - if: steps.cur.outputs.go == 'true'
+        run: sleep 15
       # a deploy normally finishes in seconds; one GitHub stalls is given 12 minutes, then tried again after a pause
       - id: deploy
         if: steps.cur.outputs.go == 'true'
