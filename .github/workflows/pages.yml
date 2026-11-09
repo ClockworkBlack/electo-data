@@ -8,6 +8,10 @@ on:
     branches: [main]
     paths: [current.json]
   workflow_dispatch:
+  # GitHub's deploy step times out now and then (Nov 9, 14:08 UTC), which left the site on the build before until the
+  # next push: every two hours, deploy again when the live site is not on the branch current.json names
+  schedule:
+    - cron: "17 */2 * * *"
 
 permissions:
   contents: read
@@ -31,17 +35,28 @@ jobs:
           sparse-checkout: current.json
       - id: cur
         run: |
-          echo "branch=$(python3 -c "import json;print(json.load(open('current.json'))['branch'])")" >> "$GITHUB_OUTPUT"
+          br=$(python3 -c "import json;print(json.load(open('current.json'))['branch'])")
+          echo "branch=$br" >> "$GITHUB_OUTPUT"
+          live=$(curl -fsS "https://clockworkblack.github.io/electo-data/updates.json?t=$(date +%s)" | python3 -c "import json,sys; print(json.load(sys.stdin).get('branch',''))" 2>/dev/null || true)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$live" = "$br" ]; then
+            echo "the site already serves $br"; echo "go=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploying $br (the site serves ${live:-something unreadable})"; echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@v4
+        if: steps.cur.outputs.go == 'true'
         with:
           ref: ${{ steps.cur.outputs.branch }}
           path: site
-      - run: |
+      - if: steps.cur.outputs.go == 'true'
+        run: |
           rm -rf site/.git
           test -f site/index.html
           echo "deploying ${{ steps.cur.outputs.branch }} ($(find site -type f | wc -l) files)"
       - uses: actions/upload-pages-artifact@v3
+        if: steps.cur.outputs.go == 'true'
         with:
           path: site
       - id: deploy
+        if: steps.cur.outputs.go == 'true'
         uses: actions/deploy-pages@v4
