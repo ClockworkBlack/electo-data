@@ -8,27 +8,30 @@ on:
     branches: [main]
     paths: [current.json]
   workflow_dispatch:
-  # GitHub's deploy step times out now and then (Nov 9, 14:08 UTC), which left the site on the build before until the
-  # next push: every two hours, deploy again when the live site is not on the branch current.json names
+  # GitHub's Pages service sometimes stalls a deployment ("finished_file_sync" until the deploy step's time runs out;
+  # Nov 9: 14:08, 20:54 and 21:08 UTC), which left the site on the build before. The deploy is tried three times in
+  # the run, and every hour a check deploys again when the live site is not on the branch current.json names.
   schedule:
-    - cron: "17 */2 * * *"
+    - cron: "17 * * * *"
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# A newer build (a push) replaces a deploy still in progress; the hourly check and a run by hand wait for it instead,
+# then find the site current and stop.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.event_name == 'push' }}
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy2.outputs.page_url || steps.deploy3.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,7 +40,7 @@ jobs:
         run: |
           br=$(python3 -c "import json;print(json.load(open('current.json'))['branch'])")
           echo "branch=$br" >> "$GITHUB_OUTPUT"
-          live=$(curl -fsS "https://clockworkblack.github.io/electo-data/updates.json?t=$(date +%s)" | python3 -c "import json,sys; print(json.load(sys.stdin).get('branch',''))" 2>/dev/null || true)
+          live=$(curl -fsS --retry 3 --max-time 30 "https://clockworkblack.github.io/electo-data/updates.json?t=$(date +%s)" | python3 -c "import json,sys; print(json.load(sys.stdin).get('branch',''))" 2>/dev/null || true)
           if [ "${{ github.event_name }}" = "schedule" ] && [ "$live" = "$br" ]; then
             echo "the site already serves $br"; echo "go=false" >> "$GITHUB_OUTPUT"
           else
@@ -57,6 +60,32 @@ jobs:
         if: steps.cur.outputs.go == 'true'
         with:
           path: site
+      # a deploy normally finishes in seconds; one GitHub stalls is given 12 minutes, then tried again after a pause
       - id: deploy
         if: steps.cur.outputs.go == 'true'
+        continue-on-error: true
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 720000
+      - name: Pause before deploying again (the first try did not finish)
+        if: steps.cur.outputs.go == 'true' && steps.deploy.outcome == 'failure'
+        run: sleep 90
+      - id: deploy2
+        if: steps.cur.outputs.go == 'true' && steps.deploy.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 720000
+      - name: Pause before the last try
+        if: steps.cur.outputs.go == 'true' && steps.deploy.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        run: sleep 180
+      - id: deploy3
+        if: steps.cur.outputs.go == 'true' && steps.deploy.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 720000
+      - name: Deployed
+        if: steps.cur.outputs.go == 'true'
+        run: |
+          tries=1; [ "${{ steps.deploy.outcome }}" = failure ] && tries=2; [ "${{ steps.deploy2.outcome }}" = failure ] && tries=3
+          echo "deployed ${{ steps.cur.outputs.branch }} (try $tries of 3)" | tee -a "$GITHUB_STEP_SUMMARY"
