@@ -37,9 +37,9 @@ on:
         required: false
         default: "yes"
       mac:
-        description: "the Mac that builds the iOS app first: macos-15 (Apple chip) or macos-15-intel; the other is tried when none is free"
+        description: "the Mac that builds the iOS app first: macos-15-intel or macos-15 (Apple chip); the other is tried when none is free"
         required: false
-        default: macos-15
+        default: macos-15-intel
       android_api:
         description: "the Android version the emulator runs (API level; 35 is Android 15)"
         required: false
@@ -234,10 +234,10 @@ jobs:
 
   ios:
     if: github.event_name != 'workflow_dispatch' || inputs.what == 'both' || inputs.what == 'ios'
-    runs-on: ${{ inputs.mac || 'macos-15' }}
+    runs-on: ${{ inputs.mac || 'macos-15-intel' }}
     timeout-minutes: 90
     concurrency:
-      group: apps-ios
+      group: apps-ios-diag
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v5
@@ -255,11 +255,11 @@ jobs:
   # fails here again, and the run says so.
   ios-other-mac:
     needs: ios
-    if: always() && (needs.ios.result == 'failure' || needs.ios.result == 'cancelled')
-    runs-on: ${{ (inputs.mac || 'macos-15') == 'macos-15' && 'macos-15-intel' || 'macos-15' }}
+    if: ${{ always() && needs.ios.result != 'success' && needs.ios.result != 'skipped' }}
+    runs-on: ${{ (inputs.mac || 'macos-15-intel') == 'macos-15' && 'macos-15-intel' || 'macos-15' }}
     timeout-minutes: 90
     concurrency:
-      group: apps-ios-other
+      group: apps-ios-other-diag
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v5
@@ -271,3 +271,15 @@ jobs:
           asc_issuer_id: ${{ secrets.ASC_ISSUER_ID }}
           asc_key_p8: ${{ secrets.ASC_KEY_P8 }}
           apple_team_id: ${{ secrets.APPLE_TEAM_ID }}
+
+  # test branch only: what a job that needs "ios" is told about it
+  ios-diag:
+    needs: ios
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          NEEDS: ${{ toJSON(needs) }}
+        run: |
+          echo "needs: $NEEDS"
+          echo "result: [${{ needs.ios.result }}]"
