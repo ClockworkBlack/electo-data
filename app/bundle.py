@@ -51,6 +51,9 @@ def main(argv):
         for name in sorted(os.listdir(models)):
             src = os.path.join(models, name)
             if not os.path.isdir(src):
+                if name == "LICENSES.txt":         # the models' notices travel with them
+                    os.makedirs(os.path.join(out, "models"), exist_ok=True)
+                    shutil.copy(src, os.path.join(out, "models", name))
                 continue
             dst = os.path.join(out, "models", name)
             shutil.copytree(src, dst)

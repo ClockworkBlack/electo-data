@@ -2,13 +2,18 @@ name: apps
 
 # Electo as a phone app, built here from the public site: the branch current.json names (the page, its data and the
 # offline AI's library), wrapped with Capacitor (app/).
-#   android  Electo.apk on the "android" release: https://github.com/ClockworkBlack/electo-data/releases/tag/android
+#   android  Electo.apk, and Electo-with-AI.apk with the offline AI's files inside, on the "android" release:
+#            https://github.com/ClockworkBlack/electo-data/releases/tag/android
 #   ios      Electo-unsigned.ipa on the "ios" release: https://github.com/ClockworkBlack/electo-data/releases/tag/ios
 # Each build opens the app in an emulator (Android) or a simulator (iOS) and publishes only when the page came up
-# there. A phone that has the app does not need each new build: the page and its data update inside the app (the
-# Data button at the top).
+# there; the screenshot it took is kept on the "app-check" release either way.
 #
-# Runs by hand (Actions -> apps -> Run workflow). app/README.md says what each secret is for; none is needed to build.
+# A phone that has the app does not need each new build: the page and its data update inside the app (the Data button
+# at the top). A new build matters for someone installing for the first time (less to update on first opening) and
+# when the wrapper itself changes.
+#
+# Runs every Monday, and by hand (Actions -> apps -> Run workflow). app/README.md says what each secret is for; none
+# is needed to build.
 on:
   workflow_dispatch:
     inputs:
@@ -20,14 +25,20 @@ on:
         description: "publish on the releases (no: build and check only)"
         required: false
         default: "yes"
+      ai:
+        description: "also build Electo-with-AI.apk (the offline AI's files inside)"
+        required: false
+        default: "yes"
       mac:
-        description: "the Mac that builds the iOS app: macos-15 (Apple chip) or macos-15-intel"
+        description: "the Mac that builds the iOS app first: macos-15 (Apple chip) or macos-15-intel; the other is tried when none is free"
         required: false
         default: macos-15
       android_api:
         description: "the Android version the emulator runs (API level; 35 is Android 15)"
         required: false
         default: "35"
+  schedule:
+    - cron: "41 8 * * 1"
 
 permissions:
   contents: write
@@ -40,11 +51,18 @@ jobs:
   android:
     if: github.event_name != 'workflow_dispatch' || inputs.what == 'both' || inputs.what == 'android'
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     concurrency:          # one Android build at a time; a newer one waits for it
       group: apps-android
       cancel-in-progress: false
+    env:
+      EMULATOR_API: ${{ inputs.android_api || '35' }}
     steps:
+      - name: Make room (two builds, the offline AI's files and an emulator together outgrow the runner's free disk)
+        run: |
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/.ghcup /usr/share/swift /usr/local/share/powershell /opt/hostedtoolcache/CodeQL || true
+          sudo docker image prune --all --force >/dev/null 2>&1 || true
+          df -h / | tail -1
       - uses: actions/checkout@v4
       - name: The site as published
         run: bash app/site.sh site
@@ -55,9 +73,25 @@ jobs:
         with:
           distribution: temurin
           java-version: "21"
-      - name: The app's web folder
-        run: python3 app/bundle.py site
-      - name: Android project and APK
+      - name: Which files the offline AI needs
+        id: models
+        if: github.event_name != 'workflow_dispatch' || inputs.ai == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "key=$(python3 app/models.py --key)" >> "$GITHUB_OUTPUT"
+      - name: Kept from an earlier build, when they are the same files
+        if: steps.models.outputs.key != ''
+        uses: actions/cache@v4
+        with:
+          path: models
+          key: app-models-${{ steps.models.outputs.key }}
+      - name: The offline AI's files (for Electo-with-AI.apk)
+        if: steps.models.outputs.key != ''
+        continue-on-error: true     # without them only Electo.apk is built
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 app/models.py site models || { rm -rf models; exit 1; }
+      - name: Android project and APKs
         working-directory: app
         env:
           ANDROID_KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
@@ -79,29 +113,48 @@ jobs:
               -dname "CN=Electo test build (one-time key), O=Electo" 2>/dev/null
             echo "SIGNING=one-time" >> "$GITHUB_ENV"
           fi
-          if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install --no-audit --no-fund; fi
+          W="$GITHUB_WORKSPACE"
+          python3 bundle.py "$W/site"
+          npm ci --no-audit --no-fund
           npx cap add android
           bash android.sh
           npx cap sync android
           ( cd android && chmod +x gradlew && ./gradlew --no-daemon -q assembleRelease )
-          rm -f "$ANDROID_KEYSTORE_FILE"
-          mv android/app/build/outputs/apk/release/app-release.apk "$GITHUB_WORKSPACE/Electo.apk"
-          ls -la "$GITHUB_WORKSPACE/Electo.apk"
-          if ! git -C "$GITHUB_WORKSPACE" ls-files --error-unmatch app/package-lock.json >/dev/null 2>&1; then
-            echo "---- package-lock.json (commit it as app/package-lock.json to pin these versions) ----"; cat package-lock.json; echo "---- end of package-lock.json ----"
+          mv android/app/build/outputs/apk/release/app-release.apk "$W/Electo.apk"
+          # the same app with the offline AI's files inside, when they are here; a failure only leaves this file out
+          if [ -f "$W/models/models-used.json" ]; then
+            if python3 bundle.py "$W/site" --models "$W/models" && npx cap sync android \
+               && ( cd android && ./gradlew --no-daemon -q assembleRelease ) \
+               && mv android/app/build/outputs/apk/release/app-release.apk "$W/Electo-with-AI.apk"; then :
+            else echo "::warning::Electo-with-AI.apk was not built"; rm -f "$W/Electo-with-AI.apk"; fi
           fi
+          rm -f "$ANDROID_KEYSTORE_FILE"
+          rm -rf www android/app/build android/app/src/main/assets/public "$W/site" || true
+          ls -la "$W"/*.apk; df -h / | tail -1
       - name: What was built (signature, version, not a debug build)
         run: |
           BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
-          "$BT/apksigner" verify --print-certs Electo.apk | grep -v "^WARNING" | tee signer.txt
-          "$BT/aapt2" dump badging Electo.apk > badging.txt
-          grep -E "^package:|^sdkVersion|^targetSdkVersion|^uses-permission|^application-label:" badging.txt
-          if grep -q "application-debuggable" badging.txt; then echo "::error::this is a debug build"; exit 1; fi
-          grep -q "versionCode='$APP_VERSION_CODE'" badging.txt || { echo "::error::the APK does not carry version $APP_VERSION_CODE"; exit 1; }
-          CERT=$(grep -m1 "certificate SHA-256 digest" signer.txt | sed 's/.*: //')
-          [ -n "$CERT" ] || { echo "::error::the APK is not signed"; exit 1; }
+          CERT=""
+          for apk in Electo.apk Electo-with-AI.apk; do
+            [ -f "$apk" ] || continue
+            echo "== $apk"
+            "$BT/apksigner" verify --print-certs "$apk" | grep -v "^WARNING" > signer.txt; grep -m2 "certificate" signer.txt
+            C=$(grep -m1 "certificate SHA-256 digest" signer.txt | sed 's/.*: //')
+            [ -n "$C" ] || { echo "::error::$apk is not signed"; exit 1; }
+            [ -z "$CERT" ] || [ "$C" = "$CERT" ] || { echo "::error::the two APKs are signed with different keys"; exit 1; }
+            CERT="$C"
+            "$BT/aapt2" dump badging "$apk" > badging.txt
+            grep -E "^package:|^targetSdkVersion|^uses-permission|^application-label:" badging.txt
+            if grep -q "application-debuggable" badging.txt; then echo "::error::$apk is a debug build"; exit 1; fi
+            grep -q "versionCode='$APP_VERSION_CODE'" badging.txt || { echo "::error::$apk does not carry version $APP_VERSION_CODE"; exit 1; }
+          done
+          if [ -f Electo-with-AI.apk ]; then
+            # the offline AI's files are inside, stored as they are (the app reads them in place)
+            unzip -v Electo-with-AI.apk > inside.txt
+            echo "models inside: $(grep -c 'assets/public/models/.*/mlc-chat-config.json' inside.txt)"
+            grep "assets/public/models/.*params_shard_0.bin" inside.txt | grep -q "Stored" || { echo "::error::the model's files are not stored uncompressed in Electo-with-AI.apk"; exit 1; }
+          fi
           echo "CERT_SHA256=$CERT" >> "$GITHUB_ENV"
-          echo "APK_MB=$(( $(stat -c %s Electo.apk) / 1000000 ))" >> "$GITHUB_ENV"
       - name: Let the emulator use the processor's virtualization
         run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
@@ -114,9 +167,10 @@ jobs:
           target: google_apis
           arch: x86_64
           profile: pixel_7
+          disk-size: 8G
           disable-animations: true
           emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
-          script: bash app/android_check.sh Electo.apk check
+          script: bash app/android_checks.sh
       - name: Keep what the check saw (the "app-check" release)
         if: always()
         env:
@@ -127,28 +181,17 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          SHA=$(sha256sum Electo.apk | cut -d' ' -f1)
+          FILES="Electo.apk Electo-android.png"
           cp check/shot-android.png Electo-android.png
-          if [ "$SIGNING" = project ]; then SIG="Signed with Electo's own key: a newer download installs over this one and keeps its settings."
-          else SIG="Test signature: this build is signed with a key made for it alone, so it does not install over an earlier Electo. Uninstall the earlier one first (its saved settings go with it)."; fi
-          cat > notes.md <<EOF
-          **Electo for Android.** On the phone: download **Electo.apk** below, open it, and allow installs from this source when Android asks. It is not from the Play Store.
-
-          - The site and all of its data are inside (about $APK_MB MB), so it opens without a connection. The **Data** button at the top brings newer data and newer versions of the page; the app checks by itself when it opens.
-          - The offline AI is optional: the app downloads its model (about 1 GB) the first time you turn it on in AI settings. It needs a phone with WebGPU (recent Android, with Chrome and Android System WebView up to date).
-          - Speak and "Use my location" ask Android for the microphone and the location the first time you use them.
-          - $SIG
-
-          Version $APP_VERSION_NAME ($APP_VERSION_CODE), built $(date -u +"%B %-d, %Y %H:%M UTC") from the site as of $SITE_BUILT. Checked before publishing: opened in an Android 15 emulator, where the page came up (screenshot below).
-          SHA-256 of Electo.apk: \`$SHA\`
-          Signing certificate SHA-256: \`$CERT_SHA256\`
-
-          ![Electo in the emulator](https://github.com/${{ github.repository }}/releases/download/android/Electo-android.png)
-          EOF
+          if [ -f Electo-with-AI.apk ] && [ ! -f check-ai/ok ]; then rm -f Electo-with-AI.apk; fi     # built but not seen to open: not published
+          if [ -f Electo-with-AI.apk ]; then FILES="$FILES Electo-with-AI.apk"; fi
+          python3 app/notes.py android > notes.md
           gh release view android >/dev/null 2>&1 || gh release create android --title "Electo for Android" --notes-file notes.md --latest
-          gh release upload android Electo.apk Electo-android.png --clobber
+          gh release upload android $FILES --clobber
+          # a file this build did not make is not left beside the new notes
+          if [ ! -f Electo-with-AI.apk ]; then gh release delete-asset android Electo-with-AI.apk -y >/dev/null 2>&1 || true; fi
           gh release edit android --title "Electo for Android" --notes-file notes.md --latest
-          echo "published: https://github.com/${{ github.repository }}/releases/tag/android" | tee -a "$GITHUB_STEP_SUMMARY"
+          echo "published: https://github.com/${{ github.repository }}/releases/tag/android ($FILES)" | tee -a "$GITHUB_STEP_SUMMARY"
 
   ios:
     if: github.event_name != 'workflow_dispatch' || inputs.what == 'both' || inputs.what == 'ios'
@@ -159,90 +202,33 @@ jobs:
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
-      - name: The site as published
-        run: bash app/site.sh site
-      - uses: actions/setup-node@v4
+      - uses: ./.github/actions/ios
         with:
-          node-version: "22"
-      - name: The app's web folder
-        run: python3 app/bundle.py site
-      - name: iOS project
-        working-directory: app
-        run: |
-          xcodebuild -version
-          if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install --no-audit --no-fund; fi
-          npx cap add ios
-          bash ios.sh
-          npx cap sync ios
-      - name: A simulator
-        run: |
-          SDK=$(xcrun --sdk iphonesimulator --show-sdk-version)
-          SIM=$(xcrun simctl list devices available -j | python3 -c "
-          import json, sys
-          d = json.load(sys.stdin)['devices']
-          sdk = tuple(int(x) for x in sys.argv[1].split('.')[:2])
-          best = None
-          for runtime, devs in d.items():
-              if 'iOS' not in runtime: continue
-              ver = tuple(int(x) for x in runtime.rsplit('iOS-', 1)[-1].split('-') if x.isdigit())
-              if ver[:2] > sdk: continue      # a newer iOS than this Xcode builds for
-              for x in devs:
-                  if x.get('isAvailable') and x['name'].startswith('iPhone') and 'SE' not in x['name']:
-                      key = (ver, 'Pro' not in x['name'], x['name'])
-                      if best is None or key > best[0]: best = (key, x['udid'], x['name'], runtime)
-          print(best[1]); sys.stderr.write('simulator: %s (%s)\n' % (best[2], best[3].rsplit('.', 1)[-1]))
-          " "$SDK")
-          echo "SIM=$SIM" >> "$GITHUB_ENV"
-          xcrun simctl boot "$SIM"
-          xcrun simctl bootstatus "$SIM" -b
-      - name: Build for the simulator and open the app there
-        run: |
-          DD="$RUNNER_TEMP/dd"
-          ( cd app/ios/App && xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug \
-              -destination "platform=iOS Simulator,id=$SIM" -derivedDataPath "$DD" -quiet \
-              CODE_SIGNING_ALLOWED=NO MARKETING_VERSION="$APP_VERSION_NAME" CURRENT_PROJECT_VERSION="$APP_BUILD" build )
-          bash app/ios_check.sh "$SIM" "$DD/Build/Products/Debug-iphonesimulator/App.app" check
-      - name: Keep what the check saw (the "app-check" release)
-        if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: bash app/keep_check.sh ios
-      - name: Build for iPhone and iPad (unsigned)
-        run: |
-          AR="$RUNNER_TEMP/Electo.xcarchive"
-          ( cd app/ios/App && xcodebuild -workspace App.xcworkspace -scheme App -configuration Release \
-              -destination "generic/platform=iOS" -archivePath "$AR" -quiet \
-              CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
-              MARKETING_VERSION="$APP_VERSION_NAME" CURRENT_PROJECT_VERSION="$APP_BUILD" archive )
-          rm -rf Payload; mkdir Payload; cp -R "$AR/Products/Applications/App.app" Payload/
-          /usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" -c "Print :CFBundleShortVersionString" -c "Print :CFBundleVersion" -c "Print :MinimumOSVersion" Payload/App.app/Info.plist
-          zip -qry Electo-unsigned.ipa Payload
-          ls -la Electo-unsigned.ipa
-          echo "IPA_MB=$(( $(stat -f %z Electo-unsigned.ipa) / 1000000 ))" >> "$GITHUB_ENV"
-      - name: Publish on the "ios" release
-        if: github.event_name != 'workflow_dispatch' || inputs.publish == 'yes'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          SHA=$(shasum -a 256 Electo-unsigned.ipa | cut -d' ' -f1)
-          cp check/shot-ios.png Electo-ios.png
-          cat > notes.md <<EOF
-          **Electo for iPhone and iPad (unsigned build).** An iPhone installs only apps signed with an Apple developer certificate, so **Electo-unsigned.ipa** cannot be opened on the phone the way an Android APK can. Two ways to use it:
+          publish: ${{ github.event_name != 'workflow_dispatch' || inputs.publish == 'yes' }}
+          token: ${{ github.token }}
+          asc_key_id: ${{ secrets.ASC_KEY_ID }}
+          asc_issuer_id: ${{ secrets.ASC_ISSUER_ID }}
+          asc_key_p8: ${{ secrets.ASC_KEY_P8 }}
+          apple_team_id: ${{ secrets.APPLE_TEAM_ID }}
 
-          - With a sideloading tool on a computer (AltStore or Sideloadly, for example), which signs the file with your own Apple ID and puts it on your phone. With a free Apple ID the app has to be refreshed every 7 days.
-          - With an Apple Developer account, to sign it or to send it to TestFlight and the App Store.
-
-          Without either, the site itself works as an app on an iPhone: open https://clockworkblack.github.io/electo-data/ in Safari, then Share → Add to Home Screen.
-
-          - The site and all of its data are inside (about $IPA_MB MB). The **Data** button at the top brings newer data and newer versions of the page.
-          - The offline AI is optional and needs iOS 26 or newer; the app downloads its model (about 1 GB) the first time you turn it on.
-
-          Version $APP_VERSION_NAME ($APP_BUILD), built $(date -u +"%B %-d, %Y %H:%M UTC") from the site as of $SITE_BUILT. Checked before publishing: opened in an iPhone simulator, where the page came up (screenshot below). It has not been run on a real iPhone.
-          SHA-256 of Electo-unsigned.ipa: \`$SHA\`
-
-          ![Electo in the iPhone simulator](https://github.com/${{ github.repository }}/releases/download/ios/Electo-ios.png)
-          EOF
-          gh release view ios >/dev/null 2>&1 || gh release create ios --title "Electo for iPhone and iPad (unsigned)" --notes-file notes.md --latest=false
-          gh release upload ios Electo-unsigned.ipa Electo-ios.png --clobber
-          gh release edit ios --title "Electo for iPhone and iPad (unsigned)" --notes-file notes.md --latest=false
-          echo "published: https://github.com/${{ github.repository }}/releases/tag/ios" | tee -a "$GITHUB_STEP_SUMMARY"
+  # GitHub sometimes has no Mac of one kind free and drops the job after a quarter of an hour (Nov 12: "The job was
+  # not acquired by Runner of type hosted"): the other kind builds it then. A build that failed for its own reasons
+  # fails here again, and the run says so.
+  ios-other-mac:
+    needs: ios
+    if: always() && (needs.ios.result == 'failure' || needs.ios.result == 'cancelled')
+    runs-on: ${{ (inputs.mac || 'macos-15') == 'macos-15' && 'macos-15-intel' || 'macos-15' }}
+    timeout-minutes: 90
+    concurrency:
+      group: apps-ios-other
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/ios
+        with:
+          publish: ${{ github.event_name != 'workflow_dispatch' || inputs.publish == 'yes' }}
+          token: ${{ github.token }}
+          asc_key_id: ${{ secrets.ASC_KEY_ID }}
+          asc_issuer_id: ${{ secrets.ASC_ISSUER_ID }}
+          asc_key_p8: ${{ secrets.ASC_KEY_P8 }}
+          apple_team_id: ${{ secrets.APPLE_TEAM_ID }}

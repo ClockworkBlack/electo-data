@@ -1,0 +1,9 @@
+{
+ "about": "The offline AI's files for Electo-with-AI.apk when the app-models release has no pack: public repositories on Hugging Face (app/models.py). rev is a commit there; main takes the newest.",
+ "model": {"id": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC", "rev": "main"},
+ "speech": [
+  {"repo": "onnx-community/whisper-tiny.en", "rev": "main"},
+  {"repo": "onnx-community/whisper-tiny", "rev": "main"},
+  {"repo": "onnx-community/Kokoro-82M-v1.0-ONNX", "rev": "main"}
+ ]
+}
