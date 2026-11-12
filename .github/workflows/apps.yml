@@ -37,9 +37,9 @@ on:
         required: false
         default: "yes"
       mac:
-        description: "the Mac that builds the iOS app first: macos-15 (Apple chip) or macos-15-intel; the other is tried when none is free"
+        description: "the Mac that builds the iOS app first: macos-15-intel or macos-15 (Apple chip); the two take turns when none is free"
         required: false
-        default: macos-15
+        default: macos-15-intel
       android_api:
         description: "the Android version the emulator runs (API level; 35 is Android 15)"
         required: false
@@ -232,14 +232,29 @@ jobs:
           gh release edit android --title "Electo for Android" --notes-file notes.md --latest
           echo "published: https://github.com/${{ github.repository }}/releases/tag/android ($FILES)" | tee -a "$GITHUB_STEP_SUMMARY"
 
+  # The iOS app needs one of GitHub's Macs, and GitHub is short of them (Nov. 2026: "Due to capacity constraints, jobs
+  # targeting macOS arm64 runners may experience longer queue times"; the Intel ones were all taken too on the
+  # afternoon of Nov. 12). A job that no Mac takes within a quarter of an hour is dropped: no step runs, and a job
+  # that needs it is told the result "abandoned" (not "failure" or "cancelled", which is why the first fallback
+  # here never ran). So the build is tried up to four times, the two kinds of Mac taking turns: the Intel kind first
+  # (it was free more often; GitHub keeps it until the fall of 2027, then "macos-15" has to go first), then the
+  # Apple-chip kind, and both once more. A try that got a Mac ends the turns, built or not: a build that fails for
+  # its own reasons is not repeated. ios-built says how it ended, and is what fails the run.
   ios:
     if: github.event_name != 'workflow_dispatch' || inputs.what == 'both' || inputs.what == 'ios'
-    runs-on: ${{ inputs.mac || 'macos-15' }}
+    runs-on: ${{ inputs.mac || 'macos-15-intel' }}
+    continue-on-error: true     # ios-built below says whether the app was built
     timeout-minutes: 90
     concurrency:
       group: apps-ios
       cancel-in-progress: false
+    outputs:
+      tried: ${{ steps.mac.outputs.tried }}
+      done: ${{ steps.done.outputs.done }}
     steps:
+      - name: A Mac took the job
+        id: mac
+        run: echo "tried=yes" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v5
       - uses: ./.github/actions/ios
         with:
@@ -249,19 +264,27 @@ jobs:
           asc_issuer_id: ${{ secrets.ASC_ISSUER_ID }}
           asc_key_p8: ${{ secrets.ASC_KEY_P8 }}
           apple_team_id: ${{ secrets.APPLE_TEAM_ID }}
+      - name: Built
+        id: done
+        run: echo "done=yes" >> "$GITHUB_OUTPUT"
 
-  # GitHub sometimes has no Mac of one kind free and drops the job after a quarter of an hour (Nov 12: "The job was
-  # not acquired by Runner of type hosted"): the other kind builds it then. A build that failed for its own reasons
-  # fails here again, and the run says so.
-  ios-other-mac:
-    needs: ios
-    if: always() && (needs.ios.result == 'failure' || needs.ios.result == 'cancelled')
-    runs-on: ${{ (inputs.mac || 'macos-15') == 'macos-15' && 'macos-15-intel' || 'macos-15' }}
+  ios2:
+    name: ios (try 2)
+    needs: [ios]
+    if: ${{ always() && needs.ios.result != 'skipped' && needs.ios.outputs.tried != 'yes' }}
+    runs-on: ${{ (inputs.mac || 'macos-15-intel') == 'macos-15' && 'macos-15-intel' || 'macos-15' }}
+    continue-on-error: true     # ios-built below says whether the app was built
     timeout-minutes: 90
     concurrency:
-      group: apps-ios-other
+      group: apps-ios
       cancel-in-progress: false
+    outputs:
+      tried: ${{ steps.mac.outputs.tried }}
+      done: ${{ steps.done.outputs.done }}
     steps:
+      - name: A Mac took the job
+        id: mac
+        run: echo "tried=yes" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v5
       - uses: ./.github/actions/ios
         with:
@@ -271,3 +294,87 @@ jobs:
           asc_issuer_id: ${{ secrets.ASC_ISSUER_ID }}
           asc_key_p8: ${{ secrets.ASC_KEY_P8 }}
           apple_team_id: ${{ secrets.APPLE_TEAM_ID }}
+      - name: Built
+        id: done
+        run: echo "done=yes" >> "$GITHUB_OUTPUT"
+
+  ios3:
+    name: ios (try 3)
+    needs: [ios, ios2]
+    if: ${{ always() && needs.ios.result != 'skipped' && needs.ios.outputs.tried != 'yes' && needs.ios2.outputs.tried != 'yes' }}
+    runs-on: ${{ inputs.mac || 'macos-15-intel' }}
+    continue-on-error: true     # ios-built below says whether the app was built
+    timeout-minutes: 90
+    concurrency:
+      group: apps-ios
+      cancel-in-progress: false
+    outputs:
+      tried: ${{ steps.mac.outputs.tried }}
+      done: ${{ steps.done.outputs.done }}
+    steps:
+      - name: A Mac took the job
+        id: mac
+        run: echo "tried=yes" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v5
+      - uses: ./.github/actions/ios
+        with:
+          publish: ${{ github.event_name != 'workflow_dispatch' || inputs.publish == 'yes' }}
+          token: ${{ github.token }}
+          asc_key_id: ${{ secrets.ASC_KEY_ID }}
+          asc_issuer_id: ${{ secrets.ASC_ISSUER_ID }}
+          asc_key_p8: ${{ secrets.ASC_KEY_P8 }}
+          apple_team_id: ${{ secrets.APPLE_TEAM_ID }}
+      - name: Built
+        id: done
+        run: echo "done=yes" >> "$GITHUB_OUTPUT"
+
+  ios4:
+    name: ios (try 4)
+    needs: [ios, ios2, ios3]
+    if: ${{ always() && needs.ios.result != 'skipped' && needs.ios.outputs.tried != 'yes' && needs.ios2.outputs.tried != 'yes' && needs.ios3.outputs.tried != 'yes' }}
+    runs-on: ${{ (inputs.mac || 'macos-15-intel') == 'macos-15' && 'macos-15-intel' || 'macos-15' }}
+    continue-on-error: true     # ios-built below says whether the app was built
+    timeout-minutes: 90
+    concurrency:
+      group: apps-ios
+      cancel-in-progress: false
+    outputs:
+      tried: ${{ steps.mac.outputs.tried }}
+      done: ${{ steps.done.outputs.done }}
+    steps:
+      - name: A Mac took the job
+        id: mac
+        run: echo "tried=yes" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v5
+      - uses: ./.github/actions/ios
+        with:
+          publish: ${{ github.event_name != 'workflow_dispatch' || inputs.publish == 'yes' }}
+          token: ${{ github.token }}
+          asc_key_id: ${{ secrets.ASC_KEY_ID }}
+          asc_issuer_id: ${{ secrets.ASC_ISSUER_ID }}
+          asc_key_p8: ${{ secrets.ASC_KEY_P8 }}
+          apple_team_id: ${{ secrets.APPLE_TEAM_ID }}
+      - name: Built
+        id: done
+        run: echo "done=yes" >> "$GITHUB_OUTPUT"
+
+  ios-built:
+    name: ios (how it ended)
+    needs: [ios, ios2, ios3, ios4]
+    if: ${{ always() && needs.ios.result != 'skipped' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - env:
+          DONE: ${{ needs.ios.outputs.done == 'yes' || needs.ios2.outputs.done == 'yes' || needs.ios3.outputs.done == 'yes' || needs.ios4.outputs.done == 'yes' }}
+          TRIED: ${{ needs.ios.outputs.tried == 'yes' || needs.ios2.outputs.tried == 'yes' || needs.ios3.outputs.tried == 'yes' || needs.ios4.outputs.tried == 'yes' }}
+          TRIES: "1: ${{ needs.ios.result }}, 2: ${{ needs.ios2.result }}, 3: ${{ needs.ios3.result }}, 4: ${{ needs.ios4.result }}"
+        run: |
+          echo "the tries ended: $TRIES"
+          if [ "$DONE" = true ]; then echo "The iOS app was built and checked." | tee -a "$GITHUB_STEP_SUMMARY"; exit 0; fi
+          if [ "$TRIED" = true ]; then
+            echo "::error::The iOS build failed on the Mac that took it: see the ios job above that ran."
+            exit 1
+          fi
+          echo "::error::GitHub had no Mac free: four tries, a quarter of an hour each, and no runner took the job. Nothing is wrong with the app, and the last published build stays on the ios release. Run it again later (Actions, apps, Run workflow, what: ios); mornings in Europe have been better than afternoons and evenings."
+          exit 1

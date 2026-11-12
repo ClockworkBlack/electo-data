@@ -80,8 +80,13 @@ With an Apple Developer account, four secrets make the workflow also sign the bu
 the app `org.electo.app` has to exist in App Store Connect first). **That step has never been run**: there has been
 no account to try it with.
 
-GitHub's Macs are sometimes all busy; the workflow tries the other kind (Apple chip, then Intel) when the first was
-not to be had.
+**GitHub is short of Macs at times** (in November 2026 often for hours in the afternoon and evening, European
+time). A job that no Mac takes within a quarter of an hour is dropped before any step runs. So the workflow tries up
+to four times, the Intel kind and the Apple-chip kind taking turns, and its last job, `ios (how it ended)`, says
+whether the app was built. When none of the four tries got a Mac, nothing is wrong with the app and the last
+published build stays on the release: run the workflow again later with `what: ios`. GitHub keeps the Intel Macs
+[until the fall of 2027](https://github.blog/changelog/2025-09-19-github-actions-macos-13-runner-image-is-closing-down/);
+after that the Apple-chip kind has to go first (the `mac` default in the workflow).
 
 ## By hand
 
