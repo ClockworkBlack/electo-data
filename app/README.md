@@ -11,8 +11,8 @@ repository, and no secret is needed to build.
 | Android | `Electo-with-AI.apk` | same | The same app with the offline AI's model and the dictation and voice models inside. |
 | iPhone, iPad | `Electo-unsigned.ipa` | [ios release](https://github.com/ClockworkBlack/electo-data/releases/tag/ios) | The site and its data, unsigned: an iPhone installs it only after it is signed (below). |
 
-The workflow runs every Monday and by hand (Actions → apps → Run workflow; `what`: android, ios or both). A phone that
-has the app does not need each new build: the page and its data update inside the app (the **Data** button; the app
+The workflow runs every Monday, on a change to `app/`, and by hand (Actions → apps → Run workflow; `what`: android,
+ios or both). A phone that has the app does not need each new build: the page and its data update inside the app (the **Data** button; the app
 also checks when it opens). A new build matters for a first install and when the wrapper changes.
 
 ## What a build does
@@ -59,9 +59,10 @@ PKCS12 keystore). Keep a copy of the keystore file somewhere safe: GitHub does n
 
 - from this repository's **app-models** release when it exists (a pack made for the app: a model trained on Electo's
   data as `Electo-*.zip`, `speech-phone.tar`, `LICENSES.txt`); nothing is there yet;
-- otherwise from the public originals on Hugging Face named in `models.json`: the stock model phones run
-  (Qwen2.5-1.5B, 4-bit, as WebLLM reads it) and the dictation and voice models (Whisper tiny, Kokoro), only the 8-bit
-  files a phone loads. `models-LICENSES.txt` travels inside the app as `models/LICENSES.txt`.
+- otherwise from the public originals on Hugging Face named in `models.json`, each at a pinned commit: the stock
+  model phones run (Qwen2.5-1.5B, 4-bit, as WebLLM reads it) and the dictation and voice models (Whisper tiny,
+  Kokoro), only the 8-bit files a phone loads. `models-LICENSES.txt` travels inside the app as
+  `models/LICENSES.txt`. The files are kept between builds (the workflow's cache).
 
 The model trained on Electo's data lives in the private Electo repository's `ai-models` release. It gets into the
 public app only when someone with access to both repositories puts it on the app-models release.

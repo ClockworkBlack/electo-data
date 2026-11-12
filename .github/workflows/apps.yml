@@ -12,9 +12,16 @@ name: apps
 # at the top). A new build matters for someone installing for the first time (less to update on first opening) and
 # when the wrapper itself changes.
 #
-# Runs every Monday, and by hand (Actions -> apps -> Run workflow). app/README.md says what each secret is for; none
-# is needed to build.
+# Runs every Monday, on a change to app/ or to this workflow, and by hand (Actions -> apps -> Run workflow).
+# app/README.md says what each secret is for; none is needed to build.
 on:
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - "!app/README.md"
+      - ".github/workflows/apps.yml"
+      - ".github/actions/ios/**"
   workflow_dispatch:
     inputs:
       what:
@@ -66,13 +73,14 @@ jobs:
             sudo docker image prune --all --force >/dev/null 2>&1 || true
           fi
           df -h / | tail -1
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: The site as published
         run: bash app/site.sh site
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: "22"
-      - uses: actions/setup-java@v4
+          package-manager-cache: false
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: "21"
@@ -84,7 +92,7 @@ jobs:
         run: echo "key=$(python3 app/models.py --key)" >> "$GITHUB_OUTPUT"
       - name: Kept from an earlier build, when they are the same files
         if: steps.models.outputs.key != ''
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: models
           key: app-models-${{ steps.models.outputs.key }}
@@ -218,7 +226,7 @@ jobs:
       group: apps-ios
       cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: ./.github/actions/ios
         with:
           publish: ${{ github.event_name != 'workflow_dispatch' || inputs.publish == 'yes' }}
@@ -240,7 +248,7 @@ jobs:
       group: apps-ios-other
       cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: ./.github/actions/ios
         with:
           publish: ${{ github.event_name != 'workflow_dispatch' || inputs.publish == 'yes' }}

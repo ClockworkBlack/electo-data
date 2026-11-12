@@ -31,6 +31,12 @@ if [ -z "$(adb shell pidof "$ID" | tr -d '\r')" ]; then echo "the app is not run
 if [ "$found" = yes ]; then echo "the page's tabs are on the screen (after about $((i * 5)) seconds)"
 else echo "the page's tabs never appeared; the screen says: $(python3 "$HERE/ui_text.py" "$UI" 2>/dev/null || echo '(nothing readable)')"; ok=1; fi
 python3 "$HERE/shot_check.py" "$OUT/shot-android.png" || ok=1
+# nothing of Android's own over the page: a title bar there means the window was built with the wrong theme
+if grep -q 'resource-id="android:id/action_bar_container"' "$UI" 2>/dev/null; then echo "a title bar of Android's own is over the page"; ok=1; fi
+# the app's icon and name as Android shows them (its "App info" screen), for a person to look at
+adb shell am start -W -a android.settings.APPLICATION_DETAILS_SETTINGS -d "package:$ID" >/dev/null 2>&1 && sleep 4 \
+  && adb exec-out screencap -p > "$OUT/icon-android.png" || true
+adb shell am start -n "$ID/.MainActivity" >/dev/null 2>&1 || true
 if [ "$ok" != 0 ]; then
   echo "---- what Android logged for the app ----"
   adb logcat -d -t 3000 | grep -iE "capacitor|chromium|cr_|electo|FATAL|WebView" | grep -v "nativeloader" | tail -80 || true
