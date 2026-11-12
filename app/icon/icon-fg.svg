@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- the same mark alone, inside the middle of the square (Android crops an adaptive icon's edges to its own shape) -->
+  <g transform="translate(512 512) scale(.62) translate(-512 -512)">
+    <clipPath id="bar"><rect x="262" y="262" width="128" height="500" rx="42" ry="42"/></clipPath>
+    <g clip-path="url(#bar)">
+      <rect x="262" y="262" width="128" height="250" fill="#1E5FB0"/>
+      <rect x="262" y="512" width="128" height="250" fill="#C8342D"/>
+    </g>
+    <path fill="#16202A" d="M470 262h292v96H574v106h160v94H574v108h188v96H470z"/>
+  </g>
+</svg>

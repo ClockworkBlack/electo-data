@@ -1,0 +1,8 @@
+{
+  "appId": "org.electo.app",
+  "appName": "Electo",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": false, "webContentsDebuggingEnabled": false },
+  "ios": { "contentInset": "never" }
+}

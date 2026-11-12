@@ -1,0 +1,58 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Electo</title>
+<style>body{margin:0;background:#fff}@media (prefers-color-scheme:dark){body{background:#111}}</style>
+<script>
+/* The app's start page (the bundle step puts it at www/index.html and the built page at www/page.html: app/bundle.py
+   in electo-data, tools/app_bundle.sh in Electo; the two repositories keep the same file).
+   It boots the newest page the device has: the one bundled with the app, or a newer one that the page's
+   "Refresh data" downloaded from the public data feed and checked against its hash (IndexedDB electo-updates,
+   meta/page). A kept page that fails to start twice in a row is set aside and the bundled page is used.
+   Nothing here declares a global, so the booted page's own scripts run as on a fresh load. */
+window.ELECTO_APP = 1;
+window.ELECTO_APP_AI = 1;   /* 1: the offline AI's model travels inside this app; the bundle step writes 0 for the build without one */
+(function () {
+  var done = false;
+  function boot(html, h) {
+    if (done) return; done = true;
+    if (h) window.ELECTO_PAGE_H = h;
+    document.open(); document.write(html); document.close();
+  }
+  function bundled() {
+    if (done) return;
+    fetch('page.html').then(function (r) { return r.text(); })
+      .then(function (t) { boot(t, ''); })
+      .catch(function () { if (!done) { done = true; location.replace('page.html'); } });
+  }
+  function ls(k, v) {
+    try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; }
+  }
+  setTimeout(bundled, 5000);   // never wait long on the device's storage
+  try {
+    var rq = indexedDB.open('electo-updates', 1);
+    rq.onupgradeneeded = function () {
+      var d = rq.result;
+      if (!d.objectStoreNames.contains('files')) d.createObjectStore('files');
+      if (!d.objectStoreNames.contains('meta')) d.createObjectStore('meta');
+    };
+    rq.onerror = bundled;
+    rq.onsuccess = function () {
+      var g;
+      try { g = rq.result.transaction('meta').objectStore('meta').get('page'); } catch (e) { return bundled(); }
+      g.onerror = bundled;
+      g.onsuccess = function () {
+        var kept = g.result;
+        if (!kept || !kept.body || !kept.h) return bundled();
+        fetch('offline.json').then(function (r) { return r.json(); }).then(function (off) {
+          // only a page newer than the one the app was installed with
+          if (!(Date.parse(kept.built || '') > Date.parse(off.built || ''))) return bundled();
+          if (ls('electo-boot-ok') !== kept.h) {
+            var tries = +(ls('electo-boot-try-' + kept.h) || 0);
+            if (tries >= 2) return bundled();
+            ls('electo-boot-try-' + kept.h, String(tries + 1));
+          }
+          boot(new TextDecoder().decode(kept.body), kept.h);
+        }).catch(bundled);
+      };
+    };
+  } catch (e) { bundled(); }
+})();
+</script></head><body></body></html>

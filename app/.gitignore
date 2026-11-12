@@ -1,0 +1,9 @@
+# made at build time, never committed
+www/
+node_modules/
+android/
+ios/
+*.apk
+*.ipa
+*.keystore
+*.jks
