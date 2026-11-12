@@ -32,11 +32,11 @@ public class MainActivity extends BridgeActivity {
         //    after the activity's own start; on Android 14 the window had been built by then, with the opening
         //    screen's theme, which has a title bar there: "Electo" in a bar over the page, the opening picture
         //    squeezed into it (the Android 14 emulator, Nov. 12, 2026; Android 15 did not show it).
-        setTheme(R.style.AppTheme_NoActionBar);
         // 1. A service worker left by an older build (or a website copy) asks for the app's files from its own thread,
         //    which Capacitor's local server never sees: the request fails and the page can open as a white screen.
         //    Route those requests to the same local server as every other request. (The page itself no longer
         //    registers a service worker inside the app, and removes any it finds.)
+        super.onCreate(savedInstanceState);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             try {
                 ServiceWorkerController.getInstance().setServiceWorkerClient(new ServiceWorkerClient() {
@@ -49,7 +49,6 @@ public class MainActivity extends BridgeActivity {
                 // no service worker support in this WebView: nothing to route
             }
         }
-        super.onCreate(savedInstanceState);
         bars();
         if (bridge == null) return; // no WebView on this device: Capacitor shows its own message
         // 2. If the page's process is killed (most often for memory while the offline AI loads), Android closes the
