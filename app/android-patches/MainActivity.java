@@ -1,14 +1,9 @@
 package org.electo.app;
 
 import android.content.res.Configuration;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.ViewGroup;
 import android.webkit.RenderProcessGoneDetail;
-import android.webkit.ServiceWorkerClient;
-import android.webkit.ServiceWorkerController;
-import android.webkit.WebResourceRequest;
-import android.webkit.WebResourceResponse;
 import android.webkit.WebView;
 import androidx.activity.OnBackPressedCallback;
 import androidx.core.view.WindowCompat;
@@ -17,8 +12,9 @@ import com.getcapacitor.BridgeActivity;
 import com.getcapacitor.WebViewListener;
 
 /**
- * Electo's activity: Capacitor's own, plus guards that keep the app from opening blank or closing outright, a Back
- * button that closes the page's popups first, and system bars in the page's own colours.
+ * Electo's activity: Capacitor's own, plus the page's theme from the first moment (no title bar of Android's own), a
+ * guard that restarts the page instead of letting the app close when Android kills it, a Back button that closes the
+ * page's popups first, and system bars in the page's own colours.
  * Copied over the generated MainActivity after `npx cap add android` (app/android.sh in electo-data,
  * tools/app_android.sh in Electo: the two repositories keep the same file).
  */
@@ -28,22 +24,18 @@ public class MainActivity extends BridgeActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        // 1. A service worker left by an older build (or a website copy) asks for the app's files from its own thread,
-        //    which Capacitor's local server never sees: the request fails and the page can open as a white screen.
-        //    Route those requests to the same local server as every other request. (The page itself no longer
-        //    registers a service worker inside the app, and removes any it finds.)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            try {
-                ServiceWorkerController.getInstance().setServiceWorkerClient(new ServiceWorkerClient() {
-                    @Override
-                    public WebResourceResponse shouldInterceptRequest(WebResourceRequest request) {
-                        return bridge != null ? bridge.getLocalServer().shouldInterceptRequest(request) : null;
-                    }
-                });
-            } catch (Exception ignored) {
-                // no service worker support in this WebView: nothing to route
-            }
-        }
+        // 1. The page's own theme (no title bar) before anything else. Capacitor sets it too, but only after the
+        //    activity's own start. On Android 14 that was too late while this file still set the service worker
+        //    client at this point (which starts the WebView ahead of the window): the window came up with the opening
+        //    screen's theme, "Electo" in a title bar over the page and the opening picture squeezed into it. Two test
+        //    builds in the Android 14 emulator (Nov. 12, 2026) each ended it: this line first, and the service worker
+        //    lines moved behind the start. Both hold here: this line, and no service worker lines at all (below).
+        //    Android 15 never showed the bar.
+        setTheme(R.style.AppTheme_NoActionBar);
+        // A service worker left by an older build asks for the app's files from its own thread, which the page's
+        // local server would not see. Capacitor routes those requests to that server itself when it loads the page
+        // (android.resolveServiceWorkerRequests, on unless capacitor.config.json turns it off), replacing whatever
+        // client was set before, so the lines that used to do the same here did nothing but start the WebView early.
         super.onCreate(savedInstanceState);
         bars();
         if (bridge == null) return; // no WebView on this device: Capacitor shows its own message

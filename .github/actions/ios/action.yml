@@ -33,9 +33,10 @@ runs:
     - name: The site as published
       shell: bash
       run: bash app/site.sh site
-    - uses: actions/setup-node@v4
+    - uses: actions/setup-node@v5
       with:
         node-version: "22"
+        package-manager-cache: false
     - name: The app's web folder
       shell: bash
       run: python3 app/bundle.py site
@@ -65,6 +66,8 @@ runs:
             -destination "platform=iOS Simulator,id=$SIM" -derivedDataPath "$DD" -quiet \
             CODE_SIGNING_ALLOWED=NO MARKETING_VERSION="$APP_VERSION_NAME" CURRENT_PROJECT_VERSION="$APP_BUILD" build )
         bash app/ios_check.sh "$SIM" "$DD/Build/Products/Debug-iphonesimulator/App.app" check
+        # the icon as iOS will show it on the home screen (Xcode writes it into the app), for a person to look at
+        cp "$DD/Build/Products/Debug-iphonesimulator/App.app/AppIcon60x60@2x.png" check/icon-ios.png 2>/dev/null || true
     - name: Keep what the check saw (the "app-check" release)
       if: always()
       shell: bash

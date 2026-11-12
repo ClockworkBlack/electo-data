@@ -12,9 +12,16 @@ name: apps
 # at the top). A new build matters for someone installing for the first time (less to update on first opening) and
 # when the wrapper itself changes.
 #
-# Runs every Monday, and by hand (Actions -> apps -> Run workflow). app/README.md says what each secret is for; none
-# is needed to build.
+# Runs every Monday, on a change to app/ or to this workflow, and by hand (Actions -> apps -> Run workflow).
+# app/README.md says what each secret is for; none is needed to build.
 on:
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - "!app/README.md"
+      - ".github/workflows/apps.yml"
+      - ".github/actions/ios/**"
   workflow_dispatch:
     inputs:
       what:
@@ -66,13 +73,14 @@ jobs:
             sudo docker image prune --all --force >/dev/null 2>&1 || true
           fi
           df -h / | tail -1
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: The site as published
         run: bash app/site.sh site
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: "22"
-      - uses: actions/setup-java@v4
+          package-manager-cache: false
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: "21"
@@ -84,7 +92,7 @@ jobs:
         run: echo "key=$(python3 app/models.py --key)" >> "$GITHUB_OUTPUT"
       - name: Kept from an earlier build, when they are the same files
         if: steps.models.outputs.key != ''
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: models
           key: app-models-${{ steps.models.outputs.key }}
@@ -166,6 +174,7 @@ jobs:
       - name: Open the app in an emulator
         id: emulator
         continue-on-error: true     # tried once more below: the emulator's own download or start sometimes fails
+        timeout-minutes: 20         # three or four minutes when all is well; an emulator that hangs is stopped
         uses: reactivecircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2.38.0
         with:
           api-level: ${{ inputs.android_api || '35' }}
@@ -176,8 +185,21 @@ jobs:
           disable-animations: true
           emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           script: bash app/android_checks.sh
+      - name: An emulator that failed or hung is put away before the second try
+        if: steps.emulator.outcome != 'success'
+        run: |
+          ADB="$ANDROID_HOME/platform-tools/adb"
+          timeout 20 "$ADB" -s emulator-5554 emu kill >/dev/null 2>&1 || true
+          sleep 3
+          pkill -9 -f 'qemu-syste[m]' >/dev/null 2>&1 || true
+          pkill -9 -f 'crashpad_handle[r]' >/dev/null 2>&1 || true
+          pkill -9 -x netsimd >/dev/null 2>&1 || true
+          timeout 20 "$ADB" kill-server >/dev/null 2>&1 || true
+          rm -rf "$HOME"/.android/avd/*.avd/*.lock || true
+          df -h / | tail -1
       - name: Open the app in an emulator (second try)
-        if: steps.emulator.outcome == 'failure'
+        if: steps.emulator.outcome != 'success'
+        timeout-minutes: 20
         uses: reactivecircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2.38.0
         with:
           api-level: ${{ inputs.android_api || '35' }}
@@ -218,7 +240,7 @@ jobs:
       group: apps-ios
       cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: ./.github/actions/ios
         with:
           publish: ${{ github.event_name != 'workflow_dispatch' || inputs.publish == 'yes' }}
@@ -240,7 +262,7 @@ jobs:
       group: apps-ios-other
       cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: ./.github/actions/ios
         with:
           publish: ${{ github.event_name != 'workflow_dispatch' || inputs.publish == 'yes' }}
