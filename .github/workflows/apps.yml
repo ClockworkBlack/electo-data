@@ -28,6 +28,10 @@ concurrency:
   group: apps
   cancel-in-progress: false
 
+defaults:
+  run:
+    shell: bash     # with pipefail: a failed command in the middle of a pipe stops the step
+
 jobs:
   android:
     if: github.event_name != 'workflow_dispatch' || inputs.what == 'both' || inputs.what == 'android'
@@ -82,13 +86,14 @@ jobs:
       - name: What was built (signature, version, not a debug build)
         run: |
           BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
-          "$BT/apksigner" verify --print-certs Electo.apk > signer-all.txt
-          grep -E "Signer #1 certificate (DN|SHA-256)" signer-all.txt | tee signer.txt
+          "$BT/apksigner" verify --print-certs Electo.apk | grep -v "^WARNING" | tee signer.txt
           "$BT/aapt2" dump badging Electo.apk > badging.txt
           grep -E "^package:|^sdkVersion|^targetSdkVersion|^uses-permission|^application-label:" badging.txt
           if grep -q "application-debuggable" badging.txt; then echo "::error::this is a debug build"; exit 1; fi
           grep -q "versionCode='$APP_VERSION_CODE'" badging.txt || { echo "::error::the APK does not carry version $APP_VERSION_CODE"; exit 1; }
-          echo "CERT_SHA256=$(grep 'SHA-256' signer.txt | sed 's/.*: //')" >> "$GITHUB_ENV"
+          CERT=$(grep -m1 "certificate SHA-256 digest" signer.txt | sed 's/.*: //')
+          [ -n "$CERT" ] || { echo "::error::the APK is not signed"; exit 1; }
+          echo "CERT_SHA256=$CERT" >> "$GITHUB_ENV"
           echo "APK_MB=$(( $(stat -c %s Electo.apk) / 1000000 ))" >> "$GITHUB_ENV"
       - name: Let the emulator use the processor's virtualization
         run: |
@@ -105,13 +110,11 @@ jobs:
           disable-animations: true
           emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           script: bash app/android_check.sh Electo.apk check
-      - uses: actions/upload-artifact@v4
+      - name: Keep what the check saw (the "app-check" release)
         if: always()
-        with:
-          name: android-check
-          path: check
-          retention-days: 14
-          if-no-files-found: ignore
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash app/keep_check.sh android
       - name: Publish on the "android" release
         if: github.event_name != 'workflow_dispatch' || inputs.publish == 'yes'
         env:
@@ -189,13 +192,11 @@ jobs:
               -destination "platform=iOS Simulator,id=$SIM" -derivedDataPath "$DD" -quiet \
               CODE_SIGNING_ALLOWED=NO MARKETING_VERSION="$APP_VERSION_NAME" CURRENT_PROJECT_VERSION="$APP_BUILD" build )
           bash app/ios_check.sh "$SIM" "$DD/Build/Products/Debug-iphonesimulator/App.app" check
-      - uses: actions/upload-artifact@v4
+      - name: Keep what the check saw (the "app-check" release)
         if: always()
-        with:
-          name: ios-check
-          path: check
-          retention-days: 14
-          if-no-files-found: ignore
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash app/keep_check.sh ios
       - name: Build for iPhone and iPad (unsigned)
         run: |
           AR="$RUNNER_TEMP/Electo.xcarchive"
