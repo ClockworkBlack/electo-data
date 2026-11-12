@@ -1,5 +1,6 @@
 package org.electo.app;
 
+import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.ViewGroup;
@@ -10,12 +11,14 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebView;
 import androidx.activity.OnBackPressedCallback;
+import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsControllerCompat;
 import com.getcapacitor.BridgeActivity;
 import com.getcapacitor.WebViewListener;
 
 /**
- * Electo's activity: Capacitor's own, plus guards that keep the app from opening blank or closing outright, and a
- * Back button that closes the page's popups first.
+ * Electo's activity: Capacitor's own, plus guards that keep the app from opening blank or closing outright, a Back
+ * button that closes the page's popups first, and system bars in the page's own colours.
  * Copied over the generated MainActivity by app/android.sh after `npx cap add android`.
  */
 public class MainActivity extends BridgeActivity {
@@ -41,6 +44,7 @@ public class MainActivity extends BridgeActivity {
             }
         }
         super.onCreate(savedInstanceState);
+        bars();
         if (bridge == null) return; // no WebView on this device: Capacitor shows its own message
         // 2. If the page's process is killed (most often for memory while the offline AI loads), Android closes the
         //    whole app unless someone handles it. Start the page again instead; it finds the note it left before the
@@ -75,6 +79,31 @@ public class MainActivity extends BridgeActivity {
                 });
             }
         });
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        bars(); // the phone switched between light and dark
+    }
+
+    // 4. The status bar and the navigation bar take the page's background (light, or dark when the phone is set to
+    //    dark, as the page itself does), with the clock and icons dark on light and light on dark. Android 15 and
+    //    later draw the page behind both bars and ignore the colours; the icons' setting is what counts there
+    //    (without it they are white on the page's light background).
+    @SuppressWarnings("deprecation")
+    private void bars() {
+        try {
+            boolean night = (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
+            int bg = night ? 0xFF121619 : 0xFFF3F5F7;
+            getWindow().setStatusBarColor(bg);
+            getWindow().setNavigationBarColor(bg);
+            WindowInsetsControllerCompat c = WindowCompat.getInsetsController(getWindow(), getWindow().getDecorView());
+            c.setAppearanceLightStatusBars(!night);
+            c.setAppearanceLightNavigationBars(!night);
+        } catch (Exception ignored) {
+            // an Android without these settings: the bars keep their own colours
+        }
     }
 
     private void recover() {

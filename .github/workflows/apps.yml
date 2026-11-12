@@ -20,6 +20,14 @@ on:
         description: "publish on the releases (no: build and check only)"
         required: false
         default: "yes"
+      mac:
+        description: "the Mac that builds the iOS app: macos-15 (Apple chip) or macos-15-intel"
+        required: false
+        default: macos-15
+      android_api:
+        description: "the Android version the emulator runs (API level; 35 is Android 15)"
+        required: false
+        default: "35"
 
 permissions:
   contents: write
@@ -102,7 +110,7 @@ jobs:
       - name: Open the app in an emulator
         uses: reactivecircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2.38.0
         with:
-          api-level: 35
+          api-level: ${{ inputs.android_api || '35' }}
           target: google_apis
           arch: x86_64
           profile: pixel_7
@@ -144,7 +152,7 @@ jobs:
 
   ios:
     if: github.event_name != 'workflow_dispatch' || inputs.what == 'both' || inputs.what == 'ios'
-    runs-on: macos-15
+    runs-on: ${{ inputs.mac || 'macos-15' }}
     timeout-minutes: 90
     concurrency:
       group: apps-ios
