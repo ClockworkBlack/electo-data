@@ -5,6 +5,7 @@
 #   bash app/android_checks.sh
 set -e
 HERE="$(cd "$(dirname "$0")" && pwd)"
+rm -rf check check-ai          # a second try starts clean: nothing an earlier try saw counts for this one
 bash "$HERE/android_check.sh" Electo.apk check
 if [ -f Electo-with-AI.apk ]; then
   adb uninstall org.electo.app >/dev/null 2>&1 || true

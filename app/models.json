@@ -1,9 +1,21 @@
 {
- "about": "The offline AI's files for Electo-with-AI.apk when the app-models release has no pack: public repositories on Hugging Face (app/models.py). rev is a commit there; main takes the newest.",
- "model": {"id": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC", "rev": "main"},
+ "about": "The offline AI's files for Electo-with-AI.apk when the app-models release has no pack: public repositories on Hugging Face (app/models.py). rev is a commit there (pinned Nov. 12, 2026: what was built and opened in the emulator that day); \"main\" takes the newest and the build prints its commit.",
+ "model": {
+  "id": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+  "rev": "9bd564b064631febf14deadcac492efb761d60c3"
+ },
  "speech": [
-  {"repo": "onnx-community/whisper-tiny.en", "rev": "main"},
-  {"repo": "onnx-community/whisper-tiny", "rev": "main"},
-  {"repo": "onnx-community/Kokoro-82M-v1.0-ONNX", "rev": "main"}
+  {
+   "repo": "onnx-community/whisper-tiny.en",
+   "rev": "794207fec2761281fe63a23a94b7e9f53a4efbc1"
+  },
+  {
+   "repo": "onnx-community/whisper-tiny",
+   "rev": "ff4177021cc41f7db950912b73ea4fdf7d01d8e7"
+  },
+  {
+   "repo": "onnx-community/Kokoro-82M-v1.0-ONNX",
+   "rev": "1939ad2a8e416c0acfeecc08a694d14ef25f2231"
+  }
  ]
 }
