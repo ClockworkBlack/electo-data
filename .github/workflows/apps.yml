@@ -75,4 +75,4 @@ jobs:
     if: ${{ always() }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo "ran with always(); result=[${{ needs.mac.result }}] tried=[${{ needs.mac.outputs.tried }}] cancelled=[${{ cancelled() }}]"
+      - run: echo "ran with always(); result=[${{ needs.mac.result }}] tried=[${{ needs.mac.outputs.tried }}]"
