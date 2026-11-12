@@ -5,8 +5,10 @@
     python3 app/models.py --key            a short name for exactly these files, for keeping them between builds
 
 Where they come from, in this order:
-  1. This repository's "app-models" release, when it exists: a pack made for the app (a model trained on Electo's
-     data as Electo-*.zip, speech-phone.tar, LICENSES.txt). Nothing is on it until the owner puts one there.
+  1. This repository's "app-models" release, when it has a model: the model trained on Electo's data as
+     Electo-*.zip, copied there from the private Electo repository by its copy-model-public workflow (optionally a
+     speech-phone.tar and LICENSES.txt too). Each file is checked against the SHA-256 GitHub gives for it. The
+     dictation and voice models come from Hugging Face (below) when the pack has none.
   2. Otherwise the public originals on Hugging Face, as app/models.json names them: the stock model phones run
      (its repository is read from the site's own vendor/ai-manifest.json) and the speech models, only the 8-bit files
      a phone loads. Every file is checked against the hash Hugging Face lists for it. Each "rev" in models.json is
@@ -107,19 +109,30 @@ def from_release(out):
             headers=dict(UA, **({"Authorization": "Bearer " + os.environ["GH_TOKEN"]} if os.environ.get("GH_TOKEN") else {}))), timeout=60).read())
     except Exception:  # noqa: BLE001
         return None
-    assets = {a["name"]: a["browser_download_url"] for a in rel.get("assets", [])}
+    assets = {a["name"]: a for a in rel.get("assets", [])}
     zips = [n for n in assets if n.endswith(".zip")]
     if not zips:
         return None
-    used = {"from": "the app-models release of " + REPO, "files": sorted(assets)}
+    used = {"from": "the app-models release of " + REPO, "files": sorted(assets), "model": {}}
     tmp = out + ".dl"
     os.makedirs(tmp, exist_ok=True)
-    for name, url in sorted(assets.items()):
+    for name, a in sorted(assets.items()):
         p = os.path.join(tmp, name)
-        download(url, p)
+        digest = a.get("digest") or ""
+        download(a["browser_download_url"], p, want_sha256=digest[7:] if digest.startswith("sha256:") else None)
         if name.endswith(".zip"):
             with zipfile.ZipFile(p) as z:
+                tops = {n.split("/")[0] for n in z.namelist() if n.strip("/")}
+                bad = [n for n in z.namelist() if n.startswith("/") or ".." in n.split("/")]
+                if len(tops) != 1 or bad:
+                    raise SystemExit("%s: expected one model folder inside, found %s" % (name, sorted(tops)[:5]))
                 z.extractall(out)
+            mid = tops.pop()
+            d = os.path.join(out, mid)
+            # WebLLM 0.2.80 and later read tensor-cache.json; older packs have ndarray-cache.json (the same format)
+            if not os.path.exists(os.path.join(d, "tensor-cache.json")) and os.path.exists(os.path.join(d, "ndarray-cache.json")):
+                shutil.copy(os.path.join(d, "ndarray-cache.json"), os.path.join(d, "tensor-cache.json"))
+            used["model"] = {"id": mid, "asset": name, "sha256": digest[7:], "uploaded": a.get("updated_at")}
         elif name.endswith(".tar"):
             with tarfile.open(p) as t:
                 try:
@@ -130,7 +143,24 @@ def from_release(out):
             shutil.copy(p, os.path.join(out, name))
         os.remove(p)
     shutil.rmtree(tmp, ignore_errors=True)
+    if not os.path.isdir(os.path.join(out, "speech")):
+        used["speech"] = speech_from_hugging_face(out)
+    if not os.path.exists(os.path.join(out, "LICENSES.txt")):
+        with open(os.path.join(out, "LICENSES.txt"), "w", encoding="utf-8") as f:
+            f.write("%s is Qwen2.5-1.5B-Instruct (Qwen team, Apache License 2.0) fine-tuned on Electo's public data and "
+                    "quantized to 4 bits for WebLLM. The Apache License 2.0 below covers it too.\n\n" % used["model"].get("id", "The model"))
+            f.write(open(os.path.join(HERE, "models-LICENSES.txt"), encoding="utf-8").read())
     return used
+
+
+def speech_from_hugging_face(out):
+    cfg = json.load(open(os.path.join(HERE, "models.json"), encoding="utf-8"))
+    got = {}
+    for s in cfg["speech"]:
+        keep = lambda p: not p.startswith(".git") and (not p.endswith(".onnx") or os.path.basename(p) in ONNX_KEEP)  # noqa: E731
+        sha, n, size = hf_repo(s["repo"], s.get("rev", "main"), os.path.join(out, "speech", s["repo"]), keep)
+        got[s["repo"]] = {"rev": sha, "files": n, "bytes": size}
+    return got
 
 
 def from_hugging_face(site, out):
@@ -144,10 +174,7 @@ def from_hugging_face(site, out):
     used = {"from": "Hugging Face", "model": {}, "speech": {}}
     sha, n, size = hf_repo(repo, cfg["model"].get("rev", "main"), os.path.join(out, mid), lambda p: not p.startswith(".git"))
     used["model"] = {"id": mid, "repo": repo, "rev": sha, "files": n, "bytes": size}
-    for s in cfg["speech"]:
-        keep = lambda p: not p.startswith(".git") and (not p.endswith(".onnx") or os.path.basename(p) in ONNX_KEEP)  # noqa: E731
-        sha, n, size = hf_repo(s["repo"], s.get("rev", "main"), os.path.join(out, "speech", s["repo"]), keep)
-        used["speech"][s["repo"]] = {"rev": sha, "files": n, "bytes": size}
+    used["speech"] = speech_from_hugging_face(out)
     shutil.copy(os.path.join(HERE, "models-LICENSES.txt"), os.path.join(out, "LICENSES.txt"))
     return used
 
@@ -160,7 +187,7 @@ def key():
         rel = json.loads(urllib.request.urlopen(urllib.request.Request(
             "https://api.github.com/repos/%s/releases/tags/app-models" % REPO,
             headers=dict(UA, **({"Authorization": "Bearer " + os.environ["GH_TOKEN"]} if os.environ.get("GH_TOKEN") else {}))), timeout=60).read())
-        h.update(json.dumps(sorted((a["name"], a["updated_at"], a["size"]) for a in rel.get("assets", []))).encode())
+        h.update(json.dumps(sorted((a["name"], a.get("digest") or a["updated_at"], a["size"]) for a in rel.get("assets", []))).encode())
     except Exception:  # noqa: BLE001
         pass
     return h.hexdigest()[:16]

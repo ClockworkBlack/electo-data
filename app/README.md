@@ -58,15 +58,17 @@ PKCS12 keystore). Keep a copy of the keystore file somewhere safe: GitHub does n
 
 `models.py` gets the files, checked against their published hashes:
 
-- from this repository's **app-models** release when it exists (a pack made for the app: a model trained on Electo's
-  data as `Electo-*.zip`, `speech-phone.tar`, `LICENSES.txt`); nothing is there yet;
-- otherwise from the public originals on Hugging Face named in `models.json`, each at a pinned commit: the stock
-  model phones run (Qwen2.5-1.5B, 4-bit, as WebLLM reads it) and the dictation and voice models (Whisper tiny,
-  Kokoro), only the 8-bit files a phone loads. `models-LICENSES.txt` travels inside the app as
-  `models/LICENSES.txt`. The files are kept between builds (the workflow's cache).
+- **the model trained on Electo's data** from this repository's **app-models** release (`Electo-*.zip`, the
+  Qwen team's Qwen2.5-1.5B trained further on the site's data, 4-bit for WebLLM). The private Electo repository's
+  **copy-model-public** workflow puts the newest one there each morning when it changed (it needs the secret
+  `PUBLIC_DATA_TOKEN` there: Contents read and write on this repository, Actions too to start the Android build);
+- when that release has no model, the stock Qwen2.5-1.5B from Hugging Face instead (`models.json`, at a pinned
+  commit);
+- the dictation and voice models (Whisper tiny, Kokoro) from Hugging Face, pinned the same way, only the 8-bit files a
+  phone loads.
 
-The model trained on Electo's data lives in the private Electo repository's `ai-models` release. It gets into the
-public app only when someone with access to both repositories puts it on the app-models release.
+`models-LICENSES.txt` travels inside the app as `models/LICENSES.txt`. The files are kept between builds (the
+workflow's cache, keyed to what is on the app-models release).
 
 ## iPhone and iPad
 

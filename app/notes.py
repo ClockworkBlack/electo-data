@@ -49,9 +49,13 @@ def ai_inside():
         u = json.load(open(os.path.join("models", "models-used.json"), encoding="utf-8"))
     except (OSError, ValueError):
         return "the offline AI's model and the dictation and voice models"
-    if u.get("model"):
-        name = u["model"]["id"].split("-Instruct")[0].split("-q4")[0]
-        return "the offline AI's model (%s, the stock model by the Qwen team) and the dictation and voice models" % name
+    mid = (u.get("model") or {}).get("id", "")
+    if mid.startswith("Electo-"):
+        return ("the offline AI's model (%s, the Qwen team's model trained further on Electo's data) and the dictation "
+                "and voice models" % mid.replace("Electo-", "").split("-q4")[0])
+    if mid:
+        return "the offline AI's model (%s, the stock model by the Qwen team) and the dictation and voice models" % (
+            mid.split("-Instruct")[0].split("-q4")[0])
     ids = [f[:-4] for f in u.get("files", []) if f.endswith(".zip")]
     trained = [i for i in ids if i.startswith("Electo-")]
     if trained:
