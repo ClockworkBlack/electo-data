@@ -258,7 +258,7 @@ jobs:
       - name: A Mac took the job
         id: mac
         run: echo "tried=yes" >> "$GITHUB_OUTPUT"
-      - run: echo "test branch: a Mac took the job; nothing is built here"
+      - run: echo "test branch, a Mac took the job, nothing is built here"
 
   ios2:
     name: ios (try 2)
@@ -277,7 +277,7 @@ jobs:
       - name: A Mac took the job
         id: mac
         run: echo "tried=yes" >> "$GITHUB_OUTPUT"
-      - run: echo "test branch: a Mac took the job; nothing is built here"
+      - run: echo "test branch, a Mac took the job, nothing is built here"
 
   ios3:
     name: ios (try 3)
@@ -297,7 +297,7 @@ jobs:
       - name: A Mac took the job
         id: mac
         run: echo "tried=yes" >> "$GITHUB_OUTPUT"
-      - run: echo "test branch: a Mac took the job; nothing is built here"
+      - run: echo "test branch, a Mac took the job, nothing is built here"
 
   ios4:
     name: ios (try 4)
@@ -318,7 +318,7 @@ jobs:
       - name: A Mac took the job
         id: mac
         run: echo "tried=yes" >> "$GITHUB_OUTPUT"
-      - run: echo "test branch: a Mac took the job; nothing is built here"
+      - run: echo "test branch, a Mac took the job, nothing is built here"
 
   ios-built:
     name: ios (how it ended)
