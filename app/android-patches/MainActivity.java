@@ -45,7 +45,6 @@ public class MainActivity extends BridgeActivity {
             }
         }
         super.onCreate(savedInstanceState);
-        bars();
         if (bridge == null) return; // no WebView on this device: Capacitor shows its own message
         // 2. If the page's process is killed (most often for memory while the offline AI loads), Android closes the
         //    whole app unless someone handles it. Start the page again instead; it finds the note it left before the
