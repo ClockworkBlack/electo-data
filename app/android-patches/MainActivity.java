@@ -19,7 +19,8 @@ import com.getcapacitor.WebViewListener;
 /**
  * Electo's activity: Capacitor's own, plus guards that keep the app from opening blank or closing outright, a Back
  * button that closes the page's popups first, and system bars in the page's own colours.
- * Copied over the generated MainActivity by app/android.sh after `npx cap add android`.
+ * Copied over the generated MainActivity after `npx cap add android` (app/android.sh in electo-data,
+ * tools/app_android.sh in Electo: the two repositories keep the same file).
  */
 public class MainActivity extends BridgeActivity {
     private long lastRecovery = 0;

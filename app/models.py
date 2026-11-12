@@ -95,7 +95,7 @@ def hf_repo(repo, rev, dest, keep):
         n += 1
     if not n:
         raise SystemExit("nothing to take from %s at %s" % (repo, sha))
-    print("  %s at %s: %d files, %.0f MB, each checked against its hash" % (repo, sha[:12], n, size / 1e6))
+    print("  %s at %s: %d files, %.0f MB, each checked against its hash" % (repo, sha, n, size / 1e6))
     return sha, n, size
 
 

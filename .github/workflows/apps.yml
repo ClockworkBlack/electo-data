@@ -58,10 +58,13 @@ jobs:
     env:
       EMULATOR_API: ${{ inputs.android_api || '35' }}
     steps:
-      - name: Make room (two builds, the offline AI's files and an emulator together outgrow the runner's free disk)
+      - name: Make room when the runner is short of it (two builds, the offline AI's files and an emulator need about 25 GB)
         run: |
-          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/.ghcup /usr/share/swift /usr/local/share/powershell /opt/hostedtoolcache/CodeQL || true
-          sudo docker image prune --all --force >/dev/null 2>&1 || true
+          free=$(df --output=avail -BG / | tail -1 | tr -dc 0-9)
+          if [ "$free" -lt 30 ]; then
+            sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/.ghcup /usr/share/swift /usr/local/share/powershell /opt/hostedtoolcache/CodeQL || true
+            sudo docker image prune --all --force >/dev/null 2>&1 || true
+          fi
           df -h / | tail -1
       - uses: actions/checkout@v4
       - name: The site as published
@@ -161,6 +164,20 @@ jobs:
           sudo udevadm control --reload-rules
           sudo udevadm trigger --name-match=kvm
       - name: Open the app in an emulator
+        id: emulator
+        continue-on-error: true     # tried once more below: the emulator's own download or start sometimes fails
+        uses: reactivecircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2.38.0
+        with:
+          api-level: ${{ inputs.android_api || '35' }}
+          target: google_apis
+          arch: x86_64
+          profile: pixel_7
+          disk-size: 8G
+          disable-animations: true
+          emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          script: bash app/android_checks.sh
+      - name: Open the app in an emulator (second try)
+        if: steps.emulator.outcome == 'failure'
         uses: reactivecircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2.38.0
         with:
           api-level: ${{ inputs.android_api || '35' }}
