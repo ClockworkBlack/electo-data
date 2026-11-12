@@ -1,0 +1,40 @@
+name: apps-catch-up
+
+# The iOS app once more, when its last build found no Mac. GitHub is short of Macs at times, and the apps workflow
+# gives up after four tries (about an hour), leaving the iOS release older than the Android one, or without a build
+# at all. Every morning (another project found Macs easier to get then) this looks at the two releases; when the iOS
+# app is missing or more than three hours older than the Android app, and no apps build is under way, it starts the
+# apps workflow for iOS alone. Otherwise it does nothing, in a few seconds. Mondays are left to the weekly apps build.
+on:
+  schedule:
+    - cron: "23 7 * * 0,2-6"
+  workflow_dispatch:
+
+permissions:
+  actions: write      # to start the apps workflow
+  contents: read
+
+jobs:
+  look:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Is the iOS app behind the Android app?
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          # prints nothing when the call fails (gh prints GitHub's error text, "Not Found" for a release that is not there)
+          api() { local out; out=$(gh api "repos/$GH_REPO/$1" --jq "$2" 2>/dev/null) || return 0; printf '%s' "$out"; }
+          a=$(api "releases/tags/android" '[.assets[] | select(.name == "Electo.apk") | .updated_at][0] // ""')
+          i=$(api "releases/tags/ios" '[.assets[] | select(.name == "Electo-unsigned.ipa") | .updated_at][0] // ""')
+          busy=$(api "actions/workflows/apps.yml/runs?per_page=30" '[.workflow_runs[] | select(.status != "completed")] | length')
+          echo "Android app published: ${a:-never}. iOS app published: ${i:-never}. apps builds under way: ${busy:-not known}."
+          if [ -z "$a" ]; then echo "No Android app is published (or the releases could not be read): nothing to catch up with."; exit 0; fi
+          if [ "${busy:-0}" != "0" ]; then echo "An apps build is under way: left to it."; exit 0; fi
+          if [ -n "$i" ] && [ $(( $(date -d "$a" +%s) - $(date -d "$i" +%s) )) -lt 10800 ]; then
+            echo "The iOS app is as new as the Android app: nothing to do."; exit 0
+          fi
+          gh workflow run apps.yml --repo "$GH_REPO" --ref "${{ github.event.repository.default_branch }}" -f what=ios -f publish=yes
+          if [ -n "$i" ]; then why="older than the Android app"; else why="not published yet"; fi
+          echo "The iOS app is $why: started the apps workflow for iOS." | tee -a "$GITHUB_STEP_SUMMARY"
