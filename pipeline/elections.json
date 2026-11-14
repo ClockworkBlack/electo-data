@@ -1,0 +1,70 @@
+{
+ "checked": "2026-11-04",
+ "note": "Dates from Georgia law (O.C.G.A. §§ 21-2-9, 21-2-501, 21-2-540) and the georgia.gov election calendar. Special-election days are dates the law allows; only places that call an election vote on them.",
+ "items": [
+  {
+   "d": "2026-12-01",
+   "lv": [
+    "state"
+   ],
+   "t": "General election runoffs",
+   "s": "State races where no candidate won a majority on Nov. 3; on the current count, State House District 151",
+   "src": "O.C.G.A. § 21-2-501; georgia.gov"
+  },
+  {
+   "d": "2026-12-01",
+   "lv": [
+    "local"
+   ],
+   "t": "Local runoffs",
+   "s": "Local races with no majority winner on the current count, for example Bryan County Commission District 2, Chatham County school board District 2 and Richmond County school board District 3",
+   "src": "O.C.G.A. § 21-2-501; county results"
+  },
+  {
+   "d": "2027-03-16",
+   "lv": [
+    "local"
+   ],
+   "t": "Special election day",
+   "s": "for local vacancies and ballot questions, only where one has been called",
+   "src": "O.C.G.A. § 21-2-540(c)"
+  },
+  {
+   "d": "2027-06-15",
+   "lv": [
+    "local"
+   ],
+   "t": "Special election day",
+   "s": "for local vacancies and ballot questions, only where one has been called",
+   "src": "O.C.G.A. § 21-2-540(c)"
+  },
+  {
+   "d": "2027-09-21",
+   "lv": [
+    "local"
+   ],
+   "t": "Special election day",
+   "s": "for local vacancies and ballot questions, only where one has been called",
+   "src": "O.C.G.A. § 21-2-540(c)"
+  },
+  {
+   "d": "2027-11-02",
+   "lv": [
+    "local"
+   ],
+   "t": "Municipal general elections",
+   "s": "city mayor and council races in cities voting this year, plus local special elections",
+   "src": "O.C.G.A. §§ 21-2-9(c), 21-2-540(c)"
+  },
+  {
+   "d": "2028-11-07",
+   "lv": [
+    "state",
+    "national"
+   ],
+   "t": "General election",
+   "s": "President, U.S. House, General Assembly and other offices",
+   "src": "3 U.S.C. § 1; 2 U.S.C. § 7"
+  }
+ ]
+}

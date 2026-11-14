@@ -1,0 +1,506 @@
+{
+ "v": 1,
+ "at": "2026-11-14T14:02:05Z",
+ "verdict": "fail",
+ "errors": 2,
+ "warnings": 2,
+ "seconds": 3.5,
+ "checks": [
+  {
+   "area": "archive",
+   "check": "every race row has its 11 fields, votes as a number and a percent (none only with no count on file)",
+   "level": "ok",
+   "bad": 0,
+   "of": 13971,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "no ballot answer, write-in or total is filed as a person",
+   "level": "ok",
+   "bad": 0,
+   "of": 7925,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "race dates are YYYY-MM-DD",
+   "level": "ok",
+   "bad": 0,
+   "of": 13971,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "outcomes are codes the page knows",
+   "level": "ok",
+   "bad": 0,
+   "of": 13971,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "votes and percentages are never negative",
+   "level": "ok",
+   "bad": 0,
+   "of": 13971,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "no percentage over 100",
+   "level": "ok",
+   "bad": 0,
+   "of": 13971,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "a person's record holds each race once",
+   "level": "ok",
+   "bad": 0,
+   "of": 13971,
+   "examples": [],
+   "note": "the same contest twice in one county under one person: an alias joined twice or a split rule that moved a race back"
+  },
+  {
+   "area": "archive",
+   "check": "a contest's percentages add up to no more than 100",
+   "level": "ok",
+   "bad": 0,
+   "of": 9305,
+   "examples": [],
+   "note": "more than 100 means rows from two contests, or one candidate twice, were put together"
+  },
+  {
+   "area": "archive",
+   "check": "each candidate's percentage agrees with their share of the contest's votes",
+   "level": "ok",
+   "bad": 0,
+   "of": 13961,
+   "examples": [],
+   "note": "within 2 points; contests with write-ins on file elsewhere can differ"
+  },
+  {
+   "area": "city results",
+   "check": "no ballot answer is listed as a candidate",
+   "level": "ok",
+   "bad": 0,
+   "of": 23,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "history",
+   "check": "every past election has an id, a date and its contests",
+   "level": "ok",
+   "bad": 0,
+   "of": 191,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "history",
+   "check": "every past race row has its fields, a date or year, and votes and a percentage in range where counted",
+   "level": "ok",
+   "bad": 0,
+   "of": 29169,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "history",
+   "check": "no ballot answer is filed as a person",
+   "level": "ok",
+   "bad": 0,
+   "of": 29169,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "history",
+   "check": "no Georgia race shows a winner without the majority the law asks (the top two go to a runoff)",
+   "level": "ok",
+   "bad": 0,
+   "of": 5350,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "history",
+   "check": "races where the member seated is not the count's leader (a runoff, a death, a contest)",
+   "level": "warning",
+   "bad": 12,
+   "of": 39510,
+   "examples": [
+    [
+     "us1978gen",
+     "U.S. Senate · Wyoming",
+     [
+      "Raymond B. Whitaker"
+     ]
+    ],
+    [
+     "us1992gen",
+     "U.S. Senate · Georgia",
+     []
+    ],
+    [
+     "us2002gen",
+     "U.S. House · Hawaii District 2",
+     [
+      "Patsy Takemoto Mink"
+     ]
+    ],
+    [
+     "us2004gen",
+     "U.S. House · Louisiana District 3",
+     []
+    ],
+    [
+     "us2004gen",
+     "U.S. House · New York District 29",
+     [
+      "Samara Barend"
+     ]
+    ],
+    [
+     "us2006gen",
+     "U.S. House · Texas District 22",
+     [
+      "Shelley Sekula Gibbs"
+     ]
+    ]
+   ],
+   "note": "gacrawl/history marks the leader 'led' when they had no majority; the rest are worth a look"
+  },
+  {
+   "area": "people",
+   "check": "every person in Crawl's records is someone the site knows",
+   "level": "error",
+   "bad": 11,
+   "of": 2436,
+   "examples": [
+    "CALLETTE HOLLINGSWORTH @ROME",
+    "CRISTI DONAHUE @OCONEE COUNTY",
+    "DAN MAGEE @OCONEE COUNTY",
+    "DAVE MARDER @AVONDALE ESTATES",
+    "DEEDEE GAINES @OCONEE COUNTY",
+    "ERIC TANT @ROME"
+   ],
+   "note": ""
+  },
+  {
+   "area": "people",
+   "check": "every item's sources exist and are web links",
+   "level": "ok",
+   "bad": 0,
+   "of": 93902,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "people",
+   "check": "no banned source (Ballotpedia, AI summary portals)",
+   "level": "ok",
+   "bad": 0,
+   "of": 93902,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "people",
+   "check": "no text garbled by a wrong character set",
+   "level": "ok",
+   "bad": 0,
+   "of": 93902,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "people",
+   "check": "no item dated past the next two years",
+   "level": "ok",
+   "bad": 0,
+   "of": 93902,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "councils",
+   "check": "every council member linked to a person points at someone the site knows",
+   "level": "error",
+   "bad": 11,
+   "of": 668,
+   "examples": [
+    [
+     "avondale-estates",
+     "Dave Marder",
+     "DAVE MARDER @AVONDALE ESTATES"
+    ],
+    [
+     "co-oconee",
+     "Richard Ashmore",
+     "RICHARD ASHMORE @OCONEE COUNTY"
+    ],
+    [
+     "co-oconee",
+     "Jonathan King",
+     "JONATHAN KING @OCONEE COUNTY"
+    ],
+    [
+     "co-oconee",
+     "Jeanne Barsanti",
+     "JEANNE BARSANTI @OCONEE COUNTY"
+    ],
+    [
+     "co-oconee",
+     "Cristi Donahue",
+     "CRISTI DONAHUE @OCONEE COUNTY"
+    ],
+    [
+     "co-oconee",
+     "DeeDee Gaines",
+     "DEEDEE GAINES @OCONEE COUNTY"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "area": "councils",
+   "check": "roll calls have the declared fields and each vote points at a member with a known code",
+   "level": "ok",
+   "bad": 0,
+   "of": 6080,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "councils",
+   "check": "roll-call dates are YYYY-MM-DD",
+   "level": "ok",
+   "bad": 0,
+   "of": 6080,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "councils",
+   "check": "every roll call has a date",
+   "level": "warning",
+   "bad": 8,
+   "of": 6080,
+   "examples": [
+    [
+     "bogart",
+     "Approve the minutes for April 13th, 2026 and the c",
+     "https://www.cityofbogart.com/assets/downloads/news/ccm2026_05.pdf"
+    ],
+    [
+     "covington",
+     "Approve a Resolution of the Mayor and Council of t",
+     "http://cityofcovington.org/ckeditorfiles/files/2025_CityCouncil_0805_CalledMeetingMinutes.pdf"
+    ],
+    [
+     "covington",
+     "Enter into Executive Session at 5:39 PM for the pu",
+     "http://cityofcovington.org/ckeditorfiles/files/2025_CityCouncil_0609_CalledMeetingESOpenMinutes.pdf"
+    ],
+    [
+     "hull",
+     "The financial reports were unanimously approved af",
+     "https://www.hullga.com/assets/minutes/minutes_202502.pdf"
+    ],
+    [
+     "riverdale",
+     "Adjourn",
+     "https://www.riverdalega.gov/DocumentCenter/View/565"
+    ],
+    [
+     "villa-rica",
+     "City of Villa Rica REGULAR SESSION, PLANNING & ZON",
+     "https://www.villarica.org/Documents/Government/Boards%20and%20Committees/Planning%20and%20Zoning/2023/Minutes/PlanningandZoningCommissionMinutes07-18-23033914081523PM1364.pdf?t=202504081323470"
+    ]
+   ],
+   "note": "neither the minutes nor their file name gave a full date (\"ccm2026_05.pdf\"); shown undated"
+  },
+  {
+   "area": "councils",
+   "check": "no roll call's motion is the clerk's closing lines",
+   "level": "ok",
+   "bad": 0,
+   "of": 6080,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "councils",
+   "check": "agreement percentages match their own counts",
+   "level": "ok",
+   "bad": 0,
+   "of": 668,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "local laws",
+   "check": "items have the declared fields and dates are YYYY-MM-DD",
+   "level": "ok",
+   "bad": 0,
+   "of": 21630,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "local laws",
+   "check": "record and meeting links are web links, none banned",
+   "level": "ok",
+   "bad": 0,
+   "of": 21630,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "current law",
+   "check": "no section number in the base Code is cut at its decimal point",
+   "level": "ok",
+   "bad": 0,
+   "of": 28841,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "current law",
+   "check": "no section's text, applied or pending, starts partway through (wrong section or a cut section number)",
+   "level": "ok",
+   "bad": 0,
+   "of": 3973,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "links",
+   "check": "every pair names two people the site knows",
+   "level": "ok",
+   "bad": 0,
+   "of": 138,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "donors",
+   "check": "every campaign linked to a person points at someone the site knows",
+   "level": "ok",
+   "bad": 0,
+   "of": 2128,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "donors",
+   "check": "every gift points at a recipient on file and has an amount",
+   "level": "ok",
+   "bad": 0,
+   "of": 12000,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "donors",
+   "check": "donor profiles point at recipients on file",
+   "level": "ok",
+   "bad": 0,
+   "of": 171552,
+   "examples": [],
+   "note": "a profile written before the recipient list changed; the page and Grand Cross match such rows by name"
+  },
+  {
+   "area": "rumors",
+   "check": "every rumor is filed under someone the site knows",
+   "level": "ok",
+   "bad": 0,
+   "of": 758,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "news",
+   "check": "every story has a headline, a web link and a date",
+   "level": "ok",
+   "bad": 0,
+   "of": 266,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "news",
+   "check": "no story dated in the future",
+   "level": "ok",
+   "bad": 0,
+   "of": 266,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "news",
+   "check": "each story once",
+   "level": "ok",
+   "bad": 0,
+   "of": 266,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "schools",
+   "check": "every school-board person is a person, not a page heading",
+   "level": "ok",
+   "bad": 0,
+   "of": 111,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "schools",
+   "check": "every school-board person belongs to a district on file",
+   "level": "ok",
+   "bad": 0,
+   "of": 111,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "policing",
+   "check": "every department has a name and its own page (or its FBI listing, or its elected sheriff)",
+   "level": "ok",
+   "bad": 0,
+   "of": 565,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "policing",
+   "check": "every elected sheriff links the Secretary of State's results and a profile",
+   "level": "ok",
+   "bad": 0,
+   "of": 565,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "policing",
+   "check": "every chief or sheriff named is a person's name, not a link's or a page's words",
+   "level": "ok",
+   "bad": 0,
+   "of": 155,
+   "examples": [],
+   "note": ""
+  }
+ ],
+ "note": "tools/data_audit.py: format, allocation and accuracy of every incoming record. Each check: its area, what it checks, how many records failed out of how many, and up to six examples."
+}

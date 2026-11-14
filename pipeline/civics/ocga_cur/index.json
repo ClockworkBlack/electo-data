@@ -1,0 +1,4427 @@
+{
+ "note": "Code sections changed by 2023-2026 acts, applied to the Release 86 text and checked change by change (see civics/apply_acts.py). The official Code (LexisNexis) remains the authority.",
+ "as_of": "2026-11-14",
+ "acts": 1439,
+ "enacted_acts": 1439,
+ "parser": 3,
+ "complete": true,
+ "coverage": 1.0,
+ "published": true,
+ "unread_count": 0,
+ "unread_acts": [],
+ "titles": {
+  "1": 5,
+  "2": 35,
+  "3": 3,
+  "4": 4,
+  "5": 14,
+  "6": 7,
+  "7": 246,
+  "8": 30,
+  "9": 23,
+  "10": 150,
+  "11": 78,
+  "12": 38,
+  "13": 2,
+  "14": 223,
+  "15": 123,
+  "16": 112,
+  "17": 58,
+  "19": 50,
+  "20": 433,
+  "21": 67,
+  "23": 4,
+  "24": 8,
+  "25": 34,
+  "26": 47,
+  "27": 38,
+  "28": 38,
+  "29": 43,
+  "30": 11,
+  "31": 175,
+  "32": 41,
+  "33": 135,
+  "34": 30,
+  "35": 65,
+  "36": 143,
+  "37": 57,
+  "38": 29,
+  "39": 18,
+  "40": 165,
+  "41": 2,
+  "42": 35,
+  "43": 289,
+  "44": 99,
+  "45": 79,
+  "46": 90,
+  "47": 72,
+  "48": 238,
+  "49": 50,
+  "50": 127,
+  "51": 21,
+  "52": 16,
+  "53": 73
+ },
+ "sections_changed": 3012,
+ "sections_with_unmerged": 414,
+ "stats": {
+  "applied": 4184,
+  "verified": 1915,
+  "merged3": 192,
+  "unmerged": 569,
+  "pending": 1153,
+  "new_sections": 663,
+  "repealed": 53,
+  "word_edits": 666,
+  "no_cite": 9,
+  "partway_blocked": 20
+ },
+ "review": [
+  {
+   "cite": "10-1-351",
+   "unmerged": [
+    {
+     "act": "SB 40 (2025), Act 278, § 2",
+     "reason": "subsection (d) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "10-1-359.3",
+   "unmerged": [
+    {
+     "act": "SB 60 (2023), Act 31, § 1-8",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 40 (2025), Act 278, § 7",
+     "reason": "paragraph (b)(3) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "10-1-359.5",
+   "unmerged": [
+    {
+     "act": "SB 60 (2023), Act 31, § 1-2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "10-1-393",
+   "unmerged": [
+    {
+     "act": "SB 213 (2025), Act 300, § 1",
+     "reason": "the act's 'before' text for paragraph (36) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "10-1-424.1",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 2",
+     "reason": "Code Revision edit to a section not in the current text"
+    },
+    {
+     "act": "SB 73 (2024), Act 605, § 1",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "10-1-427",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 10",
+     "reason": "no unit (a)(3) for the edit 'Code Section 10-1-427, relating to false advertising of legal services, good faith exemptions, investigation and enforcement by Attorney General, and penalties '"
+    }
+   ]
+  },
+  {
+   "cite": "10-1-439.1",
+   "unmerged": [
+    {
+     "act": "HB 1018 (2024), Act 403, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "10-1-641",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 2",
+     "reason": "the words of the edit were not found exactly once in (a)(2)(F): Code Section 10-1-641, relating to motor vehicle dealer's predelivery preparation, warranty service, and recall work obligations to be provided in writing, recovery of costs, and \"stop-sale\" defined, "
+    },
+    {
+     "act": "SB 81 (2025), Act 282, § 4",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "10-1-662",
+   "unmerged": [
+    {
+     "act": "SB 81 (2025), Act 282, § 5",
+     "reason": "the act's 'before' text for paragraph (21) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "10-1-940",
+   "unmerged": [
+    {
+     "act": "SB 472 (2024), Act 564, § 2",
+     "reason": "the act's 'before' text for paragraph (5) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "10-14-3",
+   "unmerged": [
+    {
+     "act": "SB 241 (2025), Act 82, § 2-2",
+     "reason": "the act's 'before' text for paragraph (6) differs from the current text"
+    },
+    {
+     "act": "SB 241 (2025), Act 82, § 2-3",
+     "reason": "subsection (a) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "SB 241 (2025), Act 82, § 2-4",
+     "reason": "subsection (c) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "10-4-100",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 2",
+     "reason": "Code Revision edit not understood: Code Section 10-4-100, relating to legislative intent and findings regarding leaf tobacco sales and storage, by inserting a subsection (a) designation preceding \"It is the intent\" and by inserting a subsection (b) designation preceding \"It is further\"."
+    }
+   ]
+  },
+  {
+   "cite": "10-5-73",
+   "unmerged": [
+    {
+     "act": "SB 284 (2026), Act 377, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "10-6-35",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 2",
+     "reason": "the words of the edit were not found exactly once in (a)(1): Code Section 10-6-35, relating to revocation of agency and effect of death on power of attorney by member of armed forces, seaman, or person on war service, at the end of paragraph (a)(1), by deleting"
+    }
+   ]
+  },
+  {
+   "cite": "10-6B-3",
+   "unmerged": [
+    {
+     "act": "HB 327 (2025), Act 310, § 7",
+     "reason": "the act's 'before' text for paragraph (9) differs from the current text"
+    },
+    {
+     "act": "HB 327 (2025), Act 310, § 7",
+     "reason": "the act's 'before' text for paragraph (10) differs from the current text"
+    },
+    {
+     "act": "HB 327 (2025), Act 310, § 7",
+     "reason": "paragraph (11) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "11-12-102",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 3-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "11-2-102",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-6",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-2-106",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-7",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-2-201",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-8",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-2-202",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-9",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-2A-103",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-12",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "11-2A-107",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-13",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-2A-202",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-14",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-2A-208",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-15",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-3-104",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-16",
+     "reason": "the act's 'before' text for paragraph (3) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "11-3-119",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-18",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-3-312",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-19",
+     "reason": "no unit (3) for its introductory language"
+    }
+   ]
+  },
+  {
+   "cite": "11-3-401",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-20",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-3-604",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-21",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-4-301",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-23",
+     "reason": "paragraph (2) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "11-4A-210",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-28",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "11-7-102",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-33",
+     "reason": "no unit (10) to repeal"
+    },
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-33",
+     "reason": "no unit (11) to repeal"
+    }
+   ]
+  },
+  {
+   "cite": "11-7-106",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-34",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-102",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-40",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-105",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-42",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-203",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-46",
+     "reason": "the act's 'before' text for paragraph (3) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-204",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-47",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-208",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-49",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-209",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-50",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-301",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-51",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-305",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-53",
+     "reason": "the act's 'before' text for paragraph (5) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-312",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-57",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-317",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-62",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-330",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-65",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-331",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-66",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-332",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-67",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-406",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-68",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-605",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-71",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-613",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-72",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-614",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-73",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-616",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-74",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "11-9-628",
+   "unmerged": [
+    {
+     "act": "HB 1240 (2024), Act 600, § 5-75",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "12-2-2",
+   "unmerged": [
+    {
+     "act": "SB 96 (2025), Act 92, § 2-1",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "12-5-105",
+   "unmerged": [
+    {
+     "act": "HB 143 (2025), Act 72, § 2",
+     "reason": "the act's 'before' text for subsection (b.1) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "12-8-27.1",
+   "unmerged": [
+    {
+     "act": "HB 351 (2026), Act 259, § 6",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "12-8-31.1",
+   "unmerged": [
+    {
+     "act": "HB 351 (2026), Act 259, § 7",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "12-8-40.1",
+   "unmerged": [
+    {
+     "act": "SB 95 (2023), Act 80, § 2",
+     "reason": "the act's 'before' text for subsection (h) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "14-2-202",
+   "unmerged": [
+    {
+     "act": "HB 1185 (2026), Act 460, § 2",
+     "reason": "the act's 'before' text for paragraph (b)(5) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-1041",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-122",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-140",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-1410",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-702",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-704",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-705",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-706",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-707",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-708",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-808",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-856",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "14-3-857",
+   "unmerged": [
+    {
+     "act": "SB 148 (2023), Act 260, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "15-11-2",
+   "unmerged": [
+    {
+     "act": "SB 377 (2024), Act 382, § 1",
+     "reason": "the act's 'before' text for paragraph (60.2) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "15-11-505",
+   "unmerged": [
+    {
+     "act": "HB 926 (2024), Act 550, § 2",
+     "reason": "the act's 'before' text for subparagraph (W) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "15-12-83",
+   "unmerged": [
+    {
+     "act": "HB 179 (2026), Act 23, § 2-3",
+     "reason": "the act's 'before' text for subsection (f) differs from the current text"
+    },
+    {
+     "act": "HB 179 (2026), Act 23, § 2-3",
+     "reason": "subsection (g) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "15-18-6",
+   "unmerged": [
+    {
+     "act": "SB 92 (2023), Act 349, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 448 (2024), Act 701, § 6",
+     "reason": "the words of the edit were not found exactly once in (4): Code Section 15-18-6, relating to duties of district attorney, in paragraph (4), by replacing \"exists, and make\" with \"exists and to make\"."
+    }
+   ]
+  },
+  {
+   "cite": "15-21-209",
+   "unmerged": [
+    {
+     "act": "HB 1267 (2024), Act 601, § 3-2",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "15-21A-6",
+   "unmerged": [
+    {
+     "act": "SB 232 (2025), Act 515, § 3",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "15-5-110",
+   "unmerged": [
+    {
+     "act": "HB 199 (2025), Act 308, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "15-5A-3",
+   "unmerged": [
+    {
+     "act": "HB 1185 (2026), Act 460, § 19",
+     "reason": "the act's 'before' text for division (a)(1)(A)(xi) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "15-5A-4",
+   "unmerged": [
+    {
+     "act": "HB 1185 (2026), Act 460, § 20",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    },
+    {
+     "act": "HB 1185 (2026), Act 460, § 20",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "15-5B-11",
+   "unmerged": [
+    {
+     "act": "HB 392 (2025), Act 263, § 2",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "15-5B-12",
+   "unmerged": [
+    {
+     "act": "HB 392 (2025), Act 263, § 3",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 15",
+     "reason": "Code Revision edit to a section not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "15-5B-16",
+   "unmerged": [
+    {
+     "act": "HB 1247 (2026), Act 718, § 1-3",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "15-5B-4",
+   "unmerged": [
+    {
+     "act": "HB 392 (2025), Act 263, § 1",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "15-6-2",
+   "unmerged": [
+    {
+     "act": "SB 66 (2023), Act 76, § 1",
+     "reason": "paragraph (4) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 243 (2023), Act 62, § 1",
+     "reason": "paragraph (14) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 77 (2023), Act 58, § 1",
+     "reason": "the passage does not start with the unit the instruction names"
+    },
+    {
+     "act": "HB 906 (2024), Act 503, § 1",
+     "reason": "paragraph (39) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 992 (2024), Act 401, § 1",
+     "reason": "paragraph (21) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "SB 424 (2024), Act 615, § 3-2",
+     "reason": "paragraph (14) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 158 (2025), Act 585, § 3",
+     "reason": "paragraph (37) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "SB 145 (2025), Act 26, § 1",
+     "reason": "paragraph (5) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "SB 88 (2025), Act 25, § 1",
+     "reason": "paragraph (15.1) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "15-6-3",
+   "unmerged": [
+    {
+     "act": "SB 259 (2024), Act 607, § 2-2",
+     "reason": "the act's 'before' text for paragraph (32) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "15-6-77",
+   "unmerged": [
+    {
+     "act": "SB 19 (2025), Act 603, § 1",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "15-9-60",
+   "unmerged": [
+    {
+     "act": "SB 232 (2025), Act 515, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "16-10-28",
+   "unmerged": [
+    {
+     "act": "SB 421 (2024), Act 512, § 2-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "16-11-107",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 6",
+     "reason": "no unit (a)(1) for the edit 'Code Section 16-11-107, relating to interfering with, harming of, or aggravated harming of a public safety animal or search and rescue animal and penalty, in pa'"
+    }
+   ]
+  },
+  {
+   "cite": "16-11-121",
+   "unmerged": [
+    {
+     "act": "HB 535 (2026), Act 384, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "16-11-124",
+   "unmerged": [
+    {
+     "act": "HB 299 (2024), Act 389, § 3",
+     "reason": "paragraph (a)(2) added, but its parent (a) is not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "16-11-131",
+   "unmerged": [
+    {
+     "act": "SB 79 (2025), Act 123, § 1-2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "16-11-220",
+   "unmerged": [
+    {
+     "act": "HB 227 (2023), Act 30, § 2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 161 (2025), Act 68, § 2-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "16-13-25",
+   "unmerged": [
+    {
+     "act": "HB 332 (2023), Act 66, § 2",
+     "reason": "the act's 'before' text for subparagraph (4)(A) differs from the current text"
+    },
+    {
+     "act": "HB 332 (2023), Act 66, § 2",
+     "reason": "the act's 'before' text for subparagraph (4)(B) differs from the current text"
+    },
+    {
+     "act": "HB 332 (2023), Act 66, § 2",
+     "reason": "the act's 'before' text for subparagraph (4)(C) differs from the current text"
+    },
+    {
+     "act": "HB 332 (2023), Act 66, § 2",
+     "reason": "the act's 'before' text for subparagraph (4)(D) differs from the current text"
+    },
+    {
+     "act": "HB 473 (2025), Act 45, § 1",
+     "reason": "the act's 'before' text for subparagraph (1)(TT) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "16-13-28",
+   "unmerged": [
+    {
+     "act": "HB 1326 (2024), Act 411, § 6",
+     "reason": "the act's 'before' text for paragraph (34) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "16-13-71",
+   "unmerged": [
+    {
+     "act": "HB 332 (2023), Act 66, § 5",
+     "reason": "the passage does not start with the unit the instruction names"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 16",
+     "reason": "the act's 'before' text for subparagraph (b)(59)(BB.5) differs from the current text"
+    },
+    {
+     "act": "HB 1329 (2026), Act 390, § 3",
+     "reason": "the act's 'before' text for paragraph (160.5) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "16-14-3",
+   "unmerged": [
+    {
+     "act": "SB 68 (2023), Act 91, § 1",
+     "reason": "the act's 'before' text for division (5)(A)(xlii) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "16-5-100",
+   "unmerged": [
+    {
+     "act": "HB 584 (2026), Act 44, § 3-8",
+     "reason": "the act's 'before' text for paragraph (7) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "16-5-21",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 16",
+     "reason": "no unit (m) for the edit 'Code Section 16-5-21, relating to aggravated assault, in subsection (m), by replacing \"their\" with \"his or her\".'"
+    },
+    {
+     "act": "HB 483 (2026), Act 380, § 3",
+     "reason": "subsection (m) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "16-5-23",
+   "unmerged": [
+    {
+     "act": "SB 351 (2025), Act 463, § 2-5",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "16-5-47",
+   "unmerged": [
+    {
+     "act": "SB 42 (2023), Act 6, § 1",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "16-5-95",
+   "unmerged": [
+    {
+     "act": "SB 324 (2024), Act 582, § 2",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "16-7-22",
+   "unmerged": [
+    {
+     "act": "HB 227 (2023), Act 30, § 2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 421 (2024), Act 512, § 1-2",
+     "reason": "subsection (b) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "16-9-63",
+   "unmerged": [
+    {
+     "act": "HB 299 (2024), Act 389, § 2",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "17-10-1",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 6",
+     "reason": "Code Revision edit not understood: Code Section 17-10-1, relating to fixing of sentence, suspension or probation of sentence, change in sentence, eligibility for parole, prohibited modifications, and exceptions, in division (a)(1)(B)(i), by deleting the sequenced numbers \"(1), (2), and (3)\" in the text."
+    }
+   ]
+  },
+  {
+   "cite": "17-6-1",
+   "unmerged": [
+    {
+     "act": "HB 500 (2024), Act 547, § 2",
+     "reason": "the passage does not start with the unit the instruction names"
+    },
+    {
+     "act": "SB 63 (2024), Act 507, § 1",
+     "reason": "the act's 'before' text for paragraph (e)(4) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "17-6-12",
+   "unmerged": [
+    {
+     "act": "SB 44 (2023), Act 29, § 3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 63 (2024), Act 507, § 3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 79 (2025), Act 123, § 2-6",
+     "reason": "subparagraph (a)(1)(U) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 17",
+     "reason": "no unit (a)(1)(GG) for the edit 'Code Section 17-6-12, relating to unsecured judicial release, requirement, effect of failure of person charged to appear for trial, and consideration of crimina'"
+    }
+   ]
+  },
+  {
+   "cite": "17-6-50",
+   "unmerged": [
+    {
+     "act": "SB 63 (2024), Act 507, § 4",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "19-6-15",
+   "unmerged": [
+    {
+     "act": "SB 454 (2024), Act 618, § 1",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "19-6-32",
+   "unmerged": [
+    {
+     "act": "SB 520 (2024), Act 428, § 2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 520 (2024), Act 428, § 3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 520 (2024), Act 428, § 3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 520 (2024), Act 428, § 4",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 520 (2024), Act 428, § 4",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 19",
+     "reason": "no unit (a)(2) for the edit 'Code Section 19-6-32, relating to entering income withholding order or medical support notice for award of child support, when order or notice effective, and he'"
+    }
+   ]
+  },
+  {
+   "cite": "19-6-33.1",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 19",
+     "reason": "no unit (e)(2)(A) for the edit 'Code Section 19-6-33.1, relating to family support registry, in subparagraph (e)(2)(A), by replacing \"arrears or\" with \"arrears, or\".'"
+    }
+   ]
+  },
+  {
+   "cite": "19-7-1",
+   "unmerged": [
+    {
+     "act": "SB 131 (2023), Act 245, § 3",
+     "reason": "the act's 'before' text for paragraph (b)(7) differs from the current text"
+    },
+    {
+     "act": "SB 131 (2023), Act 245, § 3",
+     "reason": "the act's 'before' text for paragraph (b)(8) differs from the current text"
+    },
+    {
+     "act": "SB 131 (2023), Act 245, § 3",
+     "reason": "paragraph (b)(9) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "SB 448 (2024), Act 701, § 6",
+     "reason": "the words of the edit were not found exactly once in (b)(7): Code Section 19-7-1, relating to in whom parental power lies, how such power lost, and recovery for homicide of child or unborn child, in paragraph (b)(7), by replacing \"Upon conviction\" with \"Convict"
+    },
+    {
+     "act": "HB 327 (2025), Act 310, § 10",
+     "reason": "paragraph (b)(9) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "19-7-46",
+   "unmerged": [
+    {
+     "act": "SB 135 (2023), Act 244, § 2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 327 (2025), Act 310, § 36",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "19-8-26",
+   "unmerged": [
+    {
+     "act": "HB 299 (2024), Act 389, § 6",
+     "reason": "subparagraph (h)(2)(A) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 299 (2024), Act 389, § 7",
+     "reason": "subparagraph (n)(7)(A) added, but its parent (n)(7) is not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "19-9-6",
+   "unmerged": [
+    {
+     "act": "HB 299 (2024), Act 389, § 8",
+     "reason": "paragraph (a)(1) added, but its parent (a) is not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "2-1-7",
+   "unmerged": [
+    {
+     "act": "HB 358 (2025), Act 261, § 1",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "2-2-13",
+   "unmerged": [
+    {
+     "act": "HB 827 (2024), Act 499, § 1",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    },
+    {
+     "act": "HB 827 (2024), Act 499, § 1",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    },
+    {
+     "act": "HB 827 (2024), Act 499, § 1",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "2-8-13",
+   "unmerged": [
+    {
+     "act": "HB 545 (2023), Act 12, § 2",
+     "reason": "the act's 'before' text for paragraph (a)(7) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-14-20",
+   "unmerged": [
+    {
+     "act": "HB 1302 (2026), Act 474, § 21",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-14-25",
+   "unmerged": [
+    {
+     "act": "HB 1302 (2026), Act 474, § 22",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-14-26",
+   "unmerged": [
+    {
+     "act": "HB 1302 (2026), Act 474, § 23",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-14-27",
+   "unmerged": [
+    {
+     "act": "HB 1302 (2026), Act 474, § 24",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-14-29",
+   "unmerged": [
+    {
+     "act": "HB 1302 (2026), Act 474, § 23",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-14-35",
+   "unmerged": [
+    {
+     "act": "HB 1302 (2026), Act 474, § 29",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-14-91",
+   "unmerged": [
+    {
+     "act": "HB 1302 (2026), Act 474, § 33",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "20-17-2",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "the words of the edit were not found exactly once in the section: Code Section 20-17-2, relating to provisions of The Interstate Compact on Educational Opportunity for Military Children, in Section A of Article II and in Section A(1) of Article III, by replacing \"10"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-101",
+   "unmerged": [
+    {
+     "act": "HB 1164 (2026), Act 721, § 4",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-151",
+   "unmerged": [
+    {
+     "act": "HB 1193 (2026), Act 391, § 3-3",
+     "reason": "the act's 'before' text for paragraph (b)(1) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-153",
+   "unmerged": [
+    {
+     "act": "HB 1302 (2026), Act 474, § 21",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-153.1",
+   "unmerged": [
+    {
+     "act": "SB 464 (2024), Act 461, § 2",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    },
+    {
+     "act": "SB 464 (2024), Act 461, § 2",
+     "reason": "the act's 'before' text for subparagraph (d)(3)(B) differs from the current text"
+    },
+    {
+     "act": "HB 307 (2025), Act 13, § 1-2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 1193 (2026), Act 391, § 2-1",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-154.1",
+   "unmerged": [
+    {
+     "act": "HB 87 (2023), Act 342, § 1",
+     "reason": "the act's 'before' text for subsection (l) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-161.4",
+   "unmerged": [
+    {
+     "act": "SB 440 (2024), Act 559, § 3",
+     "reason": "the passage does not start with the unit the instruction names"
+    },
+    {
+     "act": "HB 192 (2025), Act 117, § 5",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 1302 (2026), Act 474, § 4",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-164",
+   "unmerged": [
+    {
+     "act": "HB 318 (2024), Act 459, § 5",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-167.1",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "the words of the edit were not found exactly once in (a)(2): Code Section 20-2-167.1, relating to public meetings on proposed annual operating budget, notice, electronic copies, and exception for certain nonprofits, in paragraph (a)(2), by replacing \"system and"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-186",
+   "unmerged": [
+    {
+     "act": "HB 1122 (2024), Act 460, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-2065",
+   "unmerged": [
+    {
+     "act": "HB 318 (2024), Act 459, § 4",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-2069",
+   "unmerged": [
+    {
+     "act": "HB 318 (2024), Act 459, § 6",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-2096",
+   "unmerged": [
+    {
+     "act": "HB 87 (2023), Act 342, § 3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 907 (2026), Act 392, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-2096.7",
+   "unmerged": [
+    {
+     "act": "HB 1293 (2026), Act 389, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-260",
+   "unmerged": [
+    {
+     "act": "HB 371 (2025), Act 85, § 1",
+     "reason": "the passage does not start with the unit the instruction names"
+    },
+    {
+     "act": "HB 192 (2025), Act 117, § 6",
+     "reason": "subsection (j) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-261",
+   "unmerged": [
+    {
+     "act": "HB 371 (2025), Act 85, § 2",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-262",
+   "unmerged": [
+    {
+     "act": "SB 284 (2026), Act 377, § 2",
+     "reason": "the act's 'before' text for subsection (g) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-271",
+   "unmerged": [
+    {
+     "act": "HB 1302 (2026), Act 474, § 6",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    },
+    {
+     "act": "HB 1302 (2026), Act 474, § 6",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-293",
+   "unmerged": [
+    {
+     "act": "HB 1122 (2024), Act 460, § 2",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-315",
+   "unmerged": [
+    {
+     "act": "SB 1 (2025), Act 11, § 3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-319.6",
+   "unmerged": [
+    {
+     "act": "SB 351 (2025), Act 463, § 2-5",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-320",
+   "unmerged": [
+    {
+     "act": "HB 1302 (2026), Act 474, § 7",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    },
+    {
+     "act": "HB 1302 (2026), Act 474, § 7",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    },
+    {
+     "act": "HB 1302 (2026), Act 474, § 7",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-324",
+   "unmerged": [
+    {
+     "act": "SB 351 (2025), Act 463, § 2-3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-327",
+   "unmerged": [
+    {
+     "act": "HB 192 (2025), Act 117, § 9",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    },
+    {
+     "act": "HB 1302 (2026), Act 474, § 8",
+     "reason": "the act's 'before' text for paragraph (c)(3) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-55",
+   "unmerged": [
+    {
+     "act": "HB 37 (2025), Act 170, § 1",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-751",
+   "unmerged": [
+    {
+     "act": "SB 44 (2023), Act 29, § 2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 535 (2026), Act 384, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2-776.5",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "Code Revision edit not understood: Code Section 20-2-776.5, relating to opioid antagonists, possession, administration, obligations, and immunity from civil liability, at the end of subsection (g), by inserting a period following \"known\"."
+    }
+   ]
+  },
+  {
+   "cite": "20-2-779.1",
+   "unmerged": [
+    {
+     "act": "HB 268 (2025), Act 17, § 2-15",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-2B-5",
+   "unmerged": [
+    {
+     "act": "HB 217 (2025), Act 18, § 2",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "20-3-200",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "Code Revision edit to a section not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-3-201",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "Code Revision edit to a section not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-3-231",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "Code Revision edit not understood: Code Section 20-3-231, relating to legislative findings and purpose of Georgia Student Finance Commission, in subsections (a) and (b), by deleting the internal catchlines."
+    }
+   ]
+  },
+  {
+   "cite": "20-3-234",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "Code Revision edit not understood: Code Section 20-3-234, relating to functions and composition of board of commissioners, appointment, qualifications, and terms of commissioners, board officers, meetings, committees, compensation, and advisory councils, in subsections (a) through (h), by deleting the internal catchlines."
+    }
+   ]
+  },
+  {
+   "cite": "20-3-235",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "Code Revision edit not understood: Code Section 20-3-235, relating to commission officers, employees, and support services, bonds, and legal services, in paragraphs (1) through (5), by deleting the internal catchlines."
+    }
+   ]
+  },
+  {
+   "cite": "20-3-311",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "Code Revision edit not understood: Code Section 20-3-311, relating to legislative findings and purposes of authority, in subsection (a), by deleting the internal catchline."
+    }
+   ]
+  },
+  {
+   "cite": "20-3-373",
+   "unmerged": [
+    {
+     "act": "HB 985 (2024), Act 399, § 2-27",
+     "reason": "the act's 'before' text for paragraph (4) differs from the current text"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "Code Revision edit not understood: Code Section 20-3-373, relating to general loan fund, in the undesignated text at the end of subsection (a), by replacing \"fund to make\" with \"fund provided for in subsection (a) of this Code section to make\" and by redesignating such undesignated text as new subsection (b) and by redesignating curr"
+    }
+   ]
+  },
+  {
+   "cite": "20-3-374",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "Code Revision edit not understood: Code Section 20-3-374, relating to service cancelable loan fund and authorized types of service cancelable educational loans, in paragraphs (b)(1) through (b)(4), by deleting the internal catchlines."
+    }
+   ]
+  },
+  {
+   "cite": "20-3-411",
+   "unmerged": [
+    {
+     "act": "SB 149 (2025), Act 21, § 1",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "20-3-494",
+   "unmerged": [
+    {
+     "act": "SB 431 (2026), Act 494, § 6",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-3-499",
+   "unmerged": [
+    {
+     "act": "HB 970 (2024), Act 553, § 2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-3-519.5",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "the words of the edit were not found exactly once in (a.1): Code Section 20-3-519.5, relating to eligibility requirements for a HOPE grant and award amount, in the introductory language of subsection (a.1) and the undesignated text at the end of subsection (a."
+    }
+   ]
+  },
+  {
+   "cite": "20-4-11",
+   "unmerged": [
+    {
+     "act": "HB 192 (2025), Act 117, § 15",
+     "reason": "no unit (B) to repeal"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "no unit (3)(C)(ii) for the edit 'Code Section 20-4-11, relating to powers of the State Board of the Technical College System of Georgia, at the end of division (3)(C)(ii), by replacing the peri'"
+    }
+   ]
+  },
+  {
+   "cite": "20-4-130",
+   "unmerged": [
+    {
+     "act": "HB 299 (2024), Act 389, § 9",
+     "reason": "paragraph (a)(4) added, but its parent (a) is not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "20-4-140",
+   "unmerged": [
+    {
+     "act": "HB 1293 (2026), Act 389, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-4-141",
+   "unmerged": [
+    {
+     "act": "SB 123 (2025), Act 16, § 9",
+     "reason": "Code Revision edit to a section not in the current text"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "no unit (f)(3)(A) for the edit 'Code Section 20-4-141, relating to establishment of pilot program, awarding of high school diploma to successful participants, skills and knowledge, eligibility'"
+    },
+    {
+     "act": "HB 1293 (2026), Act 389, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-4-151",
+   "unmerged": [
+    {
+     "act": "SB 180 (2025), Act 19, § 1",
+     "reason": "the act's 'before' text for paragraph (g)(2) differs from the current text"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 20",
+     "reason": "no unit (d)(2) for the edit 'Code Section 20-4-151, relating to purpose, employer partnerships, required information, contracts, awards, and limitations, in paragraph (d)(1), by replacing \"'"
+    },
+    {
+     "act": "HB 1302 (2026), Act 474, § 13",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "20-4-152",
+   "unmerged": [
+    {
+     "act": "SB 497 (2024), Act 560, § 1-2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 1302 (2026), Act 474, § 14",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "21-2-540",
+   "unmerged": [
+    {
+     "act": "SB 33 (2026), Act 461, § 4-1",
+     "reason": "paragraph (2) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "21-5-73",
+   "unmerged": [
+    {
+     "act": "SB 199 (2026), Act 293, § 5",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "24-12-21",
+   "unmerged": [
+    {
+     "act": "HB 327 (2025), Act 310, § 18",
+     "reason": "the act's 'before' text for subsection (bb) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "24-5-501",
+   "unmerged": [
+    {
+     "act": "HB 582 (2025), Act 131, § 7",
+     "reason": "the act's 'before' text for paragraph (9) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "25-10-4",
+   "unmerged": [
+    {
+     "act": "SB 232 (2025), Act 515, § 4",
+     "reason": "the act's 'before' text for subsection (e) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "25-10-8",
+   "unmerged": [
+    {
+     "act": "SB 417 (2024), Act 614, § 10",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    },
+    {
+     "act": "SB 417 (2024), Act 614, § 10",
+     "reason": "subsection (c) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "25-15-16",
+   "unmerged": [
+    {
+     "act": "SB 417 (2024), Act 614, § 13",
+     "reason": "the act's 'before' text for paragraph (a)(13) differs from the current text"
+    },
+    {
+     "act": "SB 417 (2024), Act 614, § 13",
+     "reason": "the act's 'before' text for paragraph (a)(14) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "25-3-2",
+   "unmerged": [
+    {
+     "act": "SB 96 (2025), Act 92, § 6-2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "25-3-21",
+   "unmerged": [
+    {
+     "act": "SB 96 (2025), Act 92, § 6-5",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "25-3-23",
+   "unmerged": [
+    {
+     "act": "SB 334 (2024), Act 563, § 2",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    },
+    {
+     "act": "SB 96 (2025), Act 92, § 6-3",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    },
+    {
+     "act": "SB 96 (2025), Act 92, § 6-3",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "25-4-5",
+   "unmerged": [
+    {
+     "act": "SB 96 (2025), Act 92, § 6-9",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "25-4-8",
+   "unmerged": [
+    {
+     "act": "SB 207 (2026), Act 628, § 4-1",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "27-2-23",
+   "unmerged": [
+    {
+     "act": "HB 287 (2025), Act 178, § 5",
+     "reason": "subparagraph (8)(BB) added, but its parent (8) is not in the current text"
+    },
+    {
+     "act": "HB 287 (2025), Act 178, § 5",
+     "reason": "subparagraph (8)(CC) added, but its parent (8) is not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "27-2-3.1",
+   "unmerged": [
+    {
+     "act": "HB 296 (2025), Act 256, § 3",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "27-4-190",
+   "unmerged": [
+    {
+     "act": "HB 244 (2024), Act 493, § 7",
+     "reason": "the passage does not start with the unit the instruction names"
+    },
+    {
+     "act": "HB 287 (2025), Act 178, § 6",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "28-4-3.1",
+   "unmerged": [
+    {
+     "act": "SB 341 (2024), Act 609, § 4-3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "28-9-3",
+   "unmerged": [
+    {
+     "act": "HB 484 (2025), Act 22, § 2",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "29-4-10",
+   "unmerged": [
+    {
+     "act": "HB 36 (2025), Act 114, § 3",
+     "reason": "the passage does not start with the unit the instruction names"
+    },
+    {
+     "act": "HB 36 (2025), Act 114, § 4",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "29-4-14",
+   "unmerged": [
+    {
+     "act": "HB 36 (2025), Act 114, § 6",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "29-5-10",
+   "unmerged": [
+    {
+     "act": "HB 36 (2025), Act 114, § 13",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "29-5-14",
+   "unmerged": [
+    {
+     "act": "HB 36 (2025), Act 114, § 16",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "31-1-10",
+   "unmerged": [
+    {
+     "act": "HB 1028 (2024), Act 404, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "31-1-19",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 31",
+     "reason": "Code Revision edit to a section not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "31-11-31",
+   "unmerged": [
+    {
+     "act": "SB 58 (2025), Act 83, § 5",
+     "reason": "the act's 'before' text for paragraph (5) differs from the current text"
+    },
+    {
+     "act": "SB 58 (2025), Act 83, § 5",
+     "reason": "paragraph (7) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "31-12-3.1",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 31",
+     "reason": "the words of the edit were not found exactly once in (b): Code Section 31-12-3.1, relating to vaccination registry and reporting requirements, maintenance, and use of information, in the undesignated text at the end of subsection (b), by replacing \"United St"
+    }
+   ]
+  },
+  {
+   "cite": "31-12-4.1",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 31",
+     "reason": "the words of the edit were not found exactly once in (b)(2): Code Section 31-12-4.1, relating to smallpox vaccination and treatment program, in paragraph (b)(2), by replacing \"workers,\" with \"worker,\" and by replacing \"said hospital\" with \"such hospital,\" and i"
+    }
+   ]
+  },
+  {
+   "cite": "31-21-4",
+   "unmerged": [
+    {
+     "act": "SB 241 (2025), Act 82, § 2-6",
+     "reason": "the passage does not start with the unit the instruction names"
+    },
+    {
+     "act": "SB 241 (2025), Act 82, § 2-7",
+     "reason": "the act's 'before' text for paragraph (a)(2) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "31-2A-12",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 31",
+     "reason": "Code Revision edit to a section not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "31-34-2",
+   "unmerged": [
+    {
+     "act": "SB 130 (2025), Act 185, § 2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "31-49-2",
+   "unmerged": [
+    {
+     "act": "SB 96 (2025), Act 92, § 8-2",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "31-52-3",
+   "unmerged": [
+    {
+     "act": "SB 72 (2025), Act 122, § 4",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "31-54-2",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 31",
+     "reason": "the words of the edit were not found exactly once in (b): Code Section 31-54-2, relating to law enforcement powers, required training, and carrying of weapon, in subsection (a), by inserting a comma following \"however, that\" and \"further, that\" and in subsec"
+    }
+   ]
+  },
+  {
+   "cite": "31-6-44",
+   "unmerged": [
+    {
+     "act": "HB 1339 (2024), Act 384, § 5",
+     "reason": "the act's 'before' text for subsection (l) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "31-6-47",
+   "unmerged": [
+    {
+     "act": "HB 1339 (2024), Act 384, § 7",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "31-6-70",
+   "unmerged": [
+    {
+     "act": "HB 1339 (2024), Act 384, § 7",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 31",
+     "reason": "the words of the edit were not found exactly once in (b)(8): Code Section 31-6-70, relating to reports to the department by certain health care facilities and all ambulatory surgical centers and imaging centers and public availability, in the introductory langu"
+    }
+   ]
+  },
+  {
+   "cite": "31-7-1",
+   "unmerged": [
+    {
+     "act": "HB 1335 (2024), Act 502, § 1",
+     "reason": "the act's 'before' text for paragraph (5) differs from the current text"
+    },
+    {
+     "act": "HB 1335 (2024), Act 502, § 1",
+     "reason": "the act's 'before' text for paragraph (6) differs from the current text"
+    },
+    {
+     "act": "HB 1335 (2024), Act 502, § 1",
+     "reason": "the act's 'before' text for paragraph (7) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "31-7-12.4",
+   "unmerged": [
+    {
+     "act": "HB 1335 (2024), Act 502, § 4",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "31-7-2.2",
+   "unmerged": [
+    {
+     "act": "HB 584 (2026), Act 44, § 2-3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "31-7-430",
+   "unmerged": [
+    {
+     "act": "HB 584 (2026), Act 44, § 2-4",
+     "reason": "the act's 'before' text for paragraph (3) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "32-2-22",
+   "unmerged": [
+    {
+     "act": "HB 617 (2024), Act 579, § 1",
+     "reason": "the act's 'before' text for paragraph (a)(3) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "32-4-113",
+   "unmerged": [
+    {
+     "act": "HB 137 (2025), Act 129, § 5",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "32-4-63",
+   "unmerged": [
+    {
+     "act": "HB 137 (2025), Act 129, § 4",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "32-6-27",
+   "unmerged": [
+    {
+     "act": "HB 164 (2025), Act 174, § 2",
+     "reason": "the act's 'before' text for subsection (a.1) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "32-6-28",
+   "unmerged": [
+    {
+     "act": "SB 353 (2024), Act 367, § 4",
+     "reason": "the act's 'before' text for subparagraph (c)(5)(A) differs from the current text"
+    },
+    {
+     "act": "HB 164 (2025), Act 174, § 3",
+     "reason": "the act's 'before' text for paragraph (a)(3) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "32-6-29",
+   "unmerged": [
+    {
+     "act": "HB 164 (2025), Act 174, § 4",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "32-6-30",
+   "unmerged": [
+    {
+     "act": "HB 164 (2025), Act 174, § 5",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "32-9-4",
+   "unmerged": [
+    {
+     "act": "HB 475 (2023), Act 353, § 7",
+     "reason": "the words of the edit were not found exactly once in (a.1): Code Section 32-9-4, relating to designation of special or exclusive use travel lanes and use of such lanes, in subsection (a.1), by deleting \", as defined in Code Section 40-2-72,\"."
+    }
+   ]
+  },
+  {
+   "cite": "33-1-24",
+   "unmerged": [
+    {
+     "act": "HB 529 (2023), Act 70, § 1",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "33-20E-11",
+   "unmerged": [
+    {
+     "act": "HB 295 (2023), Act 223, § 5",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "33-20E-12",
+   "unmerged": [
+    {
+     "act": "HB 295 (2023), Act 223, § 7",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "33-24-46",
+   "unmerged": [
+    {
+     "act": "SB 35 (2026), Act 277, § 1",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "33-8-1",
+   "unmerged": [
+    {
+     "act": "HB 410 (2025), Act 265, § 2",
+     "reason": "no unit (1)(B.1) to repeal"
+    },
+    {
+     "act": "HB 410 (2025), Act 265, § 2",
+     "reason": "no unit (1)(B.2) to repeal"
+    }
+   ]
+  },
+  {
+   "cite": "33-9-21",
+   "unmerged": [
+    {
+     "act": "HB 221 (2023), Act 264, § 1",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "34-14-1",
+   "unmerged": [
+    {
+     "act": "HB 1302 (2026), Act 474, § 35",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "35-2-101",
+   "unmerged": [
+    {
+     "act": "HB 116 (2025), Act 67, § 2",
+     "reason": "no unit (b) for its introductory language"
+    }
+   ]
+  },
+  {
+   "cite": "35-2-120",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 35",
+     "reason": "Code Revision edit not understood: Code Section 35-2-120, relating to definitions regarding the Capitol Police Division, by deleting paragraphs (2) and (3) and by redesignating paragraph (4) as paragraph (2)."
+    }
+   ]
+  },
+  {
+   "cite": "35-2-81",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 35",
+     "reason": "Code Revision edit not understood: Code Section 35-2-81, relating to definitions regarding Department of Public Safety nomenclature, in paragraph (1), by replacing \"Department of Public Safety,\" with \"department,\", and by deleting paragraphs (2) and (3) and by redesignating paragraphs (4) through (6) as paragraphs (2) through (4), re"
+    }
+   ]
+  },
+  {
+   "cite": "35-3-32",
+   "unmerged": [
+    {
+     "act": "SB 272 (2023), Act 88, § 10",
+     "reason": "the act's 'before' text for paragraph (b)(2) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "35-3-36",
+   "unmerged": [
+    {
+     "act": "SB 272 (2023), Act 88, § 11",
+     "reason": "the act's 'before' text for paragraph (g)(1) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "35-3-4",
+   "unmerged": [
+    {
+     "act": "HB 188 (2023), Act 347, § 5-1",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "35-3-4.1",
+   "unmerged": [
+    {
+     "act": "HB 161 (2025), Act 68, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "35-6A-11",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 35",
+     "reason": "the words of the edit were not found exactly once in (a)(8): Code Section 35-6A-11, relating to juvenile justice advisory board and membership, in paragraph (a)(8), by deleting \"and\" at the end and in subsection (d), by replacing \"must\" with \"shall\"."
+    }
+   ]
+  },
+  {
+   "cite": "35-6A-12",
+   "unmerged": [
+    {
+     "act": "HB 268 (2023), Act 32, § 3",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "35-8-13.1",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 35",
+     "reason": "the words of the edit were not found exactly once in (e): Code Section 35-8-13.1, relating to training and certification of municipal probation officers, in subsection (e), by replacing \"The term 'municipal probation officer' as used in this Code section mea"
+    }
+   ]
+  },
+  {
+   "cite": "35-8-2",
+   "unmerged": [
+    {
+     "act": "HB 288 (2025), Act 115, § 3",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "35-8-26",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 35",
+     "reason": "the words of the edit were not found exactly once in (c): Code Section 35-8-26, relating to TASER and electronic control weapons, requirements for use, establishment of policies, and training, in subsection (c), by replacing \"the Georgia Peace Officer Standa"
+    }
+   ]
+  },
+  {
+   "cite": "35-8-7.1",
+   "unmerged": [
+    {
+     "act": "HB 288 (2025), Act 115, § 5",
+     "reason": "the act's 'before' text for subsection (f) differs from the current text"
+    },
+    {
+     "act": "HB 288 (2025), Act 115, § 5",
+     "reason": "the act's 'before' text for subsection (g) differs from the current text"
+    },
+    {
+     "act": "HB 288 (2025), Act 115, § 5",
+     "reason": "subsection (i) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "35-8-7.4",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 35",
+     "reason": "the words of the edit were not found exactly once in (a): Code Section 35-8-7.4, relating to bias motivated intimidation of first responders and prosecution and penalty, in subsection (a), by replacing the comma with a semicolon following \"fire department\" a"
+    }
+   ]
+  },
+  {
+   "cite": "35-8-8",
+   "unmerged": [
+    {
+     "act": "HB 288 (2025), Act 115, § 7",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "36-32-2",
+   "unmerged": [
+    {
+     "act": "HB 456 (2024), Act 575, § 1",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "36-36-114",
+   "unmerged": [
+    {
+     "act": "HB 155 (2025), Act 128, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "36-60-17.1",
+   "unmerged": [
+    {
+     "act": "SB 121 (2023), Act 84, § 1",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "36-66-3",
+   "unmerged": [
+    {
+     "act": "HB 155 (2025), Act 128, § 2-4",
+     "reason": "the act's 'before' text for paragraph (4) differs from the current text"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 36",
+     "reason": "the words of the edit were not found exactly once in (1.1): Code Section 36-66-3, relating to definitions regarding zoning procedures, in paragraph (1.1), by replacing \"powers including\" with \"powers, including\" and in paragraph (5), by replacing \"The term\" wi"
+    }
+   ]
+  },
+  {
+   "cite": "36-70-21",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 36",
+     "reason": "no unit (a)(1) for the edit 'Code Section 36-70-21, as effective on January 1, 2026, relating to implementation agreements, in paragraph (a)(1), by replacing \"December 31st\" with \"December '"
+    }
+   ]
+  },
+  {
+   "cite": "36-70-22",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 36",
+     "reason": "no unit (a)(1) for the edit 'Code Section 36-70-22, as effective on January 1, 2026, relating to date for process initiation and notice to municipalities and counties impacted, in paragraph'"
+    }
+   ]
+  },
+  {
+   "cite": "36-70-22.1",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 36",
+     "reason": "Code Revision edit to a section not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "36-70-24",
+   "unmerged": [
+    {
+     "act": "HB 513 (2025), Act 270, § 2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "36-70-25.2",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 36",
+     "reason": "Code Revision edit to a section not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "36-70-25.3",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 36",
+     "reason": "Code Revision edit to a section not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "36-70-28",
+   "unmerged": [
+    {
+     "act": "HB 513 (2025), Act 270, § 3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "36-80-30",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 6",
+     "reason": "Code Revision edit to a section not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "37-3-208.1",
+   "unmerged": [
+    {
+     "act": "HB 584 (2026), Act 44, § 3-5",
+     "reason": "the instruction names no unit and the passage has no Code section number"
+    }
+   ]
+  },
+  {
+   "cite": "38-2-2",
+   "unmerged": [
+    {
+     "act": "HB 299 (2024), Act 389, § 10",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "38-3-182",
+   "unmerged": [
+    {
+     "act": "HB 423 (2025), Act 65, § 1-2",
+     "reason": "the act's 'before' text for paragraph (d)(1) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "40-1-113",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 4",
+     "reason": "the words of the edit were not found exactly once in (a)(1): Code Section 40-1-113, relating to motor carrier transportation contracts limiting liability, in the undesignated text at the end of paragraph (a)(1), by replacing \"Motor carrier transportation contra"
+    }
+   ]
+  },
+  {
+   "cite": "40-14-18",
+   "unmerged": [
+    {
+     "act": "HB 651 (2026), Act 711, § 8",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "40-14-5",
+   "unmerged": [
+    {
+     "act": "HB 651 (2026), Act 711, § 1",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "40-2-137",
+   "unmerged": [
+    {
+     "act": "HB 409 (2024), Act 458, § 4",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "40-2-151",
+   "unmerged": [
+    {
+     "act": "SB 146 (2023), Act 248, § 4-1",
+     "reason": "division (19)(B)(iii) added, but its parent (19)(B) is not in the current text"
+    },
+    {
+     "act": "HB 121 (2023), Act 241, § 2-5",
+     "reason": "paragraph (a)(2) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 1100 (2024), Act 406, § 5",
+     "reason": "paragraph (a)(14) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "40-2-20",
+   "unmerged": [
+    {
+     "act": "HB 183 (2023), Act 270, § 3",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "40-2-21",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 4",
+     "reason": "no unit (a)(.2) for the edit 'Code Section 40-2-21, relating to motor vehicle registration periods, in paragraph (a)(.2), by replacing \"has the meaning provided by paragraph (39) of\" with \"s'"
+    }
+   ]
+  },
+  {
+   "cite": "40-2-33",
+   "unmerged": [
+    {
+     "act": "HB 183 (2023), Act 270, § 5",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    },
+    {
+     "act": "HB 551 (2026), Act 272, § 3",
+     "reason": "the act's 'before' text for paragraph (a)(3) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "40-2-38",
+   "unmerged": [
+    {
+     "act": "HB 551 (2026), Act 272, § 4",
+     "reason": "paragraph (a)(1) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 551 (2026), Act 272, § 4",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    },
+    {
+     "act": "HB 551 (2026), Act 272, § 4",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    },
+    {
+     "act": "HB 551 (2026), Act 272, § 4",
+     "reason": "the act's 'before' text for subsection (e) differs from the current text"
+    },
+    {
+     "act": "SB 293 (2026), Act 503, § 1-8",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "40-2-86",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 4",
+     "reason": "no unit (k)(51) for the edit 'Code Section 40-2-86, relating to special license plates promoting or supporting certain worthy agencies, funds, or nonprofit corporations with proceeds disburs'"
+    },
+    {
+     "act": "HB 208 (2025), Act 187, § 5",
+     "reason": "the act's 'before' text for paragraph (18) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "40-5-142",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 4",
+     "reason": "the words of the edit were not found exactly once in (7)(C): Code Section 40-5-142, relating to definitions regarding commercial driver's licenses, in the undesignated text at the end of subparagraph (7)(C), by inserting a comma following \"however, that\" and by"
+    }
+   ]
+  },
+  {
+   "cite": "40-5-151",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 4",
+     "reason": "the words of the edit were not found exactly once in (g)(3): Code Section 40-5-151, relating to disqualification from driving a commercial motor vehicle and action required after suspending, revoking, or canceling license or nonresident privileges, in subsectio"
+    }
+   ]
+  },
+  {
+   "cite": "40-5-21.2",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 4",
+     "reason": "the act's 'before' text for paragraph (b)(1) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "40-5-25",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 4",
+     "reason": "no unit (a)(5) for the edit 'Code Section 40-5-25, relating to driver's license applications, fees, and provisions for voluntary participation in various programs, in paragraph (a)(5), by r'"
+    }
+   ]
+  },
+  {
+   "cite": "40-5-39",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 4",
+     "reason": "Code Revision edit not understood: Code Section 40-5-39, relating to requirements for operation of a motor vehicle for hire, for-hire license endorsements and eligibility, term, and background checks, in subparagraphs (e)(3)(B) and (e)(4)(C), by replacing \"national sex offender registry\" with \"National Sex Offender Registry\" and in s"
+    }
+   ]
+  },
+  {
+   "cite": "40-6-395",
+   "unmerged": [
+    {
+     "act": "HB 1161 (2026), Act 640, § 2",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    },
+    {
+     "act": "HB 1161 (2026), Act 640, § 2",
+     "reason": "the act's 'before' text for subsection (e) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "40-6-6",
+   "unmerged": [
+    {
+     "act": "SB 58 (2025), Act 83, § 4",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "40-7-40.15",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 6",
+     "reason": "Code Revision edit to a section not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "40-8-6",
+   "unmerged": [
+    {
+     "act": "SB 352 (2024), Act 611, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "40-8-73.1",
+   "unmerged": [
+    {
+     "act": "HB 1161 (2026), Act 640, § 3",
+     "reason": "the act's 'before' text for paragraph (c)(6) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "40-8-76.1",
+   "unmerged": [
+    {
+     "act": "SB 69 (2026), Act 10, § 4",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "40-8-91",
+   "unmerged": [
+    {
+     "act": "HB 1161 (2026), Act 640, § 4",
+     "reason": "the act's 'before' text for subsection (e) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "42-1-12",
+   "unmerged": [
+    {
+     "act": "HB 188 (2023), Act 347, § 6-1",
+     "reason": "the act's 'before' text for paragraph (i)(12) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "42-1-18",
+   "unmerged": [
+    {
+     "act": "SB 493 (2024), Act 426, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "42-4-14",
+   "unmerged": [
+    {
+     "act": "HB 1105 (2024), Act 505, § 9",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "42-5-64",
+   "unmerged": [
+    {
+     "act": "SB 147 (2025), Act 312, § 1",
+     "reason": "the act's 'before' text for subsection (g) differs from the current text"
+    },
+    {
+     "act": "SB 147 (2025), Act 312, § 1",
+     "reason": "subsection (h) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 42",
+     "reason": "the words of the edit were not found exactly once in (f): Code Section 42-5-64, relating to educational programming and information provided to released prisoners, in subsection (f), by replacing \"a personal identification card\" with \"an identification card\""
+    }
+   ]
+  },
+  {
+   "cite": "42-8-35",
+   "unmerged": [
+    {
+     "act": "SB 493 (2024), Act 426, § 3",
+     "reason": "the act's 'before' text for paragraph (5) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "43-1-34",
+   "unmerged": [
+    {
+     "act": "HB 155 (2023), Act 51, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-1-35",
+   "unmerged": [
+    {
+     "act": "SB 195 (2024), Act 555, § 3",
+     "reason": "subsection (c) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 880 (2025), Act 485, § 2",
+     "reason": "subsection (b) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 880 (2025), Act 485, § 2",
+     "reason": "subsection (e) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 43",
+     "reason": "no unit (c) for the edit 'Code Section 43-1-35, relating to expedited license by endorsement for spouses of active or transitioning members of the armed forces and license by endorsement'"
+    }
+   ]
+  },
+  {
+   "cite": "43-11-31",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 44",
+     "reason": "Code Revision edit to a section not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "43-11-42",
+   "unmerged": [
+    {
+     "act": "HB 322 (2025), Act 88, § 1",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    },
+    {
+     "act": "HB 322 (2025), Act 88, § 1",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    },
+    {
+     "act": "HB 322 (2025), Act 88, § 1",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    },
+    {
+     "act": "HB 322 (2025), Act 88, § 1",
+     "reason": "the act's 'before' text for subsection (e) differs from the current text"
+    },
+    {
+     "act": "HB 322 (2025), Act 88, § 1",
+     "reason": "subsection (f) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "43-11-74",
+   "unmerged": [
+    {
+     "act": "HB 567 (2026), Act 79, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-11A-7",
+   "unmerged": [
+    {
+     "act": "HB 185 (2026), Act 436, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-14-10",
+   "unmerged": [
+    {
+     "act": "SB 125 (2025), Act 93, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-14-11",
+   "unmerged": [
+    {
+     "act": "SB 125 (2025), Act 93, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-14-12",
+   "unmerged": [
+    {
+     "act": "SB 125 (2025), Act 93, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-14-6",
+   "unmerged": [
+    {
+     "act": "SB 125 (2025), Act 93, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-14-9",
+   "unmerged": [
+    {
+     "act": "SB 125 (2025), Act 93, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-18-80",
+   "unmerged": [
+    {
+     "act": "SB 241 (2025), Act 82, § 1-11",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-34-25",
+   "unmerged": [
+    {
+     "act": "HB 557 (2024), Act 394, § 2",
+     "reason": "subsection (d.1) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "43-39A-14",
+   "unmerged": [
+    {
+     "act": "SB 207 (2026), Act 628, § 2-6",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "43-40-15",
+   "unmerged": [
+    {
+     "act": "HB 985 (2024), Act 399, § 2-41",
+     "reason": "subparagraph (1)(C) added, but its parent (1) is not in the current text"
+    },
+    {
+     "act": "SB 207 (2026), Act 628, § 2-7",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "43-40-29",
+   "unmerged": [
+    {
+     "act": "HB 399 (2025), Act 315, § 3",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "43-41-18",
+   "unmerged": [
+    {
+     "act": "SB 503 (2024), Act 583, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 43",
+     "reason": "the words of the edit were not found exactly once in (b): Code Section 43-41-18, relating to certain military specialties or certifications entitle persons to obtain certain professional licenses, in subsections (b) and (c), by replacing \"residential light-c"
+    }
+   ]
+  },
+  {
+   "cite": "43-41-6",
+   "unmerged": [
+    {
+     "act": "HB 635 (2025), Act 91, § 3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-41-8",
+   "unmerged": [
+    {
+     "act": "SB 503 (2024), Act 583, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-47-2",
+   "unmerged": [
+    {
+     "act": "HB 551 (2026), Act 272, § 8",
+     "reason": "the act's 'before' text for paragraph (3) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "43-47-3",
+   "unmerged": [
+    {
+     "act": "HB 630 (2025), Act 90, § 2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "43-47-8",
+   "unmerged": [
+    {
+     "act": "SB 293 (2026), Act 503, § 2-2",
+     "reason": "the act's 'before' text for paragraph (d)(1) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "43-50-44",
+   "unmerged": [
+    {
+     "act": "SB 105 (2025), Act 190, § 5",
+     "reason": "the act's 'before' text for paragraph (2) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "44-11-32",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 44",
+     "reason": "Code Revision edit not understood: Code Section 44-11-32, relating to procedure on submission of counteraffidavit, trial, nonmeritorious submission, and appeal, by deleting the subsection (a) designation and in paragraphs (1) and (2), by replacing \"sheriff deputy,\" with \"deputy sheriff,\" each time the term appears."
+    }
+   ]
+  },
+  {
+   "cite": "44-12-220",
+   "unmerged": [
+    {
+     "act": "SB 103 (2024), Act 81, § 5",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "44-17-2",
+   "unmerged": [
+    {
+     "act": "HB 413 (2026), Act 379, § 2",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "44-17-4",
+   "unmerged": [
+    {
+     "act": "HB 413 (2026), Act 379, § 3",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "44-3-231",
+   "unmerged": [
+    {
+     "act": "HB 220 (2024), Act 388, § 5",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 44",
+     "reason": "no unit (a)(4) for the edit 'Code Section 44-3-231, relating to powers and duties of property owners' associations and legal actions against agent or employee of association, in paragraph ('"
+    }
+   ]
+  },
+  {
+   "cite": "45-15-10",
+   "unmerged": [
+    {
+     "act": "HB 1105 (2024), Act 505, § 11",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "45-19-44",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 45",
+     "reason": "the words of the edit were not found exactly once in the section: Code Section 45-19-44, relating to unlawful practices punishable by civil fine, at the end of the introductory language of paragraph (a)(5), by replacing the semicolon with a colon."
+    }
+   ]
+  },
+  {
+   "cite": "45-22-2",
+   "unmerged": [
+    {
+     "act": "SB 417 (2024), Act 614, § 16",
+     "reason": "paragraph (15) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "SB 417 (2024), Act 614, § 16",
+     "reason": "the act's 'before' text for paragraph (16) differs from the current text"
+    },
+    {
+     "act": "SB 417 (2024), Act 614, § 16",
+     "reason": "the act's 'before' text for paragraph (17) differs from the current text"
+    },
+    {
+     "act": "SB 417 (2024), Act 614, § 16",
+     "reason": "the act's 'before' text for paragraph (18) differs from the current text"
+    },
+    {
+     "act": "SB 417 (2024), Act 614, § 16",
+     "reason": "the act's 'before' text for paragraph (19) differs from the current text"
+    },
+    {
+     "act": "SB 417 (2024), Act 614, § 16",
+     "reason": "the act's 'before' text for paragraph (20) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "45-7-4",
+   "unmerged": [
+    {
+     "act": "HB 86 (2025), Act 113, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 86 (2025), Act 113, § 2",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "45-9-85",
+   "unmerged": [
+    {
+     "act": "SB 56 (2025), Act 281, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "46-2-26.5",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 46",
+     "reason": "Code Revision edit not understood: Code Section 46-2-26.5, relating to gas supply plans and adjustment factors, filings and hearing procedures, and recovery of purchase gas cost, by deleting paragraph (a)(2) and redesignating paragraphs (a)(3) through (a)(8) as paragraphs (a)(2) through (a)(7), respectively."
+    }
+   ]
+  },
+  {
+   "cite": "46-3-52",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 46",
+     "reason": "Code Revision edit not understood: Code Section 46-3-52, relating to jurisdiction of commission over cogeneration facility the energy from which is used solely by operator, by deleting paragraph (3) and redesignating paragraphs (4) through (12) as paragraphs (3) through (11), respectively."
+    }
+   ]
+  },
+  {
+   "cite": "46-3A-1",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 46",
+     "reason": "Code Revision edit not understood: Code Section 46-3A-1, relating to definitions regarding integrated resource planning, in the introductory language, by replacing \"chapter:\" with \"chapter, the term:\" and by deleting paragraph (2) and redesignating paragraphs (3) through (9) as paragraphs (2) through (8), respectively."
+    }
+   ]
+  },
+  {
+   "cite": "46-5-1",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 46",
+     "reason": "the words of the edit were not found exactly once in (b)(13): Code Section 46-5-1, relating to exercise of power of eminent domain by telephone companies, placement of posts and other fixtures, regulation of construction of fixtures, posts, and wires near railro"
+    }
+   ]
+  },
+  {
+   "cite": "46-5-122",
+   "unmerged": [
+    {
+     "act": "HB 423 (2025), Act 65, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 423 (2025), Act 65, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 423 (2025), Act 65, § 1-1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 46",
+     "reason": "the words of the edit were not found exactly once in (12.1): Code Section 46-5-122, relating to definitions regarding emergency telephone number 9-1-1 system, in paragraph (5), by replacing \"The term 'emergency 9-1-1 system'\" with \"Such term\", in paragraph (7),"
+    }
+   ]
+  },
+  {
+   "cite": "46-5-126",
+   "unmerged": [
+    {
+     "act": "HB 423 (2025), Act 65, § 2-3",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "46-5-27",
+   "unmerged": [
+    {
+     "act": "SB 90 (2024), Act 78, § 6",
+     "reason": "the act's 'before' text for paragraph (b)(3) differs from the current text"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 46",
+     "reason": "the words of the edit were not found exactly once in (b)(3)(B): Code Section 46-5-27, relating to telephone solicitation calls and do not call database, in subparagraph (b)(3)(B), by deleting \"or\" at the end and in subsection (n), by replacing \"voice over internet"
+    }
+   ]
+  },
+  {
+   "cite": "46-5-75",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 46",
+     "reason": "Code Revision edit not understood: Code Section 46-5-75, relating to certificate of Secretary of State, by inserting quotation marks at the beginning and end of the form."
+    }
+   ]
+  },
+  {
+   "cite": "46-8-42",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 46",
+     "reason": "Code Revision edit not understood: Code Section 46-8-42, relating to certificate of incorporation, duration of corporate existence, and fee for issuance of certificate, in subsection (a), by inserting quotation marks at the beginning and end of the form."
+    }
+   ]
+  },
+  {
+   "cite": "46-9-230",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 46",
+     "reason": "Code Revision edit not understood: Code Section 46-9-230, relating to manner of incorporation of express companies, by inserting quotation marks at the beginning and end of the certificate form."
+    }
+   ]
+  },
+  {
+   "cite": "47-2-357",
+   "unmerged": [
+    {
+     "act": "SB 452 (2026), Act 414, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "47-20-87",
+   "unmerged": [
+    {
+     "act": "SB 128 (2023), Act 85, § 1",
+     "reason": "the passage does not start with the unit the instruction names"
+    },
+    {
+     "act": "HB 78 (2025), Act 63, § 1",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "47-23-102",
+   "unmerged": [
+    {
+     "act": "HB 1020 (2026), Act 716, § 12",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "47-23-102.1",
+   "unmerged": [
+    {
+     "act": "HB 1020 (2026), Act 716, § 9",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "47-23-103",
+   "unmerged": [
+    {
+     "act": "HB 1020 (2026), Act 716, § 11",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "47-23-104",
+   "unmerged": [
+    {
+     "act": "HB 406 (2025), Act 264, § 5",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 1020 (2026), Act 716, § 12",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "47-23-106",
+   "unmerged": [
+    {
+     "act": "HB 406 (2025), Act 264, § 7",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "HB 1020 (2026), Act 716, § 14",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "47-23-45",
+   "unmerged": [
+    {
+     "act": "HB 1020 (2026), Act 716, § 8",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "48-1-2",
+   "unmerged": [
+    {
+     "act": "SB 56 (2023), Act 236, § 2-1",
+     "reason": "the act's 'before' text for paragraph (14) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "48-13-51",
+   "unmerged": [
+    {
+     "act": "SB 6 (2023), Act 14, § 1",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "48-2-35",
+   "unmerged": [
+    {
+     "act": "SB 141 (2025), Act 290, § 1-1",
+     "reason": "the act's 'before' text for paragraph (c)(2) differs from the current text"
+    },
+    {
+     "act": "HB 1267 (2024), Act 601, § 3-4",
+     "reason": "the act's 'before' text for paragraph (h)(5) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "48-2-59",
+   "unmerged": [
+    {
+     "act": "HB 1267 (2024), Act 601, § 3-8",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "48-5-2",
+   "unmerged": [
+    {
+     "act": "HB 92 (2025), Act 5, § 1-1",
+     "reason": "paragraph (2.1) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "SB 566 (2026), Act 378, § 8",
+     "reason": "no unit (2.1) to repeal"
+    }
+   ]
+  },
+  {
+   "cite": "48-5-306",
+   "unmerged": [
+    {
+     "act": "HB 92 (2025), Act 5, § 1-5",
+     "reason": "the act's 'before' text for paragraph (b)(1) differs from the current text"
+    },
+    {
+     "act": "SB 566 (2026), Act 378, § 6",
+     "reason": "the act's 'before' text for subsection (b) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "48-5-34",
+   "unmerged": [
+    {
+     "act": "HB 92 (2025), Act 5, § 1-2",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "48-5-44.2",
+   "unmerged": [
+    {
+     "act": "HB 92 (2025), Act 5, § 1-3",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    },
+    {
+     "act": "SB 566 (2026), Act 378, § 2",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    },
+    {
+     "act": "SB 33 (2026), Act 461, § 5-1",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "48-5C-1",
+   "unmerged": [
+    {
+     "act": "HB 1181 (2025), Act 598, § 3-3",
+     "reason": "the passage does not start with the unit the instruction names"
+    },
+    {
+     "act": "HB 551 (2026), Act 272, § 10",
+     "reason": "paragraph (a)(9) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "48-6-61",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 5",
+     "reason": "the words of the edit were not found exactly once in the section: Code Section 48-6-61, relating to filing instruments securing long-term notes, procedure, intangible recording tax, rate, and maximum tax, by inserting a comma following \"however, that\"."
+    }
+   ]
+  },
+  {
+   "cite": "48-6-7",
+   "unmerged": [
+    {
+     "act": "HB 1267 (2024), Act 601, § 3-13",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "48-6-76",
+   "unmerged": [
+    {
+     "act": "HB 1267 (2024), Act 601, § 3-14",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-20",
+   "unmerged": [
+    {
+     "act": "HB 475 (2023), Act 353, § 7",
+     "reason": "no unit (b)(2) for the edit 'Code Section 48-7-20, relating to individual tax rates, credit for withholding and other payments, and applicability to estates and trusts, in paragraph (b)(2),'"
+    },
+    {
+     "act": "HB 463 (2026), Act 465, § 2-1",
+     "reason": "the act's 'before' text for subsection (a.1) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-23",
+   "unmerged": [
+    {
+     "act": "HB 1159 (2026), Act 424, § 2",
+     "reason": "the act's 'before' text for paragraph (b)(7) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-27",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 48",
+     "reason": "Code Revision edit not understood: Code Section 48-7-27, relating to computation of taxable net income, at the end of subparagraph (a)(3)(A), by replacing the period with a semicolon, in paragraph (a)(3), by deleting the subparagraph (A) designation and by redesignating subparagraph (B) as paragraph (a)(3.1), and in division (a)(5)(D"
+    },
+    {
+     "act": "HB 463 (2026), Act 465, § 2-3",
+     "reason": "the act's 'before' text for division (i) differs from the current text"
+    },
+    {
+     "act": "HB 463 (2026), Act 465, § 2-3",
+     "reason": "the act's 'before' text for division (ii) differs from the current text"
+    },
+    {
+     "act": "HB 463 (2026), Act 465, § 2-3",
+     "reason": "division (xii) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 463 (2026), Act 465, § 2-3",
+     "reason": "division (xiii) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-29.12",
+   "unmerged": [
+    {
+     "act": "HB 1181 (2025), Act 598, § 1-4",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-29.16",
+   "unmerged": [
+    {
+     "act": "HB 328 (2026), Act 463, § 6",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-29.21",
+   "unmerged": [
+    {
+     "act": "HB 1181 (2025), Act 598, § 1-9",
+     "reason": "subsection (e) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 328 (2026), Act 463, § 7",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-40",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 5",
+     "reason": "the words of the edit were not found exactly once in (a)(1): Code Section 48-7-40, relating to designation of counties as less developed areas and tax credits for certain business enterprises, in paragraph (a)(1), by replacing \"Internet or Internet Protocol\" wi"
+    },
+    {
+     "act": "HB 134 (2026), Act 427, § 2",
+     "reason": "paragraph (2) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-40.1",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 5",
+     "reason": "the words of the edit were not found exactly once in (a)(1): Code Section 48-7-40.1, relating to tax credits for business enterprises in less developed areas, in paragraph (a)(1), by replacing \"Internet or Internet Protocol\" with \"internet or IP\", by replacing "
+    },
+    {
+     "act": "HB 1181 (2025), Act 598, § 1-14",
+     "reason": "the act's 'before' text for paragraph (c)(2) differs from the current text"
+    },
+    {
+     "act": "HB 1181 (2025), Act 598, § 1-15",
+     "reason": "the act's 'before' text for paragraph (c)(1) differs from the current text"
+    },
+    {
+     "act": "HB 463 (2026), Act 465, § 4-3",
+     "reason": "repeal of a section that is not in the current text"
+    },
+    {
+     "act": "HB 134 (2026), Act 427, § 3",
+     "reason": "subsection (a) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-40.12",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 5",
+     "reason": "the words of the edit were not found exactly once in (a)(2): Code Section 48-7-40.12, relating to tax credits for qualified research expenses, in paragraph (a)(2), by replacing \"Internet or Internet Protocol\" with \"internet or IP\", by replacing \"'Broadcasting'\""
+    }
+   ]
+  },
+  {
+   "cite": "48-7-40.15",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 5",
+     "reason": "the words of the edit were not found exactly once in (a)(2): Code Section 48-7-40.15, relating to alternative tax credits for base year port traffic increases, in subparagraphs (a)(1)(A) and (a)(1)(B), by inserting a comma following \"however, that\" and in parag"
+    },
+    {
+     "act": "SB 448 (2024), Act 701, § 5",
+     "reason": "the words of the edit were not found exactly once in (a)(1): Code Section 48-7-40.15A, relating to increased job tax credit based on increase in port traffic, in paragraph (a)(1), by inserting a comma following \"however, that\"."
+    },
+    {
+     "act": "HB 463 (2026), Act 465, § 4-5",
+     "reason": "repeal of a section that is not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-40.17",
+   "unmerged": [
+    {
+     "act": "HB 482 (2023), Act 68, § 1",
+     "reason": "the act's 'before' text for paragraph (a)(7) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-40.2",
+   "unmerged": [
+    {
+     "act": "HB 1181 (2025), Act 598, § 1-16",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-40.21",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 5",
+     "reason": "the words of the edit were not found exactly once in (a)(1): Code Section 48-7-40.21, relating to tax credits for existing business enterprises undergoing qualified business expansion, recapture, and application of credit, in paragraph (a)(1), by replacing by r"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-40.22",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 5",
+     "reason": "the words of the edit were not found exactly once in (a)(1): Code Section 48-7-40.22, relating to tax credits for business enterprises for leased motor vehicles, daily ridership, and implementation, in paragraph (a)(1), by replacing \"Internet or Internet Protoc"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-40.26",
+   "unmerged": [
+    {
+     "act": "HB 1181 (2025), Act 598, § 1-31",
+     "reason": "the act's 'before' text for paragraph (h)(2) differs from the current text"
+    },
+    {
+     "act": "HB 129 (2025), Act 251, § 2",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    },
+    {
+     "act": "HB 129 (2025), Act 251, § 2",
+     "reason": "the act's 'before' text for subsection (f) differs from the current text"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 48",
+     "reason": "the words of the edit were not found exactly once in (c)(2)(B): Code Section 48-7-40.26, relating to tax credits for film, gaming, video, or digital production, in the undesignated text at the end of subparagraph (c)(2)(B), by replacing \"paragraph\" with \"subparagr"
+    }
+   ]
+  },
+  {
+   "cite": "48-7-40.3",
+   "unmerged": [
+    {
+     "act": "HB 1181 (2025), Act 598, § 1-17",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "48-8-109.32",
+   "unmerged": [
+    {
+     "act": "HB 92 (2025), Act 5, § 3-3",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "48-8-109.33",
+   "unmerged": [
+    {
+     "act": "HB 92 (2025), Act 5, § 3-4",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "48-8-109.42",
+   "unmerged": [
+    {
+     "act": "SB 33 (2026), Act 461, § 2-2",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "48-8-2",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 5",
+     "reason": "Code Revision edit not understood: Code Section 48-8-2, relating to definitions regarding general provisions for state sales and use tax, in subdivision (8)(I)(i)(III), by replacing \"Internet,\" with \"internet,\", in division (8)(M)(i), by replacing \"Internet\" with \"internet\", in paragraph (34.1), by deleting the subparagraph (A) desig"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 48",
+     "reason": "the words of the edit were not found exactly once in (39): Code Section 48-8-2, relating to definitions regarding state sales and use tax, in the introductory language of paragraph (39), by replacing \"voice over internet protocol\" with \"Voice over Internet Pr"
+    }
+   ]
+  },
+  {
+   "cite": "48-8-263",
+   "unmerged": [
+    {
+     "act": "HB 946 (2024), Act 578, § 3",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "48-8-3",
+   "unmerged": [
+    {
+     "act": "HB 463 (2026), Act 465, § 4-10",
+     "reason": "the act's 'before' text for paragraph (36) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "48-8-6",
+   "unmerged": [
+    {
+     "act": "HB 230 (2023), Act 22, § 1",
+     "reason": "the act's 'before' text for paragraph (a)(7) differs from the current text"
+    },
+    {
+     "act": "HB 92 (2025), Act 5, § 3-1",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    },
+    {
+     "act": "SB 33 (2026), Act 461, § 2-1",
+     "reason": "the act's 'before' text for subdivision (C) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "48-9-2",
+   "unmerged": [
+    {
+     "act": "SB 146 (2023), Act 248, § 3-1",
+     "reason": "the act's 'before' text for paragraph (5.2) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "48-9-3",
+   "unmerged": [
+    {
+     "act": "SB 146 (2023), Act 248, § 3-2",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    },
+    {
+     "act": "SB 146 (2023), Act 248, § 3-3",
+     "reason": "paragraph (c)(3) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "49-4-159.2",
+   "unmerged": [
+    {
+     "act": "SB 153 (2025), Act 371, § 49",
+     "reason": "no unit (a)(1)(A) for the edit 'Code Section 49-4-159.2, relating to remote maternal health clinical services, reporting, and termination, in subparagraph (a)(1)(A), by replacing \"transmitting'"
+    }
+   ]
+  },
+  {
+   "cite": "49-4-159.4",
+   "unmerged": [
+    {
+     "act": "HB 352 (2025), Act 260, § 2",
+     "reason": "the section is not in the base text (it may have been added by an act not yet read)"
+    }
+   ]
+  },
+  {
+   "cite": "49-4-21",
+   "unmerged": [
+    {
+     "act": "HB 475 (2023), Act 353, § 6",
+     "reason": "Code Revision edit not understood: Code Section 49-4-21, relating to photo requirement on electronic benefits transfer cards for food stamps, is amended by deleting the subsection (a) designation and by deleting subsection (b), which is obsolete."
+    }
+   ]
+  },
+  {
+   "cite": "49-4A-8",
+   "unmerged": [
+    {
+     "act": "SB 96 (2025), Act 92, § 5-6",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "49-5-3",
+   "unmerged": [
+    {
+     "act": "HB 1201 (2024), Act 490, § 4",
+     "reason": "the act's 'before' text for paragraph (3) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "49-5-41",
+   "unmerged": [
+    {
+     "act": "SB 342 (2024), Act 373, § 2",
+     "reason": "the act's 'before' text for paragraph (13) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "5-6-33",
+   "unmerged": [
+    {
+     "act": "HB 1267 (2024), Act 601, § 2-3",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "5-6-34",
+   "unmerged": [
+    {
+     "act": "HB 155 (2025), Act 128, § 2-1",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    },
+    {
+     "act": "SB 298 (2025), Act 298, § 1",
+     "reason": "the act's 'before' text for paragraph (13) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "5-6-35",
+   "unmerged": [
+    {
+     "act": "HB 444 (2023), Act 338, § 2-1",
+     "reason": "the act's 'before' text for paragraph (12) differs from the current text"
+    },
+    {
+     "act": "HB 155 (2025), Act 128, § 2-2",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "5-7-1",
+   "unmerged": [
+    {
+     "act": "SB 44 (2023), Act 29, § 1",
+     "reason": "the act's 'before' text for paragraph (10) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "50-13-1",
+   "unmerged": [
+    {
+     "act": "HB 88 (2023), Act 55, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "50-16-5.1",
+   "unmerged": [
+    {
+     "act": "SB 341 (2024), Act 609, § 13-1",
+     "reason": "repeal of a section that is not in the current text"
+    }
+   ]
+  },
+  {
+   "cite": "50-18-160",
+   "unmerged": [
+    {
+     "act": "HB 584 (2026), Act 44, § 3-9",
+     "reason": "the passage does not start with the unit the instruction names"
+    }
+   ]
+  },
+  {
+   "cite": "50-23-4",
+   "unmerged": [
+    {
+     "act": "SB 13 (2025), Act 306, § 1",
+     "reason": "the act's 'before' text for paragraph (10.1) differs from the current text"
+    },
+    {
+     "act": "SB 13 (2025), Act 306, § 1",
+     "reason": "the act's 'before' text for paragraph (10.2) differs from the current text"
+    },
+    {
+     "act": "SB 13 (2025), Act 306, § 1",
+     "reason": "paragraph (10.3) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "50-36-4",
+   "unmerged": [
+    {
+     "act": "HB 1105 (2024), Act 505, § 12",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 50",
+     "reason": "no unit (d)(7) for the edit 'Code Section 50-36-4, relating to submission of annual immigration compliance report, creation of reporting system, contents of reports, and annual review, in p'"
+    }
+   ]
+  },
+  {
+   "cite": "50-5-131",
+   "unmerged": [
+    {
+     "act": "HB 128 (2024), Act 21, § 4",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "50-5-84.1",
+   "unmerged": [
+    {
+     "act": "HB 113 (2025), Act 86, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "50-6-28",
+   "unmerged": [
+    {
+     "act": "HB 1164 (2026), Act 721, § 12",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "50-6-6",
+   "unmerged": [
+    {
+     "act": "SB 472 (2026), Act 722, § 7",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "50-7-50",
+   "unmerged": [
+    {
+     "act": "HB 475 (2023), Act 353, § 6",
+     "reason": "the words of the edit were not found exactly once in the section: Code Section 50-7-50, relating to definitions regarding the Savannah-Georgia Convention Center Authority, generally, by replacing \"For the purposes of this Code section, the following definitions shal"
+    }
+   ]
+  },
+  {
+   "cite": "53-12-170",
+   "unmerged": [
+    {
+     "act": "SB 433 (2024), Act 423, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "53-12-261",
+   "unmerged": [
+    {
+     "act": "HB 327 (2025), Act 310, § 83",
+     "reason": "the act's 'before' text for paragraph (29) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "53-12-301",
+   "unmerged": [
+    {
+     "act": "HB 327 (2025), Act 310, § 87",
+     "reason": "the act's 'before' text for subsection (d) differs from the current text"
+    },
+    {
+     "act": "HB 327 (2025), Act 310, § 87",
+     "reason": "subsection (e) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "53-12-500",
+   "unmerged": [
+    {
+     "act": "HB 327 (2025), Act 310, § 93",
+     "reason": "paragraph (2) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 327 (2025), Act 310, § 93",
+     "reason": "paragraph (3) is not in the current text, but the act shows it as an amended unit"
+    }
+   ]
+  },
+  {
+   "cite": "53-2-20",
+   "unmerged": [
+    {
+     "act": "HB 327 (2025), Act 310, § 40",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "53-2-4",
+   "unmerged": [
+    {
+     "act": "HB 327 (2025), Act 310, § 36",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "53-7-69.1",
+   "unmerged": [
+    {
+     "act": "HB 327 (2025), Act 310, § 62",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "7-1-1001",
+   "unmerged": [
+    {
+     "act": "HB 876 (2024), Act 474, § 1-19",
+     "reason": "paragraph (2.1) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 876 (2024), Act 474, § 1-19",
+     "reason": "paragraph (14) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "HB 876 (2024), Act 474, § 1-19",
+     "reason": "paragraph (19) is not in the current text, but the act shows it as an amended unit"
+    },
+    {
+     "act": "SB 448 (2024), Act 701, § 1",
+     "reason": "no unit (a)(17)(B)(iii) for the edit 'Code Section 7-1-1001, relating to exemption for certain persons and entities, registration requirements, authorized actions of licensed mortgage lenders, and v'"
+    }
+   ]
+  },
+  {
+   "cite": "7-1-1013",
+   "unmerged": [
+    {
+     "act": "HB 240 (2025), Act 177, § 2",
+     "reason": "the act's 'before' text for paragraph (11) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "7-1-155",
+   "unmerged": [
+    {
+     "act": "HB 876 (2024), Act 474, § 1-34",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "7-1-200",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 1",
+     "reason": "the words of the edit were not found exactly once in (c): Code Section 7-1-200, relating to confirmation of account, distribution of dividends, final disposition of assets insufficient for distribution, and cancellation of articles, in subsection (c), by ins"
+    }
+   ]
+  },
+  {
+   "cite": "7-1-288",
+   "unmerged": [
+    {
+     "act": "SB 448 (2024), Act 701, § 1",
+     "reason": "the words of the edit were not found exactly once in (c)(2)(F): Code Section 7-1-288, relating to corporate stock and securities, in subparagraph (c)(2)(F), by inserting a comma following \"however, that\" and in subparagraph (c)(2)(G), by deleting \"known as\"."
+    }
+   ]
+  },
+  {
+   "cite": "7-1-419",
+   "unmerged": [
+    {
+     "act": "HB 876 (2024), Act 474, § 1-6",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "7-1-682",
+   "unmerged": [
+    {
+     "act": "HB 55 (2023), Act 348, § 28",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "7-1-703",
+   "unmerged": [
+    {
+     "act": "HB 55 (2023), Act 348, § 34",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 448 (2024), Act 701, § 1",
+     "reason": "the words of the edit were not found exactly once in (e): Code Section 7-1-703, relating to conviction data defined, investigation of applicants, and background checks of employees regarding cashing of payment instruments, in subsection (e), by inserting \"ea"
+    },
+    {
+     "act": "HB 15 (2025), Act 250, § 12",
+     "reason": "the act's 'before' text for subsection (c) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "7-1-90",
+   "unmerged": [
+    {
+     "act": "HB 15 (2025), Act 250, § 33",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "7-3-42",
+   "unmerged": [
+    {
+     "act": "HB 55 (2023), Act 348, § 47",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "7-9-12",
+   "unmerged": [
+    {
+     "act": "HB 876 (2024), Act 474, § 1-38",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "8-3-301",
+   "unmerged": [
+    {
+     "act": "HB 1410 (2024), Act 413, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    }
+   ]
+  },
+  {
+   "cite": "8-3-306",
+   "unmerged": [
+    {
+     "act": "SB 96 (2025), Act 92, § 1-1",
+     "reason": "the act's 'before' text for subsection (a) differs from the current text"
+    }
+   ]
+  },
+  {
+   "cite": "8-3-311",
+   "unmerged": [
+    {
+     "act": "HB 1410 (2024), Act 413, § 1",
+     "reason": "the act's 'before' text differs from the current text of the section"
+    },
+    {
+     "act": "SB 153 (2025), Act 371, § 8",
+     "reason": "no unit (d) for the edit 'Code Section 8-3-311, relating to creation of stable housing accountability programs, application process, minimum standards, approval criteria, and funding, in'"
+    }
+   ]
+  },
+  {
+   "cite": "9-9-69",
+   "unmerged": [
+    {
+     "act": "HB 475 (2023), Act 353, § 1",
+     "reason": "Code Revision edit not understood: Code Section 9-9-69, relating to arbitrators - oath and affidavit, in subsection (b), by inserting a quotation mark at the beginning and end of the form."
+    }
+   ]
+  }
+ ]
+}
