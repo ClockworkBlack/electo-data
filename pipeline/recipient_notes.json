@@ -1,0 +1,662 @@
+{
+  "as_of": "2026-11-09",
+  "note": "Researched backgrounds for committees that receive money on the Donors tab, shown in each recipient's pop-up (ga/donors.js, dnRecipOpen). Every sentence comes from the sources listed with it (pages opened on the date given); the money figures from the page's own filings are shown beside it, not repeated here. Matched to the filings by name (dnNorm), including the other spellings in aka.",
+  "items": [
+    {
+      "n": "Georgians First Leadership Committee, Inc.",
+      "aka": [
+        "Georgians First Leadership Committee"
+      ],
+      "type": "Leadership committee of Gov. Brian Kemp",
+      "t": "Gov. Brian Kemp's leadership committee. He set it up in 2021, as soon as a new state law took effect that lets a few top officials and party nominees run leadership committees that can raise unlimited money, even during a legislative session. In 2022, ruling on a lawsuit by his Republican primary challenger David Perdue, U.S. District Judge Mark Cohen barred it from spending to support Kemp's re-election or oppose his opponent during the primary and any primary runoff.",
+      "went": "By May 9, 2022, it had raised $4.7 million since it was formed and spent all but $673,000, the AJC reported from its filings; the report does not break down what the money paid for.",
+      "src": [
+        {
+          "t": "WABE: Judge: Kemp can't use leadership committee funds for primary",
+          "u": "https://www.wabe.org/judge-kemp-cant-use-leadership-committee-funds-for-primary/",
+          "s": "WABE"
+        },
+        {
+          "t": "AJC: Kemp leadership group has raked in $4.7 million, spent most of it already",
+          "u": "https://www.ajc.com/politics/kemp-leadership-group-has-raked-in-47-million-spent-most-of-it-already/TQYKINPAXFEOLFQTRBWLUVRTCA",
+          "s": "AJC"
+        }
+      ],
+      "wsrc": [
+        {
+          "t": "AJC: Kemp leadership group has raked in $4.7 million, spent most of it already",
+          "u": "https://www.ajc.com/politics/kemp-leadership-group-has-raked-in-47-million-spent-most-of-it-already/TQYKINPAXFEOLFQTRBWLUVRTCA",
+          "s": "AJC"
+        }
+      ],
+      "d": "2026-11-09"
+    },
+    {
+      "n": "WBJ Leadership Committee, Inc.",
+      "aka": [
+        "WBJ Leadership Committee"
+      ],
+      "type": "Leadership committee of Lt. Gov. Burt Jones",
+      "t": "Lt. Gov. Burt Jones's leadership committee. A 2021 state law created these committees for the governor, the lieutenant governor, the parties' nominees for those offices and legislative leaders; they can raise unlimited money, while other statewide candidates are held to $8,400 per donor for a primary and the general election and $4,800 for a runoff. It had $15.9 million on hand as of Jan. 31, 2026. On Feb. 20, 2026, ruling on a suit by Republican rival Rick Jackson, U.S. District Judge Thomas Thrash temporarily barred it from raising or spending money for Jones's campaign for governor and ordered the campaign ads it had bought since Feb. 10 canceled.",
+      "src": [
+        {
+          "t": "GPB: Judge rules against Burt Jones' unlimited fundraising in race for Georgia governor (Feb. 24, 2026)",
+          "u": "https://www.gpb.org/news/2026/02/24/judge-rules-against-burt-jones-unlimited-fundraising-in-race-for-georgia-governor",
+          "s": "GPB"
+        },
+        {
+          "t": "WABE: Judge rules against Burt Jones' unlimited fundraising in race for Georgia governor",
+          "u": "https://www.wabe.org/judge-rules-against-burt-jones-unlimited-fundraising-in-race-for-georgia-governor/",
+          "s": "WABE"
+        }
+      ],
+      "d": "2026-11-09"
+    },
+    {
+      "n": "Georgia Bankers Association PAC - State",
+      "aka": [
+        "Georgia Bankers Association State PAC",
+        "GBA StatePAC",
+        "Georgia Bankers association PAC - State"
+      ],
+      "type": "Political action committee of the Georgia Bankers Association",
+      "t": "The state committee (GBA StatePAC) of the Georgia Bankers Association's BankPAC, which also runs a federal committee and a political education fund. The association says these committees give financial support to candidates for state and federal office who are concerned with the banking industry's welfare. Its BankPAC board is chaired by Brad E. Barber of First National Bank.",
+      "src": [
+        {
+          "t": "Georgia Bankers Association: BankPAC Board",
+          "u": "https://gabankers.com/WCM/Member_Center/GBA_Boards/BankPAC_Board.aspx",
+          "s": "Georgia Bankers Association"
+        }
+      ],
+      "d": "2026-11-09"
+    },
+    {
+      "n": "Georgia Medical Political Action Committee (GAMPAC",
+      "aka": [
+        "Georgia Medical Political Action Committee (GAMPAC)",
+        "Georgia Medical Political Action Committee",
+        "GAMPAC"
+      ],
+      "type": "Political action committee of the Medical Association of Georgia",
+      "t": "The political action committee of the Medical Association of Georgia (MAG). In January 2022, MAG urged its members to join GAMPAC to increase MAG's influence at the General Assembly and make the legislative climate favorable for physicians and patients.",
+      "src": [
+        {
+          "t": "Medical Association of Georgia: MAG ready for 2022 legislative session",
+          "u": "https://t.e2ma.net/webview/sjmp7e/6a5bbf2c8afdae99aa6ba0963cca96de",
+          "s": "Medical Association of Georgia"
+        }
+      ],
+      "d": "2026-11-09"
+    },
+    {
+      "n": "GILA-Consumer Credit People for Responsible Government",
+      "aka": [
+        "GILA Consumer Credit People for Responsible Government"
+      ],
+      "type": "Political action committee",
+      "t": "A committee named for GILA, the Georgia Installment Loan Act: the law under which the Georgia Department of Banking and Finance licenses, supervises and examines the state's installment lending industry.",
+      "src": [
+        {
+          "t": "Georgia Department of Banking and Finance: GILA contacts",
+          "u": "https://dbf.georgia.gov/installment-loans/gila-contacts",
+          "s": "Georgia Department of Banking and Finance"
+        }
+      ],
+      "d": "2026-11-09"
+    },
+    {
+      "n": "Jon Ossoff",
+      "aka": [],
+      "type": "",
+      "t": "Jon Ossoff is a Democrat who ran for and was reelected as a U.S. Senator from Georgia. He faced Republican challenger Mike Collins in his re-election bid.",
+      "src": [
+        {
+          "t": "theaugustapress.com: Columbia County Observer: So, Georgia’s Blue. Y’all Doing Okay? (Nov. 9, 2026)",
+          "u": "https://theaugustapress.com/columbia-county-observer-so-georgias-blue-yall-doing-okay/",
+          "s": "theaugustapress.com"
+        },
+        {
+          "t": "The Current: Blue tide sweeps away $200 million-plus in Georgia GOP spending (Nov. 9, 2026)",
+          "u": "https://thecurrentga.org/2026/11/09/blue-tide-sweeps-away-200-million-plus-in-georgia-gop-spending/",
+          "s": "The Current"
+        },
+        {
+          "t": "cobbcountycourier.com: Georgia Democrats ride national blue wave into power in history-making election (Nov. 6, 2026)",
+          "u": "https://cobbcountycourier.com/2026/11/georgia-democrats-ride-national-blue-wave-into-power-in-history-making-election/",
+          "s": "cobbcountycourier.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Sanford Bishop",
+      "aka": [],
+      "type": "",
+      "t": "Sanford Bishop is a congressman. NONE",
+      "src": [
+        {
+          "t": "thepostsearchlight.com: Bottoms visits Bainbridge on ‘Georgia’s Voice, Georgia’s Vote’ tour (Nov. 3, 2026)",
+          "u": "https://thepostsearchlight.com/2026/11/03/bottoms-visits-bainbridge-on-georgias-voice-georgias-vote-tour/",
+          "s": "thepostsearchlight.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Austin Scott",
+      "aka": [],
+      "type": "",
+      "t": "Austin Scott is a Republican Congressman from District 8. He ran against Democrat Kelli Esti in an election where he received 60.41% of the district’s vote.",
+      "src": [
+        {
+          "t": "The Tifton Gazette: 2026 midterms come to a close for Tift County (Nov. 3, 2026)",
+          "u": "https://tiftongazette.com/2026/11/03/2026-midterms-come-to-a-close-for-tift-county/",
+          "s": "The Tifton Gazette"
+        },
+        {
+          "t": "unionrecorder.com: How Baldwin County voted (Nov. 3, 2026)",
+          "u": "https://unionrecorder.com/2026/11/03/how-baldwin-county-voted/",
+          "s": "unionrecorder.com"
+        },
+        {
+          "t": "The Tifton Gazette: Democrats Ossoff, Bottoms projected to win (Nov. 3, 2026)",
+          "u": "https://tiftongazette.com/2026/11/03/democrats-lead-in-early-vote-tally/",
+          "s": "The Tifton Gazette"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Keisha Lance Bottoms",
+      "aka": [],
+      "type": "",
+      "t": "Keisha Lance Bottoms is the governor-elect of Georgia, elected as the state's first Black woman governor. She is a Democrat who made Medicaid expansion a central part of her campaign.",
+      "src": [
+        {
+          "t": "nowgeorgia.com: Democratic wins put Medicaid expansion back in play in holdout states (Nov. 9, 2026)",
+          "u": "https://nowgeorgia.com/democratic-wins-put-medicaid-expansion-back-in-play-in-holdout-states/",
+          "s": "nowgeorgia.com"
+        },
+        {
+          "t": "cobbcountycourier.com: Georgia Gov.‑elect Keisha Lance Bottoms stands on the shoulders of Stacey Abrams, Charlotta Bass and countless other Black women who dreamed (Nov. 9, 2026)",
+          "u": "https://cobbcountycourier.com/2026/11/georgia-gov-elect-keisha-lance-bottoms-stands-on-the-shoulders-of-stacey-abrams-charlotta-bass-and-countless-other-black-women-who-dreamed/",
+          "s": "cobbcountycourier.com"
+        },
+        {
+          "t": "theaugustapress.com: Columbia County Observer: So, Georgia’s Blue. Y’all Doing Okay? (Nov. 9, 2026)",
+          "u": "https://theaugustapress.com/columbia-county-observer-so-georgias-blue-yall-doing-okay/",
+          "s": "theaugustapress.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Nikema Williams",
+      "aka": [],
+      "type": "",
+      "t": "Nikema Williams represents Congressional District 5. The district was previously held by the late John Lewis.",
+      "src": [
+        {
+          "t": "ocgnews.com: Georgia Democrats sweep key races with several newcomers (Nov. 4, 2026)",
+          "u": "https://ocgnews.com/georgia-democrats-sweep-key-races-with-several-newcomers/",
+          "s": "ocgnews.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Houston Gaines",
+      "aka": [],
+      "type": "",
+      "t": "Houston Gaines is a Republican candidate who won the House District 10 race with 83% of the votes. He is running against Democrat Pamela Delancy.",
+      "src": [
+        {
+          "t": "921wlhr.com: Unofficial Midterm Election Results for Franklin and Hart Counties (Nov. 3, 2026)",
+          "u": "https://921wlhr.com/mid-term-election-results-for-franklin-and-hart-counties/",
+          "s": "921wlhr.com"
+        },
+        {
+          "t": "921wlhr.com: VOTERS GO TO THE POLLS TODAY FOR MID-TERM ELECTIONS (Nov. 3, 2026)",
+          "u": "https://921wlhr.com/voters-go-to-the-polls-today-for-mid-term-elections/",
+          "s": "921wlhr.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Brad Raffensperger",
+      "aka": [],
+      "type": "",
+      "t": "Brad Raffensperger is the Secretary of State of Georgia. He has opened an investigation into Seminole County’s late upload of Election Day votes and has promised to deliver all of Georgia’s voting results by midnight.",
+      "src": [
+        {
+          "t": "FOX 5 Atlanta: How a 388-vote discrepancy changed who won a Georgia House seat (Nov. 9, 2026)",
+          "u": "https://www.fox5atlanta.com/news/how-388-vote-discrepancy-changed-who-won-georgia-house-seat",
+          "s": "FOX 5 Atlanta"
+        },
+        {
+          "t": "timesenterprise.com: Democratic election results should be wakeup call for Republicans (Nov. 8, 2026)",
+          "u": "https://timesenterprise.com/2026/11/08/democratic-election-results-should-be-wakeup-call-for-republicans/",
+          "s": "timesenterprise.com"
+        },
+        {
+          "t": "allongeorgia.com: Raffensperger Opens Investigation into Seminole County’s Late Upload of Election Day Results (Nov. 7, 2026)",
+          "u": "https://allongeorgia.com/chattooga-local-government/raffensperger-opens-investigation-into-seminole-countys-late-upload-of-election-day-results/",
+          "s": "allongeorgia.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Greg Dolezal",
+      "aka": [],
+      "type": "",
+      "t": "Greg Dolezal is a Republican candidate who ran for the lieutenant governor of Georgia and lost to Democrat Josh McLaurin. Greg Dolezal is also a Republican who ran for the lieutenant governor of Georgia and received 43.64% of the vote.",
+      "src": [
+        {
+          "t": "timesenterprise.com: Boyd and Burns Smith slated for a runoff on Dec. 1 (Nov. 5, 2026)",
+          "u": "https://timesenterprise.com/2026/11/05/boyd-and-burns-smith-slated-for-a-runoff-on-dec-1/",
+          "s": "timesenterprise.com"
+        },
+        {
+          "t": "capitol-beat.org: Georgia Democrats flip every statewide office, but appear to fall short in the Senate (Nov. 4, 2026)",
+          "u": "https://capitol-beat.org/2026/11/georgia-democrats-flip-every-statewide-office-but-appear-to-fall-short-in-the-senate/",
+          "s": "capitol-beat.org"
+        },
+        {
+          "t": "SaportaReport: An election that was eight times historic (Nov. 4, 2026)",
+          "u": "https://saportareport.com/an-election-that-was-eight-times-historic/columnists/tom/",
+          "s": "SaportaReport"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Brian Strickland",
+      "aka": [],
+      "type": "",
+      "t": "Brian Strickland is a Republican candidate who ran against Tanya Miller in the attorney general’s race.",
+      "src": [
+        {
+          "t": "timesenterprise.com: Boyd and Burns Smith slated for a runoff on Dec. 1 (Nov. 5, 2026)",
+          "u": "https://timesenterprise.com/2026/11/05/boyd-and-burns-smith-slated-for-a-runoff-on-dec-1/",
+          "s": "timesenterprise.com"
+        },
+        {
+          "t": "ocgnews.com: Georgia Democrats sweep key races with several newcomers (Nov. 4, 2026)",
+          "u": "https://ocgnews.com/georgia-democrats-sweep-key-races-with-several-newcomers/",
+          "s": "ocgnews.com"
+        },
+        {
+          "t": "unionrecorder.com: How Baldwin County voted (Nov. 3, 2026)",
+          "u": "https://unionrecorder.com/2026/11/03/how-baldwin-county-voted/",
+          "s": "unionrecorder.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "The Home Depot Inc, Political Action Committee",
+      "aka": [],
+      "type": "",
+      "t": "The Home Depot Inc, Political Action Committee is associated with transition team members, including Arthur Blank and Tyler Perry.",
+      "src": [
+        {
+          "t": "The Current: Keisha Lance Bottoms names transition team ahead of taking office (Nov. 7, 2026)",
+          "u": "https://thecurrentga.org/2026/11/07/keisha-lance-bottoms-names-transition-team-ahead-of-taking-office/",
+          "s": "The Current"
+        },
+        {
+          "t": "roughdraftatlanta.com: Bottoms announces transition team as ascendent Georgia Democrats prepare to run state government (Nov. 6, 2026)",
+          "u": "https://roughdraftatlanta.com/2026/11/06/keisha-lance-bottoms-transition-team/",
+          "s": "roughdraftatlanta.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Tanya Miller",
+      "aka": [],
+      "type": "",
+      "t": "Tanya Miller is the Democratic candidate for attorney general who defeated Republican Brian Strickland. She was elected attorney general with 55.54 percent of the vote.",
+      "src": [
+        {
+          "t": "capitol-beat.org: Women put their stamp on Georgia election (Nov. 6, 2026)",
+          "u": "https://capitol-beat.org/2026/11/women-put-their-stamp-on-georgia-election/",
+          "s": "capitol-beat.org"
+        },
+        {
+          "t": "timesenterprise.com: Boyd and Burns Smith slated for a runoff on Dec. 1 (Nov. 5, 2026)",
+          "u": "https://timesenterprise.com/2026/11/05/boyd-and-burns-smith-slated-for-a-runoff-on-dec-1/",
+          "s": "timesenterprise.com"
+        },
+        {
+          "t": "ocgnews.com: Georgia Democrats sweep key races with several newcomers (Nov. 4, 2026)",
+          "u": "https://ocgnews.com/georgia-democrats-sweep-key-races-with-several-newcomers/",
+          "s": "ocgnews.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Penny Brown Reynolds",
+      "aka": [],
+      "type": "",
+      "t": "Penny Brown Reynolds is the Secretary of State, elected with 55.68 percent of the vote. She defeated Republican Tim Fleming in the race.",
+      "src": [
+        {
+          "t": "capitol-beat.org: Women put their stamp on Georgia election (Nov. 6, 2026)",
+          "u": "https://capitol-beat.org/2026/11/women-put-their-stamp-on-georgia-election/",
+          "s": "capitol-beat.org"
+        },
+        {
+          "t": "timesenterprise.com: Boyd and Burns Smith slated for a runoff on Dec. 1 (Nov. 5, 2026)",
+          "u": "https://timesenterprise.com/2026/11/05/boyd-and-burns-smith-slated-for-a-runoff-on-dec-1/",
+          "s": "timesenterprise.com"
+        },
+        {
+          "t": "ocgnews.com: Georgia Democrats sweep key races with several newcomers (Nov. 4, 2026)",
+          "u": "https://ocgnews.com/georgia-democrats-sweep-key-races-with-several-newcomers/",
+          "s": "ocgnews.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Josh McLaurin",
+      "aka": [],
+      "type": "",
+      "t": "Josh McLaurin is the newly elected lieutenant governor of Georgia, defeating Republican Greg Dolezal. He will preside over the state legislature.",
+      "src": [
+        {
+          "t": "timesenterprise.com: Boyd and Burns Smith slated for a runoff on Dec. 1 (Nov. 5, 2026)",
+          "u": "https://timesenterprise.com/2026/11/05/boyd-and-burns-smith-slated-for-a-runoff-on-dec-1/",
+          "s": "timesenterprise.com"
+        },
+        {
+          "t": "atlpresscollective.com: 2026 Midterms: A new balance of power in Georgia and the nation follows historic election (Nov. 4, 2026)",
+          "u": "https://atlpresscollective.com/2026/11/04/2026-midterms-a-new-balance-of-power-in-georgia-and-the-nation-follows-historic-election/",
+          "s": "atlpresscollective.com"
+        },
+        {
+          "t": "capitol-beat.org: Georgia Democrats flip every statewide office, but appear to fall short in the Senate (Nov. 4, 2026)",
+          "u": "https://capitol-beat.org/2026/11/georgia-democrats-flip-every-statewide-office-but-appear-to-fall-short-in-the-senate/",
+          "s": "capitol-beat.org"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Tim Fleming",
+      "aka": [],
+      "type": "",
+      "t": "Tim Fleming is a Republican candidate who ran against Penny Brown Reynolds in the secretary of state race.",
+      "src": [
+        {
+          "t": "timesenterprise.com: Boyd and Burns Smith slated for a runoff on Dec. 1 (Nov. 5, 2026)",
+          "u": "https://timesenterprise.com/2026/11/05/boyd-and-burns-smith-slated-for-a-runoff-on-dec-1/",
+          "s": "timesenterprise.com"
+        },
+        {
+          "t": "unionrecorder.com: How Baldwin County voted (Nov. 3, 2026)",
+          "u": "https://unionrecorder.com/2026/11/03/how-baldwin-county-voted/",
+          "s": "unionrecorder.com"
+        },
+        {
+          "t": "The Tifton Gazette: Democrats Ossoff, Bottoms projected to win (Nov. 3, 2026)",
+          "u": "https://tiftongazette.com/2026/11/03/democrats-lead-in-early-vote-tally/",
+          "s": "The Tifton Gazette"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Chris Carr",
+      "aka": [],
+      "type": "",
+      "t": "Chris Carr is the Attorney General who announced the court's approval of a final consent judgment. The consent judgment voids all customer agreements with the company and its affiliate, Flex Financial 911.",
+      "src": [
+        {
+          "t": "FOX 5 Atlanta: Court orders Home Saver 911 to return Georgia home titles (Nov. 9, 2026)",
+          "u": "https://www.fox5atlanta.com/news/court-orders-home-saver-911-return-georgia-home-titles",
+          "s": "FOX 5 Atlanta"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "GEORGIA ACTION FUND",
+      "aka": [],
+      "type": "",
+      "t": "The Georgia Action Fund is a political action committee founded by former Republican U.S. Representative Jack Kingston. It received $150,000 from Jeffrey Sprecher, chairman of Intercontinental Exchange, over the past two months.",
+      "src": [
+        {
+          "t": "Capitol Beat: Race for Georgia governor draws more than $150 million in final three months (Nov. 2, 2026)",
+          "u": "https://capitol-beat.org/2026/11/race-for-georgia-governor-draws-more-than-150-million-in-final-three-months/",
+          "s": "Capitol Beat"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Rick Jackson",
+      "aka": [],
+      "type": "",
+      "t": "Rick Jackson is a Republican gubernatorial candidate who ran against Democrat Keisha Lance Bottoms in Georgia's 2026 election. Rick Jackson is a healthcare staffing executive and billionaire who has pitched \"intelligent Medicaid expansion\" but provided few details.",
+      "src": [
+        {
+          "t": "The Current: Blue tide sweeps away $200 million-plus in Georgia GOP spending (Nov. 9, 2026)",
+          "u": "https://thecurrentga.org/2026/11/09/blue-tide-sweeps-away-200-million-plus-in-georgia-gop-spending/",
+          "s": "The Current"
+        },
+        {
+          "t": "The Current: Georgia helped inspire Medicaid work rules. Its own rules could soon end. (Nov. 6, 2026)",
+          "u": "https://thecurrentga.org/2026/11/06/georgia-helped-inspire-medicaid-work-rules-its-own-rules-could-soon-end/",
+          "s": "The Current"
+        },
+        {
+          "t": "timesenterprise.com: Boyd and Burns Smith slated for a runoff on Dec. 1 (Nov. 5, 2026)",
+          "u": "https://timesenterprise.com/2026/11/05/boyd-and-burns-smith-slated-for-a-runoff-on-dec-1/",
+          "s": "timesenterprise.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Georgia Republican Party, Inc.",
+      "aka": [],
+      "type": "",
+      "t": "The Georgia Republican Party, Inc. is a political party that suffered its worst electoral loss in history. The Georgia Republican Assembly is a committee that determines who can run for office as a Republican.",
+      "src": [
+        {
+          "t": "SaportaReport: A hard bump for Georgia Republicans, and the beginning of a new era (Nov. 9, 2026)",
+          "u": "https://saportareport.com/a-hard-bump-for-georgia-republicans-and-the-beginning-of-a-new-era/columnists/tom/",
+          "s": "SaportaReport"
+        },
+        {
+          "t": "timesenterprise.com: Democratic election results should be wakeup call for Republicans (Nov. 8, 2026)",
+          "u": "https://timesenterprise.com/2026/11/08/democratic-election-results-should-be-wakeup-call-for-republicans/",
+          "s": "timesenterprise.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Stacey Abrams",
+      "aka": [],
+      "type": "",
+      "t": "Stacey Abrams is a democracy advocate, legislator, and lawyer. She received about 32% of the Columbia County vote for governor in the 2022 midterms.",
+      "src": [
+        {
+          "t": "cobbcountycourier.com: Georgia Gov.‑elect Keisha Lance Bottoms stands on the shoulders of Stacey Abrams, Charlotta Bass and countless other Black women who dreamed (Nov. 9, 2026)",
+          "u": "https://cobbcountycourier.com/2026/11/georgia-gov-elect-keisha-lance-bottoms-stands-on-the-shoulders-of-stacey-abrams-charlotta-bass-and-countless-other-black-women-who-dreamed/",
+          "s": "cobbcountycourier.com"
+        },
+        {
+          "t": "theaugustapress.com: Columbia County Observer: So, Georgia’s Blue. Y’all Doing Okay? (Nov. 9, 2026)",
+          "u": "https://theaugustapress.com/columbia-county-observer-so-georgias-blue-yall-doing-okay/",
+          "s": "theaugustapress.com"
+        },
+        {
+          "t": "capitol-beat.org: Women put their stamp on Georgia election (Nov. 6, 2026)",
+          "u": "https://capitol-beat.org/2026/11/women-put-their-stamp-on-georgia-election/",
+          "s": "capitol-beat.org"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "John King",
+      "aka": [],
+      "type": "",
+      "t": "John King is the incumbent commissioner of insurance who was defeated by Keisha Sean Waites.",
+      "src": [
+        {
+          "t": "timesenterprise.com: Boyd and Burns Smith slated for a runoff on Dec. 1 (Nov. 5, 2026)",
+          "u": "https://timesenterprise.com/2026/11/05/boyd-and-burns-smith-slated-for-a-runoff-on-dec-1/",
+          "s": "timesenterprise.com"
+        },
+        {
+          "t": "ocgnews.com: Georgia Democrats sweep key races with several newcomers (Nov. 4, 2026)",
+          "u": "https://ocgnews.com/georgia-democrats-sweep-key-races-with-several-newcomers/",
+          "s": "ocgnews.com"
+        },
+        {
+          "t": "unionrecorder.com: How Baldwin County voted (Nov. 3, 2026)",
+          "u": "https://unionrecorder.com/2026/11/03/how-baldwin-county-voted/",
+          "s": "unionrecorder.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Tyler Harper",
+      "aka": [],
+      "type": "",
+      "t": "Tyler Harper is the former commissioner of agriculture who lost to Katherine Juhan-Arnold.",
+      "src": [
+        {
+          "t": "timesenterprise.com: Boyd and Burns Smith slated for a runoff on Dec. 1 (Nov. 5, 2026)",
+          "u": "https://timesenterprise.com/2026/11/05/boyd-and-burns-smith-slated-for-a-runoff-on-dec-1/",
+          "s": "timesenterprise.com"
+        },
+        {
+          "t": "unionrecorder.com: How Baldwin County voted (Nov. 3, 2026)",
+          "u": "https://unionrecorder.com/2026/11/03/how-baldwin-county-voted/",
+          "s": "unionrecorder.com"
+        },
+        {
+          "t": "The Tifton Gazette: Democrats Ossoff, Bottoms projected to win (Nov. 3, 2026)",
+          "u": "https://tiftongazette.com/2026/11/03/democrats-lead-in-early-vote-tally/",
+          "s": "The Tifton Gazette"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Georgia Conservation Voters Action Fund",
+      "aka": [],
+      "type": "",
+      "t": "The Georgia Conservation Voters Action Fund is a PAC affiliated with Georgia Conservation Voters. It poured $4.3 million in two election cycles for Democratic Public Service Commission candidates.",
+      "src": [
+        {
+          "t": "theaugustapress.com: What Georgia’s election could mean for data centers (Nov. 10, 2026)",
+          "u": "https://theaugustapress.com/what-georgias-election-could-mean-for-data-centers/",
+          "s": "theaugustapress.com"
+        }
+      ],
+      "d": "2026-11-10",
+      "auto": 1
+    },
+    {
+      "n": "Brian Kemp",
+      "aka": [],
+      "type": "",
+      "t": "Brian Kemp is a former governor of Georgia who signed into law Senate Bill 406, known as the Georgia Property Owners’ Bill of Rights. He also served as a speaker on election night and spoke with a candidate the day after the election.",
+      "src": [
+        {
+          "t": "tattnalljournal.net: State officials and law enforcement officers honor the late Colonel Sidney Miles (Nov. 10, 2026)",
+          "u": "https://tattnalljournal.net/local-news/tattnall-news/state-officials-and-law-enforcement-officers-honor-the-late-colonel-sidney-miles/",
+          "s": "tattnalljournal.net"
+        },
+        {
+          "t": "theaugustapress.com: What Georgia’s election could mean for data centers (Nov. 10, 2026)",
+          "u": "https://theaugustapress.com/what-georgias-election-could-mean-for-data-centers/",
+          "s": "theaugustapress.com"
+        },
+        {
+          "t": "SaportaReport: A hard bump for Georgia Republicans, and the beginning of a new era (Nov. 9, 2026)",
+          "u": "https://saportareport.com/a-hard-bump-for-georgia-republicans-and-the-beginning-of-a-new-era/columnists/tom/",
+          "s": "SaportaReport"
+        }
+      ],
+      "d": "2026-11-11",
+      "auto": 1
+    },
+    {
+      "n": "Burt Jones",
+      "aka": [],
+      "type": "",
+      "t": "Burt Jones ran for governor. NONE",
+      "src": [
+        {
+          "t": "capitol-beat.org: Election losses force changes in Georgia Senate GOP leadership (Nov. 11, 2026)",
+          "u": "https://capitol-beat.org/2026/11/election-losses-force-changes-in-georgia-senate-gop-leadership/",
+          "s": "capitol-beat.org"
+        }
+      ],
+      "d": "2026-11-11",
+      "auto": 1
+    }
+  ],
+  "tried": {
+    "jon ossoff": "16:https://921wlhr.com/mid-term-election-results-for-franklin-and-hart-counties/,https://921wlhr.com/voters-go-to-the-polls-today-for-mid-term-elections/,https://atlpresscollective.com/2026/11/04/blue-wa",
+    "for all georgians inc": "1:https://thecurrentga.org/2026/11/07/keisha-lance-bottoms-names-transition-team-ahead-of-taking-office/",
+    "sanford bishop": "1:https://thepostsearchlight.com/2026/11/03/bottoms-visits-bainbridge-on-georgias-voice-georgias-vote-tour/",
+    "austin scott": "3:https://tiftongazette.com/2026/11/03/2026-midterms-come-to-a-close-for-tift-county/,https://tiftongazette.com/2026/11/03/democrats-lead-in-early-vote-tally/,https://unionrecorder.com/2026/11/03/how-ba",
+    "brian kemp": "13:https://allongeorgia.com/georgia-state-news/chris-sanders-appointed-new-stone-mountain-authority-ceo/,https://atlpresscollective.com/2026/11/04/2026-midterms-a-new-balance-of-power-in-georgia-and-the-",
+    "keisha lance bottoms": "44:https://921wlhr.com/mid-term-election-results-for-franklin-and-hart-counties/,https://921wlhr.com/voters-go-to-the-polls-today-for-mid-term-elections/,https://atlpresscollective.com/2026/11/04/2026-mi",
+    "nikema williams": "1:https://ocgnews.com/georgia-democrats-sweep-key-races-with-several-newcomers/",
+    "georgia republican party inc": "2:https://saportareport.com/a-hard-bump-for-georgia-republicans-and-the-beginning-of-a-new-era/columnists/tom/,https://timesenterprise.com/2026/11/08/democratic-election-results-should-be-wakeup-call-fo",
+    "houston gaines": "3:https://921wlhr.com/mid-term-election-results-for-franklin-and-hart-counties/,https://921wlhr.com/voters-go-to-the-polls-today-for-mid-term-elections/",
+    "brad raffensperger": "8:https://921wlhr.com/franklin-board-of-elections-to-certify-elections-today/,https://allongeorgia.com/chattooga-local-government/raffensperger-opens-investigation-into-seminole-countys-late-upload-of-e",
+    "greg dolezal": "7:https://capitol-beat.org/2026/11/georgia-democrats-flip-every-statewide-office-but-appear-to-fall-short-in-the-senate/,https://saportareport.com/an-election-that-was-eight-times-historic/columnists/to",
+    "brian strickland": "4:https://ocgnews.com/georgia-democrats-sweep-key-races-with-several-newcomers/,https://tiftongazette.com/2026/11/03/democrats-lead-in-early-vote-tally/,https://timesenterprise.com/2026/11/05/boyd-and-b",
+    "the home depot inc political action committee": "2:https://roughdraftatlanta.com/2026/11/06/keisha-lance-bottoms-transition-team/,https://thecurrentga.org/2026/11/07/keisha-lance-bottoms-names-transition-team-ahead-of-taking-office/",
+    "tanya miller": "6:https://capitol-beat.org/2026/11/women-put-their-stamp-on-georgia-election/,https://ocgnews.com/georgia-democrats-sweep-key-races-with-several-newcomers/,https://saportareport.com/an-election-that-was",
+    "penny brown reynolds": "8:https://capitol-beat.org/2026/11/women-put-their-stamp-on-georgia-election/,https://ocgnews.com/georgia-democrats-sweep-key-races-with-several-newcomers/,https://saportareport.com/an-election-that-was",
+    "jasmine clark": "1:https://ocgnews.com/georgia-democrats-sweep-key-races-with-several-newcomers/",
+    "josh mclaurin": "10:https://atlpresscollective.com/2026/11/04/2026-midterms-a-new-balance-of-power-in-georgia-and-the-nation-follows-historic-election/,https://capitol-beat.org/2026/11/georgia-democrats-flip-every-statew",
+    "tim fleming": "3:https://tiftongazette.com/2026/11/03/democrats-lead-in-early-vote-tally/,https://timesenterprise.com/2026/11/05/boyd-and-burns-smith-slated-for-a-runoff-on-dec-1/,https://unionrecorder.com/2026/11/03/",
+    "chris carr": "1:https://www.fox5atlanta.com/news/court-orders-home-saver-911-return-georgia-home-titles",
+    "georgia action fund": "1:https://capitol-beat.org/2026/11/race-for-georgia-governor-draws-more-than-150-million-in-final-three-months/",
+    "rick jackson": "13:https://921wlhr.com/mid-term-election-results-for-franklin-and-hart-counties/,https://921wlhr.com/voters-go-to-the-polls-today-for-mid-term-elections/,https://atlpresscollective.com/2026/11/04/2026-mi",
+    "stacey abrams": "4:https://capitol-beat.org/2026/11/women-put-their-stamp-on-georgia-election/,https://cobbcountycourier.com/2026/11/georgia-gov-elect-keisha-lance-bottoms-stands-on-the-shoulders-of-stacey-abrams-charlo",
+    "john king": "4:https://ocgnews.com/georgia-democrats-sweep-key-races-with-several-newcomers/,https://tiftongazette.com/2026/11/03/democrats-lead-in-early-vote-tally/,https://timesenterprise.com/2026/11/05/boyd-and-b",
+    "tyler harper": "3:https://tiftongazette.com/2026/11/03/democrats-lead-in-early-vote-tally/,https://timesenterprise.com/2026/11/05/boyd-and-burns-smith-slated-for-a-runoff-on-dec-1/,https://unionrecorder.com/2026/11/03/",
+    "georgia conservation voters action fund": "1:https://theaugustapress.com/what-georgias-election-could-mean-for-data-centers/",
+    "georgia blue pac inc": "1:https://theaugustapress.com/columbia-county-observer-so-georgias-blue-yall-doing-okay/",
+    "burt jones": "1:https://capitol-beat.org/2026/11/election-losses-force-changes-in-georgia-senate-gop-leadership/"
+  }
+}

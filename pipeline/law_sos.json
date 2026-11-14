@@ -1,0 +1,329 @@
+{
+ "v": 1,
+ "src": {
+  "t": "Georgia Secretary of State, 2026 Election Calendar and Highlights",
+  "u": "https://sos.ga.gov/sites/default/files/forms/2026%20Elections%20Calendar_0.pdf"
+ },
+ "read": "2026-11-09T04:28Z",
+ "changed": "2026-11-09",
+ "items": [
+  {
+   "d": "2026-02-01",
+   "head": "DEADLINE TO PUBLISH QUALIFYING FEES",
+   "what": "Deadline to publish qualifying fees. The last day for the Secretary of State and Election Superintendents to fix and publish 2026 qualifying fees for candidates running for federal, state, and local offices.",
+   "cite": "O.C.G.A. § 21-2-131(a)"
+  },
+  {
+   "d": "2026-02-16",
+   "head": "REGISTRATION DEADLINE FOR MARCH SPECIAL ELECTION/RUNOFF",
+   "what": "Registration deadline for March special election/runoff. Last day for an applicant to register and for an elector to change address prior to the primary, election, or runoff.",
+   "cite": "O.C.G.A. §§ 2-224(a), 21-2-218"
+  },
+  {
+   "d": "2026-03-06",
+   "head": "12PM CANDIDATE QUALIFYING WEEK/PERIOD FOR MAY PRIMARY AND NOVEMBER GENERAL",
+   "what": "12pm candidate qualifying week/period for May primary and November general. The qualifying period for a candidate to file and qualify to appear on the ballot.",
+   "cite": "O.C.G.A. § 21-2-132(d)"
+  },
+  {
+   "d": "2026-03-13",
+   "head": "LAST DAY OF ADVANCE VOTING FOR MARCH SPECIAL ELECTION",
+   "what": "Last day of advance voting for March special election. Last day of advance voting.",
+   "cite": "O.C.G.A. § 21-2-385(d)(1)"
+  },
+  {
+   "d": "2026-03-17",
+   "head": "DATE OF MARCH SPECIAL ELECTION",
+   "what": "Date of March special election.",
+   "cite": "O.C.G.A. § 21-2-540(c)(1)(B)"
+  },
+  {
+   "d": "2026-03-20",
+   "time": "5:00p.m.",
+   "head": "UOCAVA BALLOT RECEIPT DEADLINE",
+   "what": "UOCAVA ballot receipt deadline. Eligible UOCAVA absentee ballots postmarked by election date and received within the three business days following the election deemed valid shall be counted.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(G)"
+  },
+  {
+   "d": "2026-03-20",
+   "time": "5:00p.m.",
+   "head": "ABSENTEE BALLOT CURE DEADLINE",
+   "what": "Absentee ballot cure deadline. Last day voters can cure timely submitted absentee ballots for missing signature or information mismatch.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(C)"
+  },
+  {
+   "d": "2026-03-23",
+   "time": "5:00p.m.",
+   "head": "DEADLINE FOR COUNTY CERTIFICATION OF MARCH SPECIAL ELECTION",
+   "what": "Deadline for county certification of March special election. Returns shall be certified by the superintendent no later than 5:00 P.M. on the Monday following the date on which such election was held, and such returns shall be immediately transmitted to the Secretary of State.",
+   "cite": "O.C.G.A. § 21-2-493(k)"
+  },
+  {
+   "d": "2026-04-10",
+   "head": "LAST DAY OF ADVANCE VOTING FOR SPECIAL ELECTION RUNOFF",
+   "what": "Last day of advance voting for special election runoff. Last day of advance voting.",
+   "cite": "O.C.G.A. § 21-2-385(d)(1)"
+  },
+  {
+   "d": "2026-04-14",
+   "head": "DATE OF SPECIAL ELECTION RUNOFF",
+   "what": "Date of special election runoff.",
+   "cite": "O.C.G.A. § 21-2-501(a)(1)"
+  },
+  {
+   "d": "2026-04-17",
+   "time": "5:00p.m.",
+   "head": "UOCAVA BALLOT RECEIPT DEADLINE",
+   "what": "UOCAVA ballot receipt deadline. Eligible UOCAVA absentee ballots postmarked by election date and received within the three business days following the election deemed valid shall be counted.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(G)"
+  },
+  {
+   "d": "2026-04-17",
+   "time": "5:00p.m.",
+   "head": "ABSENTEE BALLOT CURE DEADLINE",
+   "what": "Absentee ballot cure deadline. Last day voters can cure timely submitted absentee ballots for missing signature or information mismatch.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(C)"
+  },
+  {
+   "d": "2026-04-20",
+   "head": "REGISTRATION DEADLINE FOR MAY PRIMARY/NONPARTISAN ELECTION",
+   "what": "Registration deadline for May primary/nonpartisan election. Last day for an applicant to register and for an elector to change address prior to the primary, election, or runoff.",
+   "cite": "O.C.G.A. §§ 2-2-224(a), 21-2-218"
+  },
+  {
+   "d": "2026-04-20",
+   "time": "5:00p.m.",
+   "head": "DEADLINE FOR COUNTY CERTIFICATION OF APRIL RUNOFF ELECTION",
+   "what": "Deadline for county certification of April runoff election. Returns shall be certified by the superintendent no later than 5:00 P.M. on the Monday following the date on which such election was held, and such returns shall be immediately transmitted to the Secretary of State.",
+   "cite": "O.C.G.A. § 21-2-493(k)"
+  },
+  {
+   "d": "2026-05-15",
+   "head": "LAST DAY OF ADVANCE VOTING FOR MAY PRIMARY/NONPARTISAN ELECTION",
+   "what": "Last day of advance voting for May primary/nonpartisan election. Last day of advance voting.",
+   "cite": "O.C.G.A. § 21-2-385(d)(1)"
+  },
+  {
+   "d": "2026-05-18",
+   "head": "REGISTRATION DEADLINE FOR JUNE FEDERAL RUNOFF ELECTION",
+   "what": "Registration deadline for June federal runoff election. Last day for an applicant to register and for an elector to change address prior to the primary, election, or runoff.",
+   "cite": "O.C.G.A. §§ 2-224(a), 21-2-218"
+  },
+  {
+   "d": "2026-05-22",
+   "time": "5:00p.m.",
+   "head": "UOCAVA BALLOT RECEIPT DEADLINE",
+   "what": "UOCAVA ballot receipt deadline. Eligible UOCAVA absentee ballots postmarked by election date and received within the three business days following the election deemed valid shall be counted.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(G)"
+  },
+  {
+   "d": "2026-05-22",
+   "time": "5:00p.m.",
+   "head": "ABSENTEE BALLOT CURE DEADLINE",
+   "what": "Absentee ballot cure deadline. Last day voters can cure timely submitted absentee ballots for missing signature or information mismatch.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(C)"
+  },
+  {
+   "d": "2026-05-26",
+   "time": "5:00p.m.",
+   "head": "DEADLINE FOR COUNTY CERTIFICATION OF MAY PRIMARY/NONPARTISAN ELECTION",
+   "what": "Deadline for county certification of May primary/nonpartisan election. Returns shall be certified by the superintendent not later than 5:00 P.M. on the Monday following the date on which such election was held, and such returns shall be immediately transmitted to the Secretary of State.",
+   "cite": "O.C.G.A. § 21-2-493(k)"
+  },
+  {
+   "d": "2026-05-28",
+   "d2": "2026-06-01",
+   "head": "CONDUCT RISK LIMITING AUDIT",
+   "what": "Conduct risk limiting audit. Local election superintendents shall conduct risk-limiting audit on one federal or state-wide contests randomly selected by the Secretary of State during this period.",
+   "cite": "O.C.G.A. § 21-2-498(b)(c)"
+  },
+  {
+   "d": "2026-06-05",
+   "head": "DEADLINE FOR STATE CERTIFICATION OF RETURNS",
+   "what": "Deadline for state certification of returns. Last day for the Secretary of State's Office to certify the votes cast for federal and statewide contests.",
+   "cite": "O.C.G.A. §§ 21-2-499, 21-2-497(a)(4)(A)"
+  },
+  {
+   "d": "2026-06-08",
+   "head": "JUNE RUNOFF ELECTION ADVANCE VOTING",
+   "what": "June runoff election advance voting. Advance voting should commence as soon as possible prior to a runoff but not later than the second Monday immediately prior to such runoff.",
+   "cite": "O.C.G.A. § 21-2-385(d)(1)(B)"
+  },
+  {
+   "d": "2026-06-12",
+   "head": "LAST DAY OF ADVANCE VOTING FOR JUNE RUNOFF ELECTION",
+   "what": "Last day of advance voting for June runoff election. Last day of advance voting.",
+   "cite": "O.C.G.A. § 21-2-385(d)(1)"
+  },
+  {
+   "d": "2026-06-16",
+   "head": "DATE OF JUNE RUNOFF ELECTION",
+   "what": "Date of June runoff election.",
+   "cite": "O.C.G.A. § 21-2-501(a)(1)"
+  },
+  {
+   "d": "2026-06-22",
+   "time": "5:00p.m.",
+   "head": "UOCAVA BALLOT RECEIPT DEADLINE",
+   "what": "UOCAVA ballot receipt deadline. Eligible UOCAVA absentee ballots postmarked by election date and received within the three business days following the election deemed valid shall be counted.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(G)"
+  },
+  {
+   "d": "2026-06-22",
+   "time": "5:00p.m.",
+   "head": "ABSENTEE BALLOT CURE DEADLINE",
+   "what": "Absentee ballot cure deadline. Last day voters can cure timely submitted absentee ballots for missing signature or information mismatch.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(C)"
+  },
+  {
+   "d": "2026-06-23",
+   "time": "5:00p.m.",
+   "head": "DEADLINE FOR COUNTY CERTIFICATION OF JUNE RUNOFF ELECTION",
+   "what": "Deadline for county certification of June runoff election. Returns shall be certified by the superintendent not later than 5:00 P.M. on the Monday following the date on which such election was held, and such returns shall be immediately transmitted to the Secretary of State.",
+   "cite": "O.C.G.A. §21-2-493(k)"
+  },
+  {
+   "d": "2026-06-24",
+   "d2": "2026-06-26",
+   "head": "CONDUCT RISK LIMITING AUDIT IF THERE IS A STATEWIDE OR FEDERAL CONTEST ON BALLOT",
+   "what": "Conduct risk limiting audit if there is a statewide or federal contest on ballot. Local election superintendents shall conduct risk-limiting audit on one federal or state-wide contests randomly selected by the Secretary of State during this period.",
+   "cite": "O.C.G.A. § 21-2-498(b)(c)"
+  },
+  {
+   "d": "2026-07-06",
+   "head": "DEADLINE FOR STATE CERTIFICATION OF RETURNS",
+   "what": "Deadline for state certification of returns. Last day for the Secretary of State's Office to certify the votes cast for federal and statewide contests.",
+   "cite": "O.C.G.A. §§ 21-2-499, 21-2-497(a)(4)(A)"
+  },
+  {
+   "d": "2026-09-21",
+   "head": "CERTIFICATION OF WRITE-IN CANDIDATESSOS",
+   "what": "Certification of write-in candidatessos. to certify and publish federal and state certified write-in candidates.",
+   "cite": "O.C.G.A. § 21-2-133(e)"
+  },
+  {
+   "d": "2026-10-05",
+   "head": "REGISTRATION DEADLINE FOR NOVEMBER GENERAL ELECTION",
+   "what": "Registration deadline for November general election. Last day for an applicant to register and for an elector to change address prior to the primary, election, or runoff.",
+   "cite": "O.C.G.A. §§ 2-2-224(a), 21-2-218"
+  },
+  {
+   "d": "2026-10-30",
+   "head": "LAST DAY OF ADVANCE VOTING FOR NOVEMBER GENERAL ELECTION",
+   "what": "Last day of advance voting for November general election. Last day of advance voting.",
+   "cite": "O.C.G.A. § 21-2-385(d)(1)"
+  },
+  {
+   "d": "2026-11-02",
+   "head": "REGISTRATION DEADLINE FOR DECEMBER FEDERAL RUNOFF",
+   "what": "Registration deadline for December federal runoff. Last day for an applicant to register and for an elector to change address prior to the primary, election, or runoff.",
+   "cite": "O.C.G.A. §§ 2-224(a), 21-2-218"
+  },
+  {
+   "d": "2026-11-03",
+   "head": "DATE OF GENERAL ELECTION",
+   "what": "Date of general election.",
+   "cite": "O.C.G.A. §§ 21-2-9, 21-2-540"
+  },
+  {
+   "d": "2026-11-06",
+   "time": "5:00p.m.",
+   "head": "DEADLINE FOR NOVEMBER GENERAL ELECTION PROVISIONAL VOTER DOCUMENTATION",
+   "what": "Deadline for November general election provisional voter documentation.",
+   "cite": "O.C.G.A. § 21-2-419(c)(1)(2)(3)"
+  },
+  {
+   "d": "2026-11-06",
+   "time": "5:00p.m.",
+   "head": "UOCAVA BALLOT RECEIPT DEADLINE",
+   "what": "UOCAVA ballot receipt deadline. Eligible UOCAVA absentee ballots postmarked by election date and received within the three business days following the election deemed valid shall be counted.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(G)"
+  },
+  {
+   "d": "2026-11-06",
+   "time": "5:00p.m.",
+   "head": "ABSENTEE BALLOT CURE DEADLINE",
+   "what": "Absentee ballot cure deadline. Last day voters can cure timely submitted absentee ballots for missing signature or information mismatch.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(C)"
+  },
+  {
+   "d": "2026-11-09",
+   "time": "5:00p.m.",
+   "head": "DEADLINE FOR COUNTY CERTIFICATION OF NOVEMBER GENERAL ELECTION",
+   "what": "Deadline for county certification of November general election. Returns shall be certified by the superintendent not later than 5:00 P.M. on the Monday following the date on which such election was held, and such returns shall be immediately transmitted to the Secretary of State.",
+   "cite": "O.C.G.A. § 21-2-493(k)"
+  },
+  {
+   "d": "2026-11-13",
+   "d2": "2026-11-17",
+   "head": "CONDUCT RISK LIMITING AUDIT FOR NOVEMBER GENERAL ELECTION",
+   "what": "Conduct risk limiting audit for November general election. Local election superintendents shall conduct risk-limiting audit on one federal or state-wide contests randomly selected by the Secretary of State during this period.",
+   "cite": "O.C.G.A. § 21-2-498(b)(c)"
+  },
+  {
+   "d": "2026-11-20",
+   "head": "DEADLINE FOR STATE CERTIFICATION OF RETURNS",
+   "what": "Deadline for state certification of returns. Last day for the Secretary of State's Office to certify the votes cast for federal and statewide contests.",
+   "cite": "O.C.G.A. §§ 21-2-499, 21-2-497(a)(4)(A)"
+  },
+  {
+   "d": "2026-11-23",
+   "head": "DECEMBER RUNOFF ELECTION ADVANCE VOTING",
+   "what": "December runoff election advance voting. Advance voting should commence as soon as possible prior to a runoff but not later than the second Monday immediately prior to such runoff.",
+   "cite": "O.C.G.A. § 21-2-385(d)(1)(B)"
+  },
+  {
+   "d": "2026-11-25",
+   "head": "LAST DAY OF ADVANCE VOTING FOR DECEMBER RUNOFF ELECTION",
+   "what": "Last day of advance voting for December runoff election. Last day of advance voting.",
+   "cite": "O.C.G.A. § 21-2-385(d)(1)"
+  },
+  {
+   "d": "2026-12-01",
+   "head": "DATE OF GENERAL ELECTION RUNOFF",
+   "what": "Date of general election runoff.",
+   "cite": "O.C.G.A. § 21-2-501(a)(1)"
+  },
+  {
+   "d": "2026-12-04",
+   "time": "5:00p.m.",
+   "head": "DEADLINE FOR DECEMBER RUNOFF ELECTION PROVISIONAL VOTER DOCUMENTATION",
+   "what": "Deadline for December runoff election provisional voter documentation.",
+   "cite": "O.C.G.A. § 21-2-419(c)(1)(2)(3)"
+  },
+  {
+   "d": "2026-12-04",
+   "time": "5:00p.m.",
+   "head": "UOCAVA BALLOT RECEIPT DEADLINE",
+   "what": "UOCAVA ballot receipt deadline. Eligible UOCAVA absentee ballots postmarked by election date and received within the three business days following the election deemed valid shall be counted.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(G)"
+  },
+  {
+   "d": "2026-12-04",
+   "time": "5:00p.m.",
+   "head": "ABSENTEE BALLOT CURE DEADLINE",
+   "what": "Absentee ballot cure deadline. Last day voters can cure timely submitted absentee ballots for missing signature or information mismatch.",
+   "cite": "O.C.G.A. § 21-2-386(a)(1)(C)"
+  },
+  {
+   "d": "2026-12-07",
+   "time": "5:00p.m.",
+   "head": "DEADLINE FOR COUNTY CERTIFICATION OF DECEMBER RUNOFF ELECTION",
+   "what": "Deadline for county certification of December runoff election. Returns shall be certified by the superintendent not later than 5:00 P.M. on the Monday following the date on which such election was held, and such returns shall be immediately transmitted to the Secretary of State.",
+   "cite": "O.C.G.A. §21-2-493(k)"
+  },
+  {
+   "d": "2026-12-10",
+   "d2": "2026-12-14",
+   "head": "CONDUCT RISK LIMITING AUDIT",
+   "what": "Conduct risk limiting audit. Local election superintendents shall conduct risk-limiting audit on one federal or state-wide contests randomly selected by the Secretary of State during this period.",
+   "cite": "O.C.G.A. § 21-2-498(b)(c)"
+  },
+  {
+   "d": "2026-12-18",
+   "head": "DEADLINE FOR STATE CERTIFICATION OF RETURNS",
+   "what": "Deadline for state certification of returns. Last day for the Secretary of State's Office to certify the votes cast for federal and statewide contests.",
+   "cite": "O.C.G.A. §§ 21-2-499, 21-2-497(a)(4)(A)"
+  }
+ ]
+}

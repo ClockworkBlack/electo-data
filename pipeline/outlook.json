@@ -1,0 +1,91 @@
+{
+ "v": 1,
+ "m": "Qwen3-8B (Q4_K_M)",
+ "asOf": "2026-11-12T16:11:02Z",
+ "version": "2026-11-12T16:11:02",
+ "h": "89a4d6f2347a43a0",
+ "ts": 1794643277,
+ "at": "2026-11-14T08:01:17Z",
+ "items": [
+  {
+   "kind": "Forecast",
+   "title": "State Senate: Republicans keep a bare majority",
+   "text": "Republicans lead or are unopposed in 29 of 56 seats, the minimum for a majority. Their closest lead is 1,668 votes, far more than late ballots usually move.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results for every race, Nov 3, 2026",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection",
+     "s": "GA SOS: all races"
+    },
+    {
+     "t": "AP race call: AP race-call story (Nov 4 2026 03:31 UTC); WSB-TV: 'The Associated Press called the race for McLaurin Tuesday night.'",
+     "u": "https://www.yahoo.com/news/politics/articles/democrat-josh-mclaurin-wins-election-033145626.html",
+     "s": "AP call"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "State House: Democrats gain majority",
+   "text": "Democrats lead or are unopposed in 92 of 180 seats, surpassing the 91 needed for a majority. Their closest lead is 357 votes, well above the 0.5% threshold for a recount.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results for every race, Nov 3, 2026",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection",
+     "s": "GA SOS: all races"
+    },
+    {
+     "t": "AP race call: AP race-call story (Nov 4 2026 03:31 UTC); WSB-TV: 'The Associated Press called the race for McLaurin Tuesday night.'",
+     "u": "https://www.yahoo.com/news/politics/articles/democrat-josh-mclaurin-wins-election-033145626.html",
+     "s": "AP call"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "U.S. Senate: Jon Ossoff wins comfortably",
+   "text": "Jon Ossoff leads Mike Collins by 18 percentage points, with a 2.4 million-vote lead. No recount needed, as the margin exceeds the 0.5% threshold.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: U.S. Senate",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-4042-08df23e5ff36",
+     "s": "GA SOS: U.S. Senate"
+    },
+    {
+     "t": "AP race call: FOX 5 Atlanta: \"The Associated Press called the race for Ossoff at 7:55 p.m. EST.\"",
+     "u": "https://www.fox5atlanta.com/news/george-us-senate-jon-ossoff-mike-collins",
+     "s": "AP call"
+    }
+   ]
+  },
+  {
+   "kind": "Next step",
+   "title": "Runoff for House District 151",
+   "text": "Mike Cheokas (R) and Ethan Wolfe (D) are tied with 47.9% and 40.9%, respectively. A runoff is required as no candidate won a majority. The runoff will be held on Dec 1.",
+   "likelihood": "",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: State House District 151",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-6c52-08df23e60bed",
+     "s": "GA SOS: HD-151"
+    }
+   ]
+  },
+  {
+   "kind": "Law",
+   "title": "Recount threshold for statewide races",
+   "text": "A candidate trailing by no more than 0.5% of the votes cast can request a recount within two business days after certification. The Secretary of State must order a recount for races with a margin of 0.5% or less.",
+   "likelihood": "",
+   "src": [
+    {
+     "t": "O.C.G.A. § 21-2-495, recounts (Justia)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-495/",
+     "s": "O.C.G.A. § 21-2-495(c)"
+    }
+   ]
+  }
+ ]
+}

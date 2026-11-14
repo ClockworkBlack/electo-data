@@ -1,0 +1,3517 @@
+{
+ "checked": "2026-11-04",
+ "notes": "Compiled Nov. 4, 2026 and fact-checked the same day against the cited pages. The General Assembly is out of session; the 2027 regular session convenes Jan. 11, 2027. Every 'url' is an official government page opened or seen in an official link during research (legis.ga.gov bill pages, gov.georgia.gov releases and documents, Georgia House press releases, psc.ga.gov pages, or county/city sites); legis.ga.gov pages often do not render for fetch tools and were kept when the bill id matched other sources. Nov. 3, 2026 election results are unofficial until state certification (due by Nov. 20, 2026); the three constitutional amendments and the PSC District 3 and 5 races have not been called by AP, and the page shows the live Secretary of State count for them. Citation keys ssrc, msrc, wsrc and psrc are zero-based indexes into each item's own sources.",
+ "items": [
+  {
+   "id": "hb463-income-tax-cut-2026",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 463",
+   "title": "Income tax cut to 4.99% with a path to 3.99% (Georgia Economic Growth and Tax Relief Act of 2026)",
+   "status": "Signed by Gov. Kemp May 11, 2026; the 4.99% rate applies to tax year 2026",
+   "stage": "enacted",
+   "date": "2026-05-11",
+   "summary": "Lowers Georgia's flat personal and corporate income tax rate from 5.19% to 4.99% for 2026, then by 0.125 percentage points a year toward 3.99% if state revenue benchmarks are met (about eight more years). Raises the standard deduction to $15,000 (single) and $30,000 (joint) for 2026, rising later to $18,000/$36,000; raises the dependent exemption from $4,000 to $5,000 (reaching $6,000 over time) and the retirement income exclusion from $65,000 to $70,000 beginning in 2027; and exempts up to $1,750 each in cash tips and overtime pay for 2026 through 2028. It also eliminates several income tax credits and sales and use tax exemptions (including one for pollution-control equipment) as of Jan. 1, 2026. Final passage April 2, 2026: House 104-71, Senate 33-20.",
+   "why": "Opponents said the cut would 'blow a $6.5 billion hole in the state budget over time,' and Sen. Josh McLaurin (D-Sandy Springs) called it fiscally irresponsible (AJC). Gov. Kemp cited a revenue reduction of nearly $1 billion for FY2027 when he withheld more than $300 million in new spending. Further rate cuts depend on revenue benchmarks that the incoming governor and 2027 legislature will inherit.",
+   "topics": [
+    "taxes",
+    "budget"
+   ],
+   "sponsors": "Rep. Shaw Blackmon (R-Bonaire), House Ways and Means chair",
+   "url": "https://www.legis.ga.gov/legislation/70350",
+   "sources": [
+    {
+     "t": "Georgia Legislature concludes 2026 session: Tax highlights from Sine Die (Eversheds Sutherland via JD Supra)",
+     "u": "https://www.jdsupra.com/legalnews/georgia-legislature-concludes-2026-6196459/",
+     "d": "2026-04-09"
+    },
+    {
+     "t": "Georgia lawmakers approve income tax cut, property tax relief (AJC)",
+     "u": "https://www.ajc.com/politics/2026/04/georgia-lawmakers-approve-income-tax-cut-property-tax-relief/",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "Rep. Shaw Blackmon Applauds Governor Kemp for Signing Income and Property Tax Relief Legislation (Georgia House Media Services)",
+     "u": "https://house-press.com/?p=16729",
+     "d": "2026-05-12"
+    },
+    {
+     "t": "GMA Legislative Tracking: HB 463 votes",
+     "u": "https://billtracker.gacities.com/legislation/70350",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Kemp signs tax cuts, property tax relief into law (Atlanta News First)",
+     "u": "https://www.atlantanewsfirst.com/2026/05/11/live-gov-kemp-signing-series-bills/",
+     "d": "2026-05-11"
+    },
+    {
+     "t": "Gov. Kemp Signs FY27 Budget (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-05-12/gov-kemp-signs-fy27-budget",
+     "d": "2026-05-12"
+    }
+   ],
+   "ssrc": [
+    4,
+    2
+   ],
+   "msrc": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "wsrc": [
+    1,
+    5
+   ],
+   "psrc": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "sb33-homestead-cap-lhost-2026",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 33",
+   "title": "Property tax relief: mandatory homestead assessment cap and a new 1% Local Homestead Option Sales Tax (LHOST)",
+   "status": "Signed by Gov. Kemp May 11, 2026; the mandatory assessment cap applies statewide starting with the 2027 tax year; no local LHOST acts were enacted in the June 2026 special session",
+   "stage": "enacted",
+   "date": "2026-05-11",
+   "summary": "The 'Homeownership Opportunity and Market Equalization Act of 2026' makes the statewide homestead assessment cap (which limits annual increases in a home's taxable value to the inflation rate) mandatory by repealing local opt-outs, so it applies statewide as of the 2027 tax year. It lets counties, by local referendum, adopt a 1% Local Homestead Option Sales Tax (LHOST) whose proceeds fund a new homestead exemption, with any excess reducing millage rates, and it changes how existing FLOST revenue is applied. Proposed caps on local budgets were removed before final passage, and the Senate rejected the House's HB 1116 (a cap on growth in school and local levies of 3% or inflation, whichever is higher). In the June 2026 special session nearly 100 local LHOST acts were introduced, but none received the required two-thirds vote, so no LHOST acts were enacted.",
+   "why": "The assessment cap reaches every jurisdiction starting in 2027, but the LHOST sales-tax swap cannot begin until local acts pass, so those acts would have to come back in the 2027 session. A companion bill, SB 566, requires tax bills and assessment notices to show the savings from exemptions and creates a statewide homestead exemption database at the Department of Revenue.",
+   "topics": [
+    "taxes",
+    "housing",
+    "local government"
+   ],
+   "sponsors": "Carried in the House by Rep. Shaw Blackmon (R-Bonaire); Senate sponsor not confirmed in sources opened",
+   "url": "https://www.legis.ga.gov/legislation/69550",
+   "sources": [
+    {
+     "t": "Georgia Legislature concludes 2026 session: Tax highlights from Sine Die (JD Supra)",
+     "u": "https://www.jdsupra.com/legalnews/georgia-legislature-concludes-2026-6196459/",
+     "d": "2026-04-09"
+    },
+    {
+     "t": "Georgia lawmakers approve income tax cut, property tax relief (AJC)",
+     "u": "https://www.ajc.com/politics/2026/04/georgia-lawmakers-approve-income-tax-cut-property-tax-relief/",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "General Assembly Concludes Special Session (Georgia Municipal Association)",
+     "u": "https://gacities.com/articles/general-assembly-concludes-special-session",
+     "d": "2026-06-24"
+    },
+    {
+     "t": "SB 33: The Homeownership Opportunity and Market Equalization Act of 2026 (Georgia Municipal Association)",
+     "u": "https://www.gacities.com/articles/sb-33-the-homeownership-opportunity-and-market-equalization-act-of-2026",
+     "d": "2026-06-08"
+    },
+    {
+     "t": "Kemp signs tax cuts, property tax relief into law (Atlanta News First)",
+     "u": "https://www.atlantanewsfirst.com/2026/05/11/live-gov-kemp-signing-series-bills/",
+     "d": "2026-05-11"
+    },
+    {
+     "t": "Rep. Shaw Blackmon Applauds Governor Kemp for Signing Income and Property Tax Relief Legislation (Georgia House Media Services)",
+     "u": "https://house-press.com/?p=16729",
+     "d": "2026-05-12"
+    }
+   ],
+   "ssrc": [
+    4,
+    5,
+    0,
+    2
+   ],
+   "msrc": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "wsrc": [
+    0,
+    2
+   ],
+   "psrc": [
+    5
+   ]
+  },
+  {
+   "id": "hb974-fy2027-state-budget",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "budget",
+   "number": "HB 974",
+   "title": "FY2027 state budget ($38.5 billion) with a $300 million-plus spending freeze",
+   "status": "Signed by Gov. Kemp May 12, 2026; fiscal year began July 1, 2026",
+   "stage": "enacted",
+   "date": "2026-05-12",
+   "summary": "The General Assembly passed a $38.5 billion state budget for the year beginning July 1, 2026 (House 153-5; Senate unanimous). It includes more than $70 million to put a literacy coach in every K-3 elementary school, almost $15 billion for K-12 basic education, $100 million for state employee retirement funding, $4 million for student mental health services, funding for 500 NOW/COMP disability waiver slots, 124 new medical residency slots, and a cut of about $34 million to the University System Board of Regents' proposed budget 'to reflect increased credit hour productivity for online courses.' On signing, Gov. Kemp directed agencies to withhold more than $300 million in proposed new spending, citing a revenue reduction of nearly $1 billion for the coming fiscal year from tax cuts. FOX 5 described the signed plan as a $36.6 billion budget, the figure the governor's release gives as the general fund revenue estimate.",
+   "why": "This was Kemp's final budget as governor (FOX 5). WRDW reported the spending freeze scales back expansions including school bus operations, pre-K growth, doctor residency slots and waiver slots for Georgians with developmental disabilities. The FY2028 budget will be written under a new governor, with the income tax rate still scheduled to fall under HB 463.",
+   "topics": [
+    "budget",
+    "education",
+    "health care"
+   ],
+   "sponsors": "House Appropriations Chair Matt Hatchett; Senate Appropriations Chair Blake Tillery (budget leaders named by the Georgia Recorder)",
+   "url": "https://gov.georgia.gov/press-releases/2026-05-12/gov-kemp-signs-fy27-budget",
+   "sources": [
+    {
+     "t": "In signing budget, Kemp freezes more than $300M in new spending (WRDW)",
+     "u": "https://www.wrdw.com/2026/05/12/kemp-signs-georgias-385-billion-budget-into-law/",
+     "d": "2026-05-12"
+    },
+    {
+     "t": "Kemp signs $36.6B Georgia budget with $300M spending freeze (FOX 5 Atlanta)",
+     "u": "https://www.fox5atlanta.com/news/kemp-signs-36-6b-georgia-budget-300m-spending-freeze",
+     "d": "2026-05-12"
+    },
+    {
+     "t": "That's a wrap: What did and didn't happen on the final day of Georgia's 2026 legislative session (Georgia Recorder)",
+     "u": "https://georgiarecorder.com/2026/04/03/thats-a-wrap-what-did-and-didnt-happen-on-the-final-day-of-georgias-2026-legislative-session/",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "Why Georgia's 2026 Legislative Activity Isn't Over Quite Yet (Georgia Public Policy Foundation)",
+     "u": "https://www.georgiapolicy.org/news/why-georgias-2026-legislative-activity-isnt-over-quite-yet/",
+     "d": "2026-05-14"
+    },
+    {
+     "t": "Gov. Kemp Signs FY27 Budget (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-05-12/gov-kemp-signs-fy27-budget",
+     "d": "2026-05-12"
+    }
+   ],
+   "ssrc": [
+    4,
+    3
+   ],
+   "msrc": [
+    2,
+    0,
+    4,
+    1
+   ],
+   "wsrc": [
+    1,
+    0
+   ],
+   "psrc": [
+    2
+   ]
+  },
+  {
+   "id": "hb1000-one-time-tax-rebate-2026",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 1000",
+   "title": "One-time income tax rebate of $250 to $500",
+   "status": "Signed by Gov. Kemp March 20, 2026; refunds began issuing in early May 2026",
+   "stage": "enacted",
+   "date": "2026-05-04",
+   "summary": "Authorizes a one-time special income tax rebate of up to $250 for single filers (and married individuals filing separately), $375 for heads of household and $500 for married couples filing jointly, for taxpayers who filed both 2024 and 2025 returns; the actual amount depends on each filer's tax liability. The Governor's office announced May 4, 2026 that the refunds had begun issuing and said they would return over $1 billion to taxpayers.",
+   "why": "The Governor's office described it as the fourth one-time special income tax rebate; it was signed the same day as HB 1199, which suspended the state gas tax for 60 days.",
+   "topics": [
+    "taxes"
+   ],
+   "sponsors": "Rep. Matthew Gambill; carried in the Senate by Sen. Bo Hatchett",
+   "url": "https://gov.georgia.gov/press-releases/2026-03-20/gov-kemp-signs-major-tax-relief-bills-hardworking-georgians",
+   "sources": [
+    {
+     "t": "Georgia Legislature concludes 2026 session: Tax highlights from Sine Die (JD Supra)",
+     "u": "https://www.jdsupra.com/legalnews/georgia-legislature-concludes-2026-6196459/",
+     "d": "2026-04-09"
+    },
+    {
+     "t": "Gov. Kemp: Special Tax Refunds Begin Issuing (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-05-04/gov-kemp-special-tax-refunds-begin-issuing",
+     "d": "2026-05-04"
+    },
+    {
+     "t": "Gov. Kemp Signs Major Tax Relief Bills for Hardworking Georgians (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-03-20/gov-kemp-signs-major-tax-relief-bills-hardworking-georgians",
+     "d": "2026-03-20"
+    }
+   ],
+   "ssrc": [
+    2,
+    1
+   ],
+   "msrc": [
+    1,
+    0,
+    2
+   ],
+   "wsrc": [
+    2
+   ],
+   "psrc": [
+    2
+   ]
+  },
+  {
+   "id": "hb1199-irc-conformity-fuel-tax-suspension",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 1199",
+   "title": "Tax code conformity and a 60-day suspension of the state motor fuel tax",
+   "status": "Signed by Gov. Kemp March 20, 2026; its 60-day fuel tax suspension ended May 19, and a May 15 executive order suspended the tax again May 20-June 3 (ratified by HR 3EX)",
+   "stage": "enacted",
+   "date": "2026-03-20",
+   "summary": "Updates Georgia's income tax code to the federal Internal Revenue Code as of Jan. 1, 2026, while decoupling from several federal changes (the federal auto-loan interest deduction and the federal tips and overtime exclusions, among others). It also suspended the state motor fuel excise tax, which the Governor's office put at 33.3 cents per gallon of gasoline and 37.3 cents for diesel, for 60 days starting with the governor's signature. That suspension ended at 11:59 p.m. May 19; on May 15 Gov. Kemp declared a state of emergency and suspended the gas tax for two more weeks, May 20 through June 3. The Governor's office reported May net tax revenue fell 12.6% ($339.1 million), with motor fuel tax collections down $196.6 million.",
+   "why": "Speaker Jon Burns estimated the 60-day suspension would save Georgians nearly $400 million (Governor's office); the legislature's June special session ratified the follow-up executive order (see HR 3EX).",
+   "topics": [
+    "taxes",
+    "transportation"
+   ],
+   "sponsors": "Rep. John Carson; carried in the Senate by Sen. Chuck Hufstetler",
+   "url": "https://gov.georgia.gov/press-releases/2026-03-20/gov-kemp-signs-major-tax-relief-bills-hardworking-georgians",
+   "sources": [
+    {
+     "t": "Georgia Legislature concludes 2026 session: Tax highlights from Sine Die (JD Supra)",
+     "u": "https://www.jdsupra.com/legalnews/georgia-legislature-concludes-2026-6196459/",
+     "d": "2026-04-09"
+    },
+    {
+     "t": "Gov. Kemp Suspends Gas Tax for Two Additional Weeks (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-05-15/gov-kemp-suspends-gas-tax-two-additional-weeks",
+     "d": "2026-05-15"
+    },
+    {
+     "t": "Fuel Tax Suspension Results in May Net Tax Revenue Decline of 12.6% (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-06-05/fuel-tax-suspension-results-may-net-tax-revenue-decline-126",
+     "d": "2026-06-05"
+    },
+    {
+     "t": "Gov. Kemp Signs Major Tax Relief Bills for Hardworking Georgians (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-03-20/gov-kemp-signs-major-tax-relief-bills-hardworking-georgians",
+     "d": "2026-03-20"
+    },
+    {
+     "t": "General Assembly Concludes Special Session (Georgia Municipal Association)",
+     "u": "https://gacities.com/articles/general-assembly-concludes-special-session",
+     "d": "2026-06-24"
+    }
+   ],
+   "ssrc": [
+    3,
+    1,
+    4
+   ],
+   "msrc": [
+    0,
+    3,
+    1,
+    2
+   ],
+   "wsrc": [
+    3,
+    4
+   ],
+   "psrc": [
+    3
+   ]
+  },
+  {
+   "id": "hr3ex-fuel-tax-ratification-special-session",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "resolution",
+   "number": "HR 3EX",
+   "title": "Ratification of the governor's May 15, 2026 fuel tax suspension (special session)",
+   "status": "Adopted during the June 17-23, 2026 special session",
+   "stage": "enacted",
+   "date": "2026-06-23",
+   "summary": "HR 3EX ratified Gov. Kemp's May 15, 2026 executive order suspending state taxes on motor and diesel fuel from May 20 through June 3, which followed the 60-day suspension written into HB 1199 (that suspension ended May 19). It and SB 3EX are the only measures the Georgia Municipal Association's recap lists as passing in the five-day special session.",
+   "why": "Ratification completed legislative action on the 2026 gas tax suspensions; the Governor's office reported May net tax revenue fell 12.6%, with motor fuel tax collections down $196.6 million.",
+   "topics": [
+    "taxes",
+    "transportation"
+   ],
+   "sponsors": "Not confirmed in sources opened",
+   "url": "https://www.legis.ga.gov/legislation/74752",
+   "sources": [
+    {
+     "t": "General Assembly Concludes Special Session (Georgia Municipal Association)",
+     "u": "https://gacities.com/articles/general-assembly-concludes-special-session",
+     "d": "2026-06-24"
+    },
+    {
+     "t": "Gov. Kemp Suspends Gas Tax for Two Additional Weeks (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-05-15/gov-kemp-suspends-gas-tax-two-additional-weeks",
+     "d": "2026-05-15"
+    },
+    {
+     "t": "Fuel Tax Suspension Results in May Net Tax Revenue Decline of 12.6% (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-06-05/fuel-tax-suspension-results-may-net-tax-revenue-decline-126",
+     "d": "2026-06-05"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    2
+   ],
+   "psrc": []
+  },
+  {
+   "id": "sb3ex-voting-system-deadline-hand-recounts",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 3EX",
+   "title": "Keeps current voting machines through 2027, orders a new hand-marked ballot system plan, mandates close-race hand recounts",
+   "status": "Final passage June 23, 2026 (House 94-79; Senate agreed 36-16); now law: members of the committee it created were announced July 28, 2026, and its report is due Jan. 31, 2027",
+   "stage": "enacted",
+   "date": "2026-06-23",
+   "summary": "Passed in the June 2026 special session after the regular session failed to act, SB 3EX moves the deadline for ending QR-code ballot tabulation (set by a 2024 law for July 1, 2026) to Jan. 1, 2028, so the current touchscreen system stayed in place for the Nov. 3, 2026 election. It creates the Election Equipment Specifications and Standards Committee to recommend a new voting system to lawmakers during the 2027 session, including the use of hand-marked paper ballots produced by ballot-on-demand printing; its report is due Jan. 31, 2027. It also requires a statewide hand recount, reimbursed by the state if finished within 17 days, when a race for one of eight state constitutional offices (Governor, Lieutenant Governor, Secretary of State, Attorney General, School Superintendent, and the Insurance, Agriculture and Labor Commissioners) appears first or second on the ballot and is decided by 0.5% or less; on the Nov. 3, 2026 ballot that covers only the Governor's race. Federal races are not covered. It also widens risk-limiting audits to every federal race and the top statewide races (O.C.G.A. §§ 21-2-495(d.1), 21-2-498). A Senate Democratic amendment to force Democratic representation on the committee failed.",
+   "why": "Without it, the 2024 ban on QR-code vote counting would have taken effect July 1, 2026 with no approved alternative counting method (AJC). Lawmakers are to receive the committee's voting-system recommendations during the 2027 session.",
+   "topics": [
+    "elections"
+   ],
+   "sponsors": "Sen. Max Burns (R-Sylvania)",
+   "url": "https://www.legis.ga.gov/legislation/74767",
+   "sources": [
+    {
+     "t": "Georgia lawmakers pass election bill mandating hand recounts for some races (FOX 5 Atlanta)",
+     "u": "https://www.fox5atlanta.com/news/georgia-house-approves-hand-recount-election-bill",
+     "d": "2026-06-23"
+    },
+    {
+     "t": "Georgia's special legislative session ends with no redistricting (AJC)",
+     "u": "https://www.ajc.com/politics/2026/06/georgias-special-legislative-session-ends-with-no-redistricting/",
+     "d": "2026-06-23"
+    },
+    {
+     "t": "General Assembly Concludes Special Session (Georgia Municipal Association)",
+     "u": "https://gacities.com/articles/general-assembly-concludes-special-session",
+     "d": "2026-06-24"
+    },
+    {
+     "t": "State Leaders Announce Appointments to Election Equipment Specifications and Standards Committee (Georgia House Media Services)",
+     "u": "https://house-press.com/state-leaders-announce-appointments-to-election-equipment-specifications-and-standards-committee/",
+     "d": "2026-07-28"
+    }
+   ],
+   "ssrc": [
+    0,
+    3
+   ],
+   "msrc": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "wsrc": [
+    1,
+    0
+   ],
+   "psrc": [
+    0,
+    3
+   ]
+  },
+  {
+   "id": "special-session-redistricting-not-taken-up",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "proposal",
+   "number": "",
+   "title": "Mid-decade redistricting of congressional and legislative maps (special session call) — not pursued",
+   "status": "Included in Gov. Kemp's special session proclamation; legislative leaders declined to redraw maps and the session adjourned June 23, 2026; on Nov. 4, 2026 Kemp said he will not call a special session to redraw districts",
+   "stage": "failed",
+   "date": "2026-11-04",
+   "summary": "Gov. Kemp's proclamation convening the June 17, 2026 special session asked lawmakers to consider redrawing state Senate, state House and U.S. House districts for 2028 following the U.S. Supreme Court's decision in Louisiana v. Callais, along with election-system continuity, local homestead legislation and ratification of the fuel tax suspension. House and Senate leaders said before the session that they would not pursue new maps, and none were changed. The AJC reported Republican leaders feared a redraw would hand Democrats a campaign issue in November. On Nov. 4, 2026, Atlanta News First reported Kemp will not call a special session to redraw the state's political districts; Republican lawmakers had called for one after the U.S. Supreme Court narrowed the scope of the Voting Rights Act in April.",
+   "why": "Current maps remain in place for now; Kemp said Georgia must adopt new maps before the 2028 election cycle, which leaves redistricting to the 2027 legislature and the incoming governor.",
+   "topics": [
+    "elections",
+    "redistricting"
+   ],
+   "sponsors": "Gov. Brian Kemp (proclamation)",
+   "url": "https://gov.georgia.gov/executive-action/proclamations",
+   "sources": [
+    {
+     "t": "Georgia's special legislative session ends with no redistricting (AJC)",
+     "u": "https://www.ajc.com/politics/2026/06/georgias-special-legislative-session-ends-with-no-redistricting/",
+     "d": "2026-06-23"
+    },
+    {
+     "t": "General Assembly Concludes Special Session (Georgia Municipal Association)",
+     "u": "https://gacities.com/articles/general-assembly-concludes-special-session",
+     "d": "2026-06-24"
+    },
+    {
+     "t": "Why Georgia's 2026 Legislative Activity Isn't Over Quite Yet (Georgia Public Policy Foundation)",
+     "u": "https://www.georgiapolicy.org/news/why-georgias-2026-legislative-activity-isnt-over-quite-yet/",
+     "d": "2026-05-14"
+    },
+    {
+     "t": "Gov. Kemp rejects special redistricting session, congratulates Bottoms on win (Atlanta News First)",
+     "u": "https://www.atlantanewsfirst.com/2026/11/04/gov-kemp-rejects-special-redistricting-session-congratulates-bottoms-win/",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    1,
+    0,
+    3
+   ],
+   "msrc": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "wsrc": [
+    3
+   ],
+   "psrc": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "hb1193-early-literacy-act-2026",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 1193",
+   "title": "Georgia Early Literacy Act of 2026: a literacy coach in every K-3 school",
+   "status": "Signed by Gov. Kemp May 5, 2026; funded in the FY2027 budget",
+   "stage": "enacted",
+   "date": "2026-05-05",
+   "summary": "Creates a grant program to hire a literacy coach in every elementary school (the FY2027 budget includes more than $70 million to place a coach in every K-3 elementary school; both chambers' versions sought more than 1,300 coaches), expands kindergarten offerings, creates a statewide literacy task force (Speaker Burns announced his appointees Aug. 31, 2026) and directs the Governor's Office of Student Achievement to produce a state literacy plan. GPB reported the package also implements literacy and dyslexia screenings and holds back first graders who are not reading on grade level.",
+   "why": "A top priority of House Speaker Jon Burns. The task force is to evaluate and recommend key parts of the literacy overhaul, including professional learning, reading screeners and instructional materials aligned with state literacy standards.",
+   "topics": [
+    "education"
+   ],
+   "sponsors": "Rep. Chris Erwin",
+   "url": "https://www.legis.ga.gov/legislation/72842",
+   "sources": [
+    {
+     "t": "Gov. Kemp Signs Bills Strengthening Literacy and K-12 Schools (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-05-05/gov-kemp-signs-bills-strengthening-literacy-and-k-12-schools",
+     "d": "2026-05-05"
+    },
+    {
+     "t": "2026 legislative session ends, concerns of possible special session (GPB)",
+     "u": "https://www.gpb.org/news/2026/04/03/2026-legislative-session-ends-concerns-of-possible-special-session",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "Do or die: Deadline looms for Georgia voting, taxes, data center legislation (Georgia Recorder via Cobb County Courier)",
+     "u": "https://cobbcountycourier.com/2026/03/do-or-die-deadline-looms-for-georgia-voting-taxes-data-center-legislation/",
+     "d": "2026-03-31"
+    },
+    {
+     "t": "Speaker Jon Burns Announces Appointments to Literacy Task Force (Georgia House Media Services)",
+     "u": "https://house-press.com/speaker-jon-burns-announces-appointments-to-literacy-task-force/",
+     "d": "2026-08-31"
+    },
+    {
+     "t": "In signing budget, Kemp freezes more than $300M in new spending (WRDW)",
+     "u": "https://www.wrdw.com/2026/05/12/kemp-signs-georgias-385-billion-budget-into-law/",
+     "d": "2026-05-12"
+    }
+   ],
+   "ssrc": [
+    0,
+    4
+   ],
+   "msrc": [
+    0,
+    2,
+    4,
+    3,
+    1
+   ],
+   "wsrc": [
+    2,
+    0,
+    3
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "hb1009-phone-ban-grades-9-12",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 1009",
+   "title": "Extends the school cellphone ban to grades 9-12",
+   "status": "Signed by Gov. Kemp May 5, 2026",
+   "stage": "enacted",
+   "date": "2026-05-05",
+   "summary": "Extends the 2025 law (HB 340) that banned personal electronic devices in K-8 classrooms to public high school grades 9-12. Signed alongside eight other K-12 bills, including HB 1030 (Math Matters Act), HB 1107 (teacher-preparation performance measures) and SB 150 (extends the educator Return-to-Work program to 2030).",
+   "why": "Combined with HB 340's K-8 ban, the prohibition on personal electronic devices now covers all public school grades.",
+   "topics": [
+    "education"
+   ],
+   "sponsors": "Rep. Scott Hilton",
+   "url": "https://gov.georgia.gov/press-releases/2026-05-05/gov-kemp-signs-bills-strengthening-literacy-and-k-12-schools",
+   "sources": [
+    {
+     "t": "Gov. Kemp Signs Bills Strengthening Literacy and K-12 Schools (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-05-05/gov-kemp-signs-bills-strengthening-literacy-and-k-12-schools",
+     "d": "2026-05-05"
+    },
+    {
+     "t": "Gov. Kemp Signs Bills Strengthening Literacy and K-12 Schools (The Georgia Virtue repost)",
+     "u": "https://www.thegeorgiavirtue.com/?p=77329",
+     "d": "2026-05-05"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "hb1030-math-matters-act",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 1030",
+   "title": "Math Matters Act: 60 minutes of daily math in grades 4-5 and automatic advanced-math enrollment",
+   "status": "Signed by Gov. Kemp May 5, 2026",
+   "stage": "enacted",
+   "date": "2026-05-05",
+   "summary": "Requires local school boards to provide at least 60 minutes of core math instruction each day in grades 4 and 5, provides for content standards for advanced math courses in grades 8-10 and support for advanced courses in grades 6-7, and provides for automatic enrollment of high-achieving students in advanced math in grades 6-10.",
+   "why": "Signed the same day as the Georgia Early Literacy Act (HB 1193); local school boards must schedule at least 60 minutes of daily core math instruction in grades 4 and 5.",
+   "topics": [
+    "education"
+   ],
+   "sponsors": "Rep. Sandy Donatucci",
+   "url": "https://gov.georgia.gov/press-releases/2026-05-05/gov-kemp-signs-bills-strengthening-literacy-and-k-12-schools",
+   "sources": [
+    {
+     "t": "Gov. Kemp Signs Bills Strengthening Literacy and K-12 Schools (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-05-05/gov-kemp-signs-bills-strengthening-literacy-and-k-12-schools",
+     "d": "2026-05-05"
+    },
+    {
+     "t": "Gov. Kemp Signs Bills Strengthening Literacy and K-12 Schools (The Georgia Virtue repost)",
+     "u": "https://www.thegeorgiavirtue.com/?p=77329",
+     "d": "2026-05-05"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "hb1138-pharmacist-prescribed-contraception",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 1138",
+   "title": "Lets pharmacists prescribe birth control pills and shots",
+   "status": "Signed by Gov. Kemp; the Georgia House announced May 14, 2026 that the bill became law (signing date not stated)",
+   "stage": "enacted",
+   "date": "2026-05-14",
+   "summary": "The 'Increasing Access to Contraceptives Act' lets pharmacists at Georgia-licensed pharmacies and hospitals dispense self-administered contraceptives or administer injectable contraceptives without a doctor's prescription. GPB reported it covers pills and injections for patients 18 and older (younger patients must show a previous prescription). Sponsor Rep. Beth Camp cited 82 Georgia counties without an OB-GYN. A provision requiring folic acid fortification of corn masa was stripped before final passage. A separate bill allowing Georgians to get HIV-prevention medicine at their local pharmacy also passed on the session's final day.",
+   "why": "Expands access to contraception statewide, including in the counties without an OB-GYN that the sponsor cited; GPB reported pharmacy availability would not begin until 2027, after the Department of Public Health and the State Board of Pharmacy agree on rules.",
+   "topics": [
+    "health care"
+   ],
+   "sponsors": "Rep. Beth Camp (R-Concord); Senate sponsor Sen. Kay Kirkpatrick (R-Marietta)",
+   "url": "https://www.legis.ga.gov/legislation/72697",
+   "sources": [
+    {
+     "t": "That's a wrap: What did and didn't happen on the final day of Georgia's 2026 legislative session (Georgia Recorder)",
+     "u": "https://georgiarecorder.com/2026/04/03/thats-a-wrap-what-did-and-didnt-happen-on-the-final-day-of-georgias-2026-legislative-session/",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "2026 legislative session ends, concerns of possible special session (GPB)",
+     "u": "https://www.gpb.org/news/2026/04/03/2026-legislative-session-ends-concerns-of-possible-special-session",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "Here are all the bills Gov. Kemp vetoed from this year's legislative session (Atlanta News First)",
+     "u": "https://www.atlantanewsfirst.com/2026/05/12/heres-all-bills-gov-kemp-vetoed-this-years-legislative-session/",
+     "d": "2026-05-12"
+    },
+    {
+     "t": "Chair Beth Camp's 'Increasing Access to Contraceptives Act' Becomes Law (Georgia House Media Services)",
+     "u": "https://house-press.com/?p=16741",
+     "d": "2026-05-14"
+    },
+    {
+     "t": "Birth control could be available at Georgia pharmacies, but not until next year (GPB)",
+     "u": "https://www.gpb.org/news/2026/04/08/birth-control-could-be-available-at-georgia-pharmacies-not-until-next-year",
+     "d": "2026-04-08"
+    }
+   ],
+   "ssrc": [
+    3
+   ],
+   "msrc": [
+    3,
+    4,
+    1,
+    0
+   ],
+   "wsrc": [
+    1,
+    4
+   ],
+   "psrc": [
+    0,
+    3
+   ]
+  },
+  {
+   "id": "sb556-higher-ed-dreams-scholarship",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 556",
+   "title": "Higher education package including the DREAMS Scholarship ($25 million) and a $300 million endowment",
+   "status": "Passed both chambers on the session's final day (April 2, 2026); not among the 12 bills Gov. Kemp vetoed May 12, 2026, so it became law (signing date not confirmed in sources opened)",
+   "stage": "enacted",
+   "date": "2026-04-02",
+   "summary": "A combined higher-education bill that creates the DREAMS Scholarship with $25 million in aid over two years and a $300 million endowment for future students, requires Narcan (naloxone) placement on college campuses, raises the contribution limit for the state higher-education savings plan, and lets advanced fine arts courses count toward the HOPE Scholarship GPA.",
+   "why": "The $300 million endowment is set up to fund future students' aid, in addition to $25 million in DREAMS Scholarship awards over the next two years (Georgia Recorder).",
+   "topics": [
+    "education",
+    "higher education"
+   ],
+   "sponsors": "Not confirmed in sources opened",
+   "url": "https://www.legis.ga.gov/legislation/73535",
+   "sources": [
+    {
+     "t": "That's a wrap: What did and didn't happen on the final day of Georgia's 2026 legislative session (Georgia Recorder)",
+     "u": "https://georgiarecorder.com/2026/04/03/thats-a-wrap-what-did-and-didnt-happen-on-the-final-day-of-georgias-2026-legislative-session/",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "Here are all the bills Gov. Kemp vetoed from this year's legislative session (Atlanta News First)",
+     "u": "https://www.atlantanewsfirst.com/2026/05/12/heres-all-bills-gov-kemp-vetoed-this-years-legislative-session/",
+     "d": "2026-05-12"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": []
+  },
+  {
+   "id": "sb214-house-election-overhaul-died",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 214",
+   "title": "House election overhaul: delay QR-code deadline to 2028 and procure a new voting system — died at sine die",
+   "status": "Rewritten and passed by the House in the session's final days; it did not advance in the Senate before sine die April 2, 2026; superseded by SB 3EX in June",
+   "stage": "failed",
+   "date": "2026-04-02",
+   "summary": "As rewritten by the House, SB 214 would have postponed the deadline for removing QR codes from ballots to 2028 and directed the state to begin procuring a new election system in February 2027, moving the state from its touchscreen system to a new one by 2028. The Senate had instead passed its own plan for hand-marked paper ballots (HB 960), and the chambers never agreed, leaving the July 1, 2026 QR-code deadline without a plan or funding at sine die; election-system continuity became part of the June special session agenda.",
+   "why": "Explains why the voting-system question went to the special session; SB 3EX later delayed the deadline to Jan. 1, 2028 and created a committee due to report Jan. 31, 2027.",
+   "topics": [
+    "elections"
+   ],
+   "sponsors": "Not confirmed in sources opened",
+   "url": "https://www.legis.ga.gov/legislation/70548",
+   "sources": [
+    {
+     "t": "Do or die: Deadline looms for Georgia voting, taxes, data center legislation (Georgia Recorder via Cobb County Courier)",
+     "u": "https://cobbcountycourier.com/2026/03/do-or-die-deadline-looms-for-georgia-voting-taxes-data-center-legislation/",
+     "d": "2026-03-31"
+    },
+    {
+     "t": "Georgia lawmakers approve income tax cut, property tax relief (AJC)",
+     "u": "https://www.ajc.com/politics/2026/04/georgia-lawmakers-approve-income-tax-cut-property-tax-relief/",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "2026 legislative session ends, concerns of possible special session (GPB)",
+     "u": "https://www.gpb.org/news/2026/04/03/2026-legislative-session-ends-concerns-of-possible-special-session",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "General Assembly Concludes Special Session (Georgia Municipal Association)",
+     "u": "https://gacities.com/articles/general-assembly-concludes-special-session",
+     "d": "2026-06-24"
+    }
+   ],
+   "ssrc": [
+    2,
+    1,
+    3
+   ],
+   "msrc": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "wsrc": [
+    3
+   ],
+   "psrc": []
+  },
+  {
+   "id": "hb960-hand-marked-paper-ballots-died",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 960",
+   "title": "Senate plan for statewide hand-marked paper ballots before the 2026 election — died at sine die",
+   "status": "Passed the Senate 32-21 on March 27, 2026 as amended; the House did not agree; died April 2, 2026",
+   "stage": "failed",
+   "date": "2026-04-02",
+   "summary": "The Senate's version of HB 960 would have required hand-marked paper ballots statewide ahead of the November 2026 general election, replacing touchscreen ballot-marking devices. It passed the Senate on a party-line 32-21 vote after an earlier version failed on the floor, but the House never agreed to the changes.",
+   "why": "SB 3EX's committee is now evaluating equipment specifications for hand-marked paper ballots, with a report due Jan. 31, 2027, before the 2027 session.",
+   "topics": [
+    "elections"
+   ],
+   "sponsors": "Not confirmed in sources opened",
+   "url": "https://www.legis.ga.gov/legislation/72209",
+   "sources": [
+    {
+     "t": "Do or die: Deadline looms for Georgia voting, taxes, data center legislation (Georgia Recorder via Cobb County Courier)",
+     "u": "https://cobbcountycourier.com/2026/03/do-or-die-deadline-looms-for-georgia-voting-taxes-data-center-legislation/",
+     "d": "2026-03-31"
+    },
+    {
+     "t": "Georgia lawmakers approve income tax cut, property tax relief (AJC)",
+     "u": "https://www.ajc.com/politics/2026/04/georgia-lawmakers-approve-income-tax-cut-property-tax-relief/",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "State Leaders Announce Appointments to Election Equipment Specifications and Standards Committee (Georgia House Media Services)",
+     "u": "https://house-press.com/state-leaders-announce-appointments-to-election-equipment-specifications-and-standards-committee/",
+     "d": "2026-07-28"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    2
+   ],
+   "psrc": []
+  },
+  {
+   "id": "sb34-data-center-cost-allocation-died",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 34",
+   "title": "Keep data center power costs out of residential rates — did not pass",
+   "status": "Did not receive final passage before sine die April 2, 2026; the Georgia Recorder reported lawmakers took no action to rein in data centers",
+   "stage": "failed",
+   "date": "2026-04-02",
+   "summary": "Sen. Chuck Hufstetler's bill would bar costs for fuel, generation and transmission built to serve data centers from being included in the general rates paid by other Georgia Power customers. Hufstetler said the Public Service Commission's data center rule has 'enough loopholes in it to drive a truck through' and should be codified, and he renewed the push in 2026 alongside a wave of bipartisan data center bills (HB 528 on energy and water reporting for 30 MW-plus facilities, HB 1012 for a construction moratorium until February 2027, SB 408 and SB 410 on tax breaks).",
+   "why": "The PSC's December 2025 certification of 9,985 MW of new generation, about 80% of it expected to power data centers, keeps the question of who pays for data center power in front of the PSC and the 2027 legislature.",
+   "topics": [
+    "energy",
+    "data centers",
+    "utilities"
+   ],
+   "sponsors": "Sen. Chuck Hufstetler (R-Rome)",
+   "url": "https://www.legis.ga.gov/legislation/69551",
+   "sources": [
+    {
+     "t": "Outrage over surge of data centers in Georgia inspires wave of bipartisan bills (Georgia Recorder via Rough Draft Atlanta)",
+     "u": "https://roughdraftatlanta.com/2026/01/20/georgia-data-center-regulation/",
+     "d": "2026-01-20"
+    },
+    {
+     "t": "That's a wrap: What did and didn't happen on the final day of Georgia's 2026 legislative session (Georgia Recorder)",
+     "u": "https://georgiarecorder.com/2026/04/03/thats-a-wrap-what-did-and-didnt-happen-on-the-final-day-of-georgias-2026-legislative-session/",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "2026 legislative session ends, concerns of possible special session (GPB)",
+     "u": "https://www.gpb.org/news/2026/04/03/2026-legislative-session-ends-concerns-of-possible-special-session",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "Data Center Fact Sheet, September 2026 (Georgia PSC)",
+     "u": "https://psc.ga.gov/site/downloads/datacenterfactsheet_202609.pdf",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    1
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    3
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "sb408-data-center-tax-exemption-sunset-died",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 408",
+   "title": "End the data center tax break early (2027) — did not pass",
+   "status": "Did not pass before sine die April 2, 2026; GPB listed efforts to claw back data center tax breaks among the bills that failed",
+   "stage": "failed",
+   "date": "2026-04-02",
+   "summary": "Sen. Nan Orrock's bill would have sunset Georgia's data center tax incentive in 2027, five years ahead of the original date. A related bill, SB 410 (Sen. Matt Brass), would have let credits for already-approved data centers remain in place. The Georgia Recorder reported March 31 that three Senate-passed bills with language to phase out data center tax breaks were stuck in a House committee, and GPB's sine die recap listed the effort to claw back data center tax breaks among the bills that failed. Gov. Kemp vetoed a 2024 bill pitched as a pause on the tax breaks.",
+   "why": "Because the bills died with the end of the 2025-26 term, any change to the data center tax break would have to start over in the 2027 session.",
+   "topics": [
+    "taxes",
+    "data centers",
+    "energy"
+   ],
+   "sponsors": "Sen. Nan Orrock (D-Atlanta)",
+   "url": "https://www.legis.ga.gov/legislation/72283",
+   "sources": [
+    {
+     "t": "Outrage over surge of data centers in Georgia inspires wave of bipartisan bills (Georgia Recorder via Rough Draft Atlanta)",
+     "u": "https://roughdraftatlanta.com/2026/01/20/georgia-data-center-regulation/",
+     "d": "2026-01-20"
+    },
+    {
+     "t": "Do or die: Deadline looms for Georgia voting, taxes, data center legislation (Georgia Recorder via Cobb County Courier)",
+     "u": "https://cobbcountycourier.com/2026/03/do-or-die-deadline-looms-for-georgia-voting-taxes-data-center-legislation/",
+     "d": "2026-03-31"
+    },
+    {
+     "t": "2026 legislative session ends, concerns of possible special session (GPB)",
+     "u": "https://www.gpb.org/news/2026/04/03/2026-legislative-session-ends-concerns-of-possible-special-session",
+     "d": "2026-04-03"
+    }
+   ],
+   "ssrc": [
+    2,
+    1
+   ],
+   "msrc": [
+    0,
+    1,
+    2
+   ],
+   "wsrc": [
+    2
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "sb440-otc-ivermectin-died",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 440",
+   "title": "Over-the-counter ivermectin — died at sine die",
+   "status": "Passed the House; the Senate never took up the final version before adjourning April 2, 2026",
+   "stage": "failed",
+   "date": "2026-04-02",
+   "summary": "Would have allowed ivermectin to be sold over the counter without a prescription in Georgia. The House passed it (Rep. James Burchett, R-Waycross, framed it as harm reduction; Rep. Michelle Au, D-Johns Creek, opposed it), but the Senate did not bring it up on the final day.",
+   "why": "The bill died when the 2025-26 term ended, so supporters would have to reintroduce it in 2027.",
+   "topics": [
+    "health care"
+   ],
+   "sponsors": "Not confirmed in sources opened",
+   "url": "https://www.legis.ga.gov/legislation/72638",
+   "sources": [
+    {
+     "t": "That's a wrap: What did and didn't happen on the final day of Georgia's 2026 legislative session (Georgia Recorder)",
+     "u": "https://georgiarecorder.com/2026/04/03/thats-a-wrap-what-did-and-didnt-happen-on-the-final-day-of-georgias-2026-legislative-session/",
+     "d": "2026-04-03"
+    },
+    {
+     "t": "Georgia lawmakers approve income tax cut, property tax relief (AJC)",
+     "u": "https://www.ajc.com/politics/2026/04/georgia-lawmakers-approve-income-tax-cut-property-tax-relief/",
+     "d": "2026-04-03"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": []
+  },
+  {
+   "id": "sb586-state-contractors-candidates-died",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 586",
+   "title": "Bar people with financial interests in state contracts from running for office — died in the House",
+   "status": "Passed the Senate unanimously on the session's final day; the House did not take it up before sine die April 2, 2026",
+   "stage": "failed",
+   "date": "2026-04-02",
+   "summary": "Would have barred anyone with a financial interest in a state agency, including state contracts, from running for office. The Georgia Recorder described it as the Senate's response after Lt. Gov. Burt Jones accused Jackson Healthcare, the company of Republican gubernatorial candidate Rick Jackson, of 'monopolizing' the health care industry and benefiting from no-bid state contracts; citing a Healthbeat analysis, the Recorder reported Jackson Healthcare has held nearly $1 billion in state contracts since 2020. Sen. Ben Watson (R-Savannah) criticized the company in a floor speech. The Senate passed it unanimously, but the House did not take it up.",
+   "why": "It died with the end of the 2025-26 term; any similar conflict-of-interest rule for candidates would have to be reintroduced in 2027.",
+   "topics": [
+    "elections",
+    "ethics"
+   ],
+   "sponsors": "Not confirmed in sources opened",
+   "url": "https://www.legis.ga.gov/legislation/73644",
+   "sources": [
+    {
+     "t": "That's a wrap: What did and didn't happen on the final day of Georgia's 2026 legislative session (Georgia Recorder)",
+     "u": "https://georgiarecorder.com/2026/04/03/thats-a-wrap-what-did-and-didnt-happen-on-the-final-day-of-georgias-2026-legislative-session/",
+     "d": "2026-04-03"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": []
+  },
+  {
+   "id": "sr56-amendment-1-conservation-use-acreage",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "constitutional amendment",
+   "number": "HR 32",
+   "title": "Amendment 1: raise the conservation-use (CUVA) farmland cap from 2,000 to 4,000 acres",
+   "status": "Voted on Nov. 3, 2026; the page shows the live count and any race call; state certification is due by Nov. 20, 2026",
+   "stage": "pending",
+   "date": "2026-11-03",
+   "summary": "Asks whether the Georgia Constitution should be amended 'for the purpose of protecting family farmland' to increase the maximum acreage one owner can enroll as bona fide conservation use property (taxed at 40% of its current use value) from 2,000 to 4,000 acres. The General Assembly approved the resolution, HR 32, in 2025.",
+   "why": "If ratified, a single owner could enroll up to 4,000 acres in Georgia's Conservation Use Valuation Assessment program, which taxes enrolled land at 40% of its value rather than full market value.",
+   "topics": [
+    "taxes",
+    "agriculture",
+    "constitutional amendment"
+   ],
+   "sponsors": "Rep. Chuck Efstration (R), with Reps. Robert Dickey, Leesa Hagan and one other cosponsor (General Assembly bill page)",
+   "url": "https://www.legis.ga.gov/legislation/69433",
+   "sources": [
+    {
+     "t": "Georgians will consider three constitutional amendments in November (Kim Jarrett, The Center Square, via The Augusta Press, April 11, 2026)",
+     "u": "https://theaugustapress.com/georgians-will-consider-three-constitutional-amendments-in-november/",
+     "d": "2026-04-11"
+    },
+    {
+     "t": "Georgia Secretary of State, Nov. 3, 2026 general election results (unofficial until certification): Constitutional Amendment 1",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-3447-08df23e5ff70",
+     "d": "2026-11-06"
+    },
+    {
+     "t": "What are the amendment questions on the Georgia ballot and what do they really mean? (Atlanta News First)",
+     "u": "https://www.atlantanewsfirst.com/2026/10/28/what-are-amendment-questions-georgia-ballot-what-do-they-really-mean/",
+     "d": "2026-10-28"
+    },
+    {
+     "t": "HR 32 (2025-2026 session): bill page with sponsors, versions and status, Georgia General Assembly",
+     "u": "https://www.legis.ga.gov/legislation/69433",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [],
+   "msrc": [
+    0,
+    2
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    3
+   ]
+  },
+  {
+   "id": "hr251-amendment-2-nonpartisan-probate-judges",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "constitutional amendment",
+   "number": "HR 251",
+   "title": "Amendment 2: elect probate judges in nonpartisan elections",
+   "status": "Voted on Nov. 3, 2026; the page shows the live count and any race call; state certification is due by Nov. 20, 2026",
+   "stage": "pending",
+   "date": "2026-11-03",
+   "summary": "The ballot question asks whether the constitution should be amended 'so as to require that all probate court judges be elected in nonpartisan elections.' Superior and state court judge elections are already nonpartisan. Both chambers passed HR 251; final passage was the Senate's 46-0 vote on March 31, 2026.",
+   "why": "If ratified, all probate judges would be elected on nonpartisan ballots. HB 426 (signed May 14, 2025) made chief magistrate elections nonpartisan from July 1, 2025; its section on probate judges takes effect January 1, 2027 only if this amendment is ratified, and the act says it stands repealed if the amendment is not ratified.",
+   "topics": [
+    "courts",
+    "elections",
+    "constitutional amendment"
+   ],
+   "sponsors": "Rep. Kimberly New (R), with Reps. Chuck Efstration, James Burchett and three other cosponsors (General Assembly bill page)",
+   "url": "https://www.legis.ga.gov/legislation/70279",
+   "sources": [
+    {
+     "t": "Georgians will consider three constitutional amendments in November (Kim Jarrett, The Center Square, via The Augusta Press, April 11, 2026)",
+     "u": "https://theaugustapress.com/georgians-will-consider-three-constitutional-amendments-in-november/",
+     "d": "2026-04-11"
+    },
+    {
+     "t": "Week 12 Legislative Report (Judicial Council of Georgia / Administrative Office of the Courts)",
+     "u": "https://assets.georgiacourts.gov/2/wp-content/uploads/2026/04/08175543/Week-12-Legislative-Report.pdf",
+     "d": "2026-04-08"
+    },
+    {
+     "t": "Enacted Legislation (Georgia Courts)",
+     "u": "https://georgiacourts.gov/enacted-legislation/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "HR 251 (2025-2026 session): bill page with sponsors, versions and status, Georgia General Assembly",
+     "u": "https://www.legis.ga.gov/legislation/70279",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "HB 426 (2025-2026 session), as passed (HB 426/AP), Georgia General Assembly",
+     "u": "https://www.legis.ga.gov/api/legislation/document/20252026/237012",
+     "d": "2025-05-14"
+    },
+    {
+     "t": "Georgia Secretary of State, Nov. 3, 2026 general election results (unofficial until certification): Constitutional Amendment 2",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-c8e6-08df23e5ff71",
+     "d": "2026-11-06"
+    }
+   ],
+   "ssrc": [],
+   "msrc": [
+    0,
+    1,
+    2
+   ],
+   "wsrc": [
+    4
+   ],
+   "psrc": [
+    3
+   ]
+  },
+  {
+   "id": "hr1243-amendment-3-next-generation-911-fund",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "constitutional amendment",
+   "number": "HR 1243",
+   "title": "Amendment 3: allow a dedicated Georgia Next Generation 9-1-1 Fund",
+   "status": "Voted on Nov. 3, 2026; the page shows the live count and any race call; state certification is due by Nov. 20, 2026",
+   "stage": "pending",
+   "date": "2026-11-03",
+   "summary": "Authorizes the General Assembly to dedicate certain existing revenues, including revenues reallocated by law, to a nonlapsing Georgia Next Generation 9-1-1 Fund that could be spent only to expand, maintain and operate the state's 9-1-1 systems, including the transition to Next Generation 9-1-1. A first Senate vote on March 19, 2026 fell short of the two-thirds majority a constitutional amendment needs; the Senate then approved it unanimously on March 31, and the House passed it unanimously.",
+   "why": "The amendment authorizes but does not create the fund; lawmakers would still have to pass a law creating it and dedicating existing revenues, such as fees, to it.",
+   "topics": [
+    "public safety",
+    "budget",
+    "constitutional amendment"
+   ],
+   "sponsors": "Rep. Chuck Martin (R), with House Speaker Jon Burns, Minority Leader Carolyn Hugley and three other cosponsors (General Assembly bill page)",
+   "url": "https://www.legis.ga.gov/legislation/72891",
+   "sources": [
+    {
+     "t": "Georgians will consider three constitutional amendments in November (Kim Jarrett, The Center Square, via The Augusta Press, April 11, 2026)",
+     "u": "https://theaugustapress.com/georgians-will-consider-three-constitutional-amendments-in-november/",
+     "d": "2026-04-11"
+    },
+    {
+     "t": "Georgia Secretary of State, Nov. 3, 2026 general election results (unofficial until certification): Constitutional Amendment 3",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-7ca3-08df23e5ff73",
+     "d": "2026-11-06"
+    },
+    {
+     "t": "Georgia voters will decide on 3 constitutional amendments during midterms (WTOC)",
+     "u": "https://www.wtoc.com/2026/10/21/georgia-voters-will-decide-3-constitutional-amendments-during-midterms/",
+     "d": "2026-10-20"
+    },
+    {
+     "t": "HR 1243 (2025-2026 session): bill page with sponsors, versions and status, Georgia General Assembly",
+     "u": "https://www.legis.ga.gov/legislation/72891",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [],
+   "msrc": [
+    0,
+    2
+   ],
+   "wsrc": [
+    3
+   ],
+   "psrc": [
+    3
+   ]
+  },
+  {
+   "id": "election-equipment-committee-report-jan-2027",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "proposal",
+   "number": "",
+   "title": "Election Equipment Specifications and Standards Committee — recommendations for a new voting system due Jan. 31, 2027",
+   "status": "Members announced July 28, 2026; first meeting set for Aug. 7, 2026; report due Jan. 31, 2027",
+   "stage": "upcoming",
+   "date": "2027-01-31",
+   "summary": "Created by SB 3EX, the committee is evaluating specifications and requirements for election equipment using hand-marked paper ballots, including ballot-on-demand printing, and must seek input from election officials, cybersecurity experts and accessibility and disability advocates, among others. Co-chairs are Rep. Victor Anderson (R-Cornelia) and Sen. Max Burns (R-Sylvania); other members are Reps. Tim Fleming (R-Covington) and Scott Holcomb (D-Atlanta), Sens. Bo Hatchett (R-Cornelia) and Rick Williams (R-Milledgeville), and Gov. Kemp's appointees Deidre Holden (Paulding County elections supervisor), Chris Harvey (executive director of the Georgia POST Council and former state elections director) and Sam Hatcher (the governor's executive counsel).",
+   "why": "Its report, due before the 2027 session, is meant to guide lawmakers' choice of a replacement for the current voting system, which SB 3EX keeps in use until Jan. 1, 2028.",
+   "topics": [
+    "elections"
+   ],
+   "sponsors": "Sen. Max Burns and Rep. Victor Anderson (co-chairs)",
+   "url": "https://house-press.com/state-leaders-announce-appointments-to-election-equipment-specifications-and-standards-committee/",
+   "sources": [
+    {
+     "t": "State Leaders Announce Appointments to Election Equipment Specifications and Standards Committee (Georgia House Media Services)",
+     "u": "https://house-press.com/state-leaders-announce-appointments-to-election-equipment-specifications-and-standards-committee/",
+     "d": "2026-07-28"
+    },
+    {
+     "t": "SB 3EX bill page (Georgia General Assembly)",
+     "u": "https://www.legis.ga.gov/legislation/74767",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "General Assembly Concludes Special Session (Georgia Municipal Association)",
+     "u": "https://gacities.com/articles/general-assembly-concludes-special-session",
+     "d": "2026-06-24"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    2,
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "house-blue-ribbon-study-committees-2026",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "proposal",
+   "number": "",
+   "title": "Seven House Blue-Ribbon Study Committees meeting before the 2027 session",
+   "status": "Announced April 16, 2026; members appointed May 6, 2026; findings expected ahead of the Jan. 11, 2027 session (report dates not confirmed)",
+   "stage": "upcoming",
+   "date": "2026-05-06",
+   "summary": "Speaker Jon Burns created seven interim Blue-Ribbon Study Committees: Community Health and Healthcare Oversight; Transportation Infrastructure and Vehicle Regulation (including utility right-of-way coordination); Local Government Taxation, Funding and Budgeting; Criminal Post-Conviction Litigation; Youth Exposure to Kratom and Retail-Available Substances; Education Performance Metrics and Workforce Stability; and the Impact of Online Platforms on Georgia Youth. His May 6 appointments also covered joint study committees on the Generational Sustainability of Family Farms and Escalating Costs in Georgia's Foster Care System and a House study committee on Pharmacy Benefits Managers and Consumers' Access to Prescription Medications.",
+   "why": "The committees meet during the interim to hear from citizens, experts and stakeholders before the 2027 session; the local government taxation panel overlaps with the unfinished LHOST debate under SB 33.",
+   "topics": [
+    "health care",
+    "transportation",
+    "taxes",
+    "courts",
+    "education",
+    "technology"
+   ],
+   "sponsors": "Speaker Jon Burns (R-Newington)",
+   "url": "https://house-press.com/speaker-jon-burns-announces-2026-house-blue-ribbon-study-committees/",
+   "sources": [
+    {
+     "t": "Speaker Jon Burns Announces 2026 House Blue-Ribbon Study Committees (Georgia House Media Services)",
+     "u": "https://house-press.com/speaker-jon-burns-announces-2026-house-blue-ribbon-study-committees/",
+     "d": "2026-04-16"
+    },
+    {
+     "t": "Speaker Jon Burns Announces Appointments to 2026 Study Committees (Georgia House Media Services)",
+     "u": "https://house-press.com/speaker-jon-burns-announces-appointments-to-2026-study-committees/",
+     "d": "2026-05-06"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "ga-general-assembly-2027-session-outlook",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "proposal",
+   "number": "",
+   "title": "2027 regular session convenes Jan. 11, 2027: what is already on the agenda",
+   "status": "Upcoming; the 2026 regular session ran Jan. 12-April 2, 2026 and the special session June 17-23, 2026",
+   "stage": "upcoming",
+   "date": "2027-01-11",
+   "summary": "The first session of the new two-year term opens Jan. 11, 2027 with a newly elected governor and legislature. Known carry-overs: the SB 3EX committee's voting-system recommendations, due Jan. 31, 2027; local homestead (LHOST) acts under SB 33, none of which won the required two-thirds vote in the June special session; data center cost-allocation and tax-break bills that died in 2026; the FY2028 budget, to be written with the income tax rate falling under HB 463 after Gov. Kemp withheld more than $300 million in FY2027 spending; enabling legislation for the Next Generation 9-1-1 Fund if Amendment 3 is ratified; and redistricting, after Gov. Kemp said Nov. 4 he will not call a special session but that Georgia must adopt new maps before the 2028 election cycle. The House press office has announced appointees to the literacy task force created under the Georgia Early Literacy Act (HB 1193) and to the election equipment committee.",
+   "why": "The 2025-26 term has ended, so bills that did not pass must be reintroduced in 2027.",
+   "topics": [
+    "elections",
+    "taxes",
+    "budget",
+    "energy"
+   ],
+   "sponsors": "",
+   "url": "https://www.legis.ga.gov/",
+   "sources": [
+    {
+     "t": "Enacted Legislation (Georgia Courts)",
+     "u": "https://georgiacourts.gov/enacted-legislation/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "General Assembly Concludes Special Session (Georgia Municipal Association)",
+     "u": "https://gacities.com/articles/general-assembly-concludes-special-session",
+     "d": "2026-06-24"
+    },
+    {
+     "t": "State Leaders Announce Appointments to Election Equipment Specifications and Standards Committee (Georgia House Media Services)",
+     "u": "https://house-press.com/state-leaders-announce-appointments-to-election-equipment-specifications-and-standards-committee/",
+     "d": "2026-07-28"
+    },
+    {
+     "t": "Gov. Kemp rejects special redistricting session, congratulates Bottoms on win (Atlanta News First)",
+     "u": "https://www.atlantanewsfirst.com/2026/11/04/gov-kemp-rejects-special-redistricting-session-congratulates-bottoms-win/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Speaker Jon Burns Announces Appointments to Literacy Task Force (Georgia House Media Services)",
+     "u": "https://house-press.com/speaker-jon-burns-announces-appointments-to-literacy-task-force/",
+     "d": "2026-08-31"
+    },
+    {
+     "t": "Gov. Kemp Signs FY27 Budget (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2026-05-12/gov-kemp-signs-fy27-budget",
+     "d": "2026-05-12"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "wsrc": [],
+   "psrc": []
+  },
+  {
+   "id": "psc-56002-georgia-power-2025-irp",
+   "level": "psc",
+   "jurisdiction": "Georgia Public Service Commission",
+   "kind": "docket",
+   "number": "Docket 56002",
+   "title": "Georgia Power 2025 Integrated Resource Plan (with companion Docket 56003)",
+   "status": "Filed Jan. 31, 2025; a July 2025 order allowed Georgia Power to propose at least 6,000 MW of new generation; the PSC lists Dockets 56002/56003 as ongoing",
+   "stage": "decided",
+   "date": "",
+   "summary": "Georgia Power's three-year resource plan projected rapid load growth: the company's estimate of new generation needed rose from about 400 MW over seven years (2022) to 6,600 MW (2023) and then 8,500 MW, driven largely by data centers. By July 2025 the Commission issued an order allowing Georgia Power to propose at least 6,000 MW of new generation, with up to 2,500 MW more (8,500 MW total) if the need was proven, setting up the December 2025 certification case. Georgia Power has since posted a 2026 All-Source Capacity RFP for need years 2032-2033 (March 16, 2026) and a 2026 Distributed Generation RFP (Feb. 4, 2026).",
+   "why": "The IRP is the planning basis for Georgia Power's new generation; the PSC's case list shows IRPs labeled 2010, 2013, 2016, 2019, 2022 and 2025 (plus a 2023 update), a three-year cycle that points to the next one in 2028.",
+   "topics": [
+    "energy",
+    "utilities",
+    "data centers"
+   ],
+   "sponsors": "Georgia Power Company (applicant)",
+   "url": "https://psc.ga.gov/search/facts-docket/?docketId=56002",
+   "sources": [
+    {
+     "t": "Major Cases Heard by the Commission (Georgia PSC)",
+     "u": "https://psc.ga.gov/major-cases-heard-by-the-commission/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Data Center Fact Sheet, September 2026 (Georgia PSC)",
+     "u": "https://psc.ga.gov/site/downloads/datacenterfactsheet_202609.pdf",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Georgia PSC home page (RFP postings, rate freeze note)",
+     "u": "https://psc.ga.gov/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Docket 56002: Georgia Power Company's 2025 Integrated Resource Plan (Georgia PSC)",
+     "u": "https://psc.ga.gov/search/facts-docket/?docketId=56002",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    0,
+    3,
+    1
+   ],
+   "msrc": [
+    1,
+    2
+   ],
+   "wsrc": [
+    0,
+    1
+   ],
+   "psrc": [
+    3
+   ]
+  },
+  {
+   "id": "psc-certification-9985-mw-new-generation",
+   "level": "psc",
+   "jurisdiction": "Georgia Public Service Commission",
+   "kind": "docket",
+   "number": "",
+   "title": "Certification of 9,985 MW of new Georgia Power generation, about 80% for data centers",
+   "status": "Approved Dec. 19, 2025 (agreement between PSC Public Interest Advocacy Staff and Georgia Power); the PSC's September 2026 fact sheet says Georgia Power has secured customers for all 9,985 MW, four months ahead of schedule (docket number not confirmed in sources opened)",
+   "stage": "decided",
+   "date": "2025-12-19",
+   "summary": "On Dec. 19, 2025 the Commission approved an agreement between its Public Interest Advocacy Staff and Georgia Power certifying 9,985 MW of new generation, about 80% of it expected to power data centers. Under the agreement Georgia Power will financially 'backstop' costs of the new generation through 2031, will not seek to recover from residential and small-business customers any incremental cost if a data center ends its contract early, will publish a public report twice a year, and raised the downward pressure on rates it committed to from $8.50 to at least $15 per month for 2029, 2030 and 2031. PSC staff reviewed a 3,200 MW contract between Georgia Power and a data center company on Aug. 26, 2026.",
+   "why": "Wikipedia notes the commission's Democrats were unable to pass a motion to reconsider the data-center-driven expansion. Georgia Power has said $556 million a year in revenue from large-load customers will be reflected in its next rate case in 2028 under the December 2025 agreement (Center Square). In the Secretary of State's unofficial Nov. 3, 2026 count, Democrats Peter Hubbard (District 3) and Shelia Edwards (District 5) lead; wins in both would give Democrats a 3-2 majority once results are certified.",
+   "topics": [
+    "energy",
+    "data centers",
+    "utilities"
+   ],
+   "sponsors": "Georgia Power Company (applicant); PSC Public Interest Advocacy Staff (agreement)",
+   "url": "https://psc.ga.gov/site/downloads/datacenterfactsheet_202609.pdf",
+   "sources": [
+    {
+     "t": "Data Center Fact Sheet, September 2026 (Georgia PSC)",
+     "u": "https://psc.ga.gov/site/downloads/datacenterfactsheet_202609.pdf",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "2026 Georgia Public Service Commission election (Wikipedia)",
+     "u": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Georgia power rate agreement includes look at costs (The Center Square via The Georgia Virtue)",
+     "u": "https://www.thegeorgiavirtue.com/?p=77857",
+     "d": "2026-05-15"
+    },
+    {
+     "t": "Georgia Secretary of State, Nov. 3, 2026 general election results (unofficial until certification): Public Service Commission District 3",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-c4c2-08df23e5ff63",
+     "d": "2026-11-06"
+    },
+    {
+     "t": "Georgia Secretary of State, Nov. 3, 2026 general election results (unofficial until certification): Public Service Commission District 5",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-4e6b-08df23e5ff65",
+     "d": "2026-11-06"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "psc-georgia-power-rate-freeze-through-2028",
+   "level": "psc",
+   "jurisdiction": "Georgia Public Service Commission",
+   "kind": "docket",
+   "number": "",
+   "title": "Georgia Power base-rate freeze through the end of 2028",
+   "status": "Ordered July 31, 2025; in effect through Dec. 31, 2028 (docket number not confirmed in sources opened)",
+   "stage": "decided",
+   "date": "2025-07-31",
+   "summary": "On July 31, 2025 the Commission ordered a freeze of Georgia Power base rates through 2028. Fuel costs are regulated separately from base rates: in May 2026 Georgia Power and PSC staff reached a stipulation resolving fuel and Hurricane Helene storm-cost cases, estimated to lower a typical 1,000 kWh residential bill by about $4 a month starting in June. The PSC says it 'continues to ensure current ratepayers will not subsidize data centers.'",
+   "why": "Base rates stay frozen through 2028, but fuel and storm-cost charges can still change; Georgia Power has said $556 million a year in large-load revenue will be reflected in its next rate case in 2028.",
+   "topics": [
+    "energy",
+    "utilities",
+    "rates"
+   ],
+   "sponsors": "Georgia Public Service Commission (order); Georgia Power Company",
+   "url": "https://psc.ga.gov/site/downloads/datacenterfactsheet_202609.pdf",
+   "sources": [
+    {
+     "t": "Data Center Fact Sheet, September 2026 (Georgia PSC)",
+     "u": "https://psc.ga.gov/site/downloads/datacenterfactsheet_202609.pdf",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Georgia PSC home page (rate freeze statement)",
+     "u": "https://psc.ga.gov/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Georgia power rate agreement includes look at costs (The Center Square via The Georgia Virtue)",
+     "u": "https://www.thegeorgiavirtue.com/?p=77857",
+     "d": "2026-05-15"
+    },
+    {
+     "t": "Georgia Power strikes deal that could slightly lower customers' bills (AJC)",
+     "u": "https://www.ajc.com/news/2026/05/georgia-power-strikes-deal-that-could-slightly-lower-customers-bills/",
+     "d": "2026-05-12"
+    },
+    {
+     "t": "Georgia Investigates Data Centers Over Fuel Cost Shifting (Environment+Energy Leader)",
+     "u": "https://environmentenergyleader.com/stories/georgia-investigates-data-centers-over-fuel-cost-shifting,133205",
+     "d": "2026-07-13"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    0,
+    4,
+    3,
+    2
+   ],
+   "wsrc": [
+    2,
+    4
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "psc-large-load-data-center-rules",
+   "level": "psc",
+   "jurisdiction": "Georgia Public Service Commission",
+   "kind": "rule",
+   "number": "",
+   "title": "Large-load (data center) rules: minimum bills, long-term contracts and cost-allocation studies",
+   "status": "Orders adopted April 2024, January 2025 and April 2025; in effect",
+   "stage": "decided",
+   "date": "2025-04-01",
+   "summary": "In April 2024 the Commission ordered Georgia Power to ensure data center revenue would reduce, not increase, residential bills, file quarterly reports tracking new data centers and file cost-allocation studies so data centers pay their total costs. In January 2025 it adopted a rule allowing minimum billing requirements and longer contract terms for new large-load customers, and required Georgia Power to give the PSC all new data center contracts at least 30 days before execution. In April 2025 the Commission approved changes to Georgia Power's price structures for large-load customers. (Exact day of the April 2025 order not confirmed; date shown is the month.)",
+   "why": "The PSC cites these rules in saying current ratepayers will not subsidize data centers; SB 34 sponsor Sen. Chuck Hufstetler said the rule has 'enough loopholes in it to drive a truck through' and should be written into law.",
+   "topics": [
+    "energy",
+    "data centers",
+    "utilities"
+   ],
+   "sponsors": "Georgia Public Service Commission",
+   "url": "https://psc.ga.gov/site/downloads/datacenterfactsheet_202609.pdf",
+   "sources": [
+    {
+     "t": "Data Center Fact Sheet, September 2026 (Georgia PSC)",
+     "u": "https://psc.ga.gov/site/downloads/datacenterfactsheet_202609.pdf",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Outrage over surge of data centers in Georgia inspires wave of bipartisan bills (Georgia Recorder via Rough Draft Atlanta)",
+     "u": "https://roughdraftatlanta.com/2026/01/20/georgia-data-center-regulation/",
+     "d": "2026-01-20"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    0,
+    1
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "psc-57171-rtp-revenue-credit-allocation",
+   "level": "psc",
+   "jurisdiction": "Georgia Public Service Commission",
+   "kind": "docket",
+   "number": "Docket 57171",
+   "title": "Georgia Power RTP (real-time pricing) revenue credit and allocation methodology",
+   "status": "Hearing held Sept. 1, 2026 on Georgia Power's direct testimony; the PSC calendar lists a hearing Nov. 12, 2026 at 9:35 a.m.; decision date not posted",
+   "stage": "pending",
+   "date": "2026-11-12",
+   "summary": "Docket 57171, 'In Re: Georgia Power Company's RTP Revenue Credit and Allocation Methodology,' examines how Georgia Power credits revenue from its Real-Time Pricing (RTP) rate to fuel cost recovery. The May 2026 settlement of Georgia Power's fuel and storm-cost cases called for a hearing on those methods before the end of 2026 (Center Square), and on July 7, 2026 the Commission voted unanimously to investigate whether the RTP rate, historically used by large industrial customers and 'increasingly a data center rate in practice,' lets large customers avoid a fair share of fuel costs such as pipeline transportation and hedging (Environment+Energy Leader). Georgia Power filed direct testimony Aug. 14, 2026 and the Commission held a hearing Sept. 1, 2026; the PSC calendar lists another hearing Nov. 12, 2026 at 9:35 a.m.",
+   "why": "The outcome determines how much of Georgia Power's fuel-related costs fall on RTP customers, a class now dominated by data centers, rather than on other customers; fuel charges are not covered by the base-rate freeze.",
+   "topics": [
+    "energy",
+    "utilities",
+    "rates"
+   ],
+   "sponsors": "Georgia Power Company (methodology under review); Georgia Public Service Commission",
+   "url": "https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-57171-rtp-revenue-credit-and-allocation-methodology-hearing-11-12-2026/",
+   "sources": [
+    {
+     "t": "Docket No. 57171 RTP Revenue Credit and Allocation Methodology Hearing 11-12-2026 (Georgia PSC calendar)",
+     "u": "https://psc.ga.gov/agendas-calendars/commission-calendar/docket-no-57171-rtp-revenue-credit-and-allocation-methodology-hearing-11-12-2026/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Georgia PSC home page (November 2026 calendar)",
+     "u": "https://psc.ga.gov/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Docket 57171, In Re: Georgia Power Company's RTP Revenue Credit and Allocation Methodology: Sept. 1, 2026 hearing transcript with exhibits (posted by SELC)",
+     "u": "https://www.selc.org/wp-content/uploads/2026/09/2026.09.01-57171-Transcript-with-Exhibits-2.pdf",
+     "d": "2026-09-01"
+    },
+    {
+     "t": "Georgia Investigates Data Centers Over Fuel Cost Shifting (Environment+Energy Leader)",
+     "u": "https://environmentenergyleader.com/stories/georgia-investigates-data-centers-over-fuel-cost-shifting,133205",
+     "d": "2026-07-13"
+    },
+    {
+     "t": "Georgia power rate agreement includes look at costs (The Center Square via The Georgia Virtue)",
+     "u": "https://www.thegeorgiavirtue.com/?p=77857",
+     "d": "2026-05-15"
+    },
+    {
+     "t": "Major Cases Heard by the Commission (Georgia PSC)",
+     "u": "https://psc.ga.gov/major-cases-heard-by-the-commission/",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    2,
+    5,
+    1
+   ],
+   "msrc": [
+    2,
+    4,
+    3,
+    5
+   ],
+   "wsrc": [
+    3
+   ],
+   "psrc": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "psc-29849-vogtle-construction-monitoring",
+   "level": "psc",
+   "jurisdiction": "Georgia Public Service Commission",
+   "kind": "docket",
+   "number": "Docket 29849",
+   "title": "Plant Vogtle Units 3 and 4 construction monitoring and cost recovery",
+   "status": "Ongoing since Aug. 31, 2009; companion rate docket 43838 (Vogtle Unit 3 and common costs) also listed as ongoing",
+   "stage": "pending",
+   "date": "",
+   "summary": "Docket 29849, 'Georgia Power Company's Vogtle Units 3 and 4 Construction Monitoring,' is the Commission's long-running case for the two newer reactors at Plant Vogtle. The PSC's major-cases list shows earlier Vogtle Construction Monitoring reports decided and the 19th (filed Aug. 31, 2018) still ongoing, and Docket 43838, Georgia Power's 2021 application to adjust rates to include certain Plant Vogtle Unit 3 and common costs, as ongoing; both docket pages show status Open.",
+   "why": "The PSC home page lists the Vogtle docket (29849) under PSC Proceedings, and both Vogtle dockets remain open.",
+   "topics": [
+    "energy",
+    "utilities",
+    "nuclear"
+   ],
+   "sponsors": "Georgia Power Company (applicant)",
+   "url": "https://psc.ga.gov/search/facts-docket/?docketId=29849",
+   "sources": [
+    {
+     "t": "Major Cases Heard by the Commission (Georgia PSC)",
+     "u": "https://psc.ga.gov/major-cases-heard-by-the-commission/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Docket 43838: Georgia Power application to adjust rates for Vogtle Unit 3 and common costs (Georgia PSC)",
+     "u": "https://psc.ga.gov/search/facts-docket/?docketId=43838",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Georgia PSC home page (featured proceedings, November 2026 calendar)",
+     "u": "https://psc.ga.gov/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Docket 29849: Georgia Power Company's Vogtle Units 3 and 4 Construction Monitoring (Georgia PSC)",
+     "u": "https://psc.ga.gov/search/facts-docket/?docketId=29849",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    0,
+    1,
+    3
+   ],
+   "msrc": [
+    0,
+    1,
+    3
+   ],
+   "wsrc": [
+    2,
+    0
+   ],
+   "psrc": [
+    3
+   ]
+  },
+  {
+   "id": "psc-44902-fuel-cost-recovery-fcr26",
+   "level": "psc",
+   "jurisdiction": "Georgia Public Service Commission",
+   "kind": "docket",
+   "number": "Docket 44902",
+   "title": "Georgia Power fuel cost recovery (FCR-26 docket; 2026 FCR-27 case settled)",
+   "status": "Docket 44902 (FCR-26), dated Dec. 19, 2022, is still listed as open; Georgia Power's newer FCR-27 case (Docket 56765) was resolved by a May 28, 2026 settlement, per Environment+Energy Leader",
+   "stage": "decided",
+   "date": "2026-05-28",
+   "summary": "Georgia Power recovers fuel costs through a fuel rate set in periodic fuel cost recovery cases, separate from base rates. Docket 44902 (FCR-26) remains listed as open on the PSC site. Georgia Power's FCR-27 application (Docket 56765) was heard in spring 2026; in May the company reached a stipulation with the PSC's Public Interest Advocacy Staff resolving the fuel case and a Hurricane Helene storm-cost case, cutting its fuel balance request by $13 million and its storm request by $100 million, for an estimated reduction of about $4.03 to $4.04 a month for a residential customer using 1,000 kWh, starting in June (AJC; Center Square). The settlement also called for a hearing on how Georgia Power credits Real-Time Pricing revenue to fuel cost recovery (see Docket 57171).",
+   "why": "Fuel charges can change during the base-rate freeze; the follow-up RTP review (Docket 57171) will decide how some fuel-related costs are shared with large customers, a class now dominated by data centers.",
+   "topics": [
+    "energy",
+    "utilities",
+    "rates"
+   ],
+   "sponsors": "Georgia Power Company (applicant)",
+   "url": "https://psc.ga.gov/search/facts-docket/?docketId=44902",
+   "sources": [
+    {
+     "t": "Docket 44902: Georgia Power Company's Fuel Cost Recovery (FCR-26) (Georgia PSC)",
+     "u": "https://psc.ga.gov/search/facts-docket/?docketId=44902",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Major Cases Heard by the Commission (Georgia PSC)",
+     "u": "https://psc.ga.gov/major-cases-heard-by-the-commission/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Georgia Power strikes deal that could slightly lower customers' bills (AJC)",
+     "u": "https://www.ajc.com/news/2026/05/georgia-power-strikes-deal-that-could-slightly-lower-customers-bills/",
+     "d": "2026-05-12"
+    },
+    {
+     "t": "Georgia power rate agreement includes look at costs (The Center Square via The Georgia Virtue)",
+     "u": "https://www.thegeorgiavirtue.com/?p=77857",
+     "d": "2026-05-15"
+    },
+    {
+     "t": "Georgia Investigates Data Centers Over Fuel Cost Shifting (Environment+Energy Leader)",
+     "u": "https://environmentenergyleader.com/stories/georgia-investigates-data-centers-over-fuel-cost-shifting,133205",
+     "d": "2026-07-13"
+    },
+    {
+     "t": "Hearing exhibits including Docket 56765, Georgia Power Fuel Cost Recovery (FCR-27) Application, May 5, 2026 (posted by SELC)",
+     "u": "https://www.selc.org/wp-content/uploads/2026/06/2026.05.05-56765-Hearing-Exhibits-1.pdf",
+     "d": "2026-05-05"
+    }
+   ],
+   "ssrc": [
+    0,
+    4,
+    5
+   ],
+   "msrc": [
+    0,
+    5,
+    2,
+    3,
+    4
+   ],
+   "wsrc": [
+    4,
+    3
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "psc-2026-elections-districts-3-and-5",
+   "level": "psc",
+   "jurisdiction": "Georgia Public Service Commission",
+   "kind": "proposal",
+   "number": "",
+   "title": "PSC Districts 3 and 5 elections (Nov. 3, 2026) and control of the commission",
+   "status": "Voted on Nov. 3, 2026; the page shows the live count and any race call; state certification is due by Nov. 20, 2026",
+   "stage": "pending",
+   "date": "2026-11-03",
+   "summary": "Two of five statewide PSC seats were on the ballot. In District 3, Democrat Peter Hubbard, who won the seat in 2025, faced Republican former commissioner Fitz Johnson, who won the May 19 Republican primary over Brandon Martin. In District 5, Republican Tricia Pridemore did not seek reelection (she ran for the U.S. House); Democrat Shelia Edwards, who won the May 19 Democratic primary, faced Republican Josh Tolbert, who won the June 16 Republican runoff over Bobby Mehan. The PSC website lists the current commission as Chairman Jason Shaw, Vice Chairman Lauren 'Bubba' McDonald, Peter Hubbard, Dr. Alicia M. Johnson and Stan Wise (District 5). Democrats won both PSC seats on the 2025 ballot (Hubbard and Alicia Johnson), their first statewide constitutional office wins since 2006, turning a 5-0 Republican commission into a 3-2 Republican majority; wins by both Hubbard and Edwards would give Democrats a 3-2 majority. Hubbard's campaign tied winning control of the commission to lowering power bills.",
+   "why": "Control of the commission shapes oversight of Georgia Power's data center contracts, fuel cases (including the RTP review in Docket 57171) and the next resource plan; results are unofficial until state certification.",
+   "topics": [
+    "energy",
+    "elections",
+    "utilities"
+   ],
+   "sponsors": "",
+   "url": "https://psc.ga.gov/about-the-psc/commissioners/",
+   "sources": [
+    {
+     "t": "Georgia Secretary of State, Nov. 3, 2026 general election results (unofficial until certification): Public Service Commission District 3",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-c4c2-08df23e5ff63",
+     "d": "2026-11-06"
+    },
+    {
+     "t": "2026 Georgia Public Service Commission election (Wikipedia)",
+     "u": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Election Guide: Public Service Commissioner (Dist. 3 and 5) (Rough Draft Atlanta)",
+     "u": "https://roughdraftatlanta.com/election-guide-public-service-commissioner-dist-3-and-5/",
+     "d": "2026-03-09"
+    },
+    {
+     "t": "Meet the Commission (Georgia PSC)",
+     "u": "https://psc.ga.gov/about-the-psc/commissioners/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Georgia Secretary of State, Nov. 3, 2026 general election results (unofficial until certification): Public Service Commission District 5",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-4e6b-08df23e5ff65",
+     "d": "2026-11-06"
+    },
+    {
+     "t": "Georgia Secretary of State, May 19, 2026 general primary official results: Public Service Commission District 3 (Republican)",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926/ballot-items/01000000-f33c-bc21-744e-08dead3402c1",
+     "d": "2026-11-06"
+    },
+    {
+     "t": "Georgia Secretary of State, May 19, 2026 general primary official results: Public Service Commission District 5 (Democratic)",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926/ballot-items/01000000-f33c-bc21-7b1b-08dead340333",
+     "d": "2026-11-06"
+    },
+    {
+     "t": "Georgia Secretary of State, June 16, 2026 primary runoff official results: Public Service Commission District 5 (Republican)",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/06162026GeneralPrimaryRunoff/ballot-items/01000000-76e9-acd3-8124-08dec5806dab",
+     "d": "2026-11-06"
+    }
+   ],
+   "ssrc": [],
+   "msrc": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": []
+  },
+  {
+   "id": "fulton-2026-millage-rate-flat",
+   "level": "county",
+   "jurisdiction": "Fulton County",
+   "kind": "budget",
+   "number": "",
+   "title": "Fulton County holds the general fund millage rate at 8.87 mills for a fifth year",
+   "status": "Adopted by the Board of Commissioners Oct. 7, 2026",
+   "stage": "decided",
+   "date": "2026-10-07",
+   "summary": "At its Oct. 7, 2026 meeting the Board of Commissioners voted to keep the 2026 General Fund millage rate at 8.87 mills, unchanged for the fifth consecutive year. Because reassessments raised property values, the county advertised the rate as a 0.54% increase over the rollback rate and scheduled the three public hearings state law requires (two on Sept. 30 and one Oct. 7) in a Sept. 23, 2026 notice.",
+   "why": "The county says the rate fell 16% from 10.5 mills in 2015 to 8.87 mills in 2022; Fulton offers two floating homestead exemptions and other exemptions for seniors and special populations.",
+   "topics": [
+    "taxes",
+    "budget"
+   ],
+   "sponsors": "Fulton County Board of Commissioners",
+   "url": "https://www.fultoncountyga.gov/News/2026/10/08/Fulton-County-Keeps-Millage-Rate-Flat-For-5th-Year",
+   "sources": [
+    {
+     "t": "Fulton County Keeps Millage Rate Flat For 5th Year (Fulton County)",
+     "u": "https://www.fultoncountyga.gov/News/2026/10/08/Fulton-County-Keeps-Millage-Rate-Flat-For-5th-Year",
+     "d": "2026-10-08"
+    },
+    {
+     "t": "Press release announcing a proposed property tax increase (Fulton County)",
+     "u": "https://www.fultoncountyga.gov/News/2026/09/23/PRESS-RELEASE-ANNOUNCING-A-PROPOSED-PROPERTY-TAX-INCREASE",
+     "d": "2026-09-23"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "fulton-2027-general-fund-budget-hearings",
+   "level": "county",
+   "jurisdiction": "Fulton County",
+   "kind": "budget",
+   "number": "",
+   "title": "Fulton County 2027 General Fund budget",
+   "status": "Budget Commission special called hearings were scheduled Oct. 12-22, 2026; adoption date not posted in sources opened",
+   "stage": "pending",
+   "date": "2026-10-09",
+   "summary": "Fulton County's Budget Commission scheduled six special called meetings, Oct. 12-22, 2026, to hold budget hearings on the 2027 General Fund budget, following the Board's Oct. 7 vote to hold the millage rate at 8.87 mills. County releases this fall also cite the proposed Atlanta City Detention Center acquisition and more than $200 million this year in health and human services, including more than $60 million for Grady Health System and more than $26 million for mental health services.",
+   "why": "The adopted budget will show how Fulton pays for the proposed ACDC acquisition at the 8.87-mill rate.",
+   "topics": [
+    "budget",
+    "public safety",
+    "health care"
+   ],
+   "sponsors": "Fulton County Board of Commissioners",
+   "url": "https://www.fultoncountyga.gov/News/2026/10/09/BOC-Special-Called-Meeting",
+   "sources": [
+    {
+     "t": "Fulton County Budget Commission - Special Called Meetings (Fulton County)",
+     "u": "https://www.fultoncountyga.gov/News/2026/10/09/BOC-Special-Called-Meeting",
+     "d": "2026-10-09"
+    },
+    {
+     "t": "City of Atlanta and Fulton County Emphasize People-First Approach to ACDC Transition (Fulton County)",
+     "u": "https://www.fultoncountyga.gov/News/2026/09/25/City-of-Atlanta-and-Fulton-County-Emphasize-People-First-Approach-to-ACDC-Transition",
+     "d": "2026-09-25"
+    },
+    {
+     "t": "Fulton County Keeps Millage Rate Flat For 5th Year (Fulton County)",
+     "u": "https://www.fultoncountyga.gov/News/2026/10/08/Fulton-County-Keeps-Millage-Rate-Flat-For-5th-Year",
+     "d": "2026-10-08"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0,
+    1,
+    2
+   ],
+   "wsrc": [
+    1,
+    2
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "fulton-tsplost-renewal-referendum-2026",
+   "level": "county",
+   "jurisdiction": "Fulton County",
+   "kind": "referendum",
+   "number": "",
+   "title": "TSPLOST renewal: 0.75-cent transportation sales tax in 14 Fulton cities outside Atlanta (about $650 million over five years)",
+   "status": "Voted on Nov. 3, 2026; results are unofficial pending county certification; no outcome confirmed in sources opened",
+   "stage": "pending",
+   "date": "2026-11-03",
+   "summary": "Voters in the 14 North and South Fulton cities (Fulton County outside the city of Atlanta) decided whether to renew the 0.75-cent Transportation Special Purpose Local Option Sales Tax for five more years, projected to raise roughly $650 million divided among the cities by population. Planned spending by category: $227.2 million for pedestrian, bike, streetscape and landscape projects; $182.8 million for maintenance and safety; $97 million for congestion relief and roadway projects; $96.8 million for operations and safety; $35.7 million for bridges; and $5.7 million for quick-response projects.",
+   "why": "Collections under the current 2021 TSPLOST run through March 31, 2027 (Rough Draft Atlanta), so the vote decides whether the cities' 0.75-cent transportation tax continues after that.",
+   "topics": [
+    "transportation",
+    "taxes",
+    "referendum"
+   ],
+   "sponsors": "Fulton County Board of Commissioners and the 14 city councils",
+   "url": "https://www.fultoncountyga.gov/News/2026/10/20/Fulton-County-Voters-Consider-Renewal-of-TSPLOST-During-2026-General-Election",
+   "sources": [
+    {
+     "t": "Fulton County Voters Consider Renewal of TSPLOST During 2026 General Election (Fulton County)",
+     "u": "https://www.fultoncountyga.gov/News/2026/10/20/Fulton-County-Voters-Consider-Renewal-of-TSPLOST-During-2026-General-Election",
+     "d": "2026-10-20"
+    },
+    {
+     "t": "Fulton County Board of Registration and Elections Hold Regular/Special Meeting Pre-Certification (Fulton County)",
+     "u": "https://www.fultoncountyga.gov/News/2026/11/02/Fulton-County-Board-of-Registration-and-Elections-Hold-Regular-Special-Meeting-Pre-Certification",
+     "d": "2026-11-02"
+    },
+    {
+     "t": "Fulton County signs agreement for fall TSPLOST referendum (Rough Draft Atlanta)",
+     "u": "https://roughdraftatlanta.com/2026/08/03/fulton-county-tsplost-referendum/",
+     "d": "2026-08-03"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0,
+    2
+   ],
+   "wsrc": [
+    2
+   ],
+   "psrc": [
+    2
+   ]
+  },
+  {
+   "id": "atlanta-fulton-acdc-jail-transition",
+   "level": "city",
+   "jurisdiction": "City of Atlanta",
+   "kind": "proposal",
+   "number": "",
+   "title": "Transfer of the Atlanta City Detention Center (ACDC) to Fulton County",
+   "status": "Framework presented at a Sept. 25, 2026 city-county work session; any transition is contingent on required legislative approvals; purchase discussions ongoing",
+   "stage": "pending",
+   "date": "2026-09-25",
+   "summary": "The City of Atlanta and Fulton County described a proposed framework under which Fulton County would acquire the Atlanta City Detention Center. The city would keep one floor and other administrative space to oversee its municipal detainees, and the Municipal Court, Solicitor's Office and Public Defender's Office would keep operating there. The Center for Diversion and Services, which has diverted more than 2,600 people from jail this year (about 60% through the Atlanta Police Department), would continue; the city pays half its operating costs and funded its renovations. The city is preparing placement in other city jobs, help finding outside work and possible retirement options for Department of Corrections employees, and the Fulton County Sheriff's Office said it welcomes city employees who want to continue law enforcement careers. No purchase price or timeline has been released.",
+   "why": "Any transition 'remains contingent upon the required legislative approvals,' and the release gives no price or timeline.",
+   "topics": [
+    "public safety",
+    "criminal justice",
+    "budget"
+   ],
+   "sponsors": "City of Atlanta; Fulton County; Fulton County Sheriff's Office",
+   "url": "https://www.fultoncountyga.gov/News/2026/09/25/City-of-Atlanta-and-Fulton-County-Emphasize-People-First-Approach-to-ACDC-Transition",
+   "sources": [
+    {
+     "t": "City of Atlanta and Fulton County Emphasize People-First Approach to ACDC Transition in City / County Work Session (Fulton County)",
+     "u": "https://www.fultoncountyga.gov/News/2026/09/25/City-of-Atlanta-and-Fulton-County-Emphasize-People-First-Approach-to-ACDC-Transition",
+     "d": "2026-09-25"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "atlanta-fy2027-budget",
+   "level": "city",
+   "jurisdiction": "City of Atlanta",
+   "kind": "budget",
+   "number": "",
+   "title": "City of Atlanta FY2027 budget ($994.6 million general fund; about $3.2 billion overall)",
+   "status": "Approved by the Atlanta City Council June 15, 2026 (Rough Draft Atlanta); Mayor Dickens had proposed a $994.7 million general fund",
+   "stage": "enacted",
+   "date": "2026-06-15",
+   "summary": "Mayor Andre Dickens proposed a $994.7 million FY2027 general fund budget that the city described as continuing investment in neighborhoods, public safety, housing and Atlanta's youth. On June 15, 2026 the City Council approved a budget of about $3.2 billion overall with a $994.6 million general fund, according to Rough Draft Atlanta, which cited priorities including public safety, affordable housing, the Neighborhood Reinvestment Initiative and youth programs.",
+   "why": "Dickens tied the budget's goals to the city's hosting of the FIFA World Cup 2026 (Rough Draft Atlanta).",
+   "topics": [
+    "budget",
+    "public safety",
+    "housing"
+   ],
+   "sponsors": "Mayor Andre Dickens (proposal); Atlanta City Council (adoption)",
+   "url": "https://www.atlantaga.gov/",
+   "sources": [
+    {
+     "t": "Mayor Dickens Proposes $994.7 Million FY2027 Budget (City of Atlanta news listing)",
+     "u": "https://www.atlantaga.gov/",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Atlanta City Council approves historic $3.2 billion budget (Rough Draft Atlanta)",
+     "u": "https://roughdraftatlanta.com/2026/06/16/atlanta-city-council-fy27-historic-budget/",
+     "d": "2026-06-16"
+    }
+   ],
+   "ssrc": [
+    1
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    1
+   ],
+   "psrc": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "cobb-2028-splost-renewal-referendum",
+   "level": "county",
+   "jurisdiction": "Cobb County",
+   "kind": "referendum",
+   "number": "",
+   "title": "Cobb 2028 SPLOST renewal: 1% sales tax for 2028-2033, estimated $1.15 billion",
+   "status": "Voted on Nov. 3, 2026; results are unofficial pending county certification; no outcome confirmed in sources opened; final project list approved by the Board of Commissioners April 28, 2026",
+   "stage": "pending",
+   "date": "2026-11-03",
+   "summary": "Cobb voters decided whether to re-impose the county's 1% Special Purpose Local Option Sales Tax for six years, Jan. 1, 2028 through Dec. 31, 2033, raising an estimated $1,150,000,000 for transportation, infrastructure, parks and recreation, facilities and technology projects. The Board of Commissioners approved a preliminary project list Jan. 13, 2026 and the final consolidated list April 28, 2026. Because it renews an existing penny, the county's total sales tax rate would stay at 6%.",
+   "why": "The renewal would take effect Jan. 1, 2028 and run six years, funding transportation, infrastructure, parks and recreation, facility and technology projects.",
+   "topics": [
+    "taxes",
+    "transportation",
+    "referendum"
+   ],
+   "sponsors": "Cobb County Board of Commissioners",
+   "url": "https://www.cobbcounty.gov/board/splost/2028-splost-renewal-information",
+   "sources": [
+    {
+     "t": "2028 SPLOST Renewal Information (Cobb County)",
+     "u": "https://www.cobbcounty.gov/board/splost/2028-splost-renewal-information",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Cobb County home page (referendum and election notices)",
+     "u": "https://www.cobbcounty.gov/",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "gwinnett-2027-budget-process",
+   "level": "county",
+   "jurisdiction": "Gwinnett County",
+   "kind": "budget",
+   "number": "",
+   "title": "Gwinnett County 2027 budget",
+   "status": "Department business-plan hearings began Sept. 28, 2026; Chairwoman's proposed budget due to the Board in November 2026; adoption required at the Board's first meeting in January 2027",
+   "stage": "pending",
+   "date": "2026-09-29",
+   "summary": "Gwinnett opened its 2027 budget process on Sept. 28, 2026 with public presentations of departmental and elected officials' business plans, reviewed by Chairwoman Nicole Love Hendrickson and a four-member Citizens Budget Review Team (David Cuffie, Michael Park, Denise Rumbaugh and Ronald S. Skeete). The Chairwoman's proposed budget will be presented to the Board of Commissioners in November and, under county ordinance, the Board must adopt the budget at its first meeting in January. No dollar figures or millage proposals had been released as of the county's announcement.",
+   "why": "The Chairwoman's proposed 2027 budget becomes public when it is presented to commissioners in November, and county ordinance requires the Board to adopt a budget at its first meeting in January.",
+   "topics": [
+    "budget",
+    "transportation",
+    "public safety"
+   ],
+   "sponsors": "Chairwoman Nicole Love Hendrickson",
+   "url": "https://www.gwinnettcounty.com/-/news-events/stories/story-details/residents-take-a-seat-at-the-table-as-gwinnett-begins-2027-budget-process",
+   "sources": [
+    {
+     "t": "Residents take a seat at the table as Gwinnett begins 2027 budget process (Gwinnett County)",
+     "u": "https://www.gwinnettcounty.com/-/news-events/stories/story-details/residents-take-a-seat-at-the-table-as-gwinnett-begins-2027-budget-process",
+     "d": "2026-09-29"
+    },
+    {
+     "t": "Gwinnett County home page (election results and GJAC construction notices)",
+     "u": "https://www.gwinnettcounty.com/",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "dekalb-fire-station-5-capital-project",
+   "level": "county",
+   "jurisdiction": "DeKalb County",
+   "kind": "proposal",
+   "number": "",
+   "title": "DeKalb breaks ground on $10.5 million Fire Station No. 5",
+   "status": "Groundbreaking Sept. 3, 2026; construction scheduled to begin in 2026",
+   "stage": "decided",
+   "date": "2026-09-03",
+   "summary": "CEO Lorraine Cochran-Johnson and members of the Board of Commissioners broke ground Sept. 3, 2026 on a new $10.5 million, SPLOST-funded Fire Station No. 5 at 4329 Cowan Road in Tucker, replacing the older station on Lawrenceville Highway. On Aug. 31, 2026 the county announced that the Board had confirmed Cochran-Johnson's appointment of Terry G. Phillips as County Attorney.",
+   "why": "Replaces an older station with a SPLOST-funded facility; the release gives no completion date.",
+   "topics": [
+    "public safety",
+    "budget"
+   ],
+   "sponsors": "CEO Lorraine Cochran-Johnson; DeKalb Board of Commissioners",
+   "url": "https://dekalbcountyga.gov/news/2026-09-03/dekalb-county-breaks-ground-new-105-million-fire-station-no-5",
+   "sources": [
+    {
+     "t": "DeKalb County Breaks Ground on New $10.5 Million Fire Station No. 5 (DeKalb County)",
+     "u": "https://dekalbcountyga.gov/news/2026-09-03/dekalb-county-breaks-ground-new-105-million-fire-station-no-5",
+     "d": "2026-09-03"
+    },
+    {
+     "t": "Terry G. Phillips Appointed DeKalb County Attorney (DeKalb County)",
+     "u": "https://dekalbcountyga.gov/news/2026-08-31/terry-g-phillips-appointed-dekalb-county-attorney",
+     "d": "2026-08-31"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "savannah-data-center-zoning-ordinance",
+   "level": "city",
+   "jurisdiction": "City of Savannah",
+   "kind": "ordinance",
+   "number": "",
+   "title": "Savannah data center zoning ordinance",
+   "status": "Public comment open through Nov. 20, 2026; draft ordinance to be posted in November; Metropolitan Planning Commission and City Council hearings to be scheduled; adoption targeted for January 2027",
+   "stage": "pending",
+   "date": "2026-10-28",
+   "summary": "Savannah is drafting a zoning amendment that would define data centers as a land use for the first time and set development standards. The framework announced Oct. 28, 2026 creates minor, major and adapted-reuse categories; requires separation from homes, schools, parks, places of worship, hospitals and other sensitive areas plus noise and buffer rules; limits electricity use and restricts generator use; addresses water use, water-conserving cooling, stormwater and wastewater discharge; requires Savannah Fire review of life-safety systems; sets decommissioning and hazardous-materials rules and building height, landscaping and design standards; and could require major data centers to contribute through infrastructure upgrades, reinvestment or other commitments. A special use permit process may be included. The city is working with the Chatham County-Savannah Metropolitan Planning Commission and Chatham County. Comments are taken at savannahga.gov/datacenters.",
+   "why": "Mayor Van R. Johnson II said 'Savannah must be prepared to understand what our infrastructure can and cannot accommodate'; the city plans to recommend adoption to City Council in January 2027.",
+   "topics": [
+    "data centers",
+    "zoning",
+    "energy",
+    "water"
+   ],
+   "sponsors": "City of Savannah (Mayor Van R. Johnson II)",
+   "url": "https://www.savannahga.gov/m/newsflash/Home/Detail/3410",
+   "sources": [
+    {
+     "t": "City of Savannah Seeks Public Input on Proposed Data Center Ordinance (City of Savannah)",
+     "u": "https://www.savannahga.gov/m/newsflash/Home/Detail/3410",
+     "d": "2026-10-28"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "savannah-stormwater-utility-fee",
+   "level": "city",
+   "jurisdiction": "City of Savannah",
+   "kind": "ordinance",
+   "number": "",
+   "title": "Savannah Stormwater Utility fee",
+   "status": "Approved by City Council Jan. 22, 2026; hardship assistance appointments opened Oct. 11, 2026",
+   "stage": "enacted",
+   "date": "2026-01-22",
+   "summary": "On Jan. 22, 2026 the Savannah City Council approved creating a Stormwater Utility, which the city describes as a dedicated and sustainable funding source for its stormwater and drainage system. In October 2026 the city launched a hardship assistance program for residential water customers with household income at or below 200% of the 2026 federal poverty guidelines (appointments by phone starting Oct. 11). The city was also awarded $2,202,817 in federal and state funds for a Stormwater Master Plan (local match $388,733), and on Oct. 22, 2026 the Council adopted the 2026 Floodplain Management Plan; Savannah holds a Class 5 Community Rating System rating, which the city says saves NFIP policyholders 25% on premiums.",
+   "why": "Creates a dedicated revenue stream for Savannah's stormwater and drainage system; fee amounts were not stated in the city releases reviewed.",
+   "topics": [
+    "water",
+    "taxes",
+    "infrastructure"
+   ],
+   "sponsors": "Savannah City Council",
+   "url": "https://www.savannahga.gov/m/newsflash/Home/Detail/3393",
+   "sources": [
+    {
+     "t": "City Launches Stormwater Utility Hardship Assistance Program (City of Savannah)",
+     "u": "https://www.savannahga.gov/m/newsflash/Home/Detail/3393",
+     "d": "2026-10-08"
+    },
+    {
+     "t": "City of Savannah Awarded Federal, State Funding for Stormwater Master Plan (City of Savannah)",
+     "u": "https://www.savannahga.gov/m/newsflash/Home/Detail/3378",
+     "d": "2026-09-09"
+    },
+    {
+     "t": "Savannah City Council Adopts Floodplain Management Plans (City of Savannah)",
+     "u": "https://www.savannahga.gov/m/newsflash/Home/Detail/3413",
+     "d": "2026-11-03"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0,
+    1,
+    2
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "savannah-fy2027-budget",
+   "level": "city",
+   "jurisdiction": "City of Savannah",
+   "kind": "budget",
+   "number": "",
+   "title": "City of Savannah FY2027 budget",
+   "status": "Budget priority survey closed Oct. 18, 2026; results to be released in November; proposed budget and council vote dates not confirmed in sources opened",
+   "stage": "pending",
+   "date": "2026-10-09",
+   "summary": "Savannah ran an online FY27 'Speak Out Savannah' budget priority survey through Oct. 18, 2026 and held an in-person budget engagement event Oct. 9 at Savannah Technical College's Eckburg Auditorium; survey results are to be made public in November and presented to city leadership to inform budget decisions.",
+   "why": "Residents' survey responses will be presented to city leadership to inform FY27 budget discussions (City of Savannah).",
+   "topics": [
+    "budget"
+   ],
+   "sponsors": "City of Savannah",
+   "url": "https://www.savannahga.gov/m/newsflash/Home/Detail/3380",
+   "sources": [
+    {
+     "t": "City Invites Participation, Seeks Feedback on 'Speak Out Savannah' Budget Priority Survey (City of Savannah)",
+     "u": "https://www.savannahga.gov/m/newsflash/Home/Detail/3380",
+     "d": "2026-09-18"
+    },
+    {
+     "t": "Residents Invited to Speak Out Savannah, FY27 Budget Priorities Community Engagement Event (City of Savannah)",
+     "u": "https://www.savannahga.gov/m/newsflash/Home/Detail/3388",
+     "d": "2026-10-06"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "savannah-project-derenne-infra-grant",
+   "level": "city",
+   "jurisdiction": "City of Savannah",
+   "kind": "proposal",
+   "number": "",
+   "title": "Project DeRenne: $11.3 million federal INFRA grant for 'The Boulevard' connector",
+   "status": "Grant announced Oct. 9, 2026; city local match of $13,645,136",
+   "stage": "decided",
+   "date": "2026-10-09",
+   "summary": "Georgia and the City of Savannah were awarded an $11,302,500 U.S. Department of Transportation INFRA grant to fund right-of-way acquisition for 'The Boulevard,' a new four-lane divided connector in Project DeRenne, a four-part initiative led by the city and GDOT to reduce traffic congestion. The city will provide the local match of $13,645,136.",
+   "why": "The city calls right-of-way acquisition one of the final steps before the project can proceed toward construction; no construction dates were given.",
+   "topics": [
+    "transportation",
+    "infrastructure"
+   ],
+   "sponsors": "City of Savannah; Georgia Department of Transportation",
+   "url": "https://www.savannahga.gov/m/newsflash/Home/Detail/3396",
+   "sources": [
+    {
+     "t": "Georgia, City of Savannah Awarded $11.3 Million INFRA Federal Grant to Advance Project DeRenne (City of Savannah)",
+     "u": "https://www.savannahga.gov/m/newsflash/Home/Detail/3396",
+     "d": "2026-10-09"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "chatham-short-term-rental-ordinance-2026",
+   "level": "county",
+   "jurisdiction": "Chatham County",
+   "kind": "ordinance",
+   "number": "",
+   "title": "Chatham County short-term rental ordinance update",
+   "status": "Approved unanimously by the Board of Commissioners at second reading Sept. 25, 2026 (WTOC); effective date not stated",
+   "stage": "enacted",
+   "date": "2026-09-25",
+   "summary": "The Chatham County Board of Commissioners amended its short-term rental ordinance under the heading 'Opportunities for Improvement,' with a presentation and amended ordinance at first reading Sept. 11, 2026 and a redlined version (file dated Sept. 22) for the Sept. 25 second reading, when commissioners approved the changes unanimously. WTOC reported the ordinance empowers homeowners associations to enforce neighborhood rules with backing from county code enforcement, aimed at neighborhood complaints and hazards such as septic overflows; the county said it cannot legally impose a blanket ban on short-term rentals.",
+   "why": "The county's page links the amended ordinance PDFs with the full rule changes; WTOC said owners must follow their HOA's rules.",
+   "topics": [
+    "housing",
+    "zoning",
+    "tourism"
+   ],
+   "sponsors": "Chatham County Board of Commissioners",
+   "url": "https://www.chathamcountyga.gov/OurCounty/newsArticle/b3e4a30a-2172-41f3-a09f-3c83ef43eeeb",
+   "sources": [
+    {
+     "t": "Short Term Rental Ordinance: Opportunities for Improvement, First and Second Reading (Chatham County)",
+     "u": "https://www.chathamcountyga.gov/OurCounty/newsArticle/b3e4a30a-2172-41f3-a09f-3c83ef43eeeb",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Chatham County commissioners approve short-term rental changes (WTOC)",
+     "u": "https://www.wtoc.com/2026/09/25/chatham-county-commissioners-approve-short-term-rental-changes/",
+     "d": "2026-09-25"
+    }
+   ],
+   "ssrc": [
+    1
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0,
+    1
+   ],
+   "psrc": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "augusta-fy2027-budget-hearing",
+   "level": "city",
+   "jurisdiction": "Augusta-Richmond County",
+   "kind": "budget",
+   "number": "",
+   "title": "Augusta FY2027 budget",
+   "status": "Public hearing Nov. 4, 2026 at 10:30 a.m., Lee N. Beard Commission Chambers; Commission adoption vote to follow (date and totals not confirmed in sources opened)",
+   "stage": "pending",
+   "date": "2026-11-04",
+   "summary": "Augusta posted notice Nov. 2, 2026 of a public hearing to receive comments on the proposed FY2027 Augusta, Georgia budget, set for Wednesday, Nov. 4, 2026 at 10:30 a.m. in the Lee N. Beard Commission Chambers. The notice does not state the proposed total, millage rate or fee changes.",
+   "why": "The hearing is the public's chance to comment before the Augusta Commission votes on the FY2027 budget; the adoption date was not in the notice.",
+   "topics": [
+    "budget"
+   ],
+   "sponsors": "Augusta Commission",
+   "url": "https://www.augustaga.gov/m/newsflash/Home/Detail/4287",
+   "sources": [
+    {
+     "t": "FY2027 Budget Public Hearing (Augusta, Georgia)",
+     "u": "https://www.augustaga.gov/m/newsflash/Home/Detail/4287",
+     "d": "2026-11-02"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": []
+  },
+  {
+   "id": "columbus-fy27-adopted-budget",
+   "level": "city",
+   "jurisdiction": "Columbus Consolidated Government",
+   "kind": "budget",
+   "number": "",
+   "title": "Columbus Consolidated Government FY27 operating budget and capital improvement program",
+   "status": "Adopted by Columbus Council ordinance June 9, 2026 (FY27 budget book); totals not confirmed in sources opened",
+   "stage": "enacted",
+   "date": "2026-06-09",
+   "summary": "Columbus has published its adopted FY27 Operating Budget and Capital Improvement Program book, which states the budget was adopted by Columbus Council ordinance(s) on June 9, 2026. The book includes OLOST public safety and infrastructure funds and TSPLOST summaries, and the city posts monthly financial reports on OLOST and TSPLOST. Budget totals were not captured from the sources reviewed.",
+   "why": "The budget includes separate OLOST public safety and infrastructure funds and TSPLOST transportation funds (budget book).",
+   "topics": [
+    "budget",
+    "taxes"
+   ],
+   "sponsors": "Columbus Council; Mayor Skip Henderson",
+   "url": "https://resources.columbusga.gov/finance/budget-books/fy27/FY27%20Operating%20Budget%20and%20Capital%20Improvement%20Program%20Book.pdf",
+   "sources": [
+    {
+     "t": "FY27 Operating Budget and Capital Improvement Program Book (Columbus Consolidated Government)",
+     "u": "https://resources.columbusga.gov/finance/budget-books/fy27/FY27%20Operating%20Budget%20and%20Capital%20Improvement%20Program%20Book.pdf",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Columbus Consolidated Government home page (budget and OLOST/TSPLOST report links)",
+     "u": "https://www.columbusga.gov/",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    1
+   ]
+  },
+  {
+   "id": "columbus-john-d-allen-judicial-center-opening",
+   "level": "city",
+   "jurisdiction": "Columbus Consolidated Government",
+   "kind": "proposal",
+   "number": "",
+   "title": "John D. Allen Judicial Center opens",
+   "status": "Ribbon-cutting scheduled for Friday, Oct. 30, 2026 at 1:30 p.m. at 100 10th Street (city release, Oct. 23)",
+   "stage": "decided",
+   "date": "2026-10-30",
+   "summary": "The Columbus Consolidated Government and the Courts of Muscogee County announced a ribbon-cutting for the John D. Allen Judicial Center, 100 10th Street, on Friday, Oct. 30, 2026 at 1:30 p.m., to celebrate the facility and honor the legacy of Judge John D. Allen. The release did not include cost, financing or what the building replaces.",
+   "why": "Marks the opening of a new courts facility; the city's release gives no cost or financing details.",
+   "topics": [
+    "courts",
+    "public safety",
+    "infrastructure"
+   ],
+   "sponsors": "Columbus Consolidated Government; Courts of Muscogee County",
+   "url": "https://columbusga.gov/Portals/communityaffairs/adam/Press%20Releases/kxQM9ZVJO0miouXNGIhdpQ/Document/Media%20Release%20John%20D%20Allen%20Ribbon%20Cutting.pdf",
+   "sources": [
+    {
+     "t": "Columbus Consolidated Government and Courts of Muscogee County to Host John D. Allen Judicial Center Ribbon-Cutting (Columbus Consolidated Government)",
+     "u": "https://columbusga.gov/Portals/communityaffairs/adam/Press%20Releases/kxQM9ZVJO0miouXNGIhdpQ/Document/Media%20Release%20John%20D%20Allen%20Ribbon%20Cutting.pdf",
+     "d": "2026-10-23"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "hb295-property-owner-claims-camping-sanctuary-2026",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 295",
+   "title": "Lets property owners seek compensation from cities and counties that don't enforce camping, panhandling or sanctuary-policy bans",
+   "status": "Signed by Gov. Kemp May 12, 2026 (Act 713); effective July 1, 2026",
+   "stage": "enacted",
+   "date": "2026-05-12",
+   "summary": "Creates a claims process for real property owners against a city or county with a 'policy, pattern, or practice' of not enforcing state law on public camping and outdoor sleeping, loitering, panhandling, shoplifting or public drug use, or the state ban on immigration sanctuary policies. An owner first files a claim for documented expenses or lost fair market value; if the local government rejects it or does not act within 30 days, the owner may sue in superior court. It also lets people ask a court to order a local government to follow the ban on sanctuary policies. Final passage came in the session's last hours: House 93-76 on April 2, 2026, and Senate 34-19 (LegiScan records the roll call on April 3).",
+   "why": "Supporters, including sponsor Rep. Houston Gaines, Sen. Clint Dixon and the Goldwater Institute (which backed a similar Arizona law), call it accountability for local governments; opponents, including the National Homelessness Law Center, the Georgia Latino Alliance for Human Rights, Sen. Josh McLaurin (D-Sandy Springs) and a City of Atlanta staff member, said it punishes homelessness and would burden the courts. Claims have been possible since July 1, 2026; no court rulings under the law were found in sources reviewed.",
+   "topics": [
+    "homelessness",
+    "immigration",
+    "local government",
+    "public safety"
+   ],
+   "cats": [
+    "homeless",
+    "immigration",
+    "local",
+    "justice"
+   ],
+   "sponsors": "Rep. Houston Gaines (R-Athens); carried in the Senate by Sen. Clint Dixon (R-Gwinnett)",
+   "url": "https://www.legis.ga.gov/legislation/69969",
+   "sources": [
+    {
+     "t": "GA HB295, 2025-2026 session: history, roll calls, Act 713 (LegiScan)",
+     "u": "https://legiscan.com/GA/bill/HB295/2026",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Kemp to decide fate of bill allowing Georgia property owners to sue over homelessness, immigration (Georgia Recorder)",
+     "u": "https://georgiarecorder.com/2026/04/06/kemp-to-decide-fate-of-bill-allowing-georgia-property-owners-to-sue-over-homelessness-immigration/",
+     "d": "2026-04-06"
+    },
+    {
+     "t": "Georgia lawmakers pass bill that lets property owners file claims over homelessness and immigration (AP via AJC)",
+     "u": "https://www.ajc.com/news/2026/04/georgia-lawmakers-pass-a-bill-that-advocates-fear-will-land-homeless-people-in-jail",
+     "d": "2026-04-03"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    1,
+    2,
+    0
+   ],
+   "wsrc": [
+    1,
+    2,
+    0
+   ],
+   "psrc": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "sb204-local-gun-rules-lawsuits-vetoed-2026",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 204",
+   "title": "Tougher lawsuits against local gun rules that go beyond state law, aimed at Savannah's gun-in-car ordinance (vetoed)",
+   "status": "Passed by the General Assembly; vetoed by Gov. Kemp May 12, 2026 (Veto V10). Sources differ on the date of final passage: LegiScan records Senate agreement to the House version (32-21) on Jan. 13, 2026, while NRA-ILA described final passage at sine die.",
+   "stage": "failed",
+   "date": "2026-05-12",
+   "summary": "As rewritten by the House, SB 204 would have strengthened Georgia's firearm preemption law by expanding the lawsuits gun owners can bring against cities and counties that regulate guns beyond state and federal law: it increased the statutory damages available and removed the requirement that suits be brought against the county or city that enacted the rule, which Gov. Kemp said would open law enforcement officers to suits in their personal capacity. It targeted ordinances like Savannah's, which carries a fine of up to $1,000 and up to 30 days in jail for leaving a gun in an unlocked vehicle. The House passed it 99-74 on April 4, 2025, and the Senate agreed 32-21 on Jan. 13, 2026. Heather Hallett of Georgia Majority for Gun Safety celebrated the veto as a victory; Savannah Mayor Van Johnson defended the city's ordinance, crediting it with cutting reported gun thefts in Savannah by half from 2024 to 2025.",
+   "why": "Kemp wrote that it 'would open the door to lawsuits against law enforcement officers, including in their personal capacity' and that 'such penalties should be targeted towards the leaders who enact such ordinances.' House carrier Rep. Alan Powell said the measure could return next year, and the Georgia Recorder reported Attorney General Chris Carr filed a brief supporting a lawsuit against Savannah's ordinance. A separate 2026 bill to remove suppressors from the state's dangerous-weapons list (SB 499) fell short at sine die.",
+   "topics": [
+    "guns",
+    "local government"
+   ],
+   "cats": [
+    "guns",
+    "local"
+   ],
+   "sponsors": "Former Sen. Colton Moore (R-Trenton), author; carried in the House by Rep. Alan Powell (R-Hartwell)",
+   "url": "https://www.legis.ga.gov/legislation/70476",
+   "sources": [
+    {
+     "t": "2026 Veto Messages and Signing Statements (Office of the Governor)",
+     "u": "https://gov.georgia.gov/document/2026-vetoed-legislation/2026-veto-messages-and-signing-statements/download",
+     "d": "2026-05-12"
+    },
+    {
+     "t": "Advocates for gun safety measures cheer Georgia governor's veto (Cobb County Courier)",
+     "u": "https://cobbcountycourier.com/2026/05/advocates-for-gun-safety-measures-cheer-georgia-governors-veto/",
+     "d": "2026-05-13"
+    },
+    {
+     "t": "Here are all the bills Gov. Kemp vetoed from this year's legislative session (Atlanta News First)",
+     "u": "https://www.atlantanewsfirst.com/2026/05/12/here-are-all-bills-gov-kemp-vetoed-this-years-legislative-session/",
+     "d": "2026-05-12"
+    },
+    {
+     "t": "GA SB204, 2025-2026 session: roll calls and Veto V10 (LegiScan)",
+     "u": "https://legiscan.com/GA/bill/SB204/2025",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Georgia: Legislature Adjourns from 2026 Session (NRA-ILA)",
+     "u": "https://www.nraila.org/articles/20260403/georgia-legislature-adjourns-from-2026-session/",
+     "d": "2026-04-03"
+    }
+   ],
+   "ssrc": [
+    0,
+    3,
+    4
+   ],
+   "msrc": [
+    0,
+    1,
+    3
+   ],
+   "wsrc": [
+    0,
+    1,
+    4
+   ],
+   "psrc": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": "hb268-school-safety-act-2025",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 268",
+   "title": "School safety law after the Apalachee High shooting: Office of Safe Schools and a new school-threat crime",
+   "status": "Signed by Gov. Kemp April 28, 2025 (Act 17); effective April 28, 2025",
+   "stage": "enacted",
+   "date": "2025-04-28",
+   "summary": "Creates an Office of Safe Schools within the Georgia Emergency Management and Homeland Security Agency, provides help for local school systems' threat management teams and a statewide behavioral threat management process, adds an offense to Code Section 16-11-37 for threatening death or serious injury to people who are, or are likely to be, at a school, and adds an Open Records Act exemption. Atlanta News First reported it also requires school mapping, panic-button technology for teachers and administrators and an anonymous reporting program; it is nicknamed 'Ricky and Alyssa's Law.' Lawmakers gave final approval March 31, 2025 (Senate 45-9; House agreed 154-12) in response to the deadly 2024 shooting at Apalachee High School.",
+   "why": "Prompted by the Apalachee High School shooting, it changes how schools plan for and report threats and creates a new criminal offense for school threats.",
+   "topics": [
+    "public safety",
+    "education",
+    "criminal justice"
+   ],
+   "cats": [
+    "justice",
+    "education"
+   ],
+   "sponsors": "Rep. Holt Persinger (R), with House Speaker Jon Burns among co-sponsors; Sen. Bill Cowsert (R) in the Senate",
+   "url": "https://www.legis.ga.gov/legislation/69929",
+   "sources": [
+    {
+     "t": "GA HB268, 2025-2026 session: Act 17, roll calls (LegiScan)",
+     "u": "https://legiscan.com/GA/bill/HB268/2025",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Gov. Kemp signs school safety bill prompted by deadly Apalachee High shooting (Atlanta News First)",
+     "u": "https://www.atlantanewsfirst.com/2025/04/28/atlanta-news-first-7-gov-kemp-signs-school-safety-bill-prompted-by-apalachee-high-shooting",
+     "d": "2025-04-28"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    1,
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "sb220-medical-cannabis-expansion-2026",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 220",
+   "title": "Medical cannabis expansion: ends the 5% THC cap, allows vaping, adds qualifying conditions (Putting Georgia's Patients First Act)",
+   "status": "Signed by Gov. Kemp May 12, 2026, with a signing statement; took effect July 1, 2026",
+   "stage": "enacted",
+   "date": "2026-05-12",
+   "summary": "Renames low-THC oil as medical cannabis and replaces the 5% THC cap with milligram limits (the Georgia House release cites a 1,200-milligram per-package limit; FOX 5 reports patients may possess up to 12,000 milligrams). Registered patients over 21 may vaporize products, while smoking and public use remain banned. It adds qualifying conditions including lupus, autism, Stage III HIV, severe Alzheimer's disease and inflammatory bowel disease, issues registration cards valid for five years, and gives the Georgia Access to Medical Cannabis Commission a seed-to-sale tracking system and fines of up to $25,000 for a licensee's first violation.",
+   "why": "Kemp's signing statement stressed that recreational use is not in the bill. Separately, the AJC reported March 31, 2026 that SB 33, sponsored by Sen. Kay Kirkpatrick (R-Marietta), would outlaw synthetic hemp products by 2027; SB 33 was instead enacted as the property tax bill, and whether any hemp limits passed in another bill was not confirmed in sources opened.",
+   "topics": [
+    "health care",
+    "cannabis"
+   ],
+   "cats": [
+    "cannabis",
+    "health"
+   ],
+   "sponsors": "Lead sponsor not confirmed in sources opened; Rep. Terry Cummings (D-Mableton) issued a Georgia House release applauding it",
+   "url": "https://www.legis.ga.gov/legislation/70559",
+   "sources": [
+    {
+     "t": "Rep. Terry Cummings Applauds Legislation Expanding Medical Cannabis Access (Georgia House Media Services)",
+     "u": "https://house-press.com/?p=16882",
+     "d": "2026-07-02"
+    },
+    {
+     "t": "2026 Veto Messages and Signing Statements: Signing Statement 2, SB 220 (Office of the Governor)",
+     "u": "https://gov.georgia.gov/document/2026-vetoed-legislation/2026-veto-messages-and-signing-statements/download",
+     "d": "2026-05-12"
+    },
+    {
+     "t": "Georgia medical cannabis bill signed into law (FOX 5 Atlanta)",
+     "u": "https://www.fox5atlanta.com/news/medical-cannabis-kemp-signs-sb-220-law",
+     "d": "2026-05-13"
+    },
+    {
+     "t": "Georgia weighs ban on synthetic hemp, while expanding medical cannabis (AJC)",
+     "u": "https://www.ajc.com/politics/2026/03/georgia-weighs-ban-on-synthetic-hemp-while-expanding-medical-cannabis",
+     "d": "2026-03-31"
+    },
+    {
+     "t": "SB 33: The Homeownership Opportunity and Market Equalization Act of 2026 (Georgia Municipal Association)",
+     "u": "https://www.gacities.com/articles/sb-33-the-homeownership-opportunity-and-market-equalization-act-of-2026",
+     "d": "2026-06-08"
+    }
+   ],
+   "ssrc": [
+    0,
+    1,
+    2
+   ],
+   "msrc": [
+    2,
+    0
+   ],
+   "wsrc": [
+    1,
+    3,
+    4
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "hr450-sports-betting-amendment-failed-2026",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "resolution",
+   "number": "HR 450",
+   "title": "Proposed constitutional amendment to legalize sports betting, defeated in the House",
+   "status": "Failed on the House floor March 6, 2026 (63-98; 120 votes needed); dead when the session ended April 2, 2026",
+   "stage": "failed",
+   "date": "2026-03-06",
+   "summary": "Would have put a constitutional amendment before voters letting the General Assembly legalize sports betting by general law, with proceeds going to a special fund for pre-K and other education programs and a portion for addiction prevention and treatment. As a constitutional amendment it needed two-thirds of the House (120 votes); it received 63 yes and 98 no votes on Crossover Day, March 6, 2026. It was introduced Feb. 28, 2025.",
+   "why": "Sports betting remains illegal in Georgia; any new attempt in the 2027-28 term would have to start over, win two-thirds of both chambers and then be approved by voters.",
+   "topics": [
+    "gambling",
+    "constitutional amendment",
+    "education"
+   ],
+   "cats": [
+    "alcohol"
+   ],
+   "sponsors": "Reps. Matt Dubnik, Carolyn Hugley, Chuck Martin, Marcus Wiedower, Al Williams and Noel Williams",
+   "url": "https://www.legis.ga.gov/legislation/71020",
+   "sources": [
+    {
+     "t": "House lawmakers overwhelmingly reject proposal to legalize sports betting in Georgia (Now Georgia, Georgia Recorder)",
+     "u": "https://nowgeorgia.com/?p=385637",
+     "d": "2026-03-07"
+    },
+    {
+     "t": "GA HR450: sponsors and status (BillTrack50)",
+     "u": "https://www.billtrack50.com/billdetail/1851417",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    1
+   ]
+  },
+  {
+   "id": "hb455-nonprofit-bingo-rules-2026",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 455",
+   "title": "Nonprofit bingo: weekly prize cap doubled, more sessions and locations",
+   "status": "Signed by Gov. Kemp in 2026 (signing date not confirmed in sources opened); effective July 1, 2026",
+   "stage": "enacted",
+   "date": "2026-07-01",
+   "summary": "Updates Georgia's rules for bingo run by licensed nonprofit organizations. The weekly prize cap rises from $3,000 to $6,000; licensees may hold up to three sessions a day instead of one (each still capped at five hours, with the 31-sessions-a-month limit on shared premises unchanged); games may run at multiple locations listed in the license application, including property leased from another nonprofit; and pay for helpers rises from $30 a day to $150 per session. Licensees must keep records for three years and may not contract out games or lend their name to others.",
+   "why": "The changes took effect July 1, 2026 (FOX 5).",
+   "topics": [
+    "gambling",
+    "nonprofits"
+   ],
+   "cats": [
+    "nonprofits",
+    "alcohol"
+   ],
+   "sponsors": "Rep. Alan Powell (33rd District), with Reps. McDonald (26th), Dubnik (29th), Carpenter (4th) and Newton (127th) and others, per the bill text",
+   "url": "https://gov.georgia.gov/document/2026-signed-legislation/hb-455/download",
+   "sources": [
+    {
+     "t": "New Georgia laws going into effect July 1, 2026 | What to know (FOX 5 Atlanta)",
+     "u": "https://fox5atlanta.com/news/new-georgia-laws-take-effect-july-1-heres-what-changes",
+     "d": "2026-06-26"
+    },
+    {
+     "t": "HB 455 bill text, as passed House and Senate (Office of the Governor, 2026 signed legislation)",
+     "u": "https://gov.georgia.gov/document/2026-signed-legislation/hb-455/download",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    1,
+    0
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    1
+   ]
+  },
+  {
+   "id": "hb1077-arts-museum-tax-exemptions-vetoed-2026",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 1077",
+   "title": "Extension of tax exemptions for fine arts performances and museum exhibitions (vetoed)",
+   "status": "Vetoed by Gov. Kemp May 12, 2026",
+   "stage": "failed",
+   "date": "2026-05-12",
+   "summary": "Would have extended expiring state tax exemptions for certain fine arts performances and museum exhibitions. Kemp vetoed it, writing that 'the General Assembly failed to account for this loss of revenue in the appropriations process' and that he was 'instead prioritizing general taxpayer relief.' It was one of 12 vetoes, several of them tax breaks, including credits for historic properties (HB 376), reforestation (SB 59) and railroad track maintenance (HB 1070).",
+   "why": "With the veto, the expiring exemptions were not extended; lawmakers could take them up again in 2027.",
+   "topics": [
+    "taxes",
+    "nonprofits",
+    "arts"
+   ],
+   "cats": [
+    "nonprofits",
+    "income"
+   ],
+   "sponsors": "Not confirmed in sources opened",
+   "url": "https://gov.georgia.gov/document/2026-vetoed-legislation/2026-veto-messages-and-signing-statements/download",
+   "sources": [
+    {
+     "t": "2026 Veto Messages and Signing Statements: HB 1077 (Office of the Governor)",
+     "u": "https://gov.georgia.gov/document/2026-vetoed-legislation/2026-veto-messages-and-signing-statements/download",
+     "d": "2026-05-12"
+    },
+    {
+     "t": "Here are all the bills Gov. Kemp vetoed from this year's legislative session (Atlanta News First)",
+     "u": "https://www.atlantanewsfirst.com/2026/05/12/here-are-all-bills-gov-kemp-vetoed-this-years-legislative-session/",
+     "d": "2026-05-12"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": []
+  },
+  {
+   "id": "hb399-out-of-state-landlords-in-state-contact-2025",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 399",
+   "title": "Out-of-state landlords must have an in-state contact for tenants",
+   "status": "Final passage April 4, 2025; signed by Gov. Kemp (GMA tracker; signing date not confirmed); CBS News Atlanta listed it among new laws taking effect in 2026, most of them on Jan. 1",
+   "stage": "enacted",
+   "date": "2026-01-01",
+   "summary": "Requires out-of-state landlords who own or operate single-family or duplex rentals in Georgia to have at least one in-state licensee responsible for receiving and managing tenant communications, and lets local code enforcement officers get that person's contact information when there is probable cause of a code violation. Final votes April 4, 2025: Senate 41-9 and House 159-5 (the House first passed it 163-4 on March 3, 2025).",
+   "why": "Gives renters and local code officers a reachable Georgia contact for properties owned by out-of-state landlords; the Georgia Municipal Association supported the bill.",
+   "topics": [
+    "housing",
+    "tenants",
+    "local government"
+   ],
+   "cats": [
+    "housing"
+   ],
+   "sponsors": "Rep. Mary Oliver (House District 84)",
+   "url": "https://www.legis.ga.gov/api/legislation/document/20252026/239309",
+   "sources": [
+    {
+     "t": "HB 399: Require certain residential landlords to have in-state staff to manage tenant communications (GMA Legislative Tracking)",
+     "u": "https://billtracker.gacities.com/legislation/70200",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Here are the new Georgia laws taking effect in 2026 (CBS News Atlanta)",
+     "u": "https://www.cbsnews.com/atlanta/news/here-are-the-new-georgia-laws-taking-effect-in-2026",
+     "d": "2025-12-07"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    0
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "georgia-pathways-extension-through-2026",
+   "level": "state",
+   "jurisdiction": "Office of the Governor of Georgia",
+   "kind": "rule",
+   "number": "",
+   "title": "Georgia Pathways (Medicaid with work requirements) extended through Dec. 31, 2026",
+   "status": "Federal approval announced Sept. 25, 2025; the extension runs Oct. 1, 2025 through Dec. 31, 2026",
+   "stage": "decided",
+   "date": "2025-09-25",
+   "summary": "The federal Centers for Medicare & Medicaid Services approved a temporary extension of Georgia Pathways to Coverage, which offers Medicaid to low-income adults who report qualifying activities such as work, job training, education or volunteering. The extension counts parenting a Medicaid-enrolled child under 6 as a qualifying activity, requires members to report qualifying activities and hours only at application and annual renewal, and starts coverage on the first day of the month in which an application is received. The governor's office said 15,427 people had been served since the program launched; the Georgia Recorder cited a GAO finding of about 3,500 first-year enrollees against a state projection of 25,028, and $80.3 million spent from FY2021 through the second quarter of 2025, about $54.2 million of it on administration.",
+   "why": "The approval ends Dec. 31, 2026, so Pathways' future in 2027 depends on further federal action and on how the federal One Big Beautiful Bill Act's work-reporting rules, which begin in 2027, apply to its members; a 2027 extension decision was not confirmed in sources opened.",
+   "topics": [
+    "health care",
+    "Medicaid"
+   ],
+   "cats": [
+    "health"
+   ],
+   "sponsors": "Gov. Brian Kemp",
+   "url": "https://gov.georgia.gov/press-releases/2025-09-25/cms-approves-georgia-pathways-coveragetm-extension-further-validates",
+   "sources": [
+    {
+     "t": "CMS Approves Georgia Pathways to Coverage Extension (Office of the Governor)",
+     "u": "https://gov.georgia.gov/press-releases/2025-09-25/cms-approves-georgia-pathways-coveragetm-extension-further-validates",
+     "d": "2025-09-25"
+    },
+    {
+     "t": "Georgia's limited Medicaid expansion program is extended through 2026 despite concerns about cost (Georgia Recorder)",
+     "u": "https://georgiarecorder.com/?p=40870",
+     "d": "2025-09-26"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    0,
+    1
+   ],
+   "psrc": [
+    0
+   ]
+  },
+  {
+   "id": "hb1105-criminal-alien-track-and-report-act-2024",
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 1105",
+   "title": "Georgia Criminal Alien Track and Report Act: jail immigration checks and reporting (2024 law)",
+   "status": "Signed by Gov. Kemp May 1, 2024 (Act 505); effective May 1, 2024",
+   "stage": "enacted",
+   "date": "2024-05-01",
+   "summary": "Sets intake and booking procedures for noncitizens and foreign nationals in Georgia jails, requires jailers to file quarterly reports on foreign-born inmates, and requires the Corrections commissioner to report the immigration status, offenses and home countries of people in state custody; the act includes penalties. Final votes: Senate 34-19 on March 21, 2024, and House 99-75 on March 28, 2024.",
+   "why": "It is the baseline for the 2025-26 fights: SB 21, which would have waived local governments' immunity from lawsuits for violating the state's sanctuary-policy ban and required sheriffs and jailers to honor federal immigration detainers, passed the Senate 33-18 on Feb. 13, 2025 but was recommitted in the House on March 19, 2026 and died; the 2026 law HB 295 instead lets property owners seek compensation from local governments that don't enforce the sanctuary ban.",
+   "topics": [
+    "immigration",
+    "public safety",
+    "criminal justice"
+   ],
+   "cats": [
+    "immigration",
+    "justice"
+   ],
+   "sponsors": "Not confirmed in sources opened",
+   "url": "https://www.legis.ga.gov/legislation/66568",
+   "sources": [
+    {
+     "t": "GA HB1105, 2023-2024 session: Act 505, roll calls (LegiScan)",
+     "u": "https://legiscan.com/GA/bill/HB1105/2023",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "GA SB21, 2025-2026 session: Senate vote and House recommittal (LegiScan)",
+     "u": "https://legiscan.com/GA/bill/SB21/2025",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Georgia Senate passes bill to take lawsuit immunity away from so-called sanctuary cities (Georgia Recorder)",
+     "u": "https://georgiarecorder.com/2025/02/13/georgia-senate-passes-bill-to-take-lawsuit-immunity-away-from-so-called-sanctuary-cities/",
+     "d": "2025-02-13"
+    },
+    {
+     "t": "GA HB295, 2025-2026 session: history, roll calls, Act 713 (LegiScan)",
+     "u": "https://legiscan.com/GA/bill/HB295/2026",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    0
+   ],
+   "msrc": [
+    0
+   ],
+   "wsrc": [
+    1,
+    2,
+    3
+   ],
+   "psrc": []
+  },
+  {
+   "id": "dca-georgia-rehoused-round-2-2026",
+   "level": "state",
+   "jurisdiction": "Georgia Department of Community Affairs",
+   "kind": "proposal",
+   "number": "",
+   "title": "Georgia Rehoused: second round of state homelessness grants for shelter, outreach and housing",
+   "status": "Round Two pre-applications opened July 1, 2026; funding notices and the competitive application were posted July 22; applications closed Aug. 19, 2026; awards were expected in September 2026 (not confirmed in sources opened)",
+   "stage": "pending",
+   "date": "2026-08-19",
+   "summary": "The Department of Community Affairs and the State Housing Trust Fund for the Homeless Commission opened one competitive application covering six funding notices: two Acute Homeless Response grants (supportive services and capital projects), Residential Housing Solutions, Veteran Housing Solutions, Veteran Homeless Response and Prevention Services, and HOME-ARP small-scale rental development. Applicants must be collaborative local partnerships that show how the money will reduce unsheltered homelessness and that use, or are moving to use, the HMIS data system. DCA's July 1 Round Two notice lists funding maximums of up to $35 million for non-congregate shelter or transitional housing, up to $5.99 million (state reserve) and $4 million (HOME-ARP) for permanent housing, up to $7,809,759 for homeless services and up to $5 million for veteran services; no overall total is stated.",
+   "why": "It is the state's 2026 competitive round for local homelessness projects, arriving as HB 295 lets property owners pursue claims against local governments that don't enforce camping bans. Gov. Kemp proposed a $50 million Homelessness Response Grant at the Georgia Chamber's Eggs & Issues breakfast in January 2026, to be run by DCA as a competitive grant with local and philanthropic matching funds; whether the final budget funded it, and whether it flows through this round, was not confirmed in sources opened.",
+   "topics": [
+    "homelessness",
+    "housing",
+    "budget"
+   ],
+   "cats": [
+    "homeless",
+    "housing"
+   ],
+   "sponsors": "Georgia Department of Community Affairs (Commissioner Chris Nunn); Gov. Brian Kemp proposed the $50 million grant",
+   "url": "https://dca.georgia.gov/public-notice/2026-07-22/georgia-rehoused-nofa",
+   "sources": [
+    {
+     "t": "Georgia Rehoused: Notice of Funding Availability (Georgia Department of Community Affairs)",
+     "u": "https://dca.georgia.gov/public-notice/2026-07-22/georgia-rehoused-nofa",
+     "d": "2026-07-22"
+    },
+    {
+     "t": "Gov. Kemp proposes $50 million to help cities combat homelessness (AJC)",
+     "u": "https://www.ajc.com/news/2026/02/gov-kemp-proposes-50-million-to-help-cities-combat-homelessness",
+     "d": "2026-02-02"
+    },
+    {
+     "t": "GA HB295, 2025-2026 session: history, roll calls, Act 713 (LegiScan)",
+     "u": "https://legiscan.com/GA/bill/HB295/2026",
+     "d": "2026-11-04"
+    },
+    {
+     "t": "Georgia Rehoused: Notice of Acceptance of Pre-Applications for Round Two of Funding (Georgia Department of Community Affairs)",
+     "u": "https://dca.georgia.gov/node/24751",
+     "d": "2026-07-01"
+    }
+   ],
+   "ssrc": [
+    3,
+    0
+   ],
+   "msrc": [
+    0,
+    3
+   ],
+   "wsrc": [
+    1,
+    2
+   ],
+   "psrc": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "atlanta-homelessness-funding-world-cup-2026",
+   "level": "city",
+   "jurisdiction": "City of Atlanta",
+   "kind": "budget",
+   "number": "",
+   "title": "Atlanta's $60 million homelessness plan and the pre-World Cup housing push",
+   "status": "Plan announced Sept. 3, 2024 (Council approval not confirmed in sources opened); as of July 23, 2026, a $45 million gap remained in the $235 million 'Atlanta Rising' framework",
+   "stage": "pending",
+   "date": "2026-07-23",
+   "summary": "Mayor Andre Dickens and the City Council proposed $60 million for homelessness, which the city called the largest such investment in its history: a $50 million Homeless Opportunity Bond plus $10 million from the Affordable Housing Trust Fund over six years, for up to 700 units, including 500 quick-delivery modular units on city land through the Rapid Housing Initiative (targeted by the end of 2025) and up to 200 permanent supportive housing units. Partners for HOME said in July 2026, after the FIFA World Cup, that its outreach teams had led to 540 people moving into permanent housing over the previous 18 months. As of July 2026 its 'Atlanta Rising' plan to house 4,000 people over four years had a $45 million gap in a $235 million framework, and the latest point-in-time count showed homelessness up 6% to about 3,060 people.",
+   "why": "Partners for HOME CEO Cathryn Vassell said city leaders rejected punitive measures such as busing and arrests, and that the group must find a sustainable source of revenue to close the gap; the state's HB 295 now also lets property owners file claims against cities that don't enforce camping bans.",
+   "topics": [
+    "homelessness",
+    "housing",
+    "budget"
+   ],
+   "cats": [
+    "homeless",
+    "housing",
+    "local",
+    "budget"
+   ],
+   "sponsors": "Mayor Andre Dickens; Atlanta City Council; Partners for HOME (CEO Cathryn Vassell)",
+   "url": "https://www.atlantaga.gov/Home/Components/News/News/15178/672",
+   "sources": [
+    {
+     "t": "Mayor Andre Dickens, Atlanta City Council Propose $60 Million in Funding to Address Homelessness (City of Atlanta)",
+     "u": "https://www.atlantaga.gov/Home/Components/News/News/15178/672",
+     "d": "2024-09-03"
+    },
+    {
+     "t": "What happens to Atlanta's homeless outreach now the World Cup is over? (FOX 5 Atlanta)",
+     "u": "https://www.fox5atlanta.com/news/what-happens-atlantas-homeless-now-world-cup-is-over",
+     "d": "2026-07-23"
+    },
+    {
+     "t": "GA HB295, 2025-2026 session: history, roll calls, Act 713 (LegiScan)",
+     "u": "https://legiscan.com/GA/bill/HB295/2026",
+     "d": "2026-11-04"
+    }
+   ],
+   "ssrc": [
+    0,
+    1
+   ],
+   "msrc": [
+    0,
+    1
+   ],
+   "wsrc": [
+    1,
+    2
+   ],
+   "psrc": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "auto-69693",
+   "lid": 69693,
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 62",
+   "title": "Defend the Guard Act",
+   "status": "Senate Recommitted (Jan. 12, 2026)",
+   "stage": "pending",
+   "date": "2026-01-12",
+   "summary": "Official summary: Amend Part 1 of Article 1 of Chapter 2 of Title 38 of the Official Code of Georgia Annotated, relating to general provisions regarding state militia generally, so as to require an official declaration of war or an official action to call forth the state militia by the United States Congress before members of the Georgia National Guard may be released from state control to participate in active duty combat or combat support operations; to provide for definitions; to provide for construction; to provide for a short title.",
+   "topics": [],
+   "sponsors": "Moore, Colton",
+   "url": "https://www.legis.ga.gov/legislation/69693",
+   "sources": [
+    {
+     "t": "Georgia General Assembly: SB 62 (\"Defend the Guard Act\"; enact)",
+     "u": "https://www.legis.ga.gov/legislation/69693"
+    },
+    {
+     "t": "The Champion (DeKalb): CEO recommends temporary pause on urban camping ordinance action (Nov. 13, 2026)",
+     "u": "https://thechampionnewspaper.com/ceo-recommends-temporary-pause-on-urban-camping-ordinance-action/"
+    },
+    {
+     "t": "ocgnews.com: DeKalb CEO addresses Urban Camping Ordinance, outlines housing investments, coordinated response (Nov. 5, 2026)",
+     "u": "https://ocgnews.com/dekalb-ceo-addresses-urban-camping-ordinance-outlines-housing-investments-coordinated-response/"
+    }
+   ],
+   "mentioned": "2026-11-13",
+   "auto": 1
+  },
+  {
+   "id": "auto-69776",
+   "lid": 69776,
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 223",
+   "title": "Revenue and taxation; exclude from the calculation of taxable net income certain disaster relief or assistance grant program payments for agricultural losses suffered due to Hurricane Helene",
+   "status": "Signed by the Governor (May 8, 2025)",
+   "stage": "enacted",
+   "date": "2025-05-08",
+   "summary": "Official summary: Amend Title 48 of the O.C.G.A., relating to revenue and taxation, so as to exclude from the calculation of taxable net income certain disaster relief or assistance grant program payments for agricultural losses suffered due to Hurricane Helene; to provide for refundable income tax credits for certain timber producers based on certain casualty losses related to Hurricane Helene.",
+   "topics": [
+    "taxes",
+    "agriculture"
+   ],
+   "sponsors": "Burchett, James; Efstration, Chuck; McDonald III, Lauren and 3 more",
+   "url": "https://www.legis.ga.gov/legislation/69776",
+   "sources": [
+    {
+     "t": "Georgia General Assembly: HB 223 (Revenue and taxation; exclude from the calculation of taxable net income certain disaster relief or assistance grant program p",
+     "u": "https://www.legis.ga.gov/legislation/69776"
+    },
+    {
+     "t": "Now Habersham: Habersham School Board reviews quarterly financial report (Nov. 11, 2026)",
+     "u": "https://nowgeorgia.com/habersham-school-board-reviews-quarterly-financial-report/"
+    }
+   ],
+   "mentioned": "2026-11-11",
+   "auto": 1
+  },
+  {
+   "id": "auto-71340",
+   "lid": 71340,
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 333",
+   "title": "City of Chickamauga; independent school district ad valorem taxes for educational purposes; provide a homestead exemption",
+   "status": "House Second Readers (Mar. 25, 2025)",
+   "stage": "pending",
+   "date": "2025-03-25",
+   "summary": "Official summary: Provide a homestead exemption from City of Chickamauga independent school district ad valorem taxes for educational purposes in an amount equal to the amount by which the current year assessed value of a homestead exceeds the base year assessed value of such homestead; to provide for definitions; to specify the terms and conditions of the exemption and the procedures relating thereto; to provide for applicability; to provide for compliance with constitutional requirements; to provide for a referendum, effective dates, automatic repeal, mandatory execution of election, and judicial remedies regarding failure to comply.",
+   "topics": [
+    "taxes",
+    "education",
+    "elections"
+   ],
+   "sponsors": "Moore, Colton",
+   "url": "https://www.legis.ga.gov/legislation/71340",
+   "sources": [
+    {
+     "t": "Georgia General Assembly: SB 333 (City of Chickamauga; independent school district ad valorem taxes for educational purposes; provide a homestead exemption)",
+     "u": "https://www.legis.ga.gov/legislation/71340"
+    },
+    {
+     "t": "Reporter Newspapers: Mulberry mayor discusses Gwinnett legal fight in Norcross (Nov. 11, 2026)",
+     "u": "https://roughdraftatlanta.com/2026/11/11/mulberry-mayor-local-control/"
+    }
+   ],
+   "mentioned": "2026-11-11",
+   "auto": 1
+  },
+  {
+   "id": "auto-70097",
+   "lid": 70097,
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 138",
+   "title": "Incorporation of Municipal Corporations; transition of certain services related to newly incorporated municipalities in certain counties",
+   "status": "Signed by the Governor (May 14, 2025)",
+   "stage": "enacted",
+   "date": "2025-05-14",
+   "summary": "Official summary: Amend Chapter 31 of Title 36 of the Official Code of Georgia Annotated, relating to incorporation of municipal corporations, so as to provide for the transition of certain services related to newly incorporated municipalities in certain counties; to provide definitions; to amend Chapter 8 of Title 33 of the Official Code of Georgia Annotated, relating to fees and taxes related to insurance, so as to revise provisions related to population data related to newly incorporated municipalities and municipal taxes on life insurance and other insurance companies.",
+   "topics": [
+    "taxes",
+    "health care",
+    "local government"
+   ],
+   "sponsors": "Dixon, Clint; Still, Shawn; Cowsert, Bill and 2 more",
+   "url": "https://www.legis.ga.gov/legislation/70097",
+   "sources": [
+    {
+     "t": "Georgia General Assembly: SB 138 (Incorporation of Municipal Corporations; transition of certain services related to newly incorporated municipalities in certai",
+     "u": "https://www.legis.ga.gov/legislation/70097"
+    },
+    {
+     "t": "Reporter Newspapers: Mulberry mayor discusses Gwinnett legal fight in Norcross (Nov. 11, 2026)",
+     "u": "https://roughdraftatlanta.com/2026/11/11/mulberry-mayor-local-control/"
+    }
+   ],
+   "mentioned": "2026-11-11",
+   "auto": 1
+  },
+  {
+   "id": "auto-73420",
+   "lid": 73420,
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HR 1416",
+   "title": "Joint Study Committee on Generational Sustainability of Family Farms; create",
+   "status": "Senate Passed/Adopted (Mar. 23, 2026)",
+   "stage": "pending",
+   "date": "2026-03-23",
+   "summary": "Official summary: Creating the Joint Study Committee on Generational Sustainability of Family Farms.",
+   "topics": [
+    "agriculture"
+   ],
+   "sponsors": "Dickey, Robert; Meeks, Steven; O'Steen, Angie and 3 more",
+   "url": "https://www.legis.ga.gov/legislation/73420",
+   "sources": [
+    {
+     "t": "Georgia General Assembly: HR 1416 (Joint Study Committee on Generational Sustainability of Family Farms; create)",
+     "u": "https://www.legis.ga.gov/legislation/73420"
+    },
+    {
+     "t": "house-press.com: Joint Study Committee on Generational Sustainability of Family Farms to Hold Fourth Meeting in Athens (Nov. 10, 2026)",
+     "u": "https://house-press.com/joint-study-committee-on-generational-sustainability-of-family-farms-to-hold-fourth-meeting-in-athens/"
+    }
+   ],
+   "mentioned": "2026-11-10",
+   "auto": 1
+  },
+  {
+   "id": "auto-72253",
+   "lid": 72253,
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "SB 406",
+   "title": "Georgia Property Owners' Bill of Rights Act",
+   "status": "Signed by the Governor (May 12, 2026)",
+   "stage": "enacted",
+   "date": "2026-05-12",
+   "summary": "Official summary: Amend Title 43 of the Official Code of Georgia Annotated, relating to professions and businesses, so as to require the registration of property owners' associations; to provide for renewals and amendments; to provide for appeals; to provide for a State Board for Review of Complaints Regarding Property Owners' Associations; to provide for review of complaints…",
+   "topics": [],
+   "sponsors": "Brass, Matt; James, Donzella; Kirkpatrick, Kay and 3 more",
+   "url": "https://www.legis.ga.gov/legislation/72253",
+   "sources": [
+    {
+     "t": "Georgia General Assembly: SB 406 (\"Georgia Property Owners' Bill of Rights Act\"; enact)",
+     "u": "https://www.legis.ga.gov/legislation/72253"
+    },
+    {
+     "t": "The Current: Homeowners fight high HOA fees as Georgia drafts new oversight regulations (Nov. 7, 2026)",
+     "u": "https://thecurrentga.org/2026/11/07/homeowners-fight-high-hoa-fees-as-georgia-drafts-new-oversight-regulations/"
+    }
+   ],
+   "mentioned": "2026-11-07",
+   "auto": 1
+  },
+  {
+   "id": "auto-70131",
+   "lid": 70131,
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 369",
+   "title": "Motor vehicles; sale of food or beverages; provide vehicle equipment standards",
+   "status": "Signed by the Governor (May 12, 2026)",
+   "stage": "enacted",
+   "date": "2026-05-12",
+   "summary": "Official summary: Amend Part 1 of Article 1 of Chapter 8 of Title 40 of the Official Code of Georgia Annotated, relating to general provisions relative to equipment of motor vehicles, so as to provide for vehicle equipment standards for motor vehicles used for the sale of food or beverages that primarily conduct such sales upon roadways.",
+   "topics": [
+    "transportation"
+   ],
+   "sponsors": "Sharper, Dexter; Hitchens, Bill; LaHood, John and 3 more",
+   "url": "https://www.legis.ga.gov/legislation/70131",
+   "sources": [
+    {
+     "t": "Georgia General Assembly: HB 369 (Motor vehicles; sale of food or beverages; provide vehicle equipment standards)",
+     "u": "https://www.legis.ga.gov/legislation/70131"
+    },
+    {
+     "t": "house-press.com: Rep. Terry Cummings Announces Legislative Priorities Ahead of 2027 Legislative Session (Nov. 5, 2026)",
+     "u": "https://house-press.com/rep-terry-cummings-announces-legislative-priorities-ahead-of-2027-legislative-session/"
+    }
+   ],
+   "mentioned": "2026-11-05",
+   "auto": 1
+  },
+  {
+   "id": "auto-72841",
+   "lid": 72841,
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 1192",
+   "title": "Public assistance; certain accounting practices by Department of Human Services and Department of Community Health",
+   "status": "Vetoed by the Governor (May 12, 2026)",
+   "stage": "failed",
+   "date": "2026-05-12",
+   "summary": "Official summary: Amend Title 49 of the Official Code of Georgia Annotated, relating to public assistance, so as to provide for certain accounting practices by the Department of Human Services and the Department of Community Health; to provide for funds for specific purposes; to provide for annual review; to provide for annual reports.",
+   "topics": [
+    "health care"
+   ],
+   "sponsors": "Taylor, Darlene; Efstration, Chuck; Hugley, Carolyn and 3 more",
+   "url": "https://www.legis.ga.gov/legislation/72841",
+   "sources": [
+    {
+     "t": "Georgia General Assembly: HB 1192 (Public assistance; certain accounting practices by Department of Human Services and Department of Community Health; provide)",
+     "u": "https://www.legis.ga.gov/legislation/72841"
+    },
+    {
+     "t": "house-press.com: EDITORIAL: Reps. Viola Davis, Sandra Scott and Kim Schofield: Calling for Accountability on Tax Decisions, Funding Protections and $344 Million in Budget Restrictions (Nov. 2, 2026)",
+     "u": "https://house-press.com/editorial-reps-viola-davis-sandra-scott-and-kim-schofield-calling-for-accountability-on-tax-decisions-funding-protections-and-344-million-in-budget-restrictions/"
+    }
+   ],
+   "mentioned": "2026-11-02",
+   "auto": 1
+  },
+  {
+   "id": "auto-71488",
+   "lid": 71488,
+   "level": "state",
+   "jurisdiction": "Georgia General Assembly",
+   "kind": "bill",
+   "number": "HB 803",
+   "title": "Dublin, City of; school district ad valorem tax; provide homestead exemption",
+   "status": "Signed by the Governor (May 14, 2025)",
+   "stage": "enacted",
+   "date": "2025-05-14",
+   "summary": "Official summary: Provide a homestead exemption from City of Dublin independent school district ad valorem taxes for educational purposes.",
+   "topics": [
+    "taxes",
+    "education",
+    "local government"
+   ],
+   "sponsors": "Hatchett, Matt",
+   "url": "https://www.legis.ga.gov/legislation/71488",
+   "sources": [
+    {
+     "t": "Georgia General Assembly: HB 803 (Dublin, City of; school district ad valorem tax; provide homestead exemption)",
+     "u": "https://www.legis.ga.gov/legislation/71488"
+    },
+    {
+     "t": "house-press.com: EDITORIAL: Rep. Kim Schofield: Georgia Cannot Afford to Ignore the Threat of Toxic ‘Forever Chemicals’ in Our Water (Nov. 2, 2026)",
+     "u": "https://house-press.com/rep-kim-schofield-georgia-cannot-afford-to-ignore-the-threat-of-toxic-forever-chemicals-in-our-water/"
+    }
+   ],
+   "mentioned": "2026-11-02",
+   "auto": 1
+  }
+ ],
+ "auto_note": "Entries marked auto are Georgia bills named in the news in the last 60 days (at most 40), built from the legislature's own record; the news stories are listed as sources."
+}

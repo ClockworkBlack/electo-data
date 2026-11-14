@@ -1,0 +1,433 @@
+{
+ "checked": "2026-11-05",
+ "note": "Checked Nov 4, 2026 against the text of the Georgia Code (Justia's 2025 edition) and Constitution, georgia.gov and county audit notices. Times are Eastern.",
+ "dates": [
+  {
+   "d": "2026-11-06",
+   "when": "Fri, Nov 6",
+   "what": "Last day for military and overseas ballots postmarked by Election Day to arrive and count, and for counties to decide provisional ballots.",
+   "cite": "O.C.G.A. § 21-2-419(c); georgia.gov",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-419(c)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-11/part-1/section-21-2-419/",
+     "title": "O.C.G.A. § 21-2-419, provisional ballots (Justia, 2025 Code of Georgia)"
+    },
+    {
+     "t": "georgia.gov",
+     "u": "https://georgia.gov/georgia-general-election-2026",
+     "title": "Georgia General Election 2026 dates (georgia.gov)"
+    }
+   ]
+  },
+  {
+   "d": "2026-11-09",
+   "when": "Mon, Nov 9, 5 p.m.",
+   "what": "Deadline for all 159 counties to certify their results.",
+   "cite": "O.C.G.A. § 21-2-493(k)",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-493(k)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-493",
+     "title": "O.C.G.A. § 21-2-493, county certification (Justia)"
+    }
+   ]
+  },
+  {
+   "d": "2026-11-12",
+   "d2": "2026-11-18",
+   "when": "Nov 12–18",
+   "what": "Risk-limiting audits: counties hand-check samples of paper ballots in the audited races (U.S. Senate, U.S. House, Governor, Lieutenant Governor, Secretary of State, Attorney General and one more statewide race chosen by state leaders). Schedules vary by county (Fulton's notice lists Nov 13–17, Gwinnett Nov 12–18).",
+   "cite": "O.C.G.A. § 21-2-498 (as amended by SB 3EX); county notices",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-498",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-498/",
+     "title": "O.C.G.A. § 21-2-498, precertification and risk-limiting audits (Justia, 2025 Code of Georgia)"
+    },
+    {
+     "t": "Fulton notice",
+     "u": "https://www.fultoncountyga.gov/-/media/November-3-Election-notices/Notice-of-Risk-Limiting-Audit--1132026.pdf",
+     "title": "Fulton County risk-limiting audit notice"
+    },
+    {
+     "t": "Gwinnett notice",
+     "u": "https://www.gwinnettcounty.com/documents/d/gwinnett-county/notice-november-3-general-special-election-risk-limiting-ballot-image-audit",
+     "title": "Gwinnett County risk-limiting audit notice"
+    }
+   ]
+  },
+  {
+   "d": "2026-11-20",
+   "when": "Fri, Nov 20, 5 p.m.",
+   "what": "Deadline for the Secretary of State to certify statewide, federal and multi-county results. Also the last day to request a mail ballot for the Dec 1 runoff.",
+   "cite": "O.C.G.A. § 21-2-499(b); georgia.gov",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-499(b)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-499/",
+     "title": "O.C.G.A. § 21-2-499, state certification (Justia)"
+    },
+    {
+     "t": "georgia.gov",
+     "u": "https://georgia.gov/georgia-general-election-2026",
+     "title": "Georgia General Election 2026 dates (georgia.gov)"
+    }
+   ]
+  },
+  {
+   "d": "2026-11-23",
+   "when": "Mon, Nov 23",
+   "what": "Early voting for the Dec 1 runoff starts by this day; counties set days and hours (Thanksgiving is Nov 26).",
+   "cite": "georgia.gov; O.C.G.A. § 21-2-385(d)",
+   "v": 1,
+   "links": [
+    {
+     "t": "georgia.gov",
+     "u": "https://georgia.gov/georgia-general-election-2026",
+     "title": "Georgia General Election 2026 dates (georgia.gov)"
+    },
+    {
+     "t": "O.C.G.A. § 21-2-385(d)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-10/section-21-2-385",
+     "title": "O.C.G.A. § 21-2-385, advance voting, including runoffs (Justia, 2025 Code of Georgia)"
+    }
+   ]
+  },
+  {
+   "d": "2026-11-24",
+   "approx": true,
+   "when": "About Tue, Nov 24",
+   "what": "Recount requests are due within two business days after certification. If the state certifies on Nov 20, that is about Nov 24 for statewide and multi-county races; single-county races run from county certification.",
+   "cite": "O.C.G.A. § 21-2-495(c)",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-495(c)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-495/",
+     "title": "O.C.G.A. § 21-2-495, recounts (Justia)"
+    }
+   ]
+  },
+  {
+   "d": "2026-11-25",
+   "approx": true,
+   "when": "5 days after certification",
+   "what": "Last day to file an election contest in superior court. After a recount, the five days run from the recount's certification.",
+   "cite": "O.C.G.A. § 21-2-524(a)",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-524(a)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-13/section-21-2-524",
+     "title": "O.C.G.A. § 21-2-524, election contests (Justia)"
+    }
+   ]
+  },
+  {
+   "d": "2026-12-01",
+   "when": "Tue, Dec 1",
+   "what": "Runoff for any race in which no candidate won a majority.",
+   "cite": "O.C.G.A. § 21-2-501",
+   "v": 1,
+   "runoff": true,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-501",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-501",
+     "title": "O.C.G.A. § 21-2-501, majority and runoffs (Justia)"
+    }
+   ]
+  },
+  {
+   "d": "2027-01-01",
+   "when": "Fri, Jan 1, 2027",
+   "what": "Approved constitutional amendments take effect, unless an amendment says otherwise.",
+   "cite": "Ga. Const. art. X, § I, ¶ VI",
+   "v": 1,
+   "links": [
+    {
+     "t": "Ga. Const. art. X, § I, ¶ VI",
+     "u": "https://digitalcommons.law.uga.edu/ga_constitutions/85",
+     "title": "Georgia Constitution of 1983 as amended through 2024 (University of Georgia School of Law Digital Commons)"
+    }
+   ]
+  },
+  {
+   "d": "2027-01-03",
+   "when": "Sun, Jan 3, 2027",
+   "what": "The new Congress convenes at noon, unless Congress sets another day by law.",
+   "cite": "U.S. Const. amend. XX, § 2",
+   "v": 1,
+   "links": [
+    {
+     "t": "U.S. Const. amend. XX, § 2",
+     "u": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-34.pdf",
+     "title": "Constitution of the United States: Analysis and Interpretation (2022 ed.), Twentieth Amendment (U.S. Government Publishing Office)"
+    }
+   ]
+  },
+  {
+   "d": "2027-01-11",
+   "when": "Mon, Jan 11, 2027",
+   "what": "The General Assembly convenes (the second Monday in January). The House elects its Speaker and the Senate its President Pro Tempore, each from among its members.",
+   "cite": "Ga. Const. art. III, § III, ¶¶ I–II; § IV, ¶ I",
+   "v": 1,
+   "links": [
+    {
+     "t": "Ga. Const. art. III, § III, ¶¶ I–II",
+     "u": "https://digitalcommons.law.uga.edu/ga_constitutions/85",
+     "title": "Georgia Constitution of 1983 as amended through 2024 (University of Georgia School of Law Digital Commons)"
+    },
+    {
+     "t": "§ IV, ¶ I",
+     "u": "https://digitalcommons.law.uga.edu/ga_constitutions/85",
+     "title": "Georgia Constitution of 1983 as amended through 2024 (University of Georgia School of Law Digital Commons)"
+    }
+   ]
+  }
+ ],
+ "rules": [
+  {
+   "k": "Majority and runoffs",
+   "t": "A candidate must win a majority of the votes cast. If no one does, the top two meet in a runoff on the 28th day after the election. Only presidential electors are exempt.",
+   "cite": "O.C.G.A. § 21-2-501",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-501",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-501",
+     "title": "O.C.G.A. § 21-2-501, majority and runoffs (Justia)"
+    }
+   ]
+  },
+  {
+   "k": "Recounts",
+   "t": "A candidate trailing by no more than 0.5% of the votes cast for the office can request a recount in writing within two business days after certification. Requests for statewide or multi-county races go to the Secretary of State, who orders a recount in every county; single-county races go to the county. For ballot questions, the Constitutional Amendments Publication Board may call one.",
+   "cite": "O.C.G.A. § 21-2-495(c)",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-495(c)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-495/",
+     "title": "O.C.G.A. § 21-2-495, recounts (Justia)"
+    }
+   ]
+  },
+  {
+   "k": "Automatic hand recounts",
+   "t": "A 2026 law (SB 3EX, signed June 25) requires a hand recount of every ballot in every county, with no request needed, when the race for Governor, Lieutenant Governor, Secretary of State, Attorney General, School Superintendent, or Insurance, Agriculture or Labor Commissioner appears first or second on the ballot and is decided by 0.5% or less. On the Nov. 3 ballot U.S. Senate is first and Governor second, so only the Governor's race qualifies. The Secretary of State must order the recount within two business days after the Nov. 9 county certification deadline; the state repays counties that finish within 17 days.",
+   "cite": "O.C.G.A. § 21-2-495(d.1) (SB 3EX, 2026)",
+   "v": 1,
+   "hand": true,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-495(d.1)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-495/",
+     "title": "O.C.G.A. § 21-2-495, recounts, as amended by SB 3EX (Justia, 2025 Code of Georgia)"
+    },
+    {
+     "t": "SB 3EX",
+     "u": "https://gov.georgia.gov/document/2026-special-session-signed-legislation/sb-3ex/download",
+     "title": "SB 3EX as signed (Office of the Governor)"
+    }
+   ]
+  },
+  {
+   "k": "Audits",
+   "t": "Before certification, counties run risk-limiting audits, hand-checking random samples of paper ballots to confirm the machine count (risk limit of no more than 6% in 2026). The audited races are the top race on the ballot (U.S. Senate this year), U.S. House, Governor, Lieutenant Governor, Secretary of State and Attorney General, plus one more statewide race chosen by majority vote of the Governor, Lieutenant Governor, House Speaker and the two minority leaders, or by the State Election Board chair if they don't agree by 11 a.m. on the Thursday after the election.",
+   "cite": "O.C.G.A. § 21-2-498(a)(4), (d) (as amended by HB 974, 2024, and SB 3EX, 2026)",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-498",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-498/",
+     "title": "O.C.G.A. § 21-2-498, precertification and risk-limiting audits (Justia, 2025 Code of Georgia)"
+    },
+    {
+     "t": "SB 3EX",
+     "u": "https://gov.georgia.gov/document/2026-special-session-signed-legislation/sb-3ex/download",
+     "title": "SB 3EX as signed (Office of the Governor)"
+    }
+   ]
+  },
+  {
+   "k": "Certification",
+   "t": "Results stay unofficial until certified: counties by 5 p.m. Monday, Nov 9; the state by 5 p.m. Friday, Nov 20.",
+   "cite": "O.C.G.A. §§ 21-2-493(k), 21-2-499(b)",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-493(k)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-493",
+     "title": "O.C.G.A. § 21-2-493, county certification (Justia)"
+    },
+    {
+     "t": "§ 21-2-499(b)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-499/",
+     "title": "O.C.G.A. § 21-2-499, state certification (Justia)"
+    }
+   ]
+  },
+  {
+   "k": "Election contests",
+   "t": "A challenge to a result must be filed in superior court within five days after certification.",
+   "cite": "O.C.G.A. § 21-2-524(a)",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-524(a)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-13/section-21-2-524",
+     "title": "O.C.G.A. § 21-2-524, election contests (Justia)"
+    }
+   ]
+  },
+  {
+   "k": "Passing bills and overriding vetoes",
+   "t": "A bill needs a majority of all members of each chamber, not just of those voting: 29 of 56 senators and 91 of 180 representatives. Overriding a governor's veto takes two-thirds of all members: 38 senators and 120 representatives.",
+   "cite": "Ga. Const. art. III, § V, ¶¶ V, XIII(d)",
+   "v": 1,
+   "links": [
+    {
+     "t": "Ga. Const. art. III, § V, ¶¶ V, XIII(d)",
+     "u": "https://digitalcommons.law.uga.edu/ga_constitutions/85",
+     "title": "Georgia Constitution of 1983 as amended through 2024 (University of Georgia School of Law Digital Commons)"
+    }
+   ]
+  },
+  {
+   "k": "Who runs each chamber",
+   "t": "The House elects its Speaker from among its members. The Lieutenant Governor presides over the Senate as its president, and senators elect a President Pro Tempore. The Senate writes its own rules: its majority took committee-appointment powers from Democratic Lt. Gov. Mark Taylor in 2003 and from Republican Lt. Gov. Casey Cagle after the 2010 election.",
+   "cite": "Ga. Const. art. III, § III; art. V, § I; Georgia Encyclopedia; Dawson County News",
+   "v": 0,
+   "links": [
+    {
+     "t": "Ga. Const. art. III, § III",
+     "u": "https://digitalcommons.law.uga.edu/ga_constitutions/85",
+     "title": "Georgia Constitution of 1983 as amended through 2024 (University of Georgia School of Law Digital Commons)"
+    },
+    {
+     "t": "art. V, § I",
+     "u": "https://digitalcommons.law.uga.edu/ga_constitutions/85",
+     "title": "Georgia Constitution of 1983 as amended through 2024 (University of Georgia School of Law Digital Commons)"
+    },
+    {
+     "t": "Georgia Encyclopedia (2003)",
+     "u": "https://www.georgiaencyclopedia.org/articles/government-politics/lieutenant-governor/",
+     "title": "Lieutenant Governor (New Georgia Encyclopedia): the 2003 Senate stripped the Democratic lieutenant governor of most of his Senate power"
+    },
+    {
+     "t": "Dawson News (2010)",
+     "u": "https://dawsonnews.com/local/government/cagle-stripped-of-power-to-appoint-committees",
+     "title": "Cagle stripped of power to appoint committees (Dawson County News, November 2010)"
+    }
+   ]
+  },
+  {
+   "k": "Vacancies",
+   "t": "When a legislative seat becomes vacant during a session, or between 60 days before the first-year November election and the second-year session, the Governor issues a writ within 10 days for a special election 30 to 60 days later. After the first-year session ends, the Governor may call one at any time for a date at least 30 days out and no later than 60 days before that November; after the second-year session, calling one is at the Governor's discretion. During a special session, the writ is due within two days of the call, or within five days of a later vacancy.",
+   "cite": "O.C.G.A. § 21-2-544",
+   "v": 1,
+   "links": [
+    {
+     "t": "O.C.G.A. § 21-2-544",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-14/section-21-2-544/",
+     "title": "O.C.G.A. § 21-2-544, legislative vacancies (Justia)"
+    }
+   ]
+  },
+  {
+   "k": "Constitutional amendments",
+   "t": "An amendment passes with a majority of those voting on it and takes effect on the January 1 after it passes, unless it says otherwise.",
+   "cite": "Ga. Const. art. X, § I, ¶¶ II, VI",
+   "v": 1,
+   "links": [
+    {
+     "t": "Ga. Const. art. X, § I, ¶¶ II, VI",
+     "u": "https://digitalcommons.law.uga.edu/ga_constitutions/85",
+     "title": "Georgia Constitution of 1983 as amended through 2024 (University of Georgia School of Law Digital Commons)"
+    }
+   ]
+  }
+ ],
+ "caveats": [
+  "georgia.gov tells voters to fix a provisional-ballot problem \"by the end of the next day\"; the statute gives counties until three days after the election (Nov 6) to decide those ballots. Voters should check with their county.",
+  "Recount and contest deadlines run from certification, so their exact dates depend on when results are certified.",
+  "The 2003 and 2010 Senate precedents come from news accounts, not statute text.",
+  "Election-law text was checked on Nov. 4-5, 2026 against the current Code and the General Assembly's enacted acts, including the June 2026 special session."
+ ],
+ "sources": [
+  {
+   "t": "O.C.G.A. § 21-2-493, county certification (Justia)",
+   "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-493"
+  },
+  {
+   "t": "O.C.G.A. § 21-2-495, recounts (Justia, 2025 Code of Georgia)",
+   "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-495/"
+  },
+  {
+   "t": "O.C.G.A. § 21-2-499, state certification (Justia, 2025 Code of Georgia)",
+   "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-499/"
+  },
+  {
+   "t": "O.C.G.A. § 21-2-501, majority and runoffs (Justia)",
+   "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-501"
+  },
+  {
+   "t": "O.C.G.A. § 21-2-524, election contests (Justia)",
+   "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-13/section-21-2-524"
+  },
+  {
+   "t": "O.C.G.A. § 21-2-544, legislative vacancies (Justia, 2025 Code of Georgia)",
+   "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-14/section-21-2-544/"
+  },
+  {
+   "t": "Georgia Constitution of 1983 as amended through 2024 (University of Georgia School of Law Digital Commons)",
+   "u": "https://digitalcommons.law.uga.edu/ga_constitutions/85"
+  },
+  {
+   "t": "Georgia General Election 2026 dates (georgia.gov)",
+   "u": "https://georgia.gov/georgia-general-election-2026"
+  },
+  {
+   "t": "Fulton County risk-limiting audit notice",
+   "u": "https://www.fultoncountyga.gov/-/media/November-3-Election-notices/Notice-of-Risk-Limiting-Audit--1132026.pdf"
+  },
+  {
+   "t": "Gwinnett County risk-limiting audit notice",
+   "u": "https://www.gwinnettcounty.com/documents/d/gwinnett-county/notice-november-3-general-special-election-risk-limiting-ballot-image-audit"
+  },
+  {
+   "t": "SB 3EX enrolled text, 26 LC 47 4417S (Office of the Governor, 2026 special session signed legislation)",
+   "u": "https://gov.georgia.gov/document/2026-special-session-signed-legislation/sb-3ex/download"
+  },
+  {
+   "t": "O.C.G.A. § 21-2-419, provisional ballots (Justia, 2025 Code of Georgia)",
+   "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-11/part-1/section-21-2-419/"
+  },
+  {
+   "t": "O.C.G.A. § 21-2-498, precertification and risk-limiting audits (Justia, 2025 Code of Georgia)",
+   "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-498/"
+  },
+  {
+   "t": "O.C.G.A. § 21-2-385, advance voting, including runoffs (Justia, 2025 Code of Georgia)",
+   "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-10/section-21-2-385"
+  },
+  {
+   "t": "Constitution of the United States: Analysis and Interpretation (2022 ed.), Twentieth Amendment (U.S. Government Publishing Office)",
+   "u": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-34.pdf"
+  },
+  {
+   "t": "Lieutenant Governor (New Georgia Encyclopedia)",
+   "u": "https://www.georgiaencyclopedia.org/articles/government-politics/lieutenant-governor/"
+  },
+  {
+   "t": "Cagle stripped of power to appoint committees (Dawson County News, Nov 2010)",
+   "u": "https://dawsonnews.com/local/government/cagle-stripped-of-power-to-appoint-committees"
+  }
+ ]
+}
