@@ -14,7 +14,8 @@ import com.getcapacitor.WebViewListener;
 /**
  * Electo's activity: Capacitor's own, plus the page's theme from the first moment (no title bar of Android's own), a
  * guard that restarts the page instead of letting the app close when Android kills it, a Back button that closes the
- * page's popups first, and system bars in the page's own colours.
+ * page's popups first, system bars in the page's own colours, and a word to the page when the phone runs short of
+ * memory (the offline AI's model is let go).
  * Copied over the generated MainActivity after `npx cap add android` (app/android.sh in electo-data,
  * tools/app_android.sh in Electo: the two repositories keep the same file).
  */
@@ -72,6 +73,23 @@ public class MainActivity extends BridgeActivity {
                 });
             }
         });
+    }
+
+    // 5. When Android says memory is short (the phone as a whole, or this app once it is behind the others), the page
+    //    lets the offline AI's model go: 1 to 5 GB of the memory the phone shares with its graphics chip, which made
+    //    the whole phone slow after an answer (Nov. 14, 2026). The page finishes an answer being written first and
+    //    loads the model again at the next question (window.electoFreeAI, ga/ai_portable.js). Leaving the screen is
+    //    handled by the page itself; this covers a phone that runs short while the app is open or already put away.
+    @Override
+    public void onTrimMemory(int level) {
+        super.onTrimMemory(level);
+        if (level == TRIM_MEMORY_UI_HIDDEN || level < TRIM_MEMORY_RUNNING_LOW) return;
+        try {
+            final WebView wv = bridge != null ? bridge.getWebView() : null;
+            if (wv != null) wv.post(() -> wv.evaluateJavascript("(function(){try{return !!(window.electoFreeAI&&window.electoFreeAI('memory'))}catch(e){return false}})()", null));
+        } catch (Exception ignored) {
+            // no page to tell
+        }
     }
 
     @Override
