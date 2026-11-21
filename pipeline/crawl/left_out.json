@@ -1,0 +1,187 @@
+{
+ "v": 1,
+ "at": "2026-11-21T15:00:56Z",
+ "note": "What the import read of each feed and what became of every record: kept, or left out under one code of the feed's list (codes: what each means), with up to six examples. read = kept + left_out for every feed (tools/data_audit.py checks it). ga/crawl_import.py Ledger.",
+ "feeds": {
+  "news": {
+   "read": 270,
+   "kept": 270,
+   "left_out": 0,
+   "left": {},
+   "codes": {
+    "no-headline": "no headline",
+    "no-link": "no web link",
+    "no-date": "no day it was published, or one that is no date",
+    "future-date": "dated after tomorrow: a day that has not come is not the day a story was published",
+    "listed-twice": "its link is already listed (a story written by hand, or one earlier in the digest)"
+   }
+  },
+  "results": {
+   "read": 2539,
+   "kept": 272,
+   "left_out": 2267,
+   "left": {
+    "misread-question": {
+     "n": 13,
+     "eg": [
+      [
+       "xco-hall-2024-05-21",
+       "County BOE - Post 4 - Rep"
+      ],
+      [
+       "xco-hall-2024-11-05",
+       "Hall Co. Soil and Water District Supervisor"
+      ],
+      [
+       "xco-hall-2025-11-04",
+       "Council Member -Dist 3 - Lula"
+      ],
+      [
+       "xco-gordon-2026-05-19",
+       "County BOE - Post 7 - Rep"
+      ],
+      [
+       "xco-hall-2026-05-19",
+       "County BOE - Post 2 - Dem"
+      ],
+      [
+       "xco-hall-2026-05-19",
+       "Judge - State Court (Baldwin)"
+      ]
+     ]
+    },
+    "official": {
+     "n": 1571,
+     "eg": [
+      [
+       "xco-carroll-2020-03-24",
+       "REP - President of the United States"
+      ],
+      [
+       "xco-carroll-2020-03-24",
+       "DEM - President of the United States"
+      ],
+      [
+       "xco-carroll-2020-08-11",
+       "DEM - State Senate Dist 30"
+      ],
+      [
+       "xco-carroll-2020-08-11",
+       "REP - State House Dist 18"
+      ],
+      [
+       "xco-carroll-2020-11-03",
+       "US Senate (Perdue)"
+      ],
+      [
+       "xco-carroll-2020-11-03",
+       "US Senate (Loeffler) - Special"
+      ]
+     ]
+    },
+    "other-office": {
+     "n": 4,
+     "eg": [
+      [
+       "xco-rockdale-2024-05-21",
+       "County BOE - Post 3",
+       "John A. Martin ran for Superior Court, Chattachoochee Circuit (Martin, Sr. seat) on 2024-05-21"
+      ],
+      [
+       "xco-burke-2026-05-19",
+       "State House of Representatives - District 126 - Rep",
+       "William C. Harris ran for State House District 82 (Democratic primary) on 2026-05-19"
+      ],
+      [
+       "xco-camden-2026-05-19",
+       "US House of Representatives - District 1 - Dem",
+       "Joey Palimeno ran in the general for City Council - Post 3 (St. Marys) on 2026-11-03"
+      ],
+      [
+       "xco-dekalb-2026-05-19",
+       "Judge - State Court - A-7",
+       "Kimberly A. Alexander ran for State House District 66 (Democratic primary) on 2026-05-19"
+      ]
+     ]
+    },
+    "question": {
+     "n": 506,
+     "eg": [
+      [
+       "xco-carroll-2020-03-24",
+       "E-SPLOST"
+      ],
+      [
+       "xco-carroll-2020-05-19",
+       "Rep Party Question 1"
+      ],
+      [
+       "xco-carroll-2020-05-19",
+       "Rep Party Question 2"
+      ],
+      [
+       "xco-carroll-2020-05-19",
+       "Rep Party Question 3"
+      ],
+      [
+       "xco-carroll-2020-05-19",
+       "Dem Party Question 1"
+      ],
+      [
+       "xco-carroll-2020-05-19",
+       "Dem Party Question 2"
+      ]
+     ]
+    },
+    "state-office": {
+     "n": 173,
+     "eg": [
+      [
+       "xco-carroll-2020-05-19",
+       "REP - President of the United States",
+       "federal"
+      ],
+      [
+       "xco-carroll-2020-05-19",
+       "DEM - President of the United States",
+       "federal"
+      ],
+      [
+       "xco-carroll-2020-05-19",
+       "REP - US Senate",
+       "federal"
+      ],
+      [
+       "xco-carroll-2020-05-19",
+       "DEM - US Senate",
+       "federal"
+      ],
+      [
+       "xco-carroll-2020-05-19",
+       "REP - Public Service Commission Dist 1",
+       "state"
+      ],
+      [
+       "xco-carroll-2020-05-19",
+       "DEM - Public Service Commission Dist 1",
+       "state"
+      ]
+     ]
+    }
+   },
+   "codes": {
+    "misread-report": "the report's headings were read shifted (two or more contests carry another office's candidates): none of the report is taken",
+    "place-not-used": "its place's records are not on the site",
+    "no-source": "no web link to the report or to the contest",
+    "other-office": "the contest carries another office's candidates",
+    "official": "the official results already hold the contest",
+    "question": "a ballot question, or ballot answers read as candidates",
+    "misread-question": "filed as a ballot question, but its title names an office (the report's rows were read shifted)",
+    "state-office": "a federal, state or circuit office: the state's results hold it whole",
+    "not-reporters": "an office its reporter does not report (the county's office, or another place's school board, on a city's page)",
+    "vote-methods": "vote-method columns read as candidates",
+    "not-a-contest": "does not read as a contest (names, votes that add up, a winner who leads)"
+   }
+  }
+ }
+}

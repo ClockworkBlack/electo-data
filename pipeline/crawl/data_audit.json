@@ -1,0 +1,848 @@
+{
+ "v": 1,
+ "at": "2026-11-21T15:04:10Z",
+ "verdict": "fail",
+ "errors": 2,
+ "warnings": 7,
+ "seconds": 16.1,
+ "checks": [
+  {
+   "area": "archive",
+   "check": "every race row has its 11 fields, votes as a number and a percent (none only with no count on file)",
+   "level": "ok",
+   "bad": 0,
+   "of": 14383,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "no ballot answer, write-in or total is filed as a person",
+   "level": "ok",
+   "bad": 0,
+   "of": 8135,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "race dates are YYYY-MM-DD",
+   "level": "ok",
+   "bad": 0,
+   "of": 14383,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "outcomes are codes the page knows",
+   "level": "ok",
+   "bad": 0,
+   "of": 14383,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "votes and percentages are never negative",
+   "level": "ok",
+   "bad": 0,
+   "of": 14383,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "no percentage over 100",
+   "level": "ok",
+   "bad": 0,
+   "of": 14383,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "a person's record holds each race once",
+   "level": "ok",
+   "bad": 0,
+   "of": 14383,
+   "examples": [],
+   "note": "the same contest twice in one county under one person: an alias joined twice or a split rule that moved a race back"
+  },
+  {
+   "area": "archive",
+   "check": "a contest's percentages add up to no more than 100",
+   "level": "ok",
+   "bad": 0,
+   "of": 9568,
+   "examples": [],
+   "note": "more than 100 means rows from two contests, or one candidate twice, were put together"
+  },
+  {
+   "area": "archive",
+   "check": "each candidate's percentage agrees with their share of the contest's votes",
+   "level": "ok",
+   "bad": 0,
+   "of": 14373,
+   "examples": [],
+   "note": "within 2 points; contests with write-ins on file elsewhere can differ"
+  },
+  {
+   "area": "archive",
+   "check": "a contest's candidates do not have more votes than its total",
+   "level": "ok",
+   "bad": 0,
+   "of": 10040,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "every county row has one number per candidate",
+   "level": "ok",
+   "bad": 0,
+   "of": 10040,
+   "examples": [],
+   "note": "tools/archive_fix.py cuts a row's extra columns when the table then adds up"
+  },
+  {
+   "area": "archive",
+   "check": "a county table adds up to the statewide votes, or the contest says which county is missing",
+   "level": "ok",
+   "bad": 0,
+   "of": 10040,
+   "examples": [],
+   "note": "official results only; tools/archive_fix.py writes the note"
+  },
+  {
+   "area": "archive",
+   "check": "a winner has the most votes, unless the contest says why not (a county's share of a city in several counties)",
+   "level": "ok",
+   "bad": 0,
+   "of": 10040,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "archive",
+   "check": "no two contests of one election share a title, party and county",
+   "level": "warning",
+   "bad": 1,
+   "of": 10040,
+   "examples": [
+    [
+     "MunicipalGeneralSpecialElectionPSC11042025",
+     "Council Member - Post 3",
+     "",
+     "Stewart"
+    ]
+   ],
+   "note": "tools/archive_fix.py tells apart the parties' primaries and courts' seats"
+  },
+  {
+   "area": "city results",
+   "check": "every city- or county-reported contest is a contest (names, votes that add up, a winner who leads)",
+   "level": "ok",
+   "bad": 0,
+   "of": 272,
+   "examples": [],
+   "note": "ga/crawl_import.py city_contest_fault leaves these out"
+  },
+  {
+   "area": "city results",
+   "check": "no ballot answer is listed as a candidate",
+   "level": "ok",
+   "bad": 0,
+   "of": 435,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "city results",
+   "check": "no reported contest carries another office's candidates (the official results say who ran for what)",
+   "level": "ok",
+   "bad": 0,
+   "of": 272,
+   "examples": [],
+   "note": "ga/crawl_import.py contest_cross_check: a report with two such contests is left out whole"
+  },
+  {
+   "area": "city results",
+   "check": "no reported contest repeats an official one (the same candidates within three days)",
+   "level": "ok",
+   "bad": 0,
+   "of": 272,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "city results",
+   "check": "every report names its reporter and every contest carries its office's level and its place (format 2)",
+   "level": "ok",
+   "bad": 0,
+   "of": 272,
+   "examples": [],
+   "note": "ga/crawl_import.py elections_from writes jid, rep, lv and pl"
+  },
+  {
+   "area": "city results",
+   "check": "no report carries an office its reporter does not report (federal, state and circuit offices are the state's; a city's page reports city offices)",
+   "level": "ok",
+   "bad": 0,
+   "of": 272,
+   "examples": [],
+   "note": "ga/crawl_import.py REPORTS and NEVER_REPORTED leave these out, and ga/crawl/left_out.json counts them"
+  },
+  {
+   "area": "city results",
+   "check": "every contest's level agrees with what its title reads as",
+   "level": "ok",
+   "bad": 0,
+   "of": 272,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "city results",
+   "check": "every title is one the level rule knows",
+   "level": "warning",
+   "bad": 4,
+   "of": 272,
+   "examples": [
+    [
+     "xdcocarroll20200519",
+     "Brd of Education Dist 1"
+    ],
+    [
+     "xdcocarroll20200519",
+     "Brd of Education Dist 3"
+    ],
+    [
+     "xdcocarroll20200519",
+     "Brd of Education Dist 4"
+    ],
+    [
+     "xdcocarroll20200519",
+     "Brd of Education Dist 6"
+    ]
+   ],
+   "note": "kept as before; ga/crawl_import.py _LEVEL_RULES learns the office"
+  },
+  {
+   "area": "city results",
+   "check": "every city office in a county's report names its city",
+   "level": "warning",
+   "bad": 3,
+   "of": 272,
+   "examples": [
+    [
+     "xdcoclayton20231107",
+     "City Council - Post 2",
+     "co-clayton"
+    ],
+    [
+     "xdcoclayton20231107",
+     "City Council - Post 4",
+     "co-clayton"
+    ],
+    [
+     "xdcoclayton20231107",
+     "City Council - Ward 3",
+     "co-clayton"
+    ]
+   ],
+   "note": "the county's report named the city in a heading the reader did not carry to the contest"
+  },
+  {
+   "area": "import",
+   "check": "every record read is kept or left out under a listed reason (ga/crawl/left_out.json adds up)",
+   "level": "ok",
+   "bad": 0,
+   "of": 2,
+   "examples": [],
+   "note": "ga/crawl_import.py Ledger: read = kept + left out, for every feed"
+  },
+  {
+   "area": "history",
+   "check": "every past election has an id, a date and its contests",
+   "level": "ok",
+   "bad": 0,
+   "of": 176,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "history",
+   "check": "every past race row has its fields, a date or year, and votes and a percentage in range where counted",
+   "level": "ok",
+   "bad": 0,
+   "of": 29796,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "history",
+   "check": "no ballot answer is filed as a person",
+   "level": "ok",
+   "bad": 0,
+   "of": 29796,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "history",
+   "check": "no Georgia race shows a winner without the majority the law asks (the top two go to a runoff)",
+   "level": "ok",
+   "bad": 0,
+   "of": 5237,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "history",
+   "check": "races where the member seated is not the count's leader (a runoff, a death, a contest)",
+   "level": "warning",
+   "bad": 17,
+   "of": 39714,
+   "examples": [
+    [
+     "us1978gen",
+     "U.S. Senate · Wyoming",
+     [
+      "Raymond B. Whitaker"
+     ]
+    ],
+    [
+     "us1992gen",
+     "U.S. Senate · Georgia",
+     []
+    ],
+    [
+     "us2002gen",
+     "U.S. House · Hawaii District 2",
+     [
+      "Patsy Takemoto Mink"
+     ]
+    ],
+    [
+     "us2004gen",
+     "U.S. House · Louisiana District 3",
+     []
+    ],
+    [
+     "us2004gen",
+     "U.S. House · New York District 27",
+     [
+      "Nancy A. Naples"
+     ]
+    ],
+    [
+     "us2006gen",
+     "U.S. House · Texas District 22",
+     [
+      "Shelley Sekula Gibbs"
+     ]
+    ]
+   ],
+   "note": "gacrawl/history marks the leader 'led' when they had no majority; the rest are worth a look"
+  },
+  {
+   "area": "people",
+   "check": "every person in Crawl's records is someone the site knows",
+   "level": "error",
+   "bad": 1,
+   "of": 3018,
+   "examples": [
+    "AGENDA RANDY DIXON @PIERCE COUNTY"
+   ],
+   "note": ""
+  },
+  {
+   "area": "people",
+   "check": "every item's sources exist and are web links",
+   "level": "ok",
+   "bad": 0,
+   "of": 97941,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "people",
+   "check": "no banned source (Ballotpedia, AI summary portals)",
+   "level": "ok",
+   "bad": 0,
+   "of": 97941,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "people",
+   "check": "no text garbled by a wrong character set",
+   "level": "ok",
+   "bad": 0,
+   "of": 97941,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "people",
+   "check": "no item dated past the next two years",
+   "level": "ok",
+   "bad": 0,
+   "of": 97941,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "councils",
+   "check": "every council member linked to a person points at someone the site knows",
+   "level": "error",
+   "bad": 1,
+   "of": 1190,
+   "examples": [
+    [
+     "co-pierce",
+     "council",
+     "Agenda-Randy Dixon",
+     "AGENDA RANDY DIXON @PIERCE COUNTY"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "area": "councils",
+   "check": "every board is named for a body, not a heading's date, time, address or page (60 characters at most)",
+   "level": "ok",
+   "bad": 0,
+   "of": 120,
+   "examples": [],
+   "note": "ga/crawl_import.py minutes_body reads the body's name out of a minutes file's heading"
+  },
+  {
+   "area": "councils",
+   "check": "every roll-call voter not linked to a candidate reads as a person's name (no heading word, title or two names run together)",
+   "level": "ok",
+   "bad": 0,
+   "of": 1190,
+   "examples": [],
+   "note": "the importer's word lists (ga/crawl_import.py MJUNK, MREJECT, FUNCTION_WORDS)"
+  },
+  {
+   "area": "councils",
+   "check": "roll calls have the declared fields and each vote points at a member with a known code",
+   "level": "ok",
+   "bad": 0,
+   "of": 11924,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "councils",
+   "check": "roll-call dates are YYYY-MM-DD",
+   "level": "ok",
+   "bad": 0,
+   "of": 11924,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "councils",
+   "check": "every roll call has a date",
+   "level": "warning",
+   "bad": 14,
+   "of": 11924,
+   "examples": [
+    [
+     "co-elbert",
+     "Adopt the agenda",
+     "https://www.elbertga.us/uploads/official-minutes_27_1328612975.pdf"
+    ],
+    [
+     "co-elbert",
+     "Approve the request for $1,000",
+     "https://www.elbertga.us/uploads/official-minutes_27_1328612975.pdf"
+    ],
+    [
+     "co-elbert",
+     "Approve the bid from Albica Computers, LLC",
+     "https://www.elbertga.us/uploads/official-minutes_27_1328612975.pdf"
+    ],
+    [
+     "co-elbert",
+     "Approve all three resolutions",
+     "https://www.elbertga.us/uploads/official-minutes_27_1328612975.pdf"
+    ],
+    [
+     "co-elbert",
+     "Approve the agenda",
+     "https://www.elbertga.us/uploads/official-minutes_27_167432403.pdf"
+    ],
+    [
+     "co-elbert",
+     "Put a three-quarter mill increase on the May, 20th",
+     "https://www.elbertga.us/uploads/official-minutes_27_167432403.pdf"
+    ]
+   ],
+   "note": "neither the minutes nor their file name gave a full date (\"ccm2026_05.pdf\"); shown undated"
+  },
+  {
+   "area": "councils",
+   "check": "no roll call's motion is the clerk's closing lines",
+   "level": "ok",
+   "bad": 0,
+   "of": 11924,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "councils",
+   "check": "agreement percentages match their own counts",
+   "level": "ok",
+   "bad": 0,
+   "of": 1190,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "local laws",
+   "check": "items have the declared fields and dates are YYYY-MM-DD",
+   "level": "ok",
+   "bad": 0,
+   "of": 28359,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "local laws",
+   "check": "record and meeting links are web links, none banned",
+   "level": "ok",
+   "bad": 0,
+   "of": 28359,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "current law",
+   "check": "no section number in the base Code is cut at its decimal point",
+   "level": "ok",
+   "bad": 0,
+   "of": 28841,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "current law",
+   "check": "no section's text, applied or pending, starts partway through (wrong section or a cut section number)",
+   "level": "ok",
+   "bad": 0,
+   "of": 3955,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "links",
+   "check": "every pair names two people the site knows",
+   "level": "ok",
+   "bad": 0,
+   "of": 191,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "donors",
+   "check": "every campaign linked to a person points at someone the site knows",
+   "level": "ok",
+   "bad": 0,
+   "of": 2149,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "donors",
+   "check": "every gift points at a recipient on file and has an amount",
+   "level": "ok",
+   "bad": 0,
+   "of": 12000,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "donors",
+   "check": "donor profiles point at recipients on file",
+   "level": "ok",
+   "bad": 0,
+   "of": 179127,
+   "examples": [],
+   "note": "a profile written before the recipient list changed; the page and Grand Cross match such rows by name"
+  },
+  {
+   "area": "rumors",
+   "check": "every rumor is filed under someone the site knows",
+   "level": "ok",
+   "bad": 0,
+   "of": 1597,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "rumors",
+   "check": "every rumor names whose it is (a key)",
+   "level": "warning",
+   "bad": 15,
+   "of": 1597,
+   "examples": [
+    [
+     "r01514",
+     "hakeem-jeffries",
+     "Hakeem Jeffries"
+    ],
+    [
+     "r01515",
+     "hakeem-jeffries",
+     "Hakeem Jeffries"
+    ],
+    [
+     "r01516",
+     "hakeem-jeffries",
+     "Hakeem Jeffries"
+    ],
+    [
+     "r01432",
+     "mary-peltola",
+     "Mary Peltola"
+    ],
+    [
+     "r01433",
+     "mary-peltola",
+     "Mary Peltola"
+    ],
+    [
+     "r01434",
+     "mary-peltola",
+     "Mary Peltola"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "area": "news",
+   "check": "every story has a headline, a web link and a date",
+   "level": "ok",
+   "bad": 0,
+   "of": 270,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "news",
+   "check": "no story dated in the future",
+   "level": "ok",
+   "bad": 0,
+   "of": 270,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "news",
+   "check": "each story once",
+   "level": "ok",
+   "bad": 0,
+   "of": 270,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "schools",
+   "check": "every school-board person is a person, not a page heading",
+   "level": "ok",
+   "bad": 0,
+   "of": 121,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "schools",
+   "check": "every school-board person belongs to a district on file",
+   "level": "ok",
+   "bad": 0,
+   "of": 121,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "policing",
+   "check": "every department has a name and its own page (or its FBI listing, or its elected sheriff)",
+   "level": "ok",
+   "bad": 0,
+   "of": 568,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "policing",
+   "check": "every elected sheriff links the Secretary of State's results and a profile",
+   "level": "ok",
+   "bad": 0,
+   "of": 568,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "policing",
+   "check": "every chief or sheriff named is a person's name, not a link's or a page's words",
+   "level": "ok",
+   "bad": 0,
+   "of": 257,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "policing",
+   "check": "every officer the police news names is an officer's name (no judge, coroner, prosecutor or reporter, no rank in the name)",
+   "level": "ok",
+   "bad": 0,
+   "of": 146,
+   "examples": [],
+   "note": "Crawl's police-news reader pairs a rank with the words next to it; the page lists these people as officers"
+  },
+  {
+   "area": "text",
+   "check": "no file the page reads holds HTML entity codes in its text (they show as typed: \"&#8212;\")",
+   "level": "ok",
+   "bad": 0,
+   "of": 334,
+   "examples": [],
+   "note": "0 in all; decoded by ga/textfix.py where Crawl's data is read; &lt; and &gt; are kept on purpose"
+  },
+  {
+   "area": "text",
+   "check": "no file the page reads holds text mis-decoded as Windows-1252 (\"TundÃ©\" for Tundé)",
+   "level": "ok",
+   "bad": 0,
+   "of": 334,
+   "examples": [],
+   "note": "0 in all; repaired by ga/textfix.py where Crawl's data is read"
+  },
+  {
+   "area": "dates",
+   "check": "every source date in Grand Cross's pairs is YYYY-MM-DD (or a year)",
+   "level": "ok",
+   "bad": 0,
+   "of": 4668,
+   "examples": [],
+   "note": "ga/gc_build.py day10: a feed's date is converted, anything else left out"
+  },
+  {
+   "area": "state meetings",
+   "check": "every body has an id, a name, a kind (board, authority, transit), its pages and a known source, once",
+   "level": "ok",
+   "bad": 0,
+   "of": 30,
+   "examples": [],
+   "note": "ga/crawl_import.py state_meetings_from leaves out a row that does not fit, and counts it"
+  },
+  {
+   "area": "state meetings",
+   "check": "bodies are listed by kind, then name",
+   "level": "ok",
+   "bad": 0,
+   "of": 30,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "state meetings",
+   "check": "every meeting has its day, something to open, only the format's keys, and (read tonight) seen and upd",
+   "level": "ok",
+   "bad": 0,
+   "of": 2499,
+   "examples": [],
+   "note": "ga/crawl_import.py state_meetings_from leaves out a row that does not fit, and counts it"
+  },
+  {
+   "area": "state meetings",
+   "check": "d is YYYY-MM-DD, t HH:MM, st one of four, seen and upd ISO times in UTC, pub ISO 8601",
+   "level": "ok",
+   "bad": 0,
+   "of": 2499,
+   "examples": [],
+   "note": "ga/crawl_import.py state_meetings_from leaves out a row that does not fit, and counts it"
+  },
+  {
+   "area": "state meetings",
+   "check": "every link is a web address, none to a banned source",
+   "level": "ok",
+   "bad": 0,
+   "of": 2499,
+   "examples": [],
+   "note": "a space in a file's name is written %20"
+  },
+  {
+   "area": "state meetings",
+   "check": "no body lists one committee's meeting of one day and time twice",
+   "level": "ok",
+   "bad": 0,
+   "of": 2499,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "state meetings",
+   "check": "no cancelled meeting is shown as held",
+   "level": "ok",
+   "bad": 0,
+   "of": 2499,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "state meetings",
+   "check": "no meeting is marked held before its day",
+   "level": "ok",
+   "bad": 0,
+   "of": 2499,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "state meetings",
+   "check": "each body's meetings are newest first",
+   "level": "ok",
+   "bad": 0,
+   "of": 2499,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "area": "formats",
+   "check": "every data file holds to its format (formats/<area>/<file>.schema.json)",
+   "level": "warning",
+   "bad": 4,
+   "of": 358,
+   "examples": [
+    [
+     "data/crawl/manifest.json",
+     "site/data__crawl__manifest.schema.json",
+     "$.open_records: key 'sent' is not in the format"
+    ],
+    [
+     "data/crawl/records_contacts.json",
+     "site/data__crawl__records_contacts.schema.json",
+     "$.contacts.co-terrell: key 'clerk' is not in the format"
+    ],
+    [
+     "ga/crawl/records.json",
+     "site/ga__crawl__records.schema.json",
+     "$.contacts.co-terrell: key 'clerk' is not in the format"
+    ],
+    [
+     "ga/crawl/schools.json",
+     "site/ga__crawl__schools.schema.json",
+     "$.districts[44].board_metrics: key '2018' is not in the format"
+    ]
+   ],
+   "note": "12 file(s) over 8,000,000 bytes left to the qa tests (qa/test_formats.py); a fault is the file's writer's to fix, or the schema's (formats/README.md says how)"
+  }
+ ],
+ "note": "tools/data_audit.py: format, allocation and accuracy of every incoming record. Each check: its area, what it checks, how many records failed out of how many, and up to six examples."
+}
