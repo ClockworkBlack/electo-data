@@ -1,0 +1,192 @@
+{
+ "v": 1,
+ "m": "Qwen3-8B (Q4_K_M)",
+ "asOf": "2026-11-20T15:50:56Z",
+ "version": "2026-11-20T15:50:56",
+ "h": "b57df579ca623f8d",
+ "checks": 4,
+ "ts": 1795248441,
+ "at": "2026-11-21T08:07:21Z",
+ "items": [
+  {
+   "kind": "Forecast",
+   "title": "State Senate: Republicans keep a bare majority",
+   "text": "Republicans lead or are unopposed in 29 of 56 seats, the minimum for a majority. Their closest lead is 1,661 votes, 2.0 pts.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results for every race, Nov 3, 2026",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection",
+     "s": "GA SOS: all races"
+    },
+    {
+     "t": "Georgia Secretary of State, unofficial results: State Senate District 32",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-cc87-08df23e64f0c",
+     "s": "GA SOS: SD-32"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "State House: Democrats gain a majority",
+   "text": "Democrats lead or are unopposed in 92 of 180 seats, 1 more than the 91 needed for a majority. Their closest lead is 35 votes, 0.1 pts.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results for every race, Nov 3, 2026",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection",
+     "s": "GA SOS: all races"
+    },
+    {
+     "t": "Georgia Secretary of State, unofficial results: State House District 103",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-0304-08df23e6024d",
+     "s": "GA SOS: HD-103"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "U.S. Senate: Jon Ossoff wins by 755,386 votes, 18.1 points",
+   "text": "Jon Ossoff leads Mike Collins by 755,386 votes, 18.1 points. No ballots left to change the result.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: U.S. Senate",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-4042-08df23e5ff36",
+     "s": "GA SOS: U.S. Senate"
+    },
+    {
+     "t": "AP race call: FOX 5 Atlanta: \"The Associated Press called the race for Ossoff at 7:55 p.m. EST.\"",
+     "u": "https://www.fox5atlanta.com/news/george-us-senate-jon-ossoff-mike-collins",
+     "s": "AP call"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "Governor: Keisha Lance Bottoms wins by 362,992 votes, 8.7 points",
+   "text": "Keisha Lance Bottoms leads Rick Jackson by 362,992 votes, 8.7 points. No ballots left to change the result.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: Governor",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-0434-08df23e5ff46",
+     "s": "GA SOS: Governor"
+    },
+    {
+     "t": "AP race call: AP race-call story (Nov 4 2026 02:24 UTC); KTVU/FOX 5: 'The Associated Press projects', published 9:24 PM ET",
+     "u": "https://www.yahoo.com/news/politics/articles/democrat-keisha-bottoms-wins-election-022413832.html",
+     "s": "AP call"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "Lieutenant Governor: Josh McLaurin wins by 497,503 votes, 11.9 points",
+   "text": "Josh McLaurin leads Greg Dolezal by 497,503 votes, 11.9 points. No ballots left to change the result.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: Lieutenant Governor",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-e920-08df23e5ff4e",
+     "s": "GA SOS: Lt. Governor"
+    },
+    {
+     "t": "AP race call: AP race-call story (Nov 4 2026 03:31 UTC); WSB-TV: 'The Associated Press called the race for McLaurin Tuesday night.'",
+     "u": "https://www.yahoo.com/news/politics/articles/democrat-josh-mclaurin-wins-election-033145626.html",
+     "s": "AP call"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "Secretary of State: Penny Brown Reynolds wins by 474,872 votes, 11.4 points",
+   "text": "Penny Brown Reynolds leads Tim Fleming by 474,872 votes, 11.4 points. No ballots left to change the result.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: Secretary of State",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-207a-08df23e5ff54",
+     "s": "GA SOS: Secretary of State"
+    },
+    {
+     "t": "AP race call: AP race-call story, Nov 4 2026 03:40 UTC",
+     "u": "https://www.yahoo.com/news/politics/articles/democrat-penny-reynolds-wins-election-034031185.html",
+     "s": "AP call"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "Attorney General: Tanya Miller wins by 464,249 votes, 11.1 points",
+   "text": "Tanya Miller leads Brian Strickland by 464,249 votes, 11.1 points. No ballots left to change the result.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: Attorney General",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-32b9-08df23e5ff57",
+     "s": "GA SOS: Attorney General"
+    },
+    {
+     "t": "AP race call: AP race-call story syndicated by WTOP (November 2026); exact call time not available",
+     "u": "https://wtop.com/national/2026/11/democrat-tanya-miller-wins-election-for-attorney-general-in-georgia",
+     "s": "AP call"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "Commissioner of Insurance: Keisha Sean Waites wins by 358,658 votes, 8.6 points",
+   "text": "Keisha Sean Waites leads John King by 358,658 votes, 8.6 points. No ballots left to change the result.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: Commissioner of Insurance",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-446b-08df23e5ff5d",
+     "s": "GA SOS: Insurance Comm."
+    },
+    {
+     "t": "Georgia Secretary of State, unofficial results: State School Superintendent",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-9c9f-08df23e5ff60",
+     "s": "GA SOS: School Superintendent"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "State School Superintendent: Lydia Powell wins by 386,041 votes, 9.3 points",
+   "text": "Lydia Powell leads Richard Woods by 386,041 votes, 9.3 points. No ballots left to change the result.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: State School Superintendent",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-9c9f-08df23e5ff60",
+     "s": "GA SOS: School Superintendent"
+    },
+    {
+     "t": "AP race call: CBS News Atlanta live blog: \"The Associated Press called the race for school superintendent for Lydia Powell.\"",
+     "u": "https://www.cbsnews.com/atlanta/live-updates/georgia-midterm-elections-2026/",
+     "s": "AP call"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "Commissioner of Labor: Nikki Porcher wins by 386,130 votes, 9.3 points",
+   "text": "Nikki Porcher leads Bárbara Rivera Holmes by 386,130 votes, 9.3 points. No ballots left to change the result.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: Commissioner of Labor",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-33e9-08df23e5ff62",
+     "s": "GA SOS: Labor Comm."
+    },
+    {
+     "t": "Bárbara Rivera Holmes conceded. Georgia Recorder (via Yahoo News): Rivera Holmes said in a statement, \"I want to congratulate Nikki Porcher on a hard-fought campaign and her victory in this race.\"",
+     "u": "https://www.yahoo.com/news/politics/articles/democrats-flip-statewide-offices-down-072021035.html",
+     "s": "Concession"
+    }
+   ]
+  }
+ ]
+}
