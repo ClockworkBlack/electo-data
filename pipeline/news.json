@@ -1,0 +1,3899 @@
+{
+ "updated": "2026-11-28T15:55:36+00:00",
+ "window": "2026-10-29 to 2026-11-28",
+ "items": [
+  {
+   "t": "‘Head and heart’ compete as school board considers Orchard Knob Middle move",
+   "u": "https://www.timesfreepress.com/news/2026/nov/28/head-and-heart-compete-as-school-board-considers-orchard-knob-middle-school-move-dec-8/",
+   "s": "timesfreepress.com",
+   "d": "2026-11-28",
+   "sum": "School board member Jackie Thomas, D-Glenwood, argues against moving Orchard Knob Middle School, stating the 1961 building is deteriorating but not severe enough to justify relocation. She claims the district ignored its own repair list, affecting the community's stability.",
+   "tags": [
+    "schools"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Wheeler",
+    "Harris"
+   ],
+   "ex": "School board member Jackie Thomas, D-Glenwood, is pushing for families at Orchard Knob Middle School to stay in the 1961 building she says is deteriorating because the district ignored its own list of repairs. The condition is not bad enough, Thomas said, to justify moving a community that needs stability.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "ACLU seeks court order blocking Trump administration's efforts to unmask ICE critics on social media",
+   "u": "https://www.pbs.org/newshour/nation/aclu-seeks-court-order-blocking-trump-administrations-efforts-to-unmask-ice-critics-on-social-media",
+   "s": "PBS News",
+   "d": "2026-11-28",
+   "sum": "ACLU filed a federal class action seeking a court order to block the Trump administration's efforts to unmask ICE critics on social media. The lawsuit alleges the Justice Department and Homeland Security are conducting a bad-faith investigation that violates First Amendment rights.",
+   "tags": [
+    "white house",
+    "courts",
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "A federal class action, backed by the American Civil Liberties Union, seeks a court order enjoining the Justice Department and Department of Homeland Security from conducting a \"bad-faith investigation\" that violates the anonymous individuals' First Amendment free speech rights.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Latest schedule of lane closures for the ongoing $1.2 billion I-285 and I-20 West Interchange project in Cobb and Fulton",
+   "u": "https://cobbcountycourier.com/2026/11/latest-schedule-of-lane-closures-for-the-ongoing-1-2-billion-i-285-and-i-20-west-interchange-project-in-cobb-and-fulton-12/",
+   "s": "cobbcountycourier.com",
+   "d": "2026-11-28",
+   "sum": "The Georgia Department of Transportation released the updated lane closure schedule for the $1.2 billion I-285/I-20 West Interchange project, affecting areas in Atlanta, Mableton, Smyrna, and Vinings/Cumberland from November 30 to December 7. Lane closures and construction activities are scheduled during specific nighttime hours and on certain days.",
+   "tags": [
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "DeKalb",
+    "Fulton",
+    "Cobb"
+   ],
+   "ex": "The Georgia Department of Transportation released the following updated schedule of lane closures for I-285 and I-20 for the estimated $1.2 billion I-285/I-20 West Interchange project. The primary impacts of",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "EPA says no rise in contamination after Army detonates lead azide stockpile in Iowa",
+   "u": "https://www.11alive.com/article/news/nation-world/epa-says-no-rise-contamination-after-army-detonates-lead-azide-stockpile/507-6ab0d9b1-d83d-438a-878f-c5585160c859",
+   "s": "11Alive (WXIA)",
+   "d": "2026-11-28",
+   "sum": "The EPA reported no increase in lead levels in drinking water after the U.S. Army detonated 5 tons of lead azide in Middletown, Iowa. The EPA collected over 1,000 samples post-detonation to monitor environmental impact.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [
+    {
+     "s": "wrganews.com",
+     "u": "https://www.wrganews.com/2026/11/26/epa-reports-zero-detection-of-airborne-lead-day-after-iowa-lead-azide-detonation/",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Initial tests show the U.S. Army's detonation of 5 tons of lead azide in southeastern Iowa has not increased lead levels in local drinking water, the EPA said.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Zelenskyy compares Putin to Hitler as Trump pushes to end Ukraine war: 'He's an aggressor and a killer'",
+   "u": "https://www.foxnews.com/world/zelenskyy-compares-putin-hitler-trump-pushes-end-ukraine-war-aggressor-killer",
+   "s": "foxnews.com",
+   "d": "2026-11-28",
+   "sum": "Volodomyr Zelenskyy says Vladmir Putin is \"an aggressor and a killer,\" comparing him to Adolf Hitler and arguing he cannot be President Trump's friend.",
+   "tags": [
+    "white house"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Volodomyr Zelenskyy says Vladmir Putin is \"an aggressor and a killer,\" comparing him to Adolf Hitler and arguing he cannot be President Trump's friend.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: vladimir, calling, during, statement., prompting, zelenskyy's"
+    ]
+   }
+  },
+  {
+   "t": "Demorest council to consider city manager contract renewal",
+   "u": "https://nowgeorgia.com/demorest-council-to-consider-city-manager-contract-renewal/",
+   "s": "Now Habersham",
+   "d": "2026-11-28",
+   "sum": "Demorest City Council will consider renewing City Manager Mark Musselwhite’s FY 2027 contract during its Dec. 1 meeting. The council will also discuss playground budget approval, post office bids, and surplus trailer declaration during a work session on the same day.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Habersham"
+   ],
+   "ex": "DEMOREST, Ga. — Demorest City Council will consider renewing City Manager Mark Musselwhite’s FY 2027 contract during its regular meeting Tuesday, Dec.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Computer equipment tax break yields little return for Georgia, analysis for state finds",
+   "u": "https://capitol-beat.org/2026/11/computer-equipment-tax-break-yields-little-return-for-georgia-analysis-for-state-finds/",
+   "s": "capitol-beat.org",
+   "d": "2026-11-27",
+   "sum": "A Georgia audit report found the computer equipment tax break costs at least twice as much as it returns, with the exemption expiring in 2028. The study suggests extending it could lead data centers to switch, worsening the state's financial impact.",
+   "tags": [
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "ex": "A new report for Georgia auditors says a state tax break on computer equipment purchases costs at least twice as much as it returns to the economy and produces little new tax revenue. The exemption is limited to technology companies that spend at least $15 million a year on computer equipment.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Zelenskyy urges US to pressure Putin and questions Trump’s reference to Putin as a ‘friend’",
+   "u": "https://www.timesfreepress.com/news/2026/nov/27/zelenskyy-urges-us-to-pressure-putin-and-questions-trumps-reference-to-putin-as-a-friend/",
+   "s": "timesfreepress.com",
+   "d": "2026-11-27",
+   "sum": "Ukrainian President Volodymyr Zelenskyy criticized the U.S. stance toward Russian leader Vladimir Putin during an interview with the BBC in Kyiv. He questioned U.S. President Donald Trump's reference to Putin as a \"friend,\" comparing it to calling Adolf Hitler a friend during World War II.",
+   "tags": [
+    "white house"
+   ],
+   "also": [
+    {
+     "s": "PBS News",
+     "u": "https://www.pbs.org/newshour/world/zelenskyy-urges-the-u-s-to-pressure-putin-calling-trumps-my-friend-remark-strange",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "KYIV, Ukraine (AP) — Ukrainian President Volodymyr Zelenskyy expressed frustration with the U.S. stance toward Russian leader Vladimir Putin, in the latest sign of deepening tension between Kyiv and Washington, as new questions emerged about Europe’s future financial commitments to Ukraine.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Brooks and Capehart on Trump's new tariffs, Nvidia's future and Democratic leadership",
+   "u": "https://www.pbs.org/newshour/show/brooks-and-capehart-on-trumps-new-tariffs-nvidias-future-and-democratic-leadership",
+   "s": "PBS News",
+   "d": "2026-11-27",
+   "sum": "David Brooks of The Atlantic and Jonathan Capehart of MS NOW joined Nick Schifrin to discuss the week in politics, including Trump's new tariffs on China, Europe, and others, as well as Nvidia's leadership and Democratic leadership dynamics. The discussion covered Trump's relationship with Putin, Jensen Huang's return to Nvidia, and broader political developments.",
+   "tags": [
+    "white house",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "David Brooks of The Atlantic and Jonathan Capehart of MS NOW join Nick Schifrin to discuss the week in politics, including President Trump's relationship with Russia's Vladimir Putin, Jensen Huang's return to Nvidia and sweeping new tariffs on China, Europe and others.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "National Opinion: Rubio on rise in the polls",
+   "u": "https://www.timesfreepress.com/news/2026/nov/27/opinion-rubio-on-rise-in-the-polls/",
+   "s": "timesfreepress.com",
+   "d": "2026-11-27",
+   "sum": "For the first year of President Trump’s current term, speculation about his successor focused largely on Vice President JD Vance, with a side discussion about Secretary of State Marco Rubio. Until quite recently, Vance had a huge lead over Rubio in national polls.",
+   "tags": [
+    "white house"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "For the first year of President Trump’s current term, speculation about his successor focused largely on Vice President JD Vance, with a side discussion about Secretary of State Marco Rubio. Until quite recently, Vance had a huge lead over Rubio in national polls.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: article, discusses, rubio's, following, previously, led"
+    ]
+   }
+  },
+  {
+   "t": "Rachel Maddow discusses how the Justice Department has strayed from its mission",
+   "u": "https://www.pbs.org/newshour/show/rachel-maddow-discusses-how-the-justice-department-has-strayed-from-its-mission",
+   "s": "PBS News",
+   "d": "2026-11-27",
+   "sum": "Rachel Maddow discussed how the Justice Department has strayed from its mission in an interview on PBS News podcast \"Settle in.\" She argued the DOJ is \"America's most consequential institution\" but has now dramatically deviated from its mission.",
+   "tags": [
+    "courts",
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Journalist and MS NOW anchor Rachel Maddow's fifth book, \"Department of Fate,\" explores the history of the Department of Justice. Maddow argues the DOJ is \"America's most consequential institution,\" but says it has now strayed dramatically from its mission.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "City of Rome getting set to adopt FY27 budget in December",
+   "u": "https://www.wrganews.com/2026/11/27/city-of-rome-getting-set-to-adopt-fy27-budget-in-december/",
+   "s": "wrganews.com",
+   "d": "2026-11-27",
+   "sum": "The City of Rome plans to adopt its FY27 budget in December 2026. The budget, facing a $2 million shortage, will undergo a two-step adoption process with a first reading on December 14 and a vote on December 21.",
+   "tags": [
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Floyd"
+   ],
+   "ex": "-David Crowder, WRGA News- Like Floyd County, the City of Rome is facing a tighter budget year in 2027. All departments have been asked to scale down as much as possible, after the initial draft general fund budget had a shortage of about $2 million.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Proposed Chattooga County Kratom Ordinance Includes Restrictions On Alcohol License Holders Beginning In 2027",
+   "u": "https://chattooga1180.com/proposed-chattooga-county-kratom-ordinance-includes-restrictions-on-alcohol-license-holders-beginning-in-2027/",
+   "s": "chattooga1180.com",
+   "d": "2026-11-27",
+   "sum": "Chattooga County proposed an ordinance to restrict alcohol license holders from selling kratom and related substances starting in 2027. The ordinance prohibits businesses with county-issued licenses from selling, displaying, or distributing these products, with compliance required for license renewal or retention.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Chattooga"
+   ],
+   "ex": "Additional details have emerged regarding a proposed amendment to Chattooga County’s Alcoholic Beverage Control Ordinance that would prohibit businesses holding county-issued alcohol licenses from selling… Read more",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "National Opinion: Democratic unity to be tested by far-left lawmakers",
+   "u": "https://www.timesfreepress.com/news/2026/nov/27/national-opinion-democratic-unity-to-be-tested-by-far-left-lawmakers/",
+   "s": "timesfreepress.com",
+   "d": "2026-11-27",
+   "sum": "Democratic unity will be severely tested soon as the far left brings divisive issues like slavery reparations, abolishing ICE, open borders and impeachment to the new Congress. It’s a good time to be a Democrat.",
+   "tags": [
+    "congress",
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Democratic unity will be severely tested soon as the far left brings divisive issues like slavery reparations, abolishing ICE, open borders and impeachment to the new Congress. It’s a good time to be a Democrat.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: expected, introduce, text, mentions, but, specific"
+    ]
+   }
+  },
+  {
+   "t": "Hamilton County court audit flags shared passwords, inadequate timekeeping",
+   "u": "https://www.timesfreepress.com/news/2026/nov/27/hamilton-county-court-audit-flags-shared-passwords-inadequate-timekeeping/",
+   "s": "timesfreepress.com",
+   "d": "2026-11-27",
+   "sum": "Employees in the Hamilton County Clerk and Master’s Office were required to share passwords with another employee and did not keep daily records of their hours worked, according to an internal audit. The Aug.",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Harris"
+   ],
+   "ex": "Employees in the Hamilton County Clerk and Master’s Office were required to share passwords with another employee and did not keep daily records of their hours worked, according to an internal audit. The Aug.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "judging word"
+    ]
+   }
+  },
+  {
+   "t": "County begins 2027 budget review: Initial funding projections up $18.6 million over 2026 adopted budget",
+   "u": "https://daltoncitizen.com/2026/11/27/county-begins-2027-budget-review-initial-funding-projections-up-18-6-million-over-2026-adopted-budget/",
+   "s": "daltoncitizen.com",
+   "d": "2026-11-27",
+   "sum": "Whitfield County began reviewing its FY2027 budget, projecting $82,541,306 in General Fund revenues, an increase of $18.6 million over the FY2026 adopted budget. The increase is mainly due to higher property tax revenue and transfers from the Dalton-Whitfield County Joint Development Authority.",
+   "tags": [
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Whitfield",
+    "Mitchell"
+   ],
+   "ex": "FY2027: Revenues and Other Funding Sources In the initial FY2027 draft budget, Whitfield County is projecting $82,541,306 in General Fund revenues and other financing sources — an increase of $18,612,990,",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Republicans rethink tariffs, giving Democrats an opening to challenge Trump",
+   "u": "https://www.pbs.org/newshour/politics/republicans-rethink-tariffs-giving-democrats-an-opening-to-challenge-trump",
+   "s": "PBS News",
+   "d": "2026-11-27",
+   "sum": "After devastating election losses that centered on rising costs, many Republicans said they're open to reconsidering some of the levies that have become a central plank of Trump's global trade agenda.",
+   "tags": [
+    "white house",
+    "elections",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "After devastating election losses that centered on rising costs, many Republicans said they're open to reconsidering some of the levies that have become a central plank of Trump's global trade agenda.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: following, linked, providing, opportunity, policies., shift"
+    ]
+   }
+  },
+  {
+   "t": "Trump effectively ended asylum. Advocates look to the Supreme Court to restore it",
+   "u": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+   "s": "NPR",
+   "d": "2026-11-27",
+   "sum": "Trump's immigration changes, including an asylum ban, have effectively ended asylum. The Supreme Court will soon consider whether these changes deny people due process.",
+   "tags": [
+    "white house",
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Trump's sweeping immigration changes — an asylum ban, mass firings and new legal maneuvers — have all but ended asylum. The high court will soon consider whether some shifts deny people due process.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Columbia County shifts course on data center moratorium, advances $4.5 million Google land sale",
+   "u": "https://theaugustapress.com/columbia-county-shifts-course-on-data-center-moratorium-advances-4-5-million-google-land-sale/",
+   "s": "theaugustapress.com",
+   "d": "2026-11-27",
+   "sum": "Columbia County's Public Works and Engineering Services Committee approved revisions to data center regulations and a $4.5 million Google land sale on Nov. 24. The decisions await final approval by the Board of Commissioners on Dec. 1.",
+   "tags": [],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Columbia",
+    "Wilkinson"
+   ],
+   "ex": "Columbia County officials pursued revisions to data center regulations while advancing a $4.5 million Google land sale and several infrastructure improvements for final commission consideration.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Northwest Georgia Rivers Named In “Dirty Dozen” Report As PFAS Concerns Persist And Legislation Stalls",
+   "u": "https://chattooga1180.com/northwest-georgia-rivers-named-in-dirty-dozen-report-as-pfas-concerns-persist-and-legislation-stalls/",
+   "s": "chattooga1180.com",
+   "d": "2026-11-27",
+   "sum": "Three Northwest Georgia rivers—Conasauga, Coosawattee, and Oostanaula—were named in the Georgia Water Coalition’s 2026 “Dirty Dozen” report, highlighting PFAS contamination concerns. The report criticizes the Georgia General Assembly for failing to pass PFAS-related legislation during the 2026 session.",
+   "tags": [
+    "legislature"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Chattooga",
+    "Floyd"
+   ],
+   "ex": "Three Northwest Georgia rivers have been singled out in the Georgia Water Coalition’s 2026 “Dirty Dozen” report, which highlights continuing concerns over contamination from so-called… Read more",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Georgia Livestock Producers To Benefit From Expanded USDA Grazing Coverage Beginning January 1",
+   "u": "https://chattooga1180.com/georgia-livestock-producers-to-benefit-from-expanded-usda-grazing-coverage-beginning-january-1/",
+   "s": "chattooga1180.com",
+   "d": "2026-11-27",
+   "sum": "Georgia livestock producers will have expanded USDA grazing coverage starting January 1, 2027, with the grazing season extended from 275 to 365 days. The policy change applies to all 159 Georgia counties and covers the Livestock Forage Disaster Program and the Noninsured Crop Disaster Assistance Program.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Cattle farmers and other livestock producers in Chattooga County and throughout Georgia will have access to an expanded period of federal agricultural disaster protection beginning… Read more",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Chattooga County Sheriff Welcomes New $409 Million State Mental Health Hospital, Says More Work Is Needed",
+   "u": "https://chattooga1180.com/chattooga-county-sheriff-welcomes-new-409-million-state-mental-health-hospital-says-more-work-is-needed/",
+   "s": "chattooga1180.com",
+   "d": "2026-11-27",
+   "sum": "Chattooga County Sheriff Mark Schrader welcomed Georgia's $409 million investment in a new state psychiatric hospital, announced on February 20, 2026, at the State Capitol. The facility, set to open at the Georgia Regional Hospital campus in DeKalb County, will be the state's first newly constructed state psychiatric hospital in over 50 years.",
+   "tags": [
+    "budget",
+    "policing"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Chattooga",
+    "DeKalb",
+    "Forsyth"
+   ],
+   "sw": 1,
+   "ex": "Sheriffs from across Georgia, including Chattooga County Sheriff Mark Schrader, gathered at the State Capitol on February 20, 2026, as Senate Appropriations Chairman Blake Tillery… Read more",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Viewpoint: Citizen group renews call for six-month data center moratorium",
+   "u": "https://daltoncitizen.com/2026/11/27/viewpoint-citizen-group-renews-call-for-six-month-data-center-moratorium/",
+   "s": "daltoncitizen.com",
+   "d": "2026-11-27",
+   "sum": "The Whitfield County Rural Council Data Center Team and affiliated groups renewed a call for a six-month data center moratorium in Dalton and Whitfield County. They seek time for research, ordinance development, a citizen advisory board, and community education on data centers.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Whitfield"
+   ],
+   "ex": "The Whitfield County Rural Council Data Center Team and affiliated groups renew our call for a six-month data center moratorium in Dalton and Whitfield County. We believe a moratorium is",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Georgia Attorney General Joins Dollar General Lawsuit Over Allegations Of Overcharging Customers",
+   "u": "https://chattooga1180.com/georgia-attorney-general-joins-dollar-general-lawsuit-over-allegations-of-overcharging-customers/",
+   "s": "chattooga1180.com",
+   "d": "2026-11-27",
+   "sum": "Georgia Attorney General Chris Carr has joined a federal lawsuit against Dollar General, expanding a legal challenge that accuses the discount retailer of routinely charging… Read more",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Chattooga"
+   ],
+   "ex": "Georgia Attorney General Chris Carr has joined a federal lawsuit against Dollar General, expanding a legal challenge that accuses the discount retailer of routinely charging… Read more",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "numbers 20, 29 are not together in one sentence of the source"
+    ]
+   }
+  },
+  {
+   "t": "VA Encourages Veterans Approaching Age 65 To Review Health Care And Medicare Options",
+   "u": "https://chattooga1180.com/va-encourages-veterans-approaching-age-65-to-review-health-care-and-medicare-options/",
+   "s": "chattooga1180.com",
+   "d": "2026-11-27",
+   "sum": "The U.S. Department of Veterans Affairs encourages Chattooga County veterans nearing 65 to review Medicare and TRICARE for Life options. The initial Medicare enrollment window is seven months, starting three months before a person’s 65th birthday month.",
+   "tags": [
+    "agencies",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "The U.S. Department of Veterans Affairs is encouraging veterans in Chattooga County and across the country who are approaching their 65th birthday to review their… Read more",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Canada's Supreme Court largely upholds a Quebec ban on religious symbols for public servants",
+   "u": "https://www.pbs.org/newshour/world/canadas-supreme-court-largely-upholds-a-quebec-ban-on-religious-symbols-for-public-servants",
+   "s": "PBS News",
+   "d": "2026-11-27",
+   "sum": "Canada's Supreme Court largely upheld Quebec's 2019 Bill 21, which bans religious symbols for public servants. The law prohibits items like Muslim headscarves, Sikh turbans, Jewish skullcaps, and Christian crosses.",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "The 2019 law, known as Bill 21, bans religious symbols — including Muslim headscarves, Sikh turbans, Jewish skullcaps and Christian crosses — for workers covered by it.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "DHS accuses California of endangering ICE officers after bodycam shows police telling agents ‘good luck’",
+   "u": "https://www.wrganews.com/2026/11/27/dhs-accuses-california-of-endangering-ice-officers-after-bodycam-shows-police-telling-agents-good-luck/",
+   "s": "wrganews.com",
+   "d": "2026-11-27",
+   "sum": "DHS accused California of endangering ICE officers after bodycam footage showed a Long Beach police officer telling agents \"you guys are on your own\" during an Oct. 17 arrest. The incident involved a Mexican national with a felony domestic violence charge, and rioters blocked exits with cars and trash cans.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Viral bodycam footage shows a Long Beach officer telling ICE agents they are on their own as rioters blocked exits during an Oct. 17 arrest in California.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Trump draws line on Somali welfare in Thanksgiving message and more top headlines",
+   "u": "https://www.wrganews.com/2026/11/27/trump-draws-line-on-somali-welfare-in-thanksgiving-message-and-more-top-headlines/",
+   "s": "wrganews.com",
+   "d": "2026-11-27",
+   "sum": "Trump mentioned Somali welfare in his Thanksgiving message. Nearly 1 million people were without power after Thanksgiving storms.",
+   "tags": [
+    "white house"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Council tables appointment to Downtown Development Authority",
+   "u": "https://americustimesrecorder.com/2026/11/27/council-tables-appointment-to-downtown-development-authority/",
+   "s": "Americus Times-Recorder",
+   "d": "2026-11-27",
+   "sum": "The Americus City Council tabled the reappointment of Charles Crisp as Downtown Development Authority chair for 30 days after a vote with mixed support. The Council later voted again to table the reappointment, with some members retracting initial votes.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Sumter"
+   ],
+   "ex": "The Americus City Council discussed Board appointments during its meeting on Nov. 19.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Bulloch commissioners poised to extend data center moratorium another 6 months",
+   "u": "https://www.statesboroherald.com/local/bulloch-commissioners-poised-to-extend-data-center-moratorium-another-6-months/",
+   "s": "Statesboro Herald",
+   "d": "2026-11-27",
+   "sum": "Bulloch County commissioners are set to extend the data center moratorium by six months during their meeting on December 1. The moratorium prohibits permits for data centers in unincorporated areas of the county.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Bulloch"
+   ],
+   "ex": "Bulloch County commissioners are poised, when they meet at 5:30 p.m. Tuesday, Dec.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Deported and Still Thankful: Trion Alumnus Reflects on Life in Guatemala After 91 Days in ICE Custody",
+   "u": "https://allongeorgia.com/chattooga-local-news/deported-and-still-thankful-trion-alumnus-reflects-on-life-in-guatemala-after-91-days-in-ice-custody/",
+   "s": "allongeorgia.com",
+   "d": "2026-11-26",
+   "sum": "Trion alumnus Elder Aguilar-Macario was deported after 91 days in ICE custody and now lives in Guatemala City. He spent Thanksgiving in Guatemala, expressing gratitude for support during his difficult experience.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "AllOnGeorgia spoke with Elder about his life in Guatemala, his adjustment following deportation and his message to the community he left behind. More than 1,400 miles from the Georgia community he called home, Trion alumnus Elder Aguilar-Macario spent Thanksgiving in Guatemala, separated from the family, friends, teach…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Judge blocks FCC from early license review for ABC, which network says has had a chilling effect",
+   "u": "https://nowgeorgia.com/judge-blocks-fcc-from-early-license-review-for-abc-which-network-says-has-had-a-chilling-effect/",
+   "s": "Now Habersham",
+   "d": "2026-11-26",
+   "sum": "A federal judge blocked the FCC from conducting an early license review for ABC's stations, citing First Amendment concerns. The decision came after ABC sued the FCC and Commissioner Brendan Carr, alleging retaliation for programming decisions.",
+   "tags": [
+    "white house",
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "WASHINGTON (AP) — A federal judge on Wednesday blocked the Federal Communications Commission from conducting an early review of ABC’s broadcast licenses, agreeing with the network that the Trump administration was chilling the network’s free speech rights. U.S.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Trump calls the pre-election GDP figures ‘fake’ and demands an investigation of Commerce Department",
+   "u": "https://nowgeorgia.com/trump-calls-the-pre-election-gdp-figures-fake-and-demands-an-investigation-of-commerce-department/",
+   "s": "Now Habersham",
+   "d": "2026-11-26",
+   "sum": "President Donald Trump accused his Commerce Department of issuing incorrect GDP figures before the midterm elections and demanded an investigation. The Commerce Department revised third-quarter GDP to 4.3% from a prior estimate of 3.4%.",
+   "tags": [
+    "white house",
+    "agencies",
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "WEST PALM BEACH, Fla. (AP) — President Donald Trump on Thursday accused his Commerce Department of purposely issuing incorrect economic growth figures before the midterm elections, and said he wants to launch an investigation.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Judge orders Fulton County to turn over 2020 election records to State Election Board",
+   "u": "https://thecurrentga.org/2026/11/26/judge-orders-fulton-county-to-turn-over-2020-election-records-to-state-election-board/",
+   "s": "The Current",
+   "d": "2026-11-26",
+   "sum": "A Fulton County judge ordered the county to deliver 2020 election records to the State Election Board by 5 p.m. Wednesday. The records, seized by FBI in January, include ballot images and voter rolls from Fulton County.",
+   "tags": [
+    "elections",
+    "courts"
+   ],
+   "also": [
+    {
+     "s": "theaugustapress.com",
+     "u": "https://theaugustapress.com/election-board-split-on-2020-fulton-county-records-case/",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [
+    "Fulton",
+    "DeKalb"
+   ],
+   "ex": "A Fulton County judge ordered the county’s Board of Registration and Elections to provide unredacted 2020 election records, including ballot images and voter rolls, to Georgia’s State Election Board by Wednesday afternoon.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Suits challenge losses by Georgia GOP House lawmakers that helped Democrats flip chamber",
+   "u": "https://thecurrentga.org/2026/11/26/two-georgia-gop-house-lawmakers-challenge-losses-that-helped-house-democrats-flip-chamber/",
+   "s": "The Current",
+   "d": "2026-11-26",
+   "sum": "Two Georgia Republicans filed legal challenges to November midterm election losses, alleging voter ineligibility in the contests involving Representative Soo Hong and Representative Bill Hitchens.",
+   "tags": [
+    "elections",
+    "legislature"
+   ],
+   "also": [
+    {
+     "s": "Reporter Newspapers",
+     "u": "https://roughdraftatlanta.com/2026/11/25/georgia-house-republicans-contest-election-losses/",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [
+    "DeKalb",
+    "Fulton",
+    "Hall",
+    "Effingham"
+   ],
+   "ex": "Two Georgia Republicans filed legal challenges to November midterm election losses, alleging voter ineligibility in the contests involving Representative Soo Hong and Representative Bill Hitchens.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "numbers 35, 93 are not together in one sentence of the source"
+    ]
+   }
+  },
+  {
+   "t": "Just 224 vote early in Augusta school board runoff",
+   "u": "https://theaugustapress.com/just-224-vote-early-in-augusta-school-board-runoff/",
+   "s": "theaugustapress.com",
+   "d": "2026-11-26",
+   "sum": "Just over 1% of registered voters in Richmond County school board District 3 cast early ballots ahead of Tuesday’s runoff between Kenyatta Brown and Carol Yancy. A total of 224 voters cast ballots, representing 1.3% of the district’s 17,793 registered voters.",
+   "tags": [
+    "elections",
+    "schools"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Richmond"
+   ],
+   "ex": "Just over 1% of registered voters in Richmond County school board District 3 cast ballots ahead of Tuesday’s runoff.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Democrats Vow to Shield Smithsonian From Any Trump Overhaul",
+   "u": "https://www.propublica.org/article/smithsonian-white-house-plans-pingree",
+   "s": "ProPublica",
+   "d": "2026-11-25",
+   "sum": "Rep. Chellie Pingree, D-Maine, sent a letter to the Smithsonian's Board of Regents on Tuesday, vowing to investigate potential Trump administration plans to overhaul the institution's leadership and curatorial decisions. She cited ProPublica's reporting on a White House staffer's draft plans targeting the Smithsonian's museums.",
+   "tags": [
+    "white house"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "New book recounts Hurricane Helene recovery in Douglas-Coffee County",
+   "u": "https://douglasnow.com/new-book-recounts-hurricane-helene-recovery-in-douglas-coffee-county/",
+   "s": "DouglasNow",
+   "d": "2026-11-25",
+   "sum": "A new book by Pastor Stephen Boyken features a chapter on Hurricane Helene recovery in Douglas-Coffee County, highlighting collaboration among local leaders, churches, and organizations to build nine homes, including eight at Sims Park, for displaced residents. The book, released Dec. 10, 2026, includes contributions from various groups that helped rebuild homes and provide workforce housing.",
+   "tags": [
+    "elections",
+    "local",
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Coffee"
+   ],
+   "ex": "The story of how Douglas and Coffee County came together to help families rebuild after Hurricane Helene will be featured in a chapter entitled “Sims Park” in Pastor Stephen Boyken’s first book, The Lower Seat and the Higher Court. The chapter features Douglas Mayor Tony Paulk who describes the storm’s devastation, alo…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Operation Click It or Ticket in Force Over Thanksgiving Holiday Weekend",
+   "u": "https://921wlhr.com/operation-click-it-or-ticket-in-force-over-thanksgiving-holiday-weekend/",
+   "s": "921wlhr.com",
+   "d": "2026-11-25",
+   "sum": "Georgia law enforcement, including the Governor’s Office of Highway Safety and the Georgia State Patrol, are enforcing seat belt laws during the Thanksgiving holiday travel period from November 25 at 6 p.m. to November 29 at 11:59 p.m. Last year, 11 fatal crashes resulted in 12 fatalities statewide.",
+   "tags": [
+    "elections",
+    "governor"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "ex": "As thousands more Georgians hit the roads today to spend Thanksgiving with friends and loved ones, the Governor’s Office of Highway Safety (GOHS), Georgia State Patrol, Georgia State troopers, and local law enforcement in Georgia are participating in the national “Click It or Ticket” seat belt enforcement campaign this…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Court to hear argument on whether school employees may bring suit under Title IX",
+   "u": "https://www.scotusblog.com/2026/11/court-to-hear-argument-on-whether-school-employees-may-bring-suit-under-title-ix/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-25",
+   "sum": "The Supreme Court will hear an argument on November 30 regarding whether school employees can sue under Title IX for sex discrimination. Two former Georgia university employees, Thomas Crowther and Machelle Joseph, filed lawsuits alleging sex discrimination and retaliation.",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "The federal law known as Title IX prohibits sex-based discrimination by schools that receive federal funding. On November 30, the Supreme Court will hear oral argument in a dispute over whether the law allows school employees to bring lawsuits alleging sex discrimination, or whether such employees must instead rely on…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Deed theft concerns land at Fulton County Commission",
+   "u": "https://saportareport.com/deed-theft-concerns-land-at-fulton-county-commission/columnists/adrianne-murchison/adrianne-murchison/",
+   "s": "SaportaReport",
+   "d": "2026-11-25",
+   "sum": "Incoming Fulton County Commissioners addressed deed theft concerns during a public meeting on Oct. 7, with Vice Chair Khadijah Abdur-Rahman planning a town hall within 60 days to tackle the issue. Advocates and families described cases of fraudulent property transfers and financial exploitation involving elderly homeowners.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Fulton"
+   ],
+   "ex": "Among the many issues on their plate, incoming members of the Fulton County Board of Commissioners are expected to address the exploitation of elderly homeowners through deed theft, also known as deed fraud. Perpetrators can be strangers or even members of the victims’ own families, advocates say.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "School board adopts rollback rate",
+   "u": "https://coastalcourier.com/news/school-board-adopts-rollback-rate/",
+   "s": "Coastal Courier",
+   "d": "2026-11-25",
+   "sum": "The Liberty County Board of Education adopted the millage rollback rate of 13.927 for the coming tax season. This rate is lower than last year’s 14.114, keeping property tax collections the same.",
+   "tags": [
+    "elections",
+    "schools",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Liberty"
+   ],
+   "ex": "The Liberty County Board of Education won’t be raising its property tax levy this year. School board members have voted to adopt the millage rollback rate — the rate applied to the digest that keeps the amount of property taxes collected the same — for the coming tax season.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Growing pains hit north Bryan County",
+   "u": "https://coastalcourier.com/news/growing-pains-hit-north-bryan-county/",
+   "s": "Coastal Courier",
+   "d": "2026-11-25",
+   "sum": "In November, Bryan County commissioners reviewed rezoning requests for commercial and residential developments along US-80 and US-280, along with major industrial projects. These requests reflect the growth in North Bryan County since Hyundai Motor Group Metaplant America began operations in Ellabell in 2022.",
+   "tags": [
+    "local"
+   ],
+   "also": [
+    {
+     "s": "bryancountynews.com",
+     "u": "https://www.bryancountynews.com/news/growing-pains-as-north-bryan-county-develops-residents-worry-about-preserving-character-and-culture/",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [
+    "Bryan"
+   ],
+   "ex": "In November, Bryan County commissioners saw a slew of rezoning requests to allow for commercial and residential developments along Highways 80 and 280. Major industrial projects also were presented to the county’s planning and zoning commission.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Property tax bills for City of Atlanta parcels in DeKalb County are in the mail",
+   "u": "https://ocgnews.com/property-tax-bills-for-city-of-atlanta-parcels-in-dekalb-county-are-in-the-mail/",
+   "s": "ocgnews.com",
+   "d": "2026-11-25",
+   "sum": "DeKalb County Tax Commissioner’s Office mailed 15,370 property tax bills for City of Atlanta parcels in DeKalb County starting Nov. 19, 2026. Payments for these bills are due by Jan. 27, 2027, with interest and penalty charges applying for late payments.",
+   "tags": [
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "DeKalb",
+    "Fulton"
+   ],
+   "ex": "DEKALB COUNTY, GA– The DeKalb County Tax Commissioner’s Office recently began mailing 15,370 property tax bills for City of Atlanta parcels located in DeKalb. Property owners may also access their bills online at DeKalbTaxGA.gov.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "FDA to Expand Prescription Drug Testing After ProPublica Revealed Safety Concerns",
+   "u": "https://www.propublica.org/article/fda-prescription-generic-medication-testing",
+   "s": "ProPublica",
+   "d": "2026-11-25",
+   "sum": "The FDA will expand prescription drug testing for impurities and quality issues, testing more often and identifying poorly performing drugs. About 90% of U.S. prescriptions are generic, often made in India and China.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "State, city agree to begin roundabout design at Deal St. and Highway 196",
+   "u": "https://coastalcourier.com/news/state-city-agree-to-begin-roundabout-design-at-deal-st-and-highway-196/",
+   "s": "Coastal Courier",
+   "d": "2026-11-25",
+   "sum": "Hinesville City Council and the state Department of Transportation agreed to a framework for a roundabout at Deal Street and Highway 196. The agreement marks the beginning of design work for the intersection.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Liberty"
+   ],
+   "ex": "As work on Deal Street progresses, Hinesville City Council has agreed to a framework agreement with the state Department of Transportation for a roundabout at Deal Street’s connection to Highway 196.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Georgia Joins 29 Other States in Filing a Complaint Against Dollar General",
+   "u": "https://921wlhr.com/georgia-joins-29-other-states-in-filing-a-complaint-against-dollar-general/",
+   "s": "921wlhr.com",
+   "d": "2026-11-25",
+   "sum": "Georgia Attorney General Chris Carr joined 29 states and the FTC in filing a lawsuit against Dollar General for deceptive pricing practices. The complaint alleges the company overcharged customers by charging more at the register than advertised prices, costing consumers millions of dollars.",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "ex": "If you shop at Dollar General, make sure you’re paying for your items at the price advertised on the store shelves. That’s according to Georgia Attorney General Chris Carr.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "USDA Offers Thanksgiving Food Safety Tips",
+   "u": "https://921wlhr.com/thanksgiving-food-safety/",
+   "s": "921wlhr.com",
+   "d": "2026-11-25",
+   "sum": "With Thanksgiving just a few days away, the stress of cooking a perfect meal for loved ones may be getting to you. And that might lead to some food safety mistakes.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "With Thanksgiving just a few days away, the stress of cooking a perfect meal for loved ones may be getting to you. And that might lead to some food safety mistakes.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "numbers 165, 24, 30, 4, 5 are not together in one sentence of the source"
+    ]
+   }
+  },
+  {
+   "t": "Sheriff’s office honored for traffic safety efforts",
+   "u": "https://coastalcourier.com/news/sheriffs-office-honored-for-traffic-safety-efforts/",
+   "s": "Coastal Courier",
+   "d": "2026-11-25",
+   "sum": "The Governor’s Office of Highway Safety recognized the Liberty County Sheriff’s Office for its traffic safety efforts. The recognition honors the office's work in reducing road dangers in Liberty County.",
+   "tags": [
+    "governor",
+    "policing"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Liberty"
+   ],
+   "ex": "The Governor’s Office of Highway Safety has recognized the Liberty County Sheriff ’s Office for its work in trying to make the county’s roads less dangerous.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Federal regulators loosen up on cellphone jamming, a top goal in Georgia prisons",
+   "u": "https://roughdraftatlanta.com/2026/11/25/fcc-cellphone-jamming-georgia-prisons/",
+   "s": "Reporter Newspapers",
+   "d": "2026-11-25",
+   "sum": "The Federal Communications Commission expanded cell jamming options for prisons, including in Georgia, allowing stricter containment areas. Georgia prison officials had sought this change, citing concerns over contraband cellphones used in scams and drug rings.",
+   "tags": [],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Fulton",
+    "DeKalb"
+   ],
+   "ex": "The Federal Communications Commission now lets prisons take extra steps to jam cellphone signals. Georgia prison officials have sought the change for years.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Treasury’s financial crimes bureau takes systems offline after hack",
+   "u": "https://www.govexec.com/technology/2026/11/treasurys-financial-crimes-bureau-takes-systems-offline-after-hack/417443/",
+   "s": "Government Executive",
+   "d": "2026-11-25",
+   "sum": "The Treasury’s financial crimes bureau, FinCEN, took systems offline after a cyber incident. FinCEN extended reporting deadlines for affected financial institutions but did not disclose what information may have been accessed.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [
+    {
+     "s": "FedScoop",
+     "u": "https://cyberscoop.com/fincen-investigates-cybersecurity-incident-systems-offline/",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "FinCEN extended reporting deadlines for affected financial institutions but has not disclosed what information attackers may have accessed.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Crisp County Community Care Awards held at Lake Blackshear",
+   "u": "https://cordeledispatch.com/2026/11/25/crisp-county-community-care-awards-held-at-lake-blackshear/",
+   "s": "Cordele Dispatch",
+   "d": "2026-11-25",
+   "sum": "The Crisp County Community Care Awards were held on Nov. 19 in Lake Blackshear, with Chief Danny Hicks as the keynote speaker. Dawn Smith received the first Care Award for her volunteer work and support for neighbors.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Crisp"
+   ],
+   "ex": "The Crisp County Care Awards were hosted by the Crisp County Community Council Family Connection on Nov. 19.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Hahira council to meet",
+   "u": "https://valdostadailytimes.com/2026/11/25/hahira-council-to-meet/",
+   "s": "The Valdosta Daily Times",
+   "d": "2026-11-25",
+   "sum": "The Hahira City Council will meet at 6 p.m. Dec. 1 at the Hahira Courthouse. The agenda includes annexation and zoning applications, community center renovations, alley closure, and police vehicle purchase.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Lowndes"
+   ],
+   "ex": "The Hahira City Council will hold a work session at 6 p.m. Dec.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Stephens County Commission thanks District Attorney and State Court Solicitor",
+   "u": "https://wnegradio.com/stephens-county-commission-thanks-district-attorney-and-state-solicitor/",
+   "s": "wnegradio.com",
+   "d": "2026-11-24",
+   "sum": "The Stephens County Board of Commissioners thanked State Court Solicitor Ann Pickett and District Attorney George Christian for their service during a meeting on November 24, 2026. Both are retiring after decades of public service.",
+   "tags": [
+    "local",
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Stephens"
+   ],
+   "ex": "At its meeting on Tuesday, November 24, the Stephens County Board of Commissioners thanked two longtime members of the legal system who are retiring, explains Commissioner Tara Simmons. “So, we’ve received the resignations of our State Court Solicitor for Stephens County, that’s Ann Pickett, and our District Attorney f…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Which justices favor the Trump administration the most (and least) on the emergency docket?",
+   "u": "https://www.scotusblog.com/2026/11/which-justices-favor-the-trump-administration-the-most-and-least-on-the-emergency-docket/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-24",
+   "sum": "The Supreme Court rejected Trump's attempt to remove Federal Reserve Governor Lisa Cook in June, with Roberts, Kavanaugh, Sotomayor, Kagan, and Jackson supporting her retention. In a separate case, Thomas and Alito suggested granting a stay for transgender prisoners' medical care, but the court denied the request without disclosing reasoning.",
+   "tags": [
+    "white house",
+    "courts",
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "When the Supreme Court rejected President Donald Trump’s attempt to remove Federal Reserve Governor Lisa Cook in June, the justices divided in a manner that would have been difficult to predict from some perceptions of the court. Chief Justice John Roberts and Justice Brett Kavanaugh joined Justices Sonia Sotomayor, El…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Supreme Court defers decision on whether to dismiss major gun case",
+   "u": "https://www.scotusblog.com/2026/11/supreme-court-defers-decision-on-whether-to-dismiss-major-gun-case/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-24",
+   "sum": "The Supreme Court deferred a decision on whether to dismiss a gun case involving Cook County, Illinois, pending oral argument. The case challenges bans on AR-15-style semiautomatic rifles, with oral argument scheduled for December 2.",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "With just over a week remaining before the justices will hear oral argument in a pair of challenges to the constitutionality of bans on AR-15-style semiautomatic rifles, the Supreme Court on Tuesday afternoon put off a decision on a request by Cook County, Illinois, to dismiss the dispute over its ban as moot – that is…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Rep. Arlene Beckles Applauds Golightly Fit’s ‘Give Back | Norcross’ Community Food and Hygiene Giveaway",
+   "u": "https://house-press.com/rep-arlene-beckles-applauds-golightly-fits-give-back-norcross-community-food-and-hygiene-giveaway/",
+   "s": "house-press.com",
+   "d": "2026-11-24",
+   "sum": "Rep. Arlene Beckles praised Golightly Fit's \"Give Back | Norcross\" food and hygiene giveaway in Norcross on November 21, 2026. The event provided 250 sandwiches, 100 hygiene bags, and raised over $3,000 in community contributions.",
+   "tags": [
+    "legislature"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Fulton",
+    "DeKalb"
+   ],
+   "ex": "ATLANTA – State Representative Arlene Beckles (D-Norcross) today applauds local business Golightly Fit and its owner, Gerald Golightly, for its recent Golightly Fit “Give Back | Norcross” Food and Hygiene Giveaway. Held on November 21, 2026, the community outreach initiative brought together volunteers, donors and supp…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Sen. Jason Anavitarte Congratulates Dallas, Rockmart and Cedartown on State Arts Grant Awards",
+   "u": "https://allongeorgia.com/chattooga-local-news/sen-jason-anavitarte-congratulates-dallas-rockmart-and-cedartown-on-state-arts-grant-awards/",
+   "s": "allongeorgia.com",
+   "d": "2026-11-24",
+   "sum": "Senate Majority Leader Jason Anavitarte congratulated Dallas, Rockmart, and Cedartown on receiving FY2027 arts grants. Dallas Theater and Civic Center, Rockmart, and Cedartown received Vibrant Communities and Cultural Facilities Grants to support arts programming and facility improvements.",
+   "tags": [],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Polk",
+    "Paulding"
+   ],
+   "ex": "Senate Majority Leader Jason Anavitarte (R–Dallas) congratulated the cities of Dallas, Rockmart and Cedartown on receiving Fiscal Year 2027 arts grants through the Georgia Council for the Arts, a division of the Georgia Department of Economic Development. The Dallas Theater and Civic Center and the City of Rockmart wer…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Historic Number of Risk-Limiting Audits Confirm Election Outcomes",
+   "u": "https://allongeorgia.com/chattooga-local-government/historic-number-of-risk-limiting-audits-confirm-election-outcomes/",
+   "s": "allongeorgia.com",
+   "d": "2026-11-24",
+   "sum": "Georgia county election officials have completed Risk-Limiting Audits (RLAs) of 6 statewide contests and all 14 Congressional contests from the November 2026 General Election, which is a record number of statewide and federal RLAs to be conducted following an election in US History. The RLAs confirmed the contest outco…",
+   "tags": [
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "sw": 1,
+   "ex": "Georgia county election officials have completed Risk-Limiting Audits (RLAs) of 6 statewide contests and all 14 Congressional contests from the November 2026 General Election, which is a record number of statewide and federal RLAs to be conducted following an election in US History. The RLAs confirmed the contest outco…",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "numbers 14, 20, 6 are not together in one sentence of the source",
+     "numbers 1050204, 5%, 600, 99.98% are not together in one sentence of the source"
+    ]
+   }
+  },
+  {
+   "t": "Data Center Moratorium On the Agenda for Franklin County BOC Work Session",
+   "u": "https://921wlhr.com/data-center-moratorium-on-the-agenda-for-franklin-county-boc-work-session/",
+   "s": "921wlhr.com",
+   "d": "2026-11-24",
+   "sum": "Franklin County Commissioners are expected to once again take up the issue of whether to allow data centers to built in the County when they meet for their work session this evening. Data centers are massive computer storage centers housing hundreds of servers that power everything from cloud storage to streaming video…",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Franklin"
+   ],
+   "ex": "Franklin County Commissioners are expected to once again take up the issue of whether to allow data centers to built in the County when they meet for their work session this evening. Data centers are massive computer storage centers housing hundreds of servers that power everything from cloud storage to streaming video…",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "number 10, not in the source"
+    ]
+   }
+  },
+  {
+   "t": "A Startup Tied to Donald Trump Jr. Could Get a Historic $15 Billion Loan From the Pentagon",
+   "u": "https://www.propublica.org/article/donald-trump-jr-hadrian-pentagon-loan",
+   "s": "ProPublica",
+   "d": "2026-11-24",
+   "sum": "The Pentagon is considering a $15 billion loan for Hadrian Automation, a California-based startup linked to Donald Trump Jr. through 1789 Capital, which holds a minority stake in the company. The loan would be one of the largest government loans in U.S. history and nearly twice the company's estimated value.",
+   "tags": [
+    "white house",
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "What do these Supreme Court plaintiffs have in common?",
+   "u": "https://www.scotusblog.com/2026/11/what-do-these-supreme-court-plaintiffs-have-in-common/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-24",
+   "sum": "Last term in Little v. Hecox , which concerned whether states could bar transgender female athletes from participating in girl’s and women’s sports, Justice Sonia Sotomayor asked Idaho Solicitor General Alan Hurst: “Do you dispute that having a case named after you makes your infamy ...",
+   "tags": [
+    "courts",
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Last term in Little v. Hecox , which concerned whether states could bar transgender female athletes from participating in girl’s and women’s sports, Justice Sonia Sotomayor asked Idaho Solicitor General Alan Hurst: “Do you dispute that having a case named after you makes your infamy ...",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: highlights, commonalities, among, noting, challenged, versus"
+    ]
+   }
+  },
+  {
+   "t": "Refugees, asylum, and Supreme Court exceptionalism",
+   "u": "https://www.scotusblog.com/2026/11/refugees-asylum-and-supreme-court-exceptionalism/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-24",
+   "sum": "The Supreme Court will review Mullin v. Refugee and Immigrant Center for Education and Legal Services, a case involving a Trump administration proclamation claiming an ongoing invasion on the southern border. The case examines the administration's early immigration restrictions and the Court's approach to international law.",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "American exceptionalism, the idea that the United States is uniquely virtuous, has deep roots that predate the nation itself. The founders of New England, in words echoed by President Ronald Reagan, famously declared that it was to be “as a citty upon a Hill.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Willowdale development rezoning, annexation advances to City Council",
+   "u": "https://daltoncitizen.com/2026/11/24/willowdale-development-rezoning-annexation-advances-to-city-council/",
+   "s": "daltoncitizen.com",
+   "d": "2026-11-24",
+   "sum": "The Dalton-Varnell-Whitfield County Planning Commission voted unanimously Monday to recommend approval of the annexation and conditional rezoning of approximately 42 acres along Willowdale Road, reversing its July recommendation against rezoning",
+   "tags": [
+    "elections",
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Whitfield"
+   ],
+   "ex": "The Dalton-Varnell-Whitfield County Planning Commission voted unanimously Monday to recommend approval of the annexation and conditional rezoning of approximately 42 acres along Willowdale Road, reversing its July recommendation against rezoning",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "numbers 114, 117, 2, 4 are not together in one sentence of the source"
+    ]
+   }
+  },
+  {
+   "t": "Walker County Board of Education Announces 2027 Meeting Schedule",
+   "u": "https://www.discoverwalker.com/local/walker-county-board-of-education-announces-2027-meeting-schedule/",
+   "s": "discoverwalker.com",
+   "d": "2026-11-24",
+   "sum": "The Walker County Board of Education announced its 2027 meeting schedule, including planning sessions and regular monthly meetings. Planning sessions are on specific Tuesdays, with the first on January 12, and regular meetings on various Mondays, starting January 19.",
+   "tags": [
+    "schools"
+   ],
+   "also": [
+    {
+     "s": "Americus Times-Recorder",
+     "u": "https://americustimesrecorder.com/2026/11/27/sumter-county-board-of-education-plans-called-meeting-2/",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [
+    "Walker",
+    "Cherokee",
+    "Sumter"
+   ],
+   "ex": "The Walker County Board of Education has announced its schedule of planning sessions and regular monthly meetings for the 2027 calendar year. The board’s monthly planning sessions are normally held on the second Tuesday of each month at 6 p.m.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Stephens County Commission postpones Rezoning and narrowly approves Variance Request",
+   "u": "https://wnegradio.com/stephens-county-commission-postpones-rezoning-and-narrowly-approves-variance-request/",
+   "s": "wnegradio.com",
+   "d": "2026-11-24",
+   "sum": "The Stephens County Board of Commissioners considered four rezoning requests and one variance request at its meeting on Tuesday, November 24. Three of the rezoning requests were approved without anyone speaking during their public hearings.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Stephens"
+   ],
+   "ex": "The Stephens County Board of Commissioners considered four rezoning requests and one variance request at its meeting on Tuesday, November 24. Three of the rezoning requests were approved without anyone speaking during their public hearings.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "numbers 2, 2502, 3 are not together in one sentence of the source"
+    ]
+   }
+  },
+  {
+   "t": "Georgia immigrants file lawsuit challenging DHS re-detention policy",
+   "u": "https://thecurrentga.org/2026/11/24/georgia-immigrants-file-lawsuit-challenging-dhs-redetention-policy/",
+   "s": "The Current",
+   "d": "2026-11-24",
+   "sum": "Two Georgia men, along with two North Carolina residents, filed a lawsuit challenging a new DHS policy allowing re-detention of immigrants without assessing changed circumstances, effective May 2025. The lawsuit claims the policy violates the Fourth Amendment and seeks to block it, citing a similar court action in California.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "The ACLU filed a lawsuit against the Department of Homeland Security challenging a new policy that allows U.S. Immigration and Customs Enforcement to re-detain immigrants who have previously complied with their release conditions.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "CDC looks to bolster employee morale after U.S. loses measles elimination status",
+   "u": "https://www.govexec.com/management/2026/11/cdc-looks-bolster-employee-morale-after-us-loses-measles-elimination-status/417417/",
+   "s": "Government Executive",
+   "d": "2026-11-24",
+   "sum": "CDC Director Dr. Erica Schwartz told employee that “this news may be especially difficult for those of you who have dedicated years of your career to preventing measles and responding to outbreaks across the country.”",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "CDC Director Dr. Erica Schwartz told employee that “this news may be especially difficult for those of you who have dedicated years of your career to preventing measles and responding to outbreaks across the country.”",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: addressed, employees, acknowledging, difficulty, she, expressed"
+    ]
+   }
+  },
+  {
+   "t": "Collins agrees to pay $2,880 after ethics probe concludes his office improperly paid intern",
+   "u": "https://thecurrentga.org/2026/11/24/collins-agrees-to-pay-2880-after-ethics-probe-concludes-his-office-improperly-paid-intern/",
+   "s": "The Current",
+   "d": "2026-11-24",
+   "sum": "Republican Congressman Mike Collins agreed to return $2,880 to the U.S. Treasury after an ethics probe found his office improperly paid an intern who was romantically involved with his former chief of staff. The U.S. House Ethics Committee concluded Collins did not sufficiently oversee his chief of staff's actions regarding the intern's hiring and payment.",
+   "tags": [],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Tattnall"
+   ],
+   "ex": "A U.S. House Ethics Committee report found that Republican Congressman Mike Collins failed to provide sufficient oversight regarding an intern’s employment who was romantically involved with his then-chief of staff.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "DeKalb County Tax Commissioner announces service reminders, holiday schedule",
+   "u": "https://ocgnews.com/dekalb-county-tax-commissioner-announces-service-reminders-holiday-schedule/",
+   "s": "ocgnews.com",
+   "d": "2026-11-24",
+   "sum": "DEKALB COUNTY,GA– As many residents are preparing to travel for the holidays, DeKalb County Tax Commissioner Nicole M. Golden is reminding vehicle owners to check their registration and plan ahead to avoid delays.",
+   "tags": [
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "DeKalb"
+   ],
+   "ex": "DEKALB COUNTY,GA– As many residents are preparing to travel for the holidays, DeKalb County Tax Commissioner Nicole M. Golden is reminding vehicle owners to check their registration and plan ahead to avoid delays.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "numbers 25, 27 are not together in one sentence of the source"
+    ]
+   }
+  },
+  {
+   "t": "Data center ordinance on hold",
+   "u": "https://daltoncitizen.com/2026/11/24/data-center-ordinance-on-hold/",
+   "s": "daltoncitizen.com",
+   "d": "2026-11-24",
+   "sum": "The Dalton-Varnell-Whitfield County Planning Commission removed the proposed data center ordinance from its agenda during Monday's meeting. No new date was set, and a temporary postponement was announced, with plans to revisit the issue after the new year.",
+   "tags": [
+    "elections",
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Whitfield"
+   ],
+   "ex": "At the start of Monday’s meeting, the Dalton-Varnell-Whitfield County Planning Commission voted to amend its agenda, removing consideration of the proposed data center ordinance. No new date for consideration was",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Advanced voting underway for State House of Rep. District 151 runoff",
+   "u": "https://americustimesrecorder.com/2026/11/24/advanced-voting-underway-for-state-house-of-rep-district-151-runoff/",
+   "s": "Americus Times-Recorder",
+   "d": "2026-11-24",
+   "sum": "Advanced voting for the State House of Rep. District 151 runoff began on Nov. 23 and ends Nov. 25 at the Sumter County Exposition Center. The runoff election is between Republican Mike Cheokas and Democratic Ethan Wolfe.",
+   "tags": [
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Sumter"
+   ],
+   "ex": "Advanced voting for the Dec. 1 runoff election between Republican Incumbent Mike Cheokas and Democratic challenger Ethan Wolfe, both running for State House of Representatives District 151, started on Nov.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Sumter County selected for $3.54 million road safety grant",
+   "u": "https://americustimesrecorder.com/2026/11/24/sumter-county-selected-for-3-54-million-road-safety-grant/",
+   "s": "Americus Times-Recorder",
+   "d": "2026-11-24",
+   "sum": "Sumter County was selected for a $3.54 million federal road safety grant through the SS4A program. The county's Board of Commissioners approved the grant application in May and accepted it at the Nov. 17 regular meeting.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Sumter"
+   ],
+   "ex": "Swnter County has been selected to receive $3.54 million in federal funding through the Safe Streets and Roads for All (SS4A) program. The Board of Commissioners authorized the grant application",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Federal grant to benefit Fitzgerald airport",
+   "u": "https://tiftongazette.com/2026/11/24/federal-grant-to-benefit-fitzgerald-airport/",
+   "s": "The Tifton Gazette",
+   "d": "2026-11-24",
+   "sum": "Fitzgerald Municipal Airport in Georgia received a $2.04 million federal grant for runway upgrades through the FAA's Airport Improvement Grant program. The funding is part of this year’s bipartisan government funding package that became law on Feb. 3.",
+   "tags": [],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Fitzgerald Municipal Airport is one of five Georgia airports to receive federal funding for upgrades, according to an email from the offices of Sen. Jon Ossoff and Raphael Warnock.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Trump’s pick to run GAO faces confirmation hurdles in lame-duck Congress",
+   "u": "https://www.govexec.com/management/2026/11/trumps-pick-run-gao-faces-confirmation-hurdles-lame-duck-congress/417435/",
+   "s": "Government Executive",
+   "d": "2026-11-24",
+   "sum": "Senate Democratic Leader Chuck Schumer stated that a Democratic majority is committed to a bipartisan process for selecting a comptroller general to lead the GAO. The statement comes as Trump's nominee faces confirmation hurdles in the lame-duck Congress.",
+   "tags": [
+    "congress",
+    "white house"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Senate Democratic Leader Chuck Schumer, D-N.Y., says a Democratic majority is committed to a “bipartisan process” for selecting a comptroller general to lead GAO.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Sens. Ossoff & Rev. Warnock Delivering Nearly $50 Million to Upgrade Georgia’s Airports",
+   "u": "https://allongeorgia.com/chattooga-local-government/sens-ossoff-rev-warnock-delivering-nearly-50-million-to-upgrade-georgias-airports/",
+   "s": "allongeorgia.com",
+   "d": "2026-11-24",
+   "sum": "U.S. Senators Jon Ossoff and Reverend Raphael Warnock delivered nearly $50 million in federal funding to upgrade Georgia’s airports through the FAA’s Airport Improvement Grant program. The funding, from a 2026 bipartisan package, supports infrastructure projects to enhance airport operations and support local economies.",
+   "tags": [],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Ben Hill",
+    "Irwin"
+   ],
+   "ex": "U.S. Senators Jon Ossoff and Reverend Raphael Warnock announced they are delivering new resources to upgrade Georgia’s airports.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "The Second Amendment and an \"unusually dangerous\" approach to dicta",
+   "u": "https://www.scotusblog.com/2026/11/the-second-amendment-and-an-unusually-dangerous-approach-to-dicta/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-23",
+   "sum": "The New York Times article suggests that Justice Antonin Scalia's use of \"dangerous and unusual\" in his 2008 Heller decision may have been a misquote of William Blackstone, who used \"dangerous or unusual.\" This discrepancy has sparked debate among legal scholars about its impact on Second Amendment jurisprudence.",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Please note that SCOTUS Outside Opinions constitute the views of outside contributors and do not reflect the opinions of SCOTUSblog or its staff. *** On November 10, The New York Times published an article suggesting that a major piece of the Supreme Court’s Second Amendment jurisprudence is premised on a misquote by t…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Chattooga High School Students Recognized for SkillsUSA Competition Accomplishments",
+   "u": "https://allongeorgia.com/chattooga-schools/chattooga-high-school-students-recognized-for-skillsusa-competition-accomplishments/",
+   "s": "allongeorgia.com",
+   "d": "2026-11-23",
+   "sum": "Chattooga High School students and instructors were recognized by the Chattooga County Board of Education on November 19 for their achievements in SkillsUSA and other regional competitions. Students competed in events like Welding, Plumbing, and Cabinet Making, with several earning top placements including 1st place in Welding Fabrication Team.",
+   "tags": [
+    "schools"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Chattooga"
+   ],
+   "ex": "During its November 19th monthly meeting, the Chattooga County Board of Education recognized Chattooga High School students and their instructors for their outstanding accomplishments in recent SkillsUSA and other sponsored regional competitions. SkillsUSA’s mission is to be the nation’s leading workforce development o…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Chattooga County to Consider Resolution on Kratom Sales at November 24 Meeting",
+   "u": "https://allongeorgia.com/chattooga-local-news/chattooga-county-to-consider-resolution-on-kratom-sales-at-november-24-meeting/",
+   "s": "allongeorgia.com",
+   "d": "2026-11-23",
+   "sum": "Chattooga County's Commissioner and Malt Beverage Board will consider a resolution on kratom sales at licensed retail locations during a meeting on November 24, 2026. The agenda includes discussion of the proposed policy, public comments, and potential voting on the measure.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Chattooga"
+   ],
+   "ex": "The Chattooga County Commissioner and Malt Beverage Board will consider a proposed resolution concerning the sale of kratom products at licensed retail establishments during a meeting scheduled for Tuesday, November 24, at 5 p.m. According to the meeting agenda released by the Sole Commissioner of Chattooga County, the…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Georgia Democrats intend to look for ‘pathway’ to target state’s 6-week abortion ban",
+   "u": "https://thecurrentga.org/2026/11/23/georgia-democrats-intend-to-look-for-pathway-to-target-states-6-week-abortion-ban/",
+   "s": "The Current",
+   "d": "2026-11-23",
+   "sum": "Governor-elect Keisha Lance Bottoms and Georgia Democrats are seeking a legislative pathway to address the state’s six-week abortion ban during the upcoming lawmaking session, despite facing a Republican-controlled Senate.",
+   "tags": [
+    "legislature",
+    "governor"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "sw": 1,
+   "ex": "Governor-elect Keisha Lance Bottoms and Georgia Democrats are seeking a legislative pathway to address the state’s six-week abortion ban during the upcoming lawmaking session, despite facing a Republican-controlled Senate.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: plan, seek, state's, enacted, they, legislative"
+    ]
+   }
+  },
+  {
+   "t": "Government contractors must alert White House of congressional requests, order says",
+   "u": "https://fedscoop.com/government-contractors-must-alert-white-house-of-congressional-requests/",
+   "s": "FedScoop",
+   "d": "2026-11-23",
+   "sum": "A Friday executive order requires federal agencies to consider terminating or debarring contractors who fail to notify the White House of congressional requests and follow its instructions on what to withhold. The order mandates that contractors alert the White House when responding to congressional inquiries.",
+   "tags": [
+    "congress",
+    "white house"
+   ],
+   "also": [
+    {
+     "s": "Government Executive",
+     "u": "https://www.govexec.com/oversight/2026/11/trump-exec-order-pushes-white-house-gatekeeper-between-contractors-and-congress/417429/",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "A Friday executive order said agencies should consider terminating contracts or debarring contractors that don't notify the White House of congressional requests and follow its instructions on what to withhold.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Lessons from the Westside: Making Financial Stability a Community Development Priority",
+   "u": "https://saportareport.com/lessons-from-the-westside-making-financial-stability-a-community-development-priority/thought-leadership/sustainable-communities/self-help-credit-union/",
+   "s": "SaportaReport",
+   "d": "2026-11-23",
+   "sum": "A new report by Self-Help Credit Union's affiliated Center for Responsible Lending and Julian Bond Institute for Financial Equity Research highlights financial challenges on Atlanta's Westside, noting 68% of residents used alternative financial services in the past year. The study found 82% experienced a significant income drop, increasing vulnerability to financial hardship.",
+   "tags": [
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "DeKalb",
+    "Fulton"
+   ],
+   "ex": "As we work to build stronger communities in Atlanta, one thing is clear: household financial stability must be an essential part of the conversation. The nation’s recent elections have underscored this point.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Gov.-elect Keisha Lance Bottoms can unify our state, build bridges",
+   "u": "https://saportareport.com/gov-elect-keisha-lance-bottoms-can-unify-our-state-build-bridges/columnists/maria_saporta/",
+   "s": "SaportaReport",
+   "d": "2026-11-23",
+   "sum": "During her general election campaign for governor, Keisha Lance Bottoms told people close to her she knew she would win. “The question is whether I’ll win wounded, or whether I’ll win whole,” she would say.",
+   "tags": [
+    "elections",
+    "governor"
+   ],
+   "also": [
+    {
+     "s": "Reporter Newspapers",
+     "u": "https://roughdraftatlanta.com/2026/11/25/bottoms-georgia-inauguration-date/",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [
+    "DeKalb"
+   ],
+   "sw": 1,
+   "ex": "During her general election campaign for governor, Keisha Lance Bottoms told people close to her she knew she would win. “The question is whether I’ll win wounded, or whether I’ll win whole,” she would say.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "number 54.3% not in the source"
+    ]
+   }
+  },
+  {
+   "t": "Rep. Marvin Lim Urges Incoming Administration to Prepare Georgia Workers for AI-Driven Job Changes",
+   "u": "https://house-press.com/rep-marvin-lim-urges-incoming-administration-to-prepare-georgia-workers-for-ai-driven-job-changes/",
+   "s": "house-press.com",
+   "d": "2026-11-23",
+   "sum": "Rep. Marvin Lim (D-Norcross) urged the incoming administration to prepare Georgia workers for AI-driven job changes in a September 25, 2026, letter. He proposed an AI Workforce Transition Initiative to connect existing resources and identify workers at risk of automation.",
+   "tags": [
+    "legislature"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Gwinnett"
+   ],
+   "ex": "ATLANTA – State Representative Marvin Lim (D-Norcross) urges the incoming administration to focus on Georgians whose jobs may change or disappear as artificial intelligence (AI) and automation spread.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Revaluation consultant probes questions about 2026 tax digest",
+   "u": "https://www.adelnewstribune.com/2026/11/23/revaluation-consultant-probes-questions-about-2026-tax-digest/",
+   "s": "adelnewstribune.com",
+   "d": "2026-11-23",
+   "sum": "On September 1, 2026, the Cook County Board of Commissioners retained McCormick Solutions to review the 2026 tax digest. The consultant's report found that commercial and industrial properties were not reviewed since 2008, leading to a depreciation change from 2008 to 2026, causing significant value drops.",
+   "tags": [
+    "elections",
+    "local",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Cook",
+    "Dawson"
+   ],
+   "ex": "During a called meeting on Sept. 1, 2026, the Cook County Board of Commissioners voted unanimously “to retain McCormick Solutions as a revaluation consultant” to the Cook County Tax Assessors Office.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "The Sassy Pink Closet brings fun, fashion, and confidence to Thomasville’s tween girls",
+   "u": "https://timesenterprise.com/2026/11/23/the-sassy-pink-closet-brings-fun-fashion-and-confidence-to-thomasvilles-tween-girls/",
+   "s": "timesenterprise.com",
+   "d": "2026-11-23",
+   "sum": "Wendy Fisher and her daughters Haley and Riley opened The Sassy Pink Closet in Thomasville to help girls ages 7–14 find age-appropriate, fun clothing. The boutique's motto is \"Be Sassy. Be You,\" encouraging girls to embrace their individuality.",
+   "tags": [
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Thomas"
+   ],
+   "ex": "THOMASVILLE — Finding clothing that strikes the right balance between youthful, fun and age-appropriate can be a challenge for girls navigating the tween years. That challenge is what inspired The",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Sumter County property tax bill announcement",
+   "u": "https://americustimesrecorder.com/2026/11/23/sumter-county-property-tax-bill-announcement/",
+   "s": "Americus Times-Recorder",
+   "d": "2026-11-23",
+   "sum": "Sumter County Tax Commissioner’s Office delayed 2026 property tax bill mailing due to reevaluation and appeals. The process will resume once the tax digest is finalized and approved by the Department of Revenue.",
+   "tags": [
+    "legislature",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Sumter"
+   ],
+   "ex": "The Sumter County Tax Commissioner’s Office would like to inform taxpayers that the mailing of 2026 property tax bills have been delayed due to the countywide property reevaluation and the",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Rotary Club of Thomasville begins 2026-2027 GRSP Foundation annual drive",
+   "u": "https://timesenterprise.com/2026/11/23/rotary-club-of-thomasville-begins-2026-2027-grsp-foundation-annual-drive/",
+   "s": "timesenterprise.com",
+   "d": "2026-11-23",
+   "sum": "The Rotary Club of Thomasville launched its 2026-2027 GRSP Foundation annual drive, aiming to raise $25,000 by March 25, 2027. The program, founded in 1946, provides scholarships for international students, with 38 students from 20 countries joining the 2026-27 class.",
+   "tags": [
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Thomas"
+   ],
+   "ex": "THOMASVILLE — The Rotary Club of Thomasville has launched its annual giving campaign for the Georgia Rotary Student Program Foundation (GRSP), with a goal of raising $25,000 by March 25,",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Trump’s new contractor executive order is an affront to Congress’ oversight authority",
+   "u": "https://www.govexec.com/oversight/2026/11/trumps-new-contractor-executive-order-affront-congress-oversight-authority/417398/",
+   "s": "Government Executive",
+   "d": "2026-11-23",
+   "sum": "Trump issued an executive order requiring contractors to choose between business risks or facing contempt proceedings, according to a commentary in Government Executive. The order is described as an affront to Congress' oversight authority.",
+   "tags": [
+    "congress",
+    "white house"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "COMMENTARY | Due to a new executive order, contractors must now choose between an existential risk to their business today and contempt proceedings tomorrow.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Intelligence chief Jay Clayton to lead White House cyber office in interim capacity",
+   "u": "https://www.govexec.com/management/2026/11/intelligence-chief-jay-clayton-lead-white-house-cyber-office-interim-capacity/417407/",
+   "s": "Government Executive",
+   "d": "2026-11-23",
+   "sum": "Intelligence chief Jay Clayton will lead the White House cyber office in an interim capacity. He will take on this role while Kirsten Davies awaits Senate confirmation as national cyber director.",
+   "tags": [
+    "congress",
+    "white house"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Clayton would add the temporary assignment to his intelligence and AI duties while Kirsten Davies seeks Senate confirmation as national cyber director.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Spotted on the D.C. Metro: Trump Staffer Accidentally Reveals Plan for Smithsonian Overhaul",
+   "u": "https://www.propublica.org/article/dc-metro-smithsonian-american-history-plan",
+   "s": "ProPublica",
+   "d": "2026-11-23",
+   "sum": "A Trump staffer was spotted on the D.C. Metro, accidentally revealing a plan for a Smithsonian overhaul. The story first appeared on ProPublica.",
+   "tags": [
+    "white house"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "The Supreme Court and profanity",
+   "u": "https://www.scotusblog.com/2026/11/the-supreme-court-and-profanity/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-23",
+   "sum": "On October 30, 1973, John Douglas heard George Carlin's \"Filthy Words\" routine on WBAI, a New York radio station, which included profanity. Douglas complained to the FCC, claiming the broadcast was inappropriate for his 15-year-old son.",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Around 2 p.m. on October 30, 1973, John Douglas was driving with his 15-year-old son when he heard a litany of profanity come over the radio.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Another congressman resigns over sexual misconduct allegations",
+   "u": "https://19thnews.org/2026/11/jimmy-gomez-resigns-congress-sexual-misconduct-allegations/",
+   "s": "The 19th",
+   "d": "2026-11-23",
+   "sum": "Rep. Jimmy Gomez resigned December 1 from his Los Angeles-area district after a House Ethics Committee report found evidence of sexual misconduct. Voters had already decided to end his term after this term was up.",
+   "tags": [
+    "congress",
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Voters in his Los Angeles-area district had already opted to end Rep. Jimmy Gomez’s time in Congress after this term was up.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Former DeKalb County commissioner’s legacy lives in his nonprofit",
+   "u": "https://thechampionnewspaper.com/former-dekalb-county-commissioners-legacy-lives-in-his-nonprofit/",
+   "s": "The Champion (DeKalb)",
+   "d": "2026-11-23",
+   "sum": "Hosea Williams founded Hosea Feed the Hungry and Homeless in 1971 after witnessing a homeless man searching for food in Atlanta. The nonprofit, now known as Hosea Helps, serves thousands in the metro Atlanta area and focuses on lifting people from poverty through various services.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "DeKalb",
+    "Fulton"
+   ],
+   "ex": "Hosea Williams during his lifetime filled many roles. He was a civil rights advocate and close confidant of Martin Luther",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "St. Marys official blames ICE for city hall project delay. Outrage ensues.",
+   "u": "https://thecurrentga.org/2026/11/23/st-marys-official-blames-ice-for-city-hall-project-delay-outrage-ensues/",
+   "s": "The Current",
+   "d": "2026-11-23",
+   "sum": "St. Marys city manager Mike Mahaney blamed U.S.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Camden",
+    "DeKalb",
+    "Fulton"
+   ],
+   "fed": 1,
+   "ex": "St. Marys city manager Mike Mahaney blamed U.S.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: relocating, citing, two, removed, originally, set"
+    ]
+   }
+  },
+  {
+   "t": "Justice Sotomayor addresses Supreme Court term limits",
+   "u": "https://www.scotusblog.com/2026/11/justice-sotomayor-addresses-supreme-court-term-limits/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-23",
+   "sum": "Plus, even justices have regrets.",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Plus, even justices have regrets.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "why": [
+     "no text to summarize"
+    ]
+   }
+  },
+  {
+   "t": "City of Stonecrest Zoning Board of Appeals, December 15, 2026",
+   "u": "https://ocgnews.com/city-of-stonecrest-zoning-board-of-appeals-december-15-2026/",
+   "s": "ocgnews.com",
+   "d": "2026-11-23",
+   "sum": "",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "ex": "",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "why": [
+     "no text to summarize"
+    ]
+   }
+  },
+  {
+   "t": "Willowdale development returns to Planning Commission for public hearing",
+   "u": "https://daltoncitizen.com/2026/11/22/willowdale-development-returns-to-planning-commission-for-public-hearing/",
+   "s": "daltoncitizen.com",
+   "d": "2026-11-22",
+   "sum": "BC Managing LLC's revised site plan for the Willowdale Road subdivision, including 114 residential lots and stormwater infrastructure, will be discussed at a Planning Commission meeting on Nov. 23. The proposal seeks annexation and rezoning of 42 acres from R-2 to R-4, following a city council decision to send it back for further review.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Whitfield"
+   ],
+   "ex": "UPDATE — Nov. 23, 2026: Both Willowdale Road properties are scheduled for annexation consideration at Monday’s Dalton-Varnell-Whitfield County Planning Commission meeting, despite the omission of one property from the published",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "On the Agenda: Week of Nov. 23 – Dalton-Whitfield Planning and Zoning Commission",
+   "u": "https://daltoncitizen.com/2026/11/22/on-the-agenda-week-of-nov-23-dalton-whitfield-planning-and-zoning-commission/",
+   "s": "daltoncitizen.com",
+   "d": "2026-11-22",
+   "sum": "The Dalton-Whitfield Planning and Zoning Commission will meet on Monday, Nov. 23, to consider two proposed amendments to the Unified Zoning Ordinance, six rezoning and annexation requests, including a resubmitted application for 42 acres on Willowdale Road. One request involves rezoning 14.65 acres at 3401 Cleveland Highway from R-2 to GA.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Whitfield"
+   ],
+   "ex": "On the Agenda: Week of Nov. 23 Dalton-Whitfield Planning and Zoning Commission Monday, Nov.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Over half the Georgia counties that flipped in the midterms were rural",
+   "u": "https://thecurrentga.org/2026/11/21/over-half-the-georgia-counties-that-flipped-in-the-midterms-were-rural/",
+   "s": "The Current",
+   "d": "2026-11-21",
+   "sum": "In the 2026 midterms, five rural Georgia counties flipped blue, with Black voters making up a larger share in four of them. Democratic votes increased by 23% while Republican votes declined nearly 9% in these rural areas.",
+   "tags": [
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Banks",
+    "Habersham",
+    "Clay",
+    "Jefferson"
+   ],
+   "ex": "Five of the nine flipped counties in the gubernatorial election came from rural Georgia, which shifted more than six points left compared with the 2022 midterms. In this election cycle, Black voters represented a larger share of the voter turnout in most of the flipped rural counties.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Chatham County seeks to block ‘illegal’ annexation of Bethesda property into Savannah",
+   "u": "https://thecurrentga.org/2026/11/21/chatham-county-seeks-to-block-illegal-annexation-of-bethesda-property-into-savannah/",
+   "s": "The Current",
+   "d": "2026-11-21",
+   "sum": "Chatham County sued to block Savannah's annexation of a 44-acre Bethesda property, arguing it creates an \"illegal island\" due to lack of contiguity. The lawsuit, filed Nov. 13, challenges the claim that a 3-acre Whitefield parcel is contiguous to city limits.",
+   "tags": [
+    "local",
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Chatham"
+   ],
+   "ex": "Chatham County filed a lawsuit on November 13 to block the nonprofit owners of Bethesda Academy from annexing approximately 44 acres of land into the city of Savannah, arguing the move would create an illegal noncontiguous island.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "The next round of Supreme Court forecasts",
+   "u": "https://www.scotusblog.com/2026/11/the-next-round-of-supreme-court-forecasts/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-21",
+   "sum": "The Supreme Court's third session of oral arguments for the 2026-27 term begins on November 30. Forecasters predict an 81.75% chance the Court will rule that the Universal Preschool Program is subject to strict scrutiny in St. Mary Catholic Parish v. Roy.",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Following Thanksgiving weekend, the court’s third session of oral arguments for the 2026-27 term will begin (on Monday, November 30, to be exact). This will include some of the biggest cases of the term, including Viramontes v.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Runoff in southwest Georgia becomes high-stakes battle after House Democrats claim narrow majority",
+   "u": "https://thecurrentga.org/2026/11/21/runoff-in-southwest-georgia-becomes-high-stakes-battle-after-house-democrats-claim-narrow-majority/",
+   "s": "The Current",
+   "d": "2026-11-21",
+   "sum": "Voters in Georgia's House District 151 will decide the outcome of a runoff election between Republican Mike Cheokas and Democrat Ethan Wolfe on Dec. 1. Democrats hold a narrow 91-seat majority in the state House, needing one more seat to solidify their control.",
+   "tags": [
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "fed": 1,
+   "sw": 1,
+   "ex": "Voters in eight southwest Georgia counties are preparing for a Dec. 1 runoff election between Republican incumbent Mike Cheokas and Democratic challenger Ethan Wolfe could determine control of the state House majority.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Bottoms proposes directing gambling revenue to education",
+   "u": "https://thecurrentga.org/2026/11/21/bottoms-proposes-directing-gambling-revenue-to-education/",
+   "s": "The Current",
+   "d": "2026-11-21",
+   "sum": "Gov.-elect Keisha Lance Bottoms proposed directing gambling revenue to education and supporting a referendum on casino gambling. She announced plans for her inauguration likely on Jan. 12 and outlined policy committees to address key issues during the leadership transition.",
+   "tags": [
+    "governor"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "sw": 1,
+   "ex": "Georgia Governor-elect Keisha Lance Bottoms expressed support for a potential gambling referendum to fund education and announced several policy committees to guide her administration’s transition.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Cordele City Commission addresses zoning ordinance inconsistencies",
+   "u": "https://cordeledispatch.com/2026/11/21/cordele-city-commission-addresses-zoning-ordinance-inconsistencies/",
+   "s": "Cordele Dispatch",
+   "d": "2026-11-21",
+   "sum": "The Cordele City Commission discussed updating its 1999 zoning ordinance, with Planning Director Mary Darby highlighting internal inconsistencies and recommending quick fixes. Attorney Tommy Coleman suggested creating a new ordinance due to the city's 15 zoning categories compared to smaller cities' half.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Crisp",
+    "Dougherty"
+   ],
+   "ex": "The Cordele City Commission met on Nov. 17.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Mo Ivory: Fulton board is disrupting transition for incoming officials",
+   "u": "https://saportareport.com/mo-ivory-fulton-board-is-disrupting-transition-for-incoming-officials/columnists/adrianne-murchison/",
+   "s": "SaportaReport",
+   "d": "2026-11-20",
+   "sum": "Fulton County commissioners revoked Mo Ivory's security protection and office access during a meeting on Wednesday, despite a threat to her safety. They also stopped transition meetings for incoming officials, including budget briefings, before her January 2027 swearing-in.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Fulton"
+   ],
+   "ex": "An inquiry by Fulton County Commissioner Bridget Thorne about Chair-elect Mo Ivory’s security protection and access to county offices set off an hour of heated objections Wednesday to the protection and access granted to Ivory before she takes office in January. During their regular meeting, commissioners revoked Ivory…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Judge: VA is “subverting” court order in union case",
+   "u": "https://www.govexec.com/workforce/2026/11/judge-va-subverting-court-order-union-case/417383/",
+   "s": "Government Executive",
+   "d": "2026-11-20",
+   "sum": "A federal judge said she cannot modify her stayed injunction restoring VA employees’ collective bargaining rights. The judge noted that questions about the scope of her order are central to the department’s appeal to the circuit court.",
+   "tags": [
+    "courts",
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "But a federal judge said Friday that she is unable to modify her now-stayed injunction restoring VA employees’ collective bargaining rights because questions about the scope of her order are at the “heart” of the department’s appeal to circuit court.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Rep. Jesse Petrea Appointed by Speaker Jon Burns to Georgia Outdoor Stewardship Trust Fund",
+   "u": "https://house-press.com/rep-jesse-petrea-appointed-by-speaker-jon-burns-to-georgia-outdoor-stewardship-trust-fund/",
+   "s": "house-press.com",
+   "d": "2026-11-20",
+   "sum": "Rep. Jesse Petrea was appointed by Speaker Jon Burns to the Georgia Outdoor Stewardship Trust Fund. The trust fund was established by House Bill 332 and House Resolution 238 during the 2018 legislative session.",
+   "tags": [
+    "legislature"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Screven",
+    "Chatham"
+   ],
+   "ex": "ATLANTA – State Representative Jesse Petrea (R-Savannah), chairman of the House Human Relations and Aging Committee, was recently appointed by House Speaker Jon Burns (R-Newington) to serve on the Georgia Outdoor Stewardship Trust Fund.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "How SNAP Theft Happens — and What to Do if It Happens to You",
+   "u": "https://www.propublica.org/article/snap-theft-explained-stolen-benefits",
+   "s": "ProPublica",
+   "d": "2026-11-20",
+   "sum": "Kelly Joly's SNAP benefits were stolen after her EBT card was used in multiple states, leading to her being unable to purchase groceries. Over $470 million was stolen from SNAP recipients last year, affecting about 990,000 households.",
+   "tags": [
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "City Council reviews data center ordinance, approves sewer project",
+   "u": "https://thepostsearchlight.com/2026/11/20/city-council-reviews-data-center-ordinance-approves-sewer-project/",
+   "s": "thepostsearchlight.com",
+   "d": "2026-11-20",
+   "sum": "The Bainbridge City Council reviewed and approved a data center ordinance following its initial review by the Zoning and Planning Commission. The council also approved three Planning Commission recommendations and amended subdivision regulations.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Decatur",
+    "Jackson"
+   ],
+   "ex": "The Bainbridge City Council held a first reading of a proposed ordinance regulating data centers during its meeting Tuesday, advancing the measure toward a public hearing scheduled for Dec. 15",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Peachtree City to Memorialize Longtime Librarian Dec. 5th",
+   "u": "https://thecitizen.com/2026/11/20/peachtree-city-to-memorialize-longtime-librarian-dec-5th/",
+   "s": "thecitizen.com",
+   "d": "2026-11-20",
+   "sum": "Peachtree City's Mayor and City Council will rename the Peachtree City Library as the M.T. Allen Memorial Library on December 5, 2026, during a dedication ceremony. The event will take place at the library.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Fayette"
+   ],
+   "ex": "The Mayor and City Council of Peachtree City invites residents to the dedication ceremony, renaming Peachtree City Library as the M.T. Allen Memorial Library on Saturday, December 5, 2026, at",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "‘A team without a game plan.’ IRS staff displaced from their jobs aren’t sure what happens next",
+   "u": "https://www.govexec.com/management/2026/11/irs-staff-displaced-jobs-arent-sure-what-happens-next/417385/",
+   "s": "Government Executive",
+   "d": "2026-11-20",
+   "sum": "“DOGE wanted to downsize” the IRS tech workforce and cut about 1,400 IT jobs, an agency executive told staff. Impacted employees are still at the agency, but stuck in a workplace limbo.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "“DOGE wanted to downsize” the IRS tech workforce and cut about 1,400 IT jobs, an agency executive told staff. Impacted employees are still at the agency, but stuck in a workplace limbo.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: aimed, reduce, cutting, according, remain, state"
+    ]
+   }
+  },
+  {
+   "t": "Treasury nominee noncommittal on responsibility for rogue AI agents in accounts",
+   "u": "https://fedscoop.com/treasury-nominee-ai-agents-bank-accounts/",
+   "s": "FedScoop",
+   "d": "2026-11-20",
+   "sum": "Rebekah Jurata, up for assistant secretary at Treasury, said there are “a lot of unanswered questions” following reports of third-party AI agents’ unauthorized actions in bank accounts.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Rebekah Jurata, up for assistant secretary at Treasury, said there are “a lot of unanswered questions” following reports of third-party AI agents’ unauthorized actions in bank accounts.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: nominated, mentioned, regarding, statement, made, response"
+    ]
+   }
+  },
+  {
+   "t": "Rep. Robert Dawson Appointed to Serve on Martin Luther King, Jr. Advisory Council by Speaker Jon Burns",
+   "u": "https://house-press.com/rep-robert-dawson-appointed-to-serve-on-martin-luther-king-jr-advisory-council-by-speaker-jon-burns/",
+   "s": "house-press.com",
+   "d": "2026-11-20",
+   "sum": "Rep. Robert Dawson (D-Atlanta) was appointed by House Speaker Jon Burns to serve on the Martin Luther King, Jr. Advisory Council. The council, created in 2011, promotes Dr. King's legacy and includes nine members serving four-year terms.",
+   "tags": [
+    "legislature"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Screven",
+    "Fulton"
+   ],
+   "ex": "ATLANTA – State Representative Robert Dawson (D-Atlanta) was recently appointed by House Speaker Jon Burns (R-Newington) to serve on the Martin Luther King, Jr. Advisory Council.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "FDA will have to wait for a permanent commissioner as Trump withdraws nominee",
+   "u": "https://www.govexec.com/management/2026/11/white-house-pulls-fda-nominee-leaving-agency-without-permanent-leader/417345/",
+   "s": "Government Executive",
+   "d": "2026-11-20",
+   "sum": "The FDA will have to wait for a permanent commissioner as Trump withdraws Heidi Overton's nomination. Sen. Bill Cassidy, R-La., stated the next confirmation will fall to Senate Democrats after the White House pulled the nomination ahead of a committee vote.",
+   "tags": [
+    "congress",
+    "white house",
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Sen. Bill Cassidy, R-La., said the next confirmation will fall to Senate Democrats after the White House pulled Heidi Overton's nomination ahead of a committee vote.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "DeKalb elected officials among new leadership nominated for state House",
+   "u": "https://thechampionnewspaper.com/dekalb-elected-officials-among-new-leadership-nominated-for-state-house/",
+   "s": "The Champion (DeKalb)",
+   "d": "2026-11-20",
+   "sum": "Democrats in Georgia's House of Representatives nominated Rep. Carolyn Hugley as speaker, the first Black and woman to hold the role. Hugley's nomination follows updated election results that narrowed the Democratic majority to a one-seat cushion in the 180-member House.",
+   "tags": [],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "DeKalb",
+    "Fulton",
+    "Seminole",
+    "Randolph",
+    "Gwinnett"
+   ],
+   "ex": "BY TY TAGAMI CAPITOL BEAT NEWS Democrats in the Georgia House of Representatives recently nominated new leadership as a majority",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "It’s official: Raffensperger certifies Nov. 3 election results",
+   "u": "https://capitol-beat.org/2026/11/its-official-raffensperger-certifies-nov-3-election-results/",
+   "s": "capitol-beat.org",
+   "d": "2026-11-20",
+   "sum": "Secretary of State Brad Raffensperger certified Georgia's Nov. 3 election results on Friday, officially declaring Democratic winners. Democrats gained control of the House, with at least 92 members sworn in, and eight Black women, including Keisha Lance Bottoms, will hold statewide offices in January.",
+   "tags": [
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "DeKalb",
+    "Fulton",
+    "Sumter",
+    "Randolph",
+    "Seminole"
+   ],
+   "sw": 1,
+   "ex": "ATLANTA — The Democratic candidates who swept Republicans out of power on Nov. 3 no longer have an asterisk beside their names.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Judge puts limits on Agriculture secretary sending religious emails to USDA workforce",
+   "u": "https://www.govexec.com/management/2026/11/judge-limits-agriculture-secretary-religious-email-USDA-workforce/417376/",
+   "s": "Government Executive",
+   "d": "2026-11-20",
+   "sum": "A federal judge limited the Agriculture secretary's ability to send religious emails to the USDA workforce. USDA officials called the ruling an \"unprecedented attempt to muzzle\" the secretary and are considering an appeal.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "USDA officials called the ruling an “unprecedented attempt to muzzle” a secretary and said they are considering an appeal.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Trump administration brings climate grant dispute to SCOTUS",
+   "u": "https://www.scotusblog.com/2026/11/trump-administration-brings-climate-grant-dispute-to-scotus/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-20",
+   "sum": "But the administration withdrew an interim docket request.",
+   "tags": [
+    "white house",
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "But the administration withdrew an interim docket request.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "why": [
+     "no text to summarize"
+    ]
+   }
+  },
+  {
+   "t": "Rep. Eric Bell, We Feed the Block to Hold Thanksgiving Food Distribution Event at State Capitol",
+   "u": "https://house-press.com/rep-eric-bell-we-feed-the-block-to-hold-thanksgiving-food-distribution-event-at-state-capitol/",
+   "s": "house-press.com",
+   "d": "2026-11-19",
+   "sum": "Rep. Eric Bell and We Feed The Block will host a Thanksgiving food distribution event at Liberty Plaza in Atlanta on November 23, 2026, at 11:30 a.m. The event aims to serve over 750 individuals with food, supplies, and resources.",
+   "tags": [
+    "legislature"
+   ],
+   "also": [
+    {
+     "s": "house-press.com",
+     "u": "https://house-press.com/rep-eric-bell-invites-georgians-to-vote-for-georgias-contemporary-state-song-and-attend-thanksgiving-food-distribution-event-at-state-capitol/",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [
+    "Clayton",
+    "DeKalb",
+    "Fulton",
+    "Tattnall"
+   ],
+   "sw": 1,
+   "ex": "ATLANTA – State Representative Eric Bell (D-Jonesboro) and We Feed The Block, in partnership with the Georgia Youth Scholarship Program, founded by Rep. Bell, will host its Thanksgiving Community Feast & Resource Fair event on Monday, November 23, 2026, at 11:30 a.m.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Glynn commissioners ignored DA funding crisis. One felt the backlog firsthand.",
+   "u": "https://thecurrentga.org/2026/11/19/glynn-commissioners-ignored-da-funding-crisis-one-felt-the-backlog-firsthand/",
+   "s": "The Current",
+   "d": "2026-11-19",
+   "sum": "Glynn County commissioners ignored a DA funding crisis for over two years, delaying budget mediation and refusing staffing requests. Commissioner Bo Clark faced personal trauma when his relative was caught with drugs and a firearm, leading to a social media clash with DA Keith Higgins.",
+   "tags": [
+    "local",
+    "budget",
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Glynn"
+   ],
+   "ex": "A long-standing budget dispute between the Glynn County District Attorney’s office and county commissioners has intensified following a public social media confrontation by At-large Commissioner Bo Clark regarding a criminal case involving his relative.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Calls for court packing fail the test of history",
+   "u": "https://www.scotusblog.com/2026/11/calls-for-court-packing-fail-the-test-of-history/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-19",
+   "sum": "Please note that SCOTUS Outside Opinions constitute the views of outside contributors and do not reflect the opinions of SCOTUSblog or its staff. *** As Democrats have taken control in Congress, we can expect calls for court packing to intensify.",
+   "tags": [
+    "congress",
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Please note that SCOTUS Outside Opinions constitute the views of outside contributors and do not reflect the opinions of SCOTUSblog or its staff. *** As Democrats have taken control in Congress, we can expect calls for court packing to intensify.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: including, proposed, ratio, criticized, move, shift"
+    ]
+   }
+  },
+  {
+   "t": "Rep. Rob Leverett Elected House Minority Chief Deputy Whip",
+   "u": "https://house-press.com/rep-rob-leverett-elected-house-minority-chief-deputy-whip/",
+   "s": "house-press.com",
+   "d": "2026-11-19",
+   "sum": "Rep. Rob Leverett (R-Elberton) was elected as House Minority Caucus Chief Deputy Whip for the 2027-2028 legislative term on November 16, 2026. He will monitor legislation and help the Minority Caucus understand bills and resolutions.",
+   "tags": [
+    "elections",
+    "legislature"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Elbert"
+   ],
+   "ex": "ATLANTA – The House Republican Caucus elected State Representative Rob Leverett (R-Elberton) to serve as the House Minority Caucus Chief Deputy Whip for the 2027-2028 legislative term during caucus elections on Monday, November 16, 2026.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "House Republican Caucus Elects Rep. Shaw Blackmon as Treasurer",
+   "u": "https://house-press.com/house-republican-caucus-elects-rep-shaw-blackmon-as-treasurer/",
+   "s": "house-press.com",
+   "d": "2026-11-19",
+   "sum": "The Georgia House Republican Caucus elected Rep. Shaw Blackmon as Treasurer for the 2027-2028 legislative term on November 16, 2026. Blackmon, representing District 146, will oversee Minority Caucus funds and continues his role as Chairman of the Ways & Means Committee.",
+   "tags": [
+    "elections",
+    "legislature"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Houston"
+   ],
+   "ex": "ATLANTA – The Georgia House Republican Caucus elected State Representative Shaw Blackmon (R-Bonaire) as the House Minority Caucus Treasurer for the 2027-2028 legislative term during caucus elections on Monday, November 16, 2026.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Scott Elementary School, Nutrition Department recognizes Tireless Award recipients",
+   "u": "https://timesenterprise.com/2026/11/19/scott-elementary-school-nutrition-department-recognizes-tireless-award-recipients/",
+   "s": "timesenterprise.com",
+   "d": "2026-11-19",
+   "sum": "Scott Elementary School in Thomasville recognized Joshua Grace with the Tireless Award for his dedication to renovating the school during summer. Principal Carie Young praised Grace for his work ethic and efforts in painting, scraping, and repairing the school.",
+   "tags": [
+    "schools"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Thomas"
+   ],
+   "ex": "THOMASVILLE — The Thomasville City Schools Board of Education recognized several outstanding community members during its Tuesday night meeting. Each month, one school in the district recognizes either a non-certified",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Delays in tax billing result in change to County employee vacation sell-back",
+   "u": "https://americustimesrecorder.com/2026/11/19/delays-in-tax-billing-result-in-change-to-county-employee-vacation-sell-back/",
+   "s": "Americus Times-Recorder",
+   "d": "2026-11-19",
+   "sum": "Sumter County Administrator Scott Carver informed the Board of Commissioners on Nov. 17 that delayed tax billing would affect the vacation sell-back policy. The Board approved a one-time exception allowing employees to split their second round of payouts into two installments on Dec. 4 and Jan. 29, 2027.",
+   "tags": [
+    "local",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Sumter"
+   ],
+   "ex": "Sumter County Administrator Scott Carver stated that the delay in tax billing could affect the County’s employee vacation sell-back policy during the Nov. 17 meeting of the Board of Commissioners.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "USDA grapples with security breach as IT staff take multiple systems offline",
+   "u": "https://www.govexec.com/technology/2026/11/usda-grapples-security-breach-it-staff-take-multiple-systems-offline/417354/",
+   "s": "Government Executive",
+   "d": "2026-11-19",
+   "sum": "The department’s Cybersecurity and Privacy Operations Center “uncovered a security incident,” per an email. It’s not clear who carried out the intrusion or if any data was exfiltrated.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "The department’s Cybersecurity and Privacy Operations Center “uncovered a security incident,” per an email. It’s not clear who carried out the intrusion or if any data was exfiltrated.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: usda's, discovered, mentioned, but, specify, responsible"
+    ]
+   }
+  },
+  {
+   "t": "Unions call for 3.8% pay raise as part of funding deal",
+   "u": "https://www.govexec.com/pay-benefits/2026/11/unions-call-38-pay-raise-part-funding-deal/417356/",
+   "s": "Government Executive",
+   "d": "2026-11-19",
+   "sum": "Unions are calling for a 3.8% pay raise as part of a funding deal. Democrats and federal worker groups are preparing to negotiate with the Trump administration, which plans to freeze pay for federal employees next year.",
+   "tags": [
+    "white house",
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Democrats and groups representing federal workers are bracing for negotiations with the Trump administration, which has signaled it would freeze federal employee pay next year.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "‘I’m not here as a plant.’ Trump’s GAO pick vows to oversee administration he helped run",
+   "u": "https://www.govexec.com/management/2026/11/trump-gao-pick-vows-oversee-administration/417341/",
+   "s": "Government Executive",
+   "d": "2026-11-19",
+   "sum": "Eric Ueland, Trump's nominee for the Government Accountability Office, stated he had little discussion with OMB Director Russ Vought about his interest in leading the GAO. Ueland emphasized his role as an independent overseer of the administration he previously helped run.",
+   "tags": [
+    "white house"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Eric Ueland said he had little discussion with his boss, OMB Director Russ Vought, about his interest in leading the Government Accountability Office.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Georgia’s next secretary of state announces transition team",
+   "u": "https://capitol-beat.org/2026/11/georgias-next-secretary-of-state-announces-transition-team/",
+   "s": "capitol-beat.org",
+   "d": "2026-11-19",
+   "sum": "ATLANTA — Democrat Penny Brown Reynolds, who will be Georgia’s first Black secretary of state, said her transition team includes U.S. Sens.",
+   "tags": [],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "ex": "ATLANTA — Democrat Penny Brown Reynolds, who will be Georgia’s first Black secretary of state, said her transition team includes U.S. Sens.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "over 60 words"
+    ]
+   }
+  },
+  {
+   "t": "Trump’s CISA nominee denies Capitol was attacked on Jan. 6",
+   "u": "https://www.govexec.com/technology/2026/11/trumps-cisa-nominee-denies-capitol-attacked-jan-6/417336/",
+   "s": "Government Executive",
+   "d": "2026-11-19",
+   "sum": "Michael LoSapio, Trump’s CISA nominee, denied the Capitol was attacked on Jan. 6 during Senate questioning. He also refused to acknowledge Joe Biden’s 2020 election win.",
+   "tags": [
+    "white house"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Two senators subsequently said they would place holds on the nominee, who also refused to acknowledge Biden’s 2020 electoral victory.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Cordele plans Hotel-Motel tax crackdown",
+   "u": "https://cordeledispatch.com/2026/11/19/cordele-plans-hotel-motel-tax-crackdown/",
+   "s": "Cordele Dispatch",
+   "d": "2026-11-19",
+   "sum": "During a Nov. 17 Cordele City Commission meeting, Commissioner George Singletary motioned for interim City Manager David Wade to contact the Georgia Municipal Association to audit hotel-motel tax recording. The measure passed unanimously, with Mayor Wesley Rainey and Commissioner Joe Joe Wright supporting the audit.",
+   "tags": [
+    "local",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Crisp"
+   ],
+   "ex": "During the Cordele City Commission meeting on Nov. 17, Commissioner George Singletary noted hotel-motel tax revenue was low.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Westside Future Fund breaks ground on not one, but two affordable housing projects",
+   "u": "https://saportareport.com/westside-future-fund-breaks-ground-on-not-one-but-two-affordable-housing-projects/sections/reports/delaneytarr/",
+   "s": "SaportaReport",
+   "d": "2026-11-19",
+   "sum": "Atlanta just inched a few units closer to Mayor Andre Dickens’ ambitious 20,000-unit affordable housing goal. On Nov.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "DeKalb",
+    "Fulton",
+    "Screven"
+   ],
+   "ex": "Atlanta just inched a few units closer to Mayor Andre Dickens’ ambitious 20,000-unit affordable housing goal. On Nov.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "numbers 30, 40, 79, 80% are not together in one sentence of the source"
+    ]
+   }
+  },
+  {
+   "t": "Tifton Council for the Arts to host Hall of Trees",
+   "u": "https://tiftongazette.com/2026/11/19/tifton-council-for-the-arts-to-host-hall-of-trees-starting-this-weekend/",
+   "s": "The Tifton Gazette",
+   "d": "2026-11-19",
+   "sum": "The Tifton Council for the Arts plans to host its second showing of the Hall of Trees this weekend.",
+   "tags": [],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Tift"
+   ],
+   "ex": "The Tifton Council for the Arts plans to host its second showing of the Hall of Trees this weekend.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "number 15 not in the source"
+    ]
+   }
+  },
+  {
+   "t": "Trump administration withdraws application to Supreme Court to block lower court ruling on protected status for Venezuelan nationals",
+   "u": "https://www.scotusblog.com/2026/11/trump-administration-asks-supreme-court-to-block-lower-court-ruling-keeping-protected-status-in-/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-19",
+   "sum": "The Trump administration asked the Supreme Court to block a 2025 lower court ruling that kept Venezuelan nationals under Temporary Protected Status. The Supreme Court paused the order in 2025, allowing deportations while the case continued.",
+   "tags": [
+    "white house",
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Originally published on Nov. 18; updated with latest developments on Nov.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "The Supreme Court and congressional investigations",
+   "u": "https://www.scotusblog.com/2026/11/the-supreme-court-and-congressional-investigations/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-19",
+   "sum": "Plus, will the Supreme Court take up this Top Gun-related case?",
+   "tags": [
+    "congress",
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Plus, will the Supreme Court take up this Top Gun-related case?",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "why": [
+     "no text to summarize"
+    ]
+   }
+  },
+  {
+   "t": "The Trump DOJ Quietly Intervened to Ink a Huge Payout to a Trump Golf Pro",
+   "u": "https://www.propublica.org/article/irs-settlement-golf-pro-shelby-lowman",
+   "s": "ProPublica",
+   "d": "2026-11-19",
+   "sum": "",
+   "tags": [
+    "white house",
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "number $500,000 not in the source"
+    ]
+   }
+  },
+  {
+   "t": "The Supreme Court before it stood apart",
+   "u": "https://www.scotusblog.com/2026/11/the-supreme-court-before-it-stood-apart/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-18",
+   "sum": "The Political Supreme Court: A Forgotten History by Rachel A. Shelden (The University of North Carolina Press) *** In her excellent new book, The Political Supreme Court: A Forgotten History , professor Rachel Shelden closes with Chief Justice John Roberts’ insistence that “you don’t want the political branches telling…",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "The Political Supreme Court: A Forgotten History by Rachel A. Shelden (The University of North Carolina Press) *** In her excellent new book, The Political Supreme Court: A Forgotten History , professor Rachel Shelden closes with Chief Justice John Roberts’ insistence that “you don’t want the political branches telling…",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: shelden's, discusses, 19th-century, operated, riding, engaging"
+    ]
+   }
+  },
+  {
+   "t": "An election impact on the Supreme Court’s immigration docket",
+   "u": "https://www.scotusblog.com/2026/11/an-election-impact-on-the-supreme-courts-immigration-docket/",
+   "s": "SCOTUSblog",
+   "d": "2026-11-18",
+   "sum": "The Iowa Republican attorney general, who sought the Supreme Court to review an immigration law, lost her reelection bid. The law, enacted in April 2024, criminalizes certain immigration conduct and allows for deportation orders.",
+   "tags": [
+    "white house",
+    "courts",
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "The effect of this month’s elections is likely to impact immigration policy over the coming years as politicians and political analysts assess how reactions to the Trump administration’s immigration law enforcement tactics affected voters’ preferences. But the significant shift towards Democrats in states previously co…",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Georgia Tech’s interim president named sole finalist for permanent role",
+   "u": "https://capitol-beat.org/2026/11/georgia-techs-interim-president-named-sole-finalist-for-permanent-role/",
+   "s": "capitol-beat.org",
+   "d": "2026-11-18",
+   "sum": "The University System of Georgia's Board of Regents named Timothy C. Lieuwen as the sole finalist for Georgia Tech's permanent president position. Lieuwen, interim president since November 1, has served as executive vice president for research at Tech.",
+   "tags": [
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Fulton",
+    "DeKalb"
+   ],
+   "ex": "ATLANTA — The leaders of Georgia’s public college system have settled on the only candidate to lead the Georgia Institute of Technology after the departure last month of former President Ángel Cabrera. The University System of Georgia’s Board of Regents on Tuesday named interim President Timothy C.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Rep. Marvin Lim Calls for Better Recognition of Family Caregivers Under Georgia Medicaid",
+   "u": "https://allongeorgia.com/chattooga-local-news/rep-marvin-lim-calls-for-better-recognition-of-family-caregivers-under-georgia-medicaid/",
+   "s": "allongeorgia.com",
+   "d": "2026-11-18",
+   "sum": "State Rep. Marvin Lim (D-Norcross) asked Georgia's Department of Community Health to review and possibly change Medicaid policies to allow family caregivers to receive compensation under the EDWP renewal. He requested flexibility in restrictions on employment and hiring criteria for relatives under existing waivers.",
+   "tags": [
+    "legislature"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Gwinnett"
+   ],
+   "ex": "State Representative Marvin Lim (D-Norcross) today asked the Georgia Department of Community Health (DCH) to pursue changes allowing spouses and other legally responsible relatives to receive Medicaid compensation for qualifying extraordinary care beyond ordinary family responsibilities. Rep.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "They Were Just Admitted to the Bar. Now They’re Federal Prosecutors. Meet Trump’s New DOJ.",
+   "u": "https://www.propublica.org/article/federal-prosecutors-hiring-trump-doj",
+   "s": "ProPublica",
+   "d": "2026-11-18",
+   "sum": "In early October, Preston Bigley, a 29-year-old recent law school graduate, became an assistant U.S. attorney in Texas after passing the bar exam. ProPublica identified over 50 new assistant U.S. attorneys with less than three years of experience hired by the DOJ during Trump's second term.",
+   "tags": [
+    "white house",
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Ueland’s GAO nomination puts Congress’s power of the purse to the test",
+   "u": "https://www.govexec.com/oversight/2026/11/uelands-gao-nomination-congresss-power-purse/417285/",
+   "s": "Government Executive",
+   "d": "2026-11-18",
+   "sum": "COMMENTARY | As OMB’s deputy director, Eric Ueland has been part of an administration at odds with the Government Accountability Office over its authority to withhold appropriated funds. Senators should press him on whether he will lead an independent watchdog.",
+   "tags": [
+    "congress",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "COMMENTARY | As OMB’s deputy director, Eric Ueland has been part of an administration at odds with the Government Accountability Office over its authority to withhold appropriated funds. Senators should press him on whether he will lead an independent watchdog.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: nominated, head, involved, disputes, urged, question"
+    ]
+   }
+  },
+  {
+   "t": "Rep. Chas Cannon Elected House Minority Caucus Vice-Chairman",
+   "u": "https://house-press.com/rep-chas-cannon-elected-house-minority-caucus-vice-chairman/",
+   "s": "house-press.com",
+   "d": "2026-11-18",
+   "sum": "On November 16, 2026, the House Republican Caucus elected Rep. Chas Cannon as vice chairman for the 2027-2028 term, and Rep. Josh Bonner as chairman. The House Democratic Caucus elected Rep. Imani Barnes as vice chair of the Majority Caucus for the same term.",
+   "tags": [
+    "elections",
+    "legislature"
+   ],
+   "also": [
+    {
+     "s": "timesenterprise.com",
+     "u": "https://timesenterprise.com/2026/11/19/cannon-elected-vice-chair-of-house-republican-caucus/",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [
+    "Colquitt"
+   ],
+   "ex": "ATLANTA – The House Republican Caucus elected State Representative Chas Cannon (R-Moultrie) as vice chairman of the House Republican Caucus for the 2027-2028 legislative term during caucus elections held on Monday, November 16, 2026.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Veteran Stan Dansby is guest speaker at Veterans breakfast on Nov. 10",
+   "u": "https://tattnalljournal.net/local-news/tattnall-news/veteran-stan-dansby-is-guest-speaker-at-veterans-breakfast-on-nov-10/",
+   "s": "tattnalljournal.net",
+   "d": "2026-11-18",
+   "sum": "Veteran Stan Dansby spoke at a Veterans Breakfast on November 10, 2026, in Glennville. The event, hosted by C5 Entertainment and Zuber Malek, honored veterans as part of Veterans Day celebrations.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Tattnall"
+   ],
+   "ex": "Veteran Stan Dansby was the guest speaker at a Veterans Breakfast held on Tuesday, November 10, 2026, at 8 a.m. It was hosted by C5 Entertainment (Glennville council member Cynthia Miller) and Zuber Malek, at the 107 W.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Lawmakers push for forensic audit of DFCS amid budget concerns",
+   "u": "https://thecurrentga.org/2026/11/18/lawmakers-push-for-forensic-audit-of-dfcs-amid-budget-concerns/",
+   "s": "The Current",
+   "d": "2026-11-18",
+   "sum": "A bipartisan group of Georgia lawmakers called for a forensic audit of DFCS amid budget concerns. The committee approved 10 recommendations but did not include the audit requested by some members.",
+   "tags": [
+    "legislature",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "ex": "A bipartisan group of Georgia lawmakers is calling for a third-party forensic audit of the Division of Family and Children Services following reports of questionable spending and a significant budget shortfall.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Dalton adopts $50.9 million budget after cuttting $1.3 million in spending from original proposal",
+   "u": "https://daltoncitizen.com/2026/11/18/dalton-adopts-50-9-million-budget-after-cuttting-1-3-million-in-spending-from-original-proposal/",
+   "s": "daltoncitizen.com",
+   "d": "2026-11-18",
+   "sum": "Dalton adopts $50.9 million budget after $1.3 million in spending cuts Council leaves 13 public safety vacancies unfilled, anticipates using $385,000 from reserves The Dalton City Council unanimously adopted a",
+   "tags": [
+    "local",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Whitfield"
+   ],
+   "ex": "Dalton adopts $50.9 million budget after $1.3 million in spending cuts Council leaves 13 public safety vacancies unfilled, anticipates using $385,000 from reserves The Dalton City Council unanimously adopted a",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "numbers $1.3, $1.719, $385000, $50.9 are not together in one sentence of the source"
+    ]
+   }
+  },
+  {
+   "t": "Reps. Sandra Scott, Viola Davis and Kim Schofield to Host Public Meeting on Education at State Capitol",
+   "u": "https://house-press.com/reps-sandra-scott-viola-davis-and-kim-schofield-to-host-public-meeting-on-education-at-state-capitol/",
+   "s": "house-press.com",
+   "d": "2026-11-18",
+   "sum": "State Representatives Sandra Scott, Viola Davis, and Kim Schofield will host a public education meeting on December 1, 2026, from 3–5 p.m. in Room 415 of the Coverdell Legislative Office Building in Atlanta. The meeting will discuss education proposals for the 2027 legislative session and include topics like equitable school funding, teacher safety, and student mental health.",
+   "tags": [
+    "legislature"
+   ],
+   "also": [
+    {
+     "s": "ocgnews.com",
+     "u": "https://ocgnews.com/state-reps-sandra-scott-viola-davis-and-kim-schofield-to-host-education-summit-at-ga-capitol/",
+     "auto": 1
+    }
+   ],
+   "auto": 1,
+   "co": [
+    "DeKalb",
+    "Fulton"
+   ],
+   "sw": 1,
+   "ex": "ATLANTA – State Representatives Sandra G. Scott (D-Rex), Viola Davis (D-Stone Mountain) and Kim Schofield (D-Atlanta) will host a public meeting on education on Tuesday, December 1, 2026, from 3 – 5 p.m.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Data center tax breaks on hold as Dalton tables moratorium",
+   "u": "https://daltoncitizen.com/2026/11/18/data-center-tax-breaks-on-hold-as-dalton-tables-moratorium/",
+   "s": "daltoncitizen.com",
+   "d": "2026-11-18",
+   "sum": "In a divided vote Monday, the Dalton City Council indefinitely tabled a proposed 180-day moratorium on new data center applications, while Whitfield County is seeking public comment on a draft",
+   "tags": [
+    "elections",
+    "local",
+    "budget"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Whitfield"
+   ],
+   "ex": "In a divided vote Monday, the Dalton City Council indefinitely tabled a proposed 180-day moratorium on new data center applications, while Whitfield County is seeking public comment on a draft",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "numbers 180, 2 are not together in one sentence of the source"
+    ]
+   }
+  },
+  {
+   "t": "Rep. Sandra Scott to Host Road Dedication for Former State Representative Darryl Jordan in Riverdale",
+   "u": "https://house-press.com/rep-sandra-scott-to-host-road-dedication-for-former-state-representative-darryl-jordan-in-riverdale/",
+   "s": "house-press.com",
+   "d": "2026-11-18",
+   "sum": "State Representative Sandra Scott will host a road dedication event for former State Representative Darryl Jordan on November 21, 2026, at the Riverdale Town Center. The event includes a program and tribute from 10 a.m. to 11 a.m. followed by the road dedication and unveiling of the Darryl Jordan Intersection.",
+   "tags": [
+    "legislature"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Clayton"
+   ],
+   "ex": "ATLANTA – State Representative Sandra G. Scott (D-Rex) will host a road dedication event for former State Representative Darryl Jordan on Saturday, November 21, 2026, from 10 a.m.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "‘Gagged’ immigration judges return to Supreme Court, asserting ‘First Amendment black hole’",
+   "u": "https://www.govexec.com/workforce/2026/11/gagged-immigration-judges-return-supreme-court-asserting-first-amendment-black-hole/417319/",
+   "s": "Government Executive",
+   "d": "2026-11-18",
+   "sum": "The National Association of Immigration Judges stated that the Supreme Court’s previous decision caused a precedential split between court regions. They assert this requires settling, citing a \"First Amendment black hole.",
+   "tags": [
+    "courts"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "The National Association of Immigration Judges said the Supreme Court’s previous decision in the case has led to a precedential split between court regions that requires settling.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Trump’s GAO pick was a done deal before Congress got a say",
+   "u": "https://www.govexec.com/oversight/2026/11/trumps-gao-pick-was-done-deal-congress-got-say/417310/",
+   "s": "Government Executive",
+   "d": "2026-11-18",
+   "sum": "A Senate committee aide told Government Executive that Eric Ueland’s nomination bypassed a bipartisan process for Congress to help pick the head of its own watchdog office.",
+   "tags": [
+    "congress",
+    "white house"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "A Senate committee aide told Government Executive that Eric Ueland’s nomination bypassed a bipartisan process for Congress to help pick the head of its own watchdog office.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "words not in the source: informed, ueland's, select, aide's, statement, suggests"
+    ]
+   }
+  },
+  {
+   "t": "Effingham Approves OpenAI Site Plan, Tables Moratorium",
+   "u": "https://www.effinghamherald.net/data-centers/effingham-approves-openai-site-plan-tables-moratorium-project-camellia-data-center-georgia/",
+   "s": "Effingham Herald",
+   "d": "2026-11-18",
+   "sum": "Effingham County commissioners approved OpenAI's Project Camellia site plan. They delayed a data center moratorium until January.",
+   "tags": [
+    "local"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Effingham"
+   ],
+   "ex": "Effingham County commissioners approve OpenAI's Project Camellia site plan but delay a data center moratorium until January. More approvals remain before construction.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Seminole County election officials explain mishap that temporarily flipped state House race",
+   "u": "https://tiftongazette.com/2026/11/18/seminole-county-election-officials-explain-mishap-that-temporarily-flipped-state-house-race/",
+   "s": "The Tifton Gazette",
+   "d": "2026-11-18",
+   "sum": "Election officials in Seminole County are attributing the changed outcome in the state House District 154 race to a mishap with their tabulation process.",
+   "tags": [
+    "elections"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "Seminole",
+    "Randolph"
+   ],
+   "ex": "Election officials in Seminole County are attributing the changed outcome in the state House District 154 race to a mishap with their tabulation process.",
+   "ai": {
+    "v": 2,
+    "ok": 0,
+    "m": "Qwen3-8B (Q4_K_M)",
+    "why": [
+     "the model's second reading: NO\nThe summary states that the tabulation mishap caused a change in the race, flipping the lead from Democrat Harry James to Republican Gerald Greene. The texts"
+    ]
+   }
+  },
+  {
+   "t": "Police ask businesses to participate in ‘no loitering’ campaign",
+   "u": "https://thechampionnewspaper.com/police-ask-businesses-to-participate-in-no-loitering-campaign/",
+   "s": "The Champion (DeKalb)",
+   "d": "2026-11-18",
+   "sum": "DeKalb County police are asking businesses to join the No Loitering Partnership Program, which allows officers to enforce loitering violations on commercial properties without owner permission. Participating businesses must display visible \"No Loitering\" signs and authorize enforcement, aiming to address safety concerns and property damage.",
+   "tags": [
+    "elections",
+    "policing"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [
+    "DeKalb"
+   ],
+   "ex": "Local law enforcement is asking businesses throughout DeKalb to participate in the No Loitering Partnership Program, an initiative that, according",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Fewer Americans think ICE or the CDC is doing a good job, according to new surveys",
+   "u": "https://www.govexec.com/management/2026/11/fewer-americans-think-ice-or-cdc-doing-good-job-according-new-surveys/417314/",
+   "s": "Government Executive",
+   "d": "2026-11-18",
+   "sum": "Fewer Americans think ICE or the CDC is doing a good job, according to new surveys. Most agencies surveyed by Pew Research Center and Gallup generally received positive ratings.",
+   "tags": [
+    "agencies"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Most agencies that the Pew Research Center and Gallup conducted surveys about, however, generally received positive ratings.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Mary Peltola will be the first Alaska Native in the U.S. Senate",
+   "u": "https://19thnews.org/2026/11/election-results-alaska-senate/",
+   "s": "The 19th",
+   "d": "2026-11-18",
+   "sum": "Democrat Mary Peltola won Alaska's U.S. Senate seat in a general election, defeating Republican Sen. Dan Sullivan and another candidate. She became the first Alaska Native in the U.S. Senate after winning a 2022 special election to replace Rep. Don Young.",
+   "tags": [
+    "congress"
+   ],
+   "also": [],
+   "auto": 1,
+   "co": [],
+   "lv": "federal",
+   "ex": "Democrat Mary Peltola flipped an Alaska U.S. Senate seat — and made history.",
+   "ai": {
+    "v": 2,
+    "ok": 1,
+    "m": "Qwen3-8B (Q4_K_M)"
+   }
+  },
+  {
+   "t": "Democrats flip statewide offices up and down the ballot in Georgia; state House is in play",
+   "u": "https://georgiarecorder.com/2026/11/04/democrats-flip-statewide-offices-up-and-down-the-ballot-in-georgia-state-house-is-in-play/",
+   "s": "Georgia Recorder",
+   "d": "2026-11-04",
+   "sum": "Josh McLaurin (lieutenant governor), Penny Brown Reynolds (secretary of state), Tanya Miller (attorney general), Lydia Powell (school superintendent), Nikki Porcher (labor), Keisha Sean Waites (insurance) and Katherine Juhan-Arnold (agriculture) completed a Democratic sweep that unseated four Republican incumbents, while Democrats led in 13 GOP-held state House districts.",
+   "tags": [
+    "results",
+    "legislature"
+   ],
+   "also": [
+    {
+     "s": "Rough Draft Atlanta",
+     "u": "https://roughdraftatlanta.com/2026/11/04/georgia-democrats-sweep-statewide-offices-state-house/"
+    },
+    {
+     "s": "FOX 5 Atlanta",
+     "u": "https://www.fox5atlanta.com/news/historic-election-reshapes-georgias-political-future-heres-what-happened"
+    },
+    {
+     "s": "WABE",
+     "u": "https://www.wabe.org/democrat-brown-reynolds-wins-georgias-secretary-of-state-race/"
+    },
+    {
+     "s": "41NBC",
+     "u": "https://www.41nbc.com/penny-brown-reynolds-georgia-secretary-of-state/"
+    }
+   ],
+   "co": [
+    "DeKalb",
+    "Fulton",
+    "Sumter"
+   ]
+  },
+  {
+   "t": "Democrats poised to win majority in Georgia House for first time in 22 years",
+   "u": "https://www.ajc.com/politics/2026/11/democrats-poised-to-win-majority-in-georgia-house-for-first-time-in-22-years/",
+   "s": "AJC",
+   "d": "2026-11-04",
+   "sum": "Democrats flipped at least seven Republican-held state House seats per AP calls and led in several more, one by just 27 votes, putting them on the brink of their first majority since 2004 with Minority Leader Carolyn Hugley in line to become speaker, while Republicans kept a narrowed state Senate majority after losing incumbents Clint Dixon and Shawn Still.",
+   "tags": [
+    "results",
+    "legislature",
+    "recount"
+   ],
+   "also": [
+    {
+     "s": "FOX 5 Atlanta",
+     "u": "https://www.fox5atlanta.com/news/map-georgia-house-election-2026-how-your-neighbors-voted-ap"
+    },
+    {
+     "s": "11Alive",
+     "u": "https://www.11alive.com/article/news/politics/georgia-state-senate-election-results-tightly-divided/85-b45a3f94-1bb6-437d-a14b-816a81e921f8"
+    }
+   ]
+  },
+  {
+   "t": "Georgia's incoming attorney general vows impartial justice",
+   "u": "https://www.fox5atlanta.com/news/georgias-incoming-attorney-general-vows-impartial-justice",
+   "s": "FOX 5 Atlanta",
+   "d": "2026-11-04",
+   "sum": "Attorney General-elect Tanya Miller, who beat Republican Brian Strickland with about 56% of the vote to become the first woman elected to the office, used her victory speech to promise even-handed enforcement regardless of wealth, party or connections before she succeeds Chris Carr in January.",
+   "tags": [
+    "results",
+    "attorney-general",
+    "transition"
+   ],
+   "also": [
+    {
+     "s": "WABE",
+     "u": "https://www.wabe.org/tanya-miller-is-elected-georgias-first-black-woman-attorney-general/"
+    }
+   ]
+  },
+  {
+   "t": "MAP: Georgia's U.S. House seats unchanged despite Democratic flip",
+   "u": "https://www.fox5atlanta.com/news/map-u-s-house-races-georgia-election-results-ap",
+   "s": "FOX 5 Atlanta",
+   "d": "2026-11-04",
+   "sum": "The AP called all 14 of Georgia's congressional races with the delegation's partisan split unchanged, sending newcomers Jim Kingston, Houston Gaines, John Cowan and Jasmine Clark to Washington alongside returning incumbents even as Democrats won control of the U.S. House nationally.",
+   "tags": [
+    "results",
+    "congress"
+   ],
+   "also": [
+    {
+     "s": "The Hill",
+     "u": "https://thehill.com/homenews/campaign/6174881-jasmine-clark-georgia-house-race-2026"
+    }
+   ]
+  },
+  {
+   "t": "Gov. Kemp rejects special redistricting session, congratulates Bottoms on win",
+   "u": "https://www.atlantanewsfirst.com/2026/11/04/gov-kemp-rejects-special-redistricting-session-congratulates-bottoms-win/",
+   "s": "Atlanta News First",
+   "d": "2026-11-04",
+   "sum": "In a written statement, Gov. Brian Kemp said he will not call a lame-duck special session to redraw districts or curb the incoming governor's powers, congratulated Bottoms and Ossoff, and said budget problems may need attention before the January session.",
+   "tags": [
+    "governor",
+    "legislature",
+    "redistricting"
+   ],
+   "also": [
+    {
+     "s": "WSB",
+     "u": "https://www.wsbtv.com/news/local/gov-brian-kemp-will-not-call-special-session-before-he-leaves-office/5YWIT5DQHBDQTAWZ3RFI4P4EDI/"
+    },
+    {
+     "s": "11Alive",
+     "u": "https://www.11alive.com/article/news/politics/elections/kemp-no-special-session-to-debate-redistricting-changing-executive-powers/85-a158f89d-6064-4c0d-a977-d6cdc8f41005"
+    },
+    {
+     "s": "CBS News Atlanta",
+     "u": "https://www.cbsnews.com/atlanta/news/gov-kemp-wont-call-special-session-to-limit-executive-powers-or-redraw-georgia-maps/"
+    },
+    {
+     "s": "WRDW",
+     "u": "https://www.wrdw.com/2026/11/04/kemp-rejects-special-redistricting-session-congratulates-bottoms-win/"
+    }
+   ]
+  },
+  {
+   "t": "'It was unthinkable.' Democratic strategist speaks on Georgia's election results",
+   "u": "https://www.gpb.org/news/2026/11/04/it-was-unthinkable-democratic-strategist-speaks-on-georgias-election-results",
+   "s": "GPB",
+   "d": "2026-11-04",
+   "sum": "Democratic strategist Fred Hicks told GPB the statewide sweep rested on heavy early turnout that was about a third Black and included many people who skipped 2022, and warned that Democrats must now deliver on everyday costs or risk a reversal in 2028.",
+   "tags": [
+    "results",
+    "analysis"
+   ],
+   "also": []
+  },
+  {
+   "t": "A 'bloodbath.' Georgia Democrats sweep statewide offices in historic political upheaval",
+   "u": "https://www.ajc.com/politics/2026/11/a-bloodbath-georgia-democrats-sweep-statewide-offices-in-historic-political-upheaval/",
+   "s": "AJC",
+   "d": "2026-11-04",
+   "sum": "Democrats won every statewide office on the ballot and ended more than two decades of Republican control of Georgia's executive branch, with GOP strategists attributing the rout to a backlash against Washington and voters' focus on living costs.",
+   "tags": [
+    "results",
+    "analysis"
+   ],
+   "also": []
+  },
+  {
+   "t": "Walmart beats verdict under Georgia's new lawsuit rules",
+   "u": "https://www.ajc.com/news/2026/11/walmart-tort-reform-verdict/",
+   "s": "AJC",
+   "d": "2026-11-04",
+   "sum": "The Georgia Court of Appeals wiped out a roughly $926,000 slip-and-fall judgment against Walmart and ordered a new trial, the first appellate win for a defendant under the 2025 tort-reform law's limits on how lawyers argue damages to juries.",
+   "tags": [
+    "courts",
+    "tort-reform"
+   ],
+   "also": []
+  },
+  {
+   "t": "Dems sweep competitive local races across metro Atlanta",
+   "u": "https://www.ajc.com/news/2026/11/metro-atlanta-local-races-dem-sweep/",
+   "s": "AJC",
+   "d": "2026-11-04",
+   "sum": "Preliminary returns showed Democrats taking contested county commission seats in Fulton, Cobb, Gwinnett and DeKalb and flipping the Cobb school board to a Democratic majority, with Mo Ivory leading the race for Fulton commission chair.",
+   "tags": [
+    "local",
+    "results"
+   ],
+   "also": []
+  },
+  {
+   "t": "Jim Kingston avoids upset in Coastal Georgia U.S. House race",
+   "u": "https://www.ajc.com/news/2026/11/georgia-1st-congressional-district-jim-kingston-wins/",
+   "s": "AJC",
+   "d": "2026-11-04",
+   "sum": "Republican Jim Kingston, son of former Rep. Jack Kingston, held the open 1st District seat vacated by Buddy Carter by roughly 51% to 49% over Democrat Amanda Hollowell in a race the AP did not call until after midnight.",
+   "tags": [
+    "results",
+    "congress"
+   ],
+   "also": [],
+   "co": [
+    "Bartow",
+    "Chatham",
+    "Effingham"
+   ]
+  },
+  {
+   "t": "Fulton County may scan more than 1,000 early ballots again after equipment failures",
+   "u": "https://www.cbsnews.com/atlanta/news/fulton-county-may-scan-more-than-1000-early-ballots-again-after-equipment-failures/",
+   "s": "CBS News Atlanta",
+   "d": "2026-11-03",
+   "sum": "Fulton elections officials asked their board to approve rescanning 1,069 early ballots from two sites after one scanner kept reporting a phantom paper jam and another failed when its power cable was run over, with the work to be done in public view after polls closed on the advice of state voting-systems staff.",
+   "tags": [
+    "local",
+    "elections",
+    "fulton"
+   ],
+   "also": [
+    {
+     "s": "WSB",
+     "u": "https://www.wsbtv.com/news/local/fulton-county/georgia-election-2026-fulton-asks-rescan-some-early-voting-ballots-after-scanner-issues/BD6TN7P27ZDIJBGG2OE3SY35BM/"
+    },
+    {
+     "s": "11Alive",
+     "u": "https://www.11alive.com/article/news/politics/elections/fulton-county-election-board-scanner-issue-impacting-about-1000-early-votes/85-05f60963-a146-4b3e-acc6-ceddb77439a0"
+    }
+   ]
+  },
+  {
+   "t": "Georgia Democrats take PSC majority, setting up power bill fights",
+   "u": "https://www.ajc.com/business/2026/11/democrats-psc/",
+   "s": "AJC",
+   "d": "2026-11-03",
+   "sum": "Democrats Peter Hubbard and Shelia Edwards won the two Public Service Commission seats on the ballot, giving the party a 3-2 majority on Georgia Power's regulator for the first time in more than two decades after a campaign dominated by rising bills and data-center demand.",
+   "tags": [
+    "psc",
+    "results",
+    "utilities"
+   ],
+   "also": [
+    {
+     "s": "Georgia Recorder",
+     "u": "https://georgiarecorder.com/2026/11/04/democrats-gain-control-of-georgia-board-that-regulates-utilities-for-first-time-in-decades/"
+    },
+    {
+     "s": "The Current",
+     "u": "https://thecurrentga.org/2026/11/03/democrats-flip-control-of-georgia-utility-commission-for-first-time-in-decades/"
+    }
+   ]
+  },
+  {
+   "t": "Keisha Lance Bottoms elected Georgia governor, a first for a Black woman in US",
+   "u": "https://www.ajc.com/politics/2026/11/keisha-lance-bottoms-elected-georgia-governor/",
+   "s": "AJC",
+   "d": "2026-11-03",
+   "sum": "Former Atlanta Mayor Keisha Lance Bottoms defeated Republican Rick Jackson, who spent more than $200 million of his own fortune, to become the first Black woman elected governor of any U.S. state and the first Democrat to win Georgia's top office since 1998.",
+   "tags": [
+    "results",
+    "governor"
+   ],
+   "also": [
+    {
+     "s": "Georgia Recorder",
+     "u": "https://georgiarecorder.com/2026/11/03/keisha-lance-bottoms-will-be-georgias-next-governor-in-historic-win/"
+    },
+    {
+     "s": "Capitol Beat",
+     "u": "https://capitol-beat.org/2026/11/bottoms-claims-place-in-history-as-first-black-woman-elected-to-govern-state/"
+    }
+   ],
+   "co": [
+    "DeKalb",
+    "Fulton",
+    "Taliaferro"
+   ]
+  },
+  {
+   "t": "LIVE UPDATES: Georgia elections 2026",
+   "u": "https://www.wsbtv.com/news/local/atlanta/georgia-elections-2026-live-updates-polls-open-election-day/ZFRV7BK7YZEK7P4OSGYR7UHJXY/",
+   "s": "WSB",
+   "d": "2026-11-03",
+   "sum": "WSB's Election Day blog tracked more than 4.1 million votes cast, Justice Department monitors in six metro and coastal counties, brief disruptions at a Gwinnett precinct and a Barrow County machine audit, and the AP's race calls through the night.",
+   "tags": [
+    "elections",
+    "turnout",
+    "administration"
+   ],
+   "also": [],
+   "co": [
+    "Chatham"
+   ]
+  },
+  {
+   "t": "Georgia voters issue their verdicts on 3 constitutional amendments",
+   "u": "https://www.wrdw.com/2026/11/04/georgia-voters-issue-their-verdicts-3-constitutional-amendments/",
+   "s": "WRDW",
+   "d": "2026-11-03",
+   "sum": "Voters approved all three statewide amendments, expanding the acreage eligible for conservation-use farm and timber tax breaks, removing party labels from probate judge ballots, and letting the state dedicate money to modernize 911 systems.",
+   "tags": [
+    "results",
+    "amendments"
+   ],
+   "also": [
+    {
+     "s": "WSB",
+     "u": "https://www.wsbtv.com/news/local/atlanta/georgia-election-2026-heres-how-georgians-voted-new-amendments/STJLDQJKJRAW5MSK3L6Z46IWJQ/"
+    }
+   ],
+   "co": [
+    "Fulton",
+    "DeKalb"
+   ]
+  },
+  {
+   "t": "U.S. Sen. Jon Ossoff cruises to reelection over Republican Mike Collins",
+   "u": "https://www.ajc.com/politics/2026/11/us-sen-jon-ossoff-cruises-to-reelection-over-republican-mike-collins/",
+   "s": "AJC",
+   "d": "2026-11-03",
+   "sum": "The AP called the Senate race for Democrat Jon Ossoff about an hour after polls closed, with early returns giving him roughly two-thirds of the vote over Rep. Mike Collins after Ossoff outraised him $136.6 million to $9.7 million.",
+   "tags": [
+    "results",
+    "senate"
+   ],
+   "also": [
+    {
+     "s": "Georgia Recorder",
+     "u": "https://georgiarecorder.com/2026/11/03/u-s-sen-jon-ossoff-wins-reelection-in-georgia-and-coasts-to-a-second-term/"
+    },
+    {
+     "s": "Capitol Beat",
+     "u": "https://capitol-beat.org/2026/11/democrat-ossoff-claims-victory-in-u-s-senate-race/"
+    },
+    {
+     "s": "NPR",
+     "u": "https://www.npr.org/2026/11/03/g-s1-150143/georgia-senate-race-jon-ossoff-mike-collins"
+    }
+   ],
+   "co": [
+    "Tattnall",
+    "Lowndes",
+    "Tift"
+   ]
+  },
+  {
+   "t": "Georgia voters head to polls with both parties anxious",
+   "u": "https://www.ajc.com/politics/2026/11/georgia-voters-head-to-polls-with-both-parties-anxious/",
+   "s": "AJC",
+   "d": "2026-11-03",
+   "sum": "On the morning of the vote, Republicans were counting on a late Election Day surge to offset Democrats' early-voting edge while Democrats stayed cautiously optimistic about a possible statewide breakthrough.",
+   "tags": [
+    "elections",
+    "preview"
+   ],
+   "also": [
+    {
+     "s": "Georgia Recorder",
+     "u": "https://georgiarecorder.com/2026/11/03/here-are-five-things-to-watch-as-georgia-voters-head-to-the-polls-on-election-day/"
+    }
+   ]
+  },
+  {
+   "t": "Inside Democrats' push to flip the Georgia House",
+   "u": "https://www.ajc.com/politics/2026/11/inside-democrats-push-to-flip-the-georgia-house/",
+   "s": "AJC",
+   "d": "2026-11-02",
+   "sum": "The Democratic Party of Georgia put $2.1 million into ads and mail for 13 state House and three state Senate races and opened 29 field offices in a bid to net the 10 seats needed for a House majority, an outcome the AJC's Politically Georgia team still rated a long shot.",
+   "tags": [
+    "legislature",
+    "campaign"
+   ],
+   "also": []
+  },
+  {
+   "t": "Race for Georgia governor draws more than $150 million in final three months",
+   "u": "https://capitol-beat.org/2026/11/race-for-georgia-governor-draws-more-than-150-million-in-final-three-months/",
+   "s": "Capitol Beat",
+   "d": "2026-11-02",
+   "sum": "Final pre-election disclosures showed Bottoms and self-funding Republican Rick Jackson together took in more than $150 million for the governor's race from Aug. 1 onward.",
+   "tags": [
+    "governor",
+    "campaign-finance"
+   ],
+   "also": []
+  },
+  {
+   "t": "Josh McKoon won't seek another term as Georgia GOP chair",
+   "u": "https://www.ajc.com/politics/2026/10/josh-mckoon-wont-seek-another-term-as-georgia-gop-chair/",
+   "s": "AJC",
+   "d": "2026-10-30",
+   "sum": "Georgia Republican Party Chair Josh McKoon confirmed he will step down at the end of his second term, citing time with his family, leaving an open leadership contest likely to be fought on the party's right flank.",
+   "tags": [
+    "parties",
+    "gop"
+   ],
+   "also": []
+  },
+  {
+   "t": "'Flip the switch': Obama rallies Clayton County voters as Georgia early voting nears end",
+   "u": "https://www.atlantanewsfirst.com/2026/10/29/flip-switch-obama-rallies-clayton-county-voters-georgia-early-voting-nears-end/",
+   "s": "Atlanta News First",
+   "d": "2026-10-29",
+   "sum": "Former President Barack Obama headlined a Clayton County rally for Bottoms, Ossoff and the rest of the Democratic ticket in the final days of early voting, after President Trump held two rallies in Georgia earlier in the month.",
+   "tags": [
+    "campaign"
+   ],
+   "also": [
+    {
+     "s": "Capitol Beat",
+     "u": "https://capitol-beat.org/2026/10/obama-visits-georgia-to-boost-democrats-ahead-of-election-day/"
+    },
+    {
+     "s": "Rough Draft Atlanta",
+     "u": "https://roughdraftatlanta.com/2026/10/29/obama-georgia-rally-democrats/"
+    }
+   ]
+  }
+ ],
+ "note": "Headlines and the outlets' own excerpts, collected by the crawler from Georgia outlets' news feeds (federal stories, lv federal, also from national outlets' politics feeds); every line links to the story."
+}

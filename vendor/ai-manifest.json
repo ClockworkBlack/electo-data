@@ -1,0 +1,72 @@
+{
+ "libs": {
+  "Qwen3-8B-q4f16_1_cs1k-webgpu.wasm": "vendor/web-llm/libs/Qwen3-8B-q4f16_1_cs1k-webgpu.wasm",
+  "Qwen2-1.5B-Instruct-q4f16_1_cs1k-webgpu.wasm": "vendor/web-llm/libs/Qwen2-1.5B-Instruct-q4f16_1_cs1k-webgpu.wasm",
+  "Qwen2-1.5B-Instruct-q4f32_1_cs1k-webgpu.wasm": "vendor/web-llm/libs/Qwen2-1.5B-Instruct-q4f32_1_cs1k-webgpu.wasm",
+  "Qwen2.5-3B-Instruct-q4f16_1_cs1k-webgpu.wasm": "vendor/web-llm/libs/Qwen2.5-3B-Instruct-q4f16_1_cs1k-webgpu.wasm",
+  "Qwen2.5-3B-Instruct-q4f32_1_cs1k-webgpu.wasm": "vendor/web-llm/libs/Qwen2.5-3B-Instruct-q4f32_1_cs1k-webgpu.wasm"
+ },
+ "models": {
+  "Qwen3-8B-q4f16_1-MLC": "models/Qwen3-8B-q4f16_1-MLC/",
+  "Qwen2.5-1.5B-Instruct-q4f16_1-MLC": "models/Qwen2.5-1.5B-Instruct-q4f16_1-MLC/",
+  "Qwen2.5-1.5B-Instruct-q4f32_1-MLC": "models/Qwen2.5-1.5B-Instruct-q4f32_1-MLC/",
+  "Qwen2.5-3B-Instruct-q4f16_1-MLC": "models/Qwen2.5-3B-Instruct-q4f16_1-MLC/",
+  "Qwen2.5-3B-Instruct-q4f32_1-MLC": "models/Qwen2.5-3B-Instruct-q4f32_1-MLC/"
+ },
+ "version": "0.2.87",
+ "lib": "vendor/web-llm/web-llm.js",
+ "model_list": [
+  {
+   "model_id": "Qwen3-8B-q4f16_1-MLC",
+   "model": "https://huggingface.co/mlc-ai/Qwen3-8B-q4f16_1-MLC",
+   "model_lib": "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/main/web-llm-models/v0_2_87/base/Qwen3-8B-q4f16_1_cs1k-webgpu.wasm",
+   "vram_required_MB": 5695.78
+  },
+  {
+   "model_id": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+   "model": "https://huggingface.co/mlc-ai/Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+   "model_lib": "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/main/web-llm-models/v0_2_87/base/Qwen2-1.5B-Instruct-q4f16_1_cs1k-webgpu.wasm",
+   "vram_required_MB": 1629.75
+  },
+  {
+   "model_id": "Qwen2.5-1.5B-Instruct-q4f32_1-MLC",
+   "model": "https://huggingface.co/mlc-ai/Qwen2.5-1.5B-Instruct-q4f32_1-MLC",
+   "model_lib": "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/main/web-llm-models/v0_2_87/base/Qwen2-1.5B-Instruct-q4f32_1_cs1k-webgpu.wasm",
+   "vram_required_MB": 1888.97
+  },
+  {
+   "model_id": "Qwen2.5-3B-Instruct-q4f16_1-MLC",
+   "model": "https://huggingface.co/mlc-ai/Qwen2.5-3B-Instruct-q4f16_1-MLC",
+   "model_lib": "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/main/web-llm-models/v0_2_87/base/Qwen2.5-3B-Instruct-q4f16_1_cs1k-webgpu.wasm",
+   "vram_required_MB": 2504.76
+  },
+  {
+   "model_id": "Qwen2.5-3B-Instruct-q4f32_1-MLC",
+   "model": "https://huggingface.co/mlc-ai/Qwen2.5-3B-Instruct-q4f32_1-MLC",
+   "model_lib": "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/main/web-llm-models/v0_2_87/base/Qwen2.5-3B-Instruct-q4f32_1_cs1k-webgpu.wasm",
+   "vram_required_MB": 2893.64
+  }
+ ],
+ "speech": {
+  "transformers": "vendor/speech/transformers.js",
+  "kokoro": "vendor/speech/kokoro.js",
+  "transformers_version": "3.5.1",
+  "kokoro_version": "1.2.1",
+  "models": {
+   "onnx-community/whisper-tiny.en": "models/speech/onnx-community/whisper-tiny.en/",
+   "onnx-community/whisper-tiny": "models/speech/onnx-community/whisper-tiny/",
+   "onnx-community/Kokoro-82M-v1.0-ONNX": "models/speech/onnx-community/Kokoro-82M-v1.0-ONNX/"
+  }
+ },
+ "custom": [
+  {
+   "model_id": "Electo-Qwen2.5-1.5B-q4f16_1-MLC",
+   "base": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+   "model": "models/Electo-Qwen2.5-1.5B-q4f16_1-MLC/",
+   "tier": "small",
+   "vram_required_MB": 1630,
+   "params_b": 1.5,
+   "trained": "2026-11-07T03:31:27Z"
+  }
+ ]
+}

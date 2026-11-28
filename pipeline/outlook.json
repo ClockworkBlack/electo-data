@@ -1,0 +1,152 @@
+{
+ "v": 1,
+ "m": "Qwen3-8B (Q4_K_M)",
+ "asOf": "2026-11-20T15:50:56Z",
+ "version": "2026-11-20T15:50:56",
+ "h": "5744d039fdb6052d",
+ "checks": 8,
+ "turn": 9,
+ "ts": 1795854630,
+ "at": "2026-11-28T08:30:30Z",
+ "items": [
+  {
+   "kind": "Forecast",
+   "title": "State Senate: Republicans keep a bare majority",
+   "text": "Republicans lead or are unopposed in 29 of 56 seats, the minimum for a majority. Their closest lead is 1,661 votes, 2.0 points, in SD-32.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results for every race, Nov 3, 2026",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection",
+     "s": "GA SOS: all races"
+    },
+    {
+     "t": "Georgia Secretary of State, unofficial results: State Senate District 32",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-cc87-08df23e64f0c",
+     "s": "GA SOS: SD-32"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "State House: Democrats gain a majority",
+   "text": "Democrats lead or are unopposed in 92 of 180 seats, 1 more than the 91 needed for a majority. Their closest lead is 35 votes, 0.1 points, in HD-103.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results for every race, Nov 3, 2026",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection",
+     "s": "GA SOS: all races"
+    },
+    {
+     "t": "Georgia Secretary of State, unofficial results: State House District 103",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-0304-08df23e6024d",
+     "s": "GA SOS: HD-103"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "U.S. Senate: Jon Ossoff wins by 18.1 points",
+   "text": "Jon Ossoff leads Mike Collins by 755,386 votes, 18.1 points. The margin is 9.6 points higher than the 2024 Democratic margin against Kamala Harris.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: U.S. Senate",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-4042-08df23e5ff36",
+     "s": "GA SOS: U.S. Senate"
+    },
+    {
+     "t": "AP race call: FOX 5 Atlanta: \"The Associated Press called the race for Ossoff at 7:55 p.m. EST.\"",
+     "u": "https://www.fox5atlanta.com/news/george-us-senate-jon-ossoff-mike-collins",
+     "s": "AP call"
+    }
+   ]
+  },
+  {
+   "kind": "Watch",
+   "title": "Runoff for HD-151 set for Dec 1",
+   "text": "Mike Cheokas (R) leads Ethan Wolfe (D) by 1,381 votes, 7.0 points. The top two will face off in a runoff on Dec 1.",
+   "likelihood": "Uncertain",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: State House District 151",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-6c52-08df23e60bed",
+     "s": "GA SOS: HD-151"
+    }
+   ]
+  },
+  {
+   "kind": "Forecast",
+   "title": "Constitutional Amendments pass with strong margins",
+   "text": "Yes votes for Amendments 1, 2, and 3 exceed No votes by 7.7, 36.7, and 55.5 points respectively. All amendments will take effect on Jan 1, 2027.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: Constitutional Amendment 1",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-3447-08df23e5ff70",
+     "s": "GA SOS: Amendment 1"
+    },
+    {
+     "t": "AP race call: FOX 5 Atlanta (Nov. 4, 2026): \"The Associated Press projects Georgia voters approved all three statewide constitutional amendments on Tuesday's ballot.\"",
+     "u": "https://www.fox5atlanta.com/news/map-georgia-constitutional-amendments-election-results-ap",
+     "s": "AP call"
+    },
+    {
+     "t": "Georgia Secretary of State, unofficial results: Constitutional Amendment 2",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-c8e6-08df23e5ff71",
+     "s": "GA SOS: Amendment 2"
+    },
+    {
+     "t": "Georgia Secretary of State, unofficial results: Constitutional Amendment 3",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-7ca3-08df23e5ff73",
+     "s": "GA SOS: Amendment 3"
+    }
+   ]
+  },
+  {
+   "kind": "Watch",
+   "title": "Runoff for House District 151 set for Dec 1",
+   "text": "Mike Cheokas (R) leads Ethan Wolfe (D) by 7.0 points, but no candidate won a majority. The top two will face off in a runoff on Dec 1.",
+   "likelihood": "Very likely",
+   "src": [
+    {
+     "t": "Georgia Secretary of State, unofficial results: State House District 151",
+     "u": "https://results.sos.ga.gov/results/public/Georgia/elections/11032026GeneralAndSpecialElection/ballot-items/01000000-3a82-a359-6c52-08df23e60bed",
+     "s": "GA SOS: HD-151"
+    }
+   ]
+  },
+  {
+   "kind": "Law",
+   "title": "Automatic hand recount for Governor",
+   "text": "A 2026 law requires a hand recount of every ballot in every county for the Governor's race if it is decided by 0.5% or less. The Secretary of State must order the recount within two business days after the Nov 9 county certification deadline.",
+   "likelihood": "",
+   "src": [
+    {
+     "t": "O.C.G.A. § 21-2-495, recounts (Justia)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-495/",
+     "s": "O.C.G.A. § 21-2-495(c)"
+    },
+    {
+     "t": "SB 3EX as signed (Office of the Governor)",
+     "u": "https://gov.georgia.gov/document/2026-special-session-signed-legislation/sb-3ex/download",
+     "s": "SB 3EX"
+    }
+   ]
+  },
+  {
+   "kind": "Next step",
+   "title": "Dec 1 runoff election",
+   "text": "Runoff for any race in which no candidate won a majority. The House District 151 race is headed to this date.",
+   "likelihood": "",
+   "src": [
+    {
+     "t": "O.C.G.A. § 21-2-501, majority and runoffs (Justia)",
+     "u": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-12/section-21-2-501",
+     "s": "O.C.G.A. § 21-2-501"
+    }
+   ]
+  }
+ ]
+}
